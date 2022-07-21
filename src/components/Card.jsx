@@ -66,7 +66,6 @@ export default function BasicCard() {
           </Grid>
         </Grid>
       </Grid> */}
-
       <Box
         component="ul"
         sx={{

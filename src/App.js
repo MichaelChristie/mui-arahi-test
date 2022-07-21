@@ -6,6 +6,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Bokeh from "./components/Bokeh";
 
 import theme from "./components/ThemeArahi";
+import JsonPlayground from "./components/JsonPlayground";
 
 function App() {
   return (
