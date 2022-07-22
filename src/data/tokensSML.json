@@ -1,0 +1,124 @@
+{
+  "arahi": {
+    "lineHeight": {
+      "body": {
+        "value": "16",
+        "type": "lineHeights"
+      },
+      "subtext": {
+        "value": "18",
+        "type": "lineHeights"
+      }
+    },
+    "color": {
+      "base": {
+        "yellow": {
+          "value": "#FFD400",
+          "type": "color"
+        },
+        "yellow50": {
+          "value": "#FFE97F",
+          "type": "color",
+          "description": "Brand colour, Yellow with 50% opacity on White"
+        },
+        "yellow25": {
+          "value": "#FFF4BF",
+          "type": "color",
+          "description": "Yellow with 25% opacity on White"
+        },
+        "black75": {
+          "value": "#000000BF",
+          "type": "color",
+          "description": "#000 with 75% opacity"
+        },
+        "black50": {
+          "value": "#00000080",
+          "type": "color",
+          "description": "#000 with 50% opacity"
+        },
+        "black25": {
+          "value": "#00000040",
+          "type": "color",
+          "description": "#000 with 25% opacity"
+        },
+        "black10": {
+          "value": "#0000001A",
+          "type": "color",
+          "description": "#000 with 10% opacity"
+        },
+        "darkblue": {
+          "value": "#002A49",
+          "type": "color",
+          "description": "Brand colour, Dark Blue"
+        },
+        "midblue": {
+          "value": "#005B88",
+          "type": "color",
+          "description": "Brand colour, Mid Blue"
+        },
+        "blue": {
+          "value": "#0076C4",
+          "type": "color",
+          "description": "Brand colour, Light Blue"
+        },
+        "blue25": {
+          "value": "#BFDCF0",
+          "type": "color",
+          "description": "Blue with 25% opacity on White"
+        },
+        "blue08": {
+          "value": "#EBF4FB",
+          "type": "color",
+          "description": "Blue with 8% opacity on White"
+        },
+        "midgrey": {
+          "value": "#B9B8B6",
+          "type": "color",
+          "description": "Yellow with 1% opacity on #B9B9B9"
+        },
+        "grey": {
+          "value": "#F1F0EE",
+          "type": "color",
+          "description": "Yellow with 1% opacity on #F1F1F1"
+        },
+        "lightgrey": {
+          "value": "#F9F8F6",
+          "type": "color",
+          "description": "Yellow with 1% opacity on #F9F9F9"
+        },
+        "red": {
+          "value": "#EE6363",
+          "type": "color"
+        },
+        "red50": {
+          "value": "#F6B0B0",
+          "type": "color",
+          "description": "Red with 50% opacity on White"
+        },
+        "green": {
+          "value": "#39D3AB",
+          "type": "color"
+        },
+        "green50": {
+          "value": "#9BE8D4",
+          "type": "color",
+          "description": "Green with 50% opacity on White"
+        },
+        "white": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "Brand colour, White"
+        },
+        "dummy": {
+          "value": "#FA00FF",
+          "type": "color"
+        },
+        "dummy2": {
+          "value": "#0cff00",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "$themes": []
+}

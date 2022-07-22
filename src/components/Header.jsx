@@ -35,8 +35,8 @@ export default function ButtonAppBar() {
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="sticky" color="secondary">
           <Grid item container>
-            <Grid item xs={false} sm={2} />
-            <Grid item xs={12} sm={8}>
+            <Grid item xs={false} lg={1} />
+            <Grid item xs={12} lg={10}>
               <Toolbar>
                 <Box
                   component="div"
@@ -178,7 +178,7 @@ export default function ButtonAppBar() {
                 </IconButton>
               </Toolbar>
             </Grid>
-            <Grid item xs={false} sm={2} />
+            <Grid item xs={false} lg={1} />
           </Grid>
         </AppBar>
       </Box>

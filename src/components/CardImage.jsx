@@ -1,5 +1,6 @@
 import * as React from "react";
 import Card from "@mui/material/Card";
+import Box from "@mui/material/Box";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -9,24 +10,73 @@ import Typography from "@mui/material/Typography";
 export default function CardImage(props) {
   //   console.log(props);
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card
+      sx={{
+        display: "flex",
+        bgcolor: "background.paper",
+        flexDirection: "column",
+        borderRadius: 5,
+      }}
+    >
       <CardMedia
         component="img"
         height="140"
         image={props.image}
         alt={props.title}
+        sx={{
+          order: "0",
+          flex: "0 1 auto",
+          alignSelf: "stretch",
+        }}
       />
-      <CardContent sx={{ flexGrow: 1 }}>
-        <Typography gutterBottom variant="h5" component="div">
+
+      <CardContent
+        sx={{
+          display: "flex",
+          flexGrow: 1,
+          flexDirection: "column",
+          backgroundColor: "",
+          p: 3,
+        }}
+      >
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          sx={{
+            order: "0",
+            flex: "1 1 auto",
+            alignSelf: "stretch",
+          }}
+        >
           {props.title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography
+          variant="body2"
+          color="text.secondary"
+          sx={{
+            order: "0",
+            flex: "1 1 auto",
+            alignSelf: "stretch",
+          }}
+        >
           {props.description}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+      <Box
+        sx={{
+          order: "0",
+          flex: "1 1 auto",
+          alignSelf: "stretch",
+        }}
+      ></Box>
+      <CardActions sx={{ backgroundColor: "", alignContent: "flex-end", p: 3 }}>
+        <Button size="small" variant="contained" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          Learn More
+        </Button>
       </CardActions>
     </Card>
   );

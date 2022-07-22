@@ -13,7 +13,7 @@ import JsonPlayground from "./JsonPlayground";
 export default function Content() {
   return (
     <ThemeProvider theme={theme}>
-      <JsonPlayground />
+      {/* <JsonPlayground /> */}
       <BasicCard />
       <SimpleAccordion />
       <MyTypography />

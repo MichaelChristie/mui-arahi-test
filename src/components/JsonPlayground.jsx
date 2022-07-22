@@ -27,8 +27,20 @@ export default function JsonPlayground() {
                 m: 2,
               }}
             >
-              <Typography>Base: {MyData.global.base.value}</Typography>
-              <Typography>1rem: {MyData.global.BaseRem.value}</Typography>
+              <Box
+                sx={{
+                  // bgcolor: "background.paper",
+                  width: "24px",
+                  height: "24px",
+                  backgroundColor: "#FFD400",
+                }}
+              ></Box>
+              <Typography>
+                Yellow: {MyData.arahi.color.base.yellow.value}
+              </Typography>
+              <Typography>
+                Blue: {MyData.arahi.color.base.blue.value}
+              </Typography>
             </Box>
           </Grid>
         </Grid>
