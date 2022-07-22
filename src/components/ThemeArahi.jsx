@@ -1,7 +1,6 @@
 // import { CssVarsProvider, createTheme } from "@mui/joy/styles";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { red, green } from "@mui/material/colors";
-// import { src/build/css/_variables.css } from "src/build/css/_variables.css";
 
 const theme = createTheme({
   palette: {
@@ -9,6 +8,8 @@ const theme = createTheme({
       // light: will be calculated from palette.primary.main,
       light: "#0066ff",
       main: "#0044ff",
+
+      // dark: will be calculated from palette.primary.main,
       // contrastText: will be calculated to contrast with palette.primary.main
     },
     secondary: {
@@ -28,7 +29,7 @@ const theme = createTheme({
     // Used by the functions below to shift a color's luminance by approximately
     // two indexes within its tonal palette.
     // E.g., shift from Red 500 to Red 300 or Red 700.
-    tonalOffset: 0.1,
+    tonalOffset: 0.3,
   },
 
   typography: {
