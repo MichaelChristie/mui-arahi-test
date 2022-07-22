@@ -38,7 +38,7 @@ export default function BasicCard() {
           }}
           image="https://i.ibb.co/HXNYNkb/Wear-and-tear-768w.png"
           title="Wear &amp; Tear"
-          description="UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
+          description="1UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
         />
         <CardImage
           sx={{
