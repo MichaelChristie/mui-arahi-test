@@ -15,8 +15,8 @@ function App() {
         <Header />
         <Grid item></Grid>
         <Grid item container>
-          <Grid item xs={false} lg={1} />
-          <Grid item xs={12} lg={10}>
+          <Grid item xs={false} md={1} />
+          <Grid item xs={12} md={10}>
             <Bokeh />
             <Box
               sx={{
@@ -30,7 +30,7 @@ function App() {
               <Content />
             </Box>
           </Grid>
-          <Grid item xs={false} lg={1} />
+          <Grid item xs={false} md={1} />
         </Grid>
       </Grid>
     </ThemeProvider>
