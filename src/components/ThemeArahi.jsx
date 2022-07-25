@@ -10,11 +10,13 @@ const theme = createTheme({
     primary: {
       light: MyData.global.color.base.midblue.value,
       main: MyData.global.color.base.darkblue.value,
+      // main: `var(--light-warning-main)`,
       contrastText: MyData.global.color.base.white.value,
     },
     secondary: {
       light: MyData.global.color.base.lightgrey.value,
       main: MyData.global.color.base.lightgrey.value,
+      // main: --light-error-contrast,
       contrastText: MyData.global.color.base.blue.value,
     },
     neutral: {
