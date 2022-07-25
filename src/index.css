@@ -13,8 +13,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.MyClass {
-  color: var(--light-success-dark);
-  background-color: var(--light-success-light);
-}

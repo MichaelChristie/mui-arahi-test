@@ -21,7 +21,7 @@ export default function CardImage(props) {
     >
       <CardMedia
         component="img"
-        height="140"
+        height="160"
         image={props.image}
         alt={props.title}
         sx={{

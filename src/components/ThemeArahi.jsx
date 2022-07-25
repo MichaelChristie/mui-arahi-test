@@ -1,24 +1,21 @@
 // import { CssVarsProvider, createTheme } from "@mui/joy/styles";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { red, green } from "@mui/material/colors";
+import MyData from "../data/tokens.json";
+
+console.log("ThemeArahi" + MyData.global.color.base.blue.value);
 
 const theme = createTheme({
   palette: {
     primary: {
-      // light: will be calculated from palette.primary.main,
-      light: "#f1f1f1",
-      main: "#f1f1f1",
-
-      // dark: will be calculated from palette.primary.main,
-      // contrastText: will be calculated to contrast with palette.primary.main
-      contrastText: "#0076c2",
+      light: MyData.global.color.base.midblue.value,
+      main: MyData.global.color.base.darkblue.value,
+      contrastText: MyData.global.color.base.white.value,
     },
     secondary: {
-      light: "#0076c2",
-      main: "#0076c2",
-
-      // dark: will be calculated from palette.secondary.main,
-      contrastText: "#FFF",
+      light: MyData.global.color.base.lightgrey.value,
+      main: MyData.global.color.base.lightgrey.value,
+      contrastText: MyData.global.color.base.blue.value,
     },
     neutral: {
       main: "#64748B",
@@ -36,11 +33,11 @@ const theme = createTheme({
   typography: {
     fontFamily: [
       "Arial",
+      "Roboto",
       '"Helvetica Neue"',
       "-apple-system",
       "BlinkMacSystemFont",
       '"Segoe UI"',
-      "Roboto",
       "FSLola",
       "sans-serif",
       '"Apple Color Emoji"',
@@ -101,6 +98,12 @@ const theme = createTheme({
   typography: {
     button: {
       textTransform: "none",
+    },
+    h1: {
+      fontWeight: 600,
+      color: MyData.global.color.base.blue.value,
+      // fontSize: global.Typography.H1.value.fontSize.value,
+      fontFamily: MyData.global.fontFamily.primaryHeading.value,
     },
   },
 });

@@ -1,6 +1,7 @@
 import * as React from "react";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
 import theme from "./ThemeArahi";
 import MyButtons from "./MyButtons";
 import MyContent from "./MyContent";
@@ -13,10 +14,13 @@ import JsonPlayground from "./JsonPlayground";
 export default function Content() {
   return (
     <ThemeProvider theme={theme}>
-      {/* <JsonPlayground /> */}
+      <JsonPlayground />
       <SimpleAccordion />
+      <Box sx={{ mb: 4 }} />
       <MyTypography />
+      {/* <JsonPlayground /> */}
       <BasicCard />
+      <Box sx={{ mb: 4 }} />
       <MyButtons />
       <MyContent />
     </ThemeProvider>

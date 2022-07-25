@@ -36,10 +36,10 @@ export default function JsonPlayground() {
                 }}
               ></Box>
               <Typography>
-                Yellow: {MyData.arahi.color.base.yellow.value}
+                Yellow: {MyData.global.color.base.yellow.value}
               </Typography>
               <Typography>
-                Blue: {MyData.arahi.color.base.blue.value}
+                Blue: {MyData.global.color.base.blue.value}
               </Typography>
             </Box>
           </Grid>

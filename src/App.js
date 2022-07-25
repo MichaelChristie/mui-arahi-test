@@ -1,12 +1,13 @@
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 import Content from "./components/Content";
 import Header from "./components/Header";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Bokeh from "./components/Bokeh";
 
 import theme from "./components/ThemeArahi";
-import JsonPlayground from "./components/JsonPlayground";
+// import JsonPlayground from "./components/JsonPlayground";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Grid item xs={false} lg={1} />
           <Grid item xs={12} lg={10}>
             <Bokeh />
+
             <Box
               sx={{
                 // bgcolor: "background.paper",
@@ -37,7 +39,7 @@ function App() {
                 }}
                 className="MyClass"
               >
-                --color-base-green
+                <Typography>--color-base-green</Typography>
               </Box>
               <Content />
             </Box>
