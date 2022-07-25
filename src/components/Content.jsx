@@ -14,9 +14,9 @@ export default function Content() {
   return (
     <ThemeProvider theme={theme}>
       {/* <JsonPlayground /> */}
-      <BasicCard />
       <SimpleAccordion />
       <MyTypography />
+      <BasicCard />
       <MyButtons />
       <MyContent />
     </ThemeProvider>

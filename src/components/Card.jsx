@@ -1,70 +1,55 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
-import Button from "@mui/material/Button";
+// import container from "@mui/material/Container";
+// import Item from "@mui/material/Item";
 import { ThemeProvider } from "@mui/material/styles";
 
-import Typography from "@mui/material/Typography";
 import CardImage from "./CardImage";
 
 export default function BasicCard() {
   return (
     <ThemeProvider>
-      <Box
-        component="ul"
-        sx={{
-          display: "flex",
-          flexDirection: "row",
-          gap: 2,
-          // flexWrap: "wrap",
-          p: 0,
-          m: 0,
-        }}
+      <Grid
+        container
+        rowSpacing={2}
+        columnSpacing={2}
+        sx={
+          {
+            // display: "grid",
+            // gridTemplateRows: "repeat(1, 1fr)",
+            // gridAutoFlow: "column",
+          }
+        }
       >
-        <CardImage
-          sx={{
-            flex: "0 1 auto",
-            width: "25%",
-          }}
-          image="https://i.ibb.co/qgLBgBh/Get-in-touch-768w.png"
-          title="Games Console"
-          description="Although cards can support multiple actions, UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
-        />
-        <CardImage
-          sx={{
-            flex: "0 1 auto",
-            width: "25%",
-          }}
-          image="https://i.ibb.co/HXNYNkb/Wear-and-tear-768w.png"
-          title="Wear &amp; Tear"
-          description="1UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
-        />
-        <CardImage
-          sx={{
-            flex: "0 1 auto",
-            width: "25%",
-          }}
-          image="https://i.ibb.co/wNvb3LM/aai-policy-documents.jpg"
-          title="Policy documents"
-          description="UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
-        />
-        <CardImage
-          sx={{
-            flex: "0 1 auto",
-            width: "25%",
-          }}
-          image="https://i.ibb.co/hmtBRM1/Toolbox-768w.png"
-          title="Small Business Insurance"
-          description="UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
-        />
-      </Box>
-      <Box
-        component="div"
-        sx={{
-          p: 1,
-        }}
-      ></Box>
+        <Grid item xs={12} sm={6} md={3}>
+          <CardImage
+            image="https://i.ibb.co/HXNYNkb/Wear-and-tear-768w.png"
+            title="Lorem ipsum dolor"
+            description="1UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <CardImage
+            image="https://i.ibb.co/qgLBgBh/Get-in-touch-768w.png"
+            title="Lorem ipsum dolor"
+            description="Although cards can support multiple actions, Lorem ipsum dolorLorem ipsum dolor UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <CardImage
+            image="https://i.ibb.co/wNvb3LM/aai-policy-documents.jpg"
+            title="Lorem ipsum dolor"
+            description="UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <CardImage
+            image="https://i.ibb.co/hmtBRM1/Toolbox-768w.png"
+            title="Lorem ipsum dolor"
+            description="UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
+          />
+        </Grid>
+      </Grid>
     </ThemeProvider>
   );
 }

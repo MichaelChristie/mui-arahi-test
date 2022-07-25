@@ -33,7 +33,7 @@ export default function ButtonAppBar() {
   return (
     <ThemeProvider theme={theme}>
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="sticky" color="secondary">
+        <AppBar position="sticky" color="primary" sx={{ background: "white" }}>
           <Grid item container>
             <Grid item xs={false} lg={1} />
             <Grid item xs={12} lg={10}>

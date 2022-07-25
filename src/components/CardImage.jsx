@@ -15,7 +15,8 @@ export default function CardImage(props) {
         display: "flex",
         bgcolor: "background.paper",
         flexDirection: "column",
-        borderRadius: 5,
+        borderRadius: 2,
+        height: "100%",
       }}
     >
       <CardMedia
@@ -72,11 +73,11 @@ export default function CardImage(props) {
       ></Box>
       <CardActions sx={{ backgroundColor: "", alignContent: "flex-end", p: 3 }}>
         <Button size="small" variant="contained" color="primary">
-          Share
+          More info
         </Button>
-        <Button size="small" color="primary">
+        {/* <Button size="small" color="neutral">
           Learn More
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
   );
