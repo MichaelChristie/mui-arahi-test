@@ -7,19 +7,10 @@ import {
 import Moon from "@mui/icons-material/DarkMode";
 import Sun from "@mui/icons-material/LightMode";
 import Button from "@mui/material/Button";
-// import Box from "@mui/material/Box";
+import Box from "@mui/material/Box";
 import { teal, deepOrange, orange, cyan } from "@mui/material/colors";
 // import theme from "./components/ThemeArahi";
-import MyData from "./data/tokens.json";
-import CSSVarTheme from "./components/LightAndDarkMode-CSSVarTheme";
-
-import Grid from "@mui/material/Grid";
-// import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import Content from "./components/Content";
-import Header from "./components/Header";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-import Bokeh from "./components/Bokeh";
+import MyData from "../data/tokens.json";
 
 const ColorSchemePicker = () => {
   const { mode, setMode } = useColorScheme();
@@ -156,14 +147,14 @@ const theme = experimental_extendTheme({
 const useEnhancedEffect =
   typeof window !== "undefined" ? React.useLayoutEffect : React.useEffect;
 
-export default function LightAndDarkMode() {
+export default function CSSVarTheme() {
   // the `node` is used for attaching CSS variables to this demo, you might not need it in your application.
   const [node, setNode] = React.useState(null);
   useEnhancedEffect(() => {
     setNode(document.getElementById("css-vars-custom-theme"));
   }, []);
   return (
-    <div id="css-vars-custom-theme">
+    <div id="css-vars-custom-theme1">
       <CssVarsProvider
         theme={theme}
         colorSchemeNode={node || null}
@@ -171,23 +162,63 @@ export default function LightAndDarkMode() {
         colorSchemeStorageKey="custom-theme-color-scheme"
         modeStorageKey="custom-theme-mode"
       >
-        <Grid container direction="column">
-          <Header />
-          <ColorSchemePicker />
-          <Grid item></Grid>
-          <Grid item container>
-            <Grid item xs={false} lg={1} />
-            <Grid item xs={12} lg={10}>
-              <CSSVarTheme />
-              aaaaa
-              {/* <Bokeh />
-              <CSSVarTheme />
-              <LightAndDarkMode />
-              <CSSVariables /> */}
-            </Grid>
-            <Grid item xs={false} lg={1} />
-          </Grid>
-        </Grid>
+        <Box bgcolor="background.paper" sx={{ p: 1 }}>
+          <Box sx={{ py: 2, mx: "auto" }}>
+            <Box sx={{ pb: 4 }}>
+              <ColorSchemePicker />
+            </Box>
+            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 4, mb: 1 }}>
+              <Button variant="contained">Text</Button>
+              <Button variant="outlined">Text</Button>
+              <Button>Text</Button>
+            </Box>
+            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 4, mb: 1 }}>
+              <Button color="secondary" variant="contained">
+                Text
+              </Button>
+              <Button color="secondary" variant="outlined">
+                Text
+              </Button>
+              <Button color="secondary">Text</Button>
+            </Box>
+            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 4, mb: 1 }}>
+              <Button color="error" variant="contained">
+                Text
+              </Button>
+              <Button color="error" variant="outlined">
+                Text
+              </Button>
+              <Button color="error">Text</Button>
+            </Box>
+            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 4, mb: 1 }}>
+              <Button color="info" variant="contained">
+                Text
+              </Button>
+              <Button color="info" variant="outlined">
+                Text
+              </Button>
+              <Button color="info">Text</Button>
+            </Box>
+            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 4, mb: 1 }}>
+              <Button color="warning" variant="contained">
+                Text
+              </Button>
+              <Button color="warning" variant="outlined">
+                Text
+              </Button>
+              <Button color="warning">Text</Button>
+            </Box>
+            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 4, mb: 1 }}>
+              <Button color="success" variant="contained">
+                Text
+              </Button>
+              <Button color="success" variant="outlined">
+                Text
+              </Button>
+              <Button color="success">Text</Button>
+            </Box>
+          </Box>
+        </Box>
       </CssVarsProvider>
     </div>
   );

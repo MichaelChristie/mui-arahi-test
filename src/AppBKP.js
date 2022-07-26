@@ -5,6 +5,10 @@ import Content from "./components/Content";
 import Header from "./components/Header";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Bokeh from "./components/Bokeh";
+
+import CSSVariables from "./components/GlobalCSSVars";
+import CSSVarTheme from "./components/LightAndDarkMode-CSSVarTheme";
+import LightAndDarkMode from "./components/LightAndDarkMode-controls1";
 // import styled from "styled-components";
 import theme from "./components/ThemeArahi";
 // import JsonPlayground from "./components/JsonPlayground";
@@ -19,7 +23,9 @@ function App() {
           <Grid item xs={false} lg={1} />
           <Grid item xs={12} lg={10}>
             <Bokeh />
-
+            <CSSVarTheme />
+            <LightAndDarkMode />
+            <CSSVariables />
             <Box
               sx={{
                 // bgcolor: "background.paper",

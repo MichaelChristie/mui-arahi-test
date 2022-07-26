@@ -7,19 +7,10 @@ import {
 import Moon from "@mui/icons-material/DarkMode";
 import Sun from "@mui/icons-material/LightMode";
 import Button from "@mui/material/Button";
-// import Box from "@mui/material/Box";
+import Box from "@mui/material/Box";
 import { teal, deepOrange, orange, cyan } from "@mui/material/colors";
 // import theme from "./components/ThemeArahi";
-import MyData from "./data/tokens.json";
-import CSSVarTheme from "./components/LightAndDarkMode-CSSVarTheme";
-
-import Grid from "@mui/material/Grid";
-// import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import Content from "./components/Content";
-import Header from "./components/Header";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-import Bokeh from "./components/Bokeh";
+import MyData from "../data/tokens.json";
 
 const ColorSchemePicker = () => {
   const { mode, setMode } = useColorScheme();
@@ -156,7 +147,7 @@ const theme = experimental_extendTheme({
 const useEnhancedEffect =
   typeof window !== "undefined" ? React.useLayoutEffect : React.useEffect;
 
-export default function LightAndDarkMode() {
+export default function CSSVarTheme() {
   // the `node` is used for attaching CSS variables to this demo, you might not need it in your application.
   const [node, setNode] = React.useState(null);
   useEnhancedEffect(() => {
@@ -171,23 +162,7 @@ export default function LightAndDarkMode() {
         colorSchemeStorageKey="custom-theme-color-scheme"
         modeStorageKey="custom-theme-mode"
       >
-        <Grid container direction="column">
-          <Header />
-          <ColorSchemePicker />
-          <Grid item></Grid>
-          <Grid item container>
-            <Grid item xs={false} lg={1} />
-            <Grid item xs={12} lg={10}>
-              <CSSVarTheme />
-              aaaaa
-              {/* <Bokeh />
-              <CSSVarTheme />
-              <LightAndDarkMode />
-              <CSSVariables /> */}
-            </Grid>
-            <Grid item xs={false} lg={1} />
-          </Grid>
-        </Grid>
+        <ColorSchemePicker />
       </CssVarsProvider>
     </div>
   );
