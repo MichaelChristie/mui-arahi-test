@@ -1,71 +1,54 @@
-import {
-  Button,
-  Paper,
-  Typography,
-  Box,
-  ThemeProvider,
-  createTheme,
-} from "@mui/material";
-import { useState } from "react";
-import { theme1, theme2 } from "./data";
-import baseTheme from "./styles/styles";
 import Grid from "@mui/material/Grid";
-
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 import Content from "./components/Content";
 import Header from "./components/Header";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import Bokeh from "./components/Bokeh";
+// import styled from "styled-components";
+import theme from "./components/ThemeArahi";
+// import JsonPlayground from "./components/JsonPlayground";
 
-export default function App() {
-  const [theme, setTheme] = useState(baseTheme);
-
-  const handleSwitch = (whichTheme) => {
-    const newTheme = deepmerge(theme, whichTheme);
-    setTheme(createTheme(newTheme));
-  };
-
+function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Header />
-
       <Grid container direction="column">
+        <Header />
         <Grid item></Grid>
         <Grid item container>
-          <Grid item xs={false} sm={2} />
-          <Grid item xs={12} sm={8}>
-            <Content />
+          <Grid item xs={false} lg={1} />
+          <Grid item xs={12} lg={10}>
+            <Bokeh />
 
-            <Paper sx={{ height: "600px" }} className="App">
-              <Typography color="primary" variant="h4">
-                Material UI - Dynamic Theme
-              </Typography>
-              <Button
-                onClick={() => setTheme(baseTheme)}
-                variant="contained"
-                color="primary"
+            <Box
+              sx={{
+                // bgcolor: "background.paper",
+                boxShadow: 1,
+                borderRadius: 2,
+                p: 2,
+                m: 2,
+              }}
+            >
+              <Box
+                sx={{
+                  // bgcolor: "background.paper",
+                  boxShadow: 1,
+                  borderRadius: 1,
+                  p: 2,
+                  mb: 2,
+                }}
+                className="MyClass"
               >
-                Reset
-              </Button>
-              <Button
-                onClick={() => handleSwitch(JSON.parse(theme1))}
-                variant="contained"
-                color="secondary"
-              >
-                Theme 1
-              </Button>
-              <Button onClick={() => handleSwitch(theme2)} variant="contained">
-                Theme 2
-              </Button>
-              <Box>
-                <Button variant="contained">I do nothing</Button>
+                <Typography>--color-base-green</Typography>
               </Box>
-            </Paper>
-
-            {/*  */}
+              <Content />
+            </Box>
           </Grid>
-          <Grid item xs={false} sm={2} />
+          <Grid item xs={false} lg={1} />
         </Grid>
       </Grid>
-
-      {/*  */}
     </ThemeProvider>
   );
 }
+
+export default App;
