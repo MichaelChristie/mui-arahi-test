@@ -36,25 +36,11 @@ export default function App() {
             <Grid item xs={false} lg={1} />
             <Grid item xs={12} lg={10}>
               <CSSVarTheme />
-              App.js
               <Bokeh />
-              {/* <Content /> */}
               {/* <LightAndDarkMode /> */}
-              {/* <CSSVariables /> */}
+
               <TestButtons />
-              <Box
-                sx={{
-                  // bgcolor: "background.paper",
-                  boxShadow: 1,
-                  borderRadius: 1,
-                  p: 2,
-                  mb: 2,
-                }}
-                className="MyClass"
-              >
-                <Typography>--color-base-green</Typography>
-              </Box>
-              {/* <Content /> */}
+              <Content />
             </Grid>
             <Grid item xs={false} lg={1} />
           </Grid>

@@ -4,12 +4,8 @@ import {
   useColorScheme,
   experimental_extendTheme,
 } from "@mui/material/styles";
-import Moon from "@mui/icons-material/DarkMode";
-import Sun from "@mui/icons-material/LightMode";
-import AcUnitIcon from "@mui/icons-material/AcUnit";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
-import { teal, deepOrange, orange, cyan } from "@mui/material/colors";
 // import theme from "../components/ThemeArahi";
 import MyData from "../data/tokens.json";
 import CSSVarTheme from "./CSSVarTheme";
@@ -39,16 +35,16 @@ import {
   faPhone,
 } from "@fortawesome/pro-light-svg-icons";
 
-const theme = experimental_extendTheme({});
+// const theme = experimental_extendTheme({});
 
-const useEnhancedEffect =
-  typeof window !== "undefined" ? React.useLayoutEffect : React.useEffect;
+// const useEnhancedEffect =
+//   typeof window !== "undefined" ? React.useLayoutEffect : React.useEffect;
 
 export default function Header() {
   return (
     <div id="css-vars-custom-theme">
-      {/* <CSSVarTheme /> */}
-      <CssVarsProvider theme={theme}>
+      <CSSVarTheme />
+      <CssVarsProvider>
         <Box sx={{ flexGrow: 1 }}>
           <AppBar position="fixed" color="secondary">
             <Grid item container>
@@ -106,7 +102,7 @@ export default function Header() {
                   >
                     <Button
                       endIcon={<ExpandMoreIcon />}
-                      color="inherit"
+                      color="primary"
                       size="large"
                       sx={{
                         fontFamily: "FSLola",
