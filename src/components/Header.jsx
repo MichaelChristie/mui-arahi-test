@@ -46,7 +46,11 @@ export default function Header() {
       <CSSVarTheme />
       <CssVarsProvider>
         <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="fixed" color="secondary">
+          <AppBar
+            position="fixed"
+            color="secondary"
+            sx={{ bgcolor: "inherit", backdropFilter: "blur(10px)" }}
+          >
             <Grid item container>
               <Grid item xs={false} lg={1} />
               <Grid item xs={12} lg={10}>
@@ -102,7 +106,7 @@ export default function Header() {
                   >
                     <Button
                       endIcon={<ExpandMoreIcon />}
-                      color="primary"
+                      color="info"
                       size="large"
                       sx={{
                         fontFamily: "FSLola",
@@ -156,25 +160,7 @@ export default function Header() {
                       Claim
                     </Button>
                   </Typography>
-                  {/* <ManagePolicyMenu /> */}
 
-                  {/* <IconButton
-                    size="small"
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                    sx={{ mr: 2 }}
-                  ></IconButton> */}
-
-                  <IconButton
-                    size="small"
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                    sx={{ mr: 2 }}
-                  >
-                    <FontAwesomeIcon icon={["fal", "faBars"]} />
-                  </IconButton>
                   <Button color="inherit" sx={{ mr: 1 }}>
                     Help &amp; Contact
                   </Button>
