@@ -5,15 +5,15 @@ import {
   experimental_extendTheme,
 } from "@mui/material/styles";
 import { teal, deepOrange, orange, cyan } from "@mui/material/colors";
-import theme from "./ThemeArahi";
+// import theme from "./ThemeArahi";
 import MyData from "../data/tokens.json";
 
-const themeALTERNATE = experimental_extendTheme({
+const theme = experimental_extendTheme({
   palette: {
     primary: {
-      light: "#FFD400!important",
-      dark: "#FFD400!important",
-      main: "#CCCCCC!important",
+      light: "#FFD400 !important",
+      dark: "#FFD400 !important",
+      main: "#CCCCCC !important",
       // main: `var(--light-warning-main)`,
       contrastText: MyData.global.color.base.white.value,
     },

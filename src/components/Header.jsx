@@ -6,28 +6,17 @@ import {
 } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
-// import theme from "../components/ThemeArahi";
-import MyData from "../data/tokens.json";
+import theme from "../components/ThemeArahi";
 import CSSVarTheme from "./CSSVarTheme";
-import TestButtons from "./TestButtons";
 import Grid from "@mui/material/Grid";
-// import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Content from "../components/Content";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-import Bokeh from "../components/Bokeh";
 import LightAndDarkMode from "../components/LightAndDarkMode-controls1.jsx";
-
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Logo from "../images/aa-insurance-logo-desktop-svg.svg";
 import backgroundImage from "../images/bokeh-clean_v1.7.svg";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
-// import Bokeh from "../images/circle.svg";
-import MenuIcon from "@mui/icons-material/Menu";
-import Icon from "@mui/material/Icon";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
@@ -37,14 +26,12 @@ import {
 
 // const theme = experimental_extendTheme({});
 
-// const useEnhancedEffect =
-//   typeof window !== "undefined" ? React.useLayoutEffect : React.useEffect;
-
 export default function Header() {
   return (
     <div id="css-vars-custom-theme">
       <CSSVarTheme />
       <CssVarsProvider>
+        {/* <CssVarsProvider theme={theme}> */}
         <Box sx={{ flexGrow: 1 }}>
           <AppBar
             position="fixed"
