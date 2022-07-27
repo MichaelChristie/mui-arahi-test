@@ -8,8 +8,9 @@ console.log("ThemeArahi" + MyData.global.color.base.blue.value);
 const theme = createTheme({
   palette: {
     primary: {
-      light: MyData.global.color.base.midblue.value,
-      main: MyData.global.color.base.darkblue.value,
+      light: MyData.global.color.base.yellow.value,
+      main: MyData.global.color.base.blue.value,
+      dark: MyData.global.color.base.yellow.value,
       contrastText: MyData.global.color.base.white.value,
     },
     secondary: {
@@ -17,6 +18,30 @@ const theme = createTheme({
       main: MyData.global.color.base.lightgrey.value,
       // main: --light-error-contrast,
       contrastText: MyData.global.color.base.blue.value,
+    },
+    success: {
+      light: MyData.global.color.base.green50.value,
+      main: MyData.global.color.base.green.value,
+      dark: MyData.global.color.base.green50.value,
+      contrastText: MyData.global.color.base.white.value,
+    },
+    warning: {
+      light: MyData.global.color.base.yellow50.value,
+      main: MyData.global.color.base.yellow50.value,
+      dark: MyData.global.color.base.yellow50.value,
+      contrastText: MyData.global.color.base.white.value,
+    },
+    info: {
+      light: MyData.global.color.base.blue25.value,
+      main: MyData.global.color.base.blue25.value,
+      dark: MyData.global.color.base.blue25.value,
+      contrastText: MyData.global.color.base.darkblue.value,
+    },
+    error: {
+      light: MyData.global.color.base.red.value,
+      main: MyData.global.color.base.red.value,
+      dark: MyData.global.color.base.red.value,
+      contrastText: MyData.global.color.base.darkblue.value,
     },
     neutral: {
       main: "#64748B",
@@ -57,15 +82,7 @@ const theme = createTheme({
       fontStyle: "italic",
     },
   },
-  typography: {
-    poster: {
-      color: "red",
-    },
-    // Disable h3 variant
-    h3: {
-      color: "red",
-    },
-  },
+
   breakpoints: {
     values: {
       xs: 0,
@@ -76,31 +93,16 @@ const theme = createTheme({
     },
   },
   typography: {
-    // fontFamily: "FSLola, Arial",
-  },
-  components: {
-    MuiCssBaseline: {
-      styleOverrides: `
-        @font-face {
-          font-family: 'FSLola';
-          font-style: bold;
-          font-display: swap;
-          font-weight: 800;
-        }
-      `,
-    },
-    MuiButtonBase: {
-      defaultProps: {
-        // The props to change the default for.
-        disableRipple: false, // No more ripple, on the whole application 💣!
-      },
-    },
-  },
-  typography: {
     button: {
       textTransform: "none",
     },
     h1: {
+      fontWeight: 600,
+      color: MyData.global.color.base.blue.value,
+      // fontSize: global.Typography.H1.value.fontSize.value,
+      fontFamily: MyData.global.fontFamily.primaryHeading.value,
+    },
+    h2: {
       fontWeight: 600,
       color: MyData.global.color.base.blue.value,
       // fontSize: global.Typography.H1.value.fontSize.value,

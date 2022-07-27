@@ -21,21 +21,9 @@ export default function Content() {
   return (
     // TOGGLE THESE TWO TO SWITCH BETWEEN DEFAULT MATERIAL V ARAHI STYLES.
     // <CssVarsProvider theme={theme}>
-    <CssVarsProvider>
+    // REMOVE theme={theme} TO DEFAULT BACK TO MATERIAL STYLE
+    <CssVarsProvider theme={theme}>
       <>
-        <TestButtons />
-        <BasicCard />
-
-        <Box sx={{ mb: 4 }} />
-        <SimpleAccordion />
-
-        <MyTypography />
-        <MyContent />
-        <JsonPlayground />
-        <MyButtons />
-
-        <Box sx={{ mb: 4 }} />
-
         <Box
           sx={{
             // bgcolor: "background.paper",
@@ -44,11 +32,34 @@ export default function Content() {
             p: 2,
             mb: 2,
           }}
-          className="MyClass"
         >
-          <Typography>
-            --color-base-green. Getting styles via variables from App.css
-          </Typography>
+          <TestButtons />
+          <BasicCard />
+
+          <Box sx={{ mb: 4 }} />
+          <SimpleAccordion />
+
+          <MyTypography />
+          <MyContent />
+          <JsonPlayground />
+          <MyButtons />
+
+          <Box sx={{ mb: 4 }} />
+
+          <Box
+            sx={{
+              // bgcolor: "background.paper",
+              boxShadow: 1,
+              borderRadius: 1,
+              p: 2,
+              mb: 2,
+            }}
+            className="MyClass"
+          >
+            <Typography>
+              --color-base-green. Getting styles via variables from App.css
+            </Typography>
+          </Box>
         </Box>
       </>
     </CssVarsProvider>

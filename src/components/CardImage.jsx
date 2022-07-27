@@ -6,6 +6,13 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBars,
+  faCircleUser,
+  faPhone,
+  faArrowRight,
+} from "@fortawesome/pro-light-svg-icons";
 
 export default function CardImage(props) {
   //   console.log(props);
@@ -72,8 +79,12 @@ export default function CardImage(props) {
         }}
       ></Box>
       <CardActions sx={{ backgroundColor: "", alignContent: "flex-end", p: 3 }}>
-        <Button size="small" variant="contained" color="primary">
-          More info
+        <Button
+          size="small"
+          color="primary"
+          startIcon={<FontAwesomeIcon icon={faArrowRight} />}
+        >
+          More info{" "}
         </Button>
         {/* <Button size="small" color="neutral">
           Learn More

@@ -4,21 +4,13 @@ import {
   useColorScheme,
   experimental_extendTheme,
 } from "@mui/material/styles";
-import Moon from "@mui/icons-material/DarkMode";
-import Sun from "@mui/icons-material/LightMode";
-import Button from "@mui/material/Button";
-// import Box from "@mui/material/Box";
-import { teal, deepOrange, orange, cyan } from "@mui/material/colors";
 import theme from "./components/ThemeArahi";
 import CSSVarTheme from "./components/CSSVarTheme";
-import TestButtons from "./components/TestButtons";
 import Grid from "@mui/material/Grid";
+import Paper from "@mui/material/Paper";
 import Content from "./components/Content";
 import Header from "./components/Header";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Bokeh from "./components/Bokeh";
-
-// const theme = experimental_extendTheme({});
 
 // TO USE ThemeArahi.jsx use theme={theme} and link to the file.
 // to use the default or traditional way change to plain <CssVarsProvider>
@@ -28,6 +20,7 @@ export default function App() {
     <div id="css-vars-custom-themeDELETE">
       {/* <CssVarsProvider> */}
       <CssVarsProvider theme={theme}>
+        {/* <Paper> */}
         <Grid container direction="column">
           <Header />
           {/* <ColorSchemePicker /> */}
@@ -37,14 +30,13 @@ export default function App() {
             <Grid item xs={12} lg={10}>
               <CSSVarTheme />
               <Bokeh />
-              {/* <LightAndDarkMode /> */}
 
-              <TestButtons />
               <Content />
             </Grid>
             <Grid item xs={false} lg={1} />
           </Grid>
         </Grid>
+        {/* </Paper> */}
       </CssVarsProvider>
     </div>
   );

@@ -29,7 +29,6 @@ import {
 export default function Header() {
   return (
     <div id="css-vars-custom-theme">
-      <CSSVarTheme />
       <CssVarsProvider>
         {/* <CssVarsProvider theme={theme}> */}
         <Box sx={{ flexGrow: 1 }}>
@@ -113,7 +112,7 @@ export default function Header() {
                   >
                     <Button
                       endIcon={<ExpandMoreIcon />}
-                      color="inherit"
+                      color="primary"
                       size="large"
                       sx={{
                         fontFamily: "FSLola",
