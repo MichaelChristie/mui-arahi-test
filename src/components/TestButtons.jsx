@@ -6,7 +6,8 @@ import LightAndDarkMode from "./LightAndDarkMode-controls1";
 export default function TestButtons() {
   return (
     <div id="css-vars-custom-themeDELETRE">
-      <Box bgcolor="background.paper" sx={{ p: 1 }}>
+      {/* <Box bgcolor="background.paper" sx={{ p: 1 }}> */}
+      <Box bgcolor="" sx={{ p: 1 }}>
         <Box sx={{ py: 2, mx: "auto" }}>
           <Box sx={{ pb: 4 }}>
             {/* <ColorSchemePicker /> */}
