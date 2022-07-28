@@ -12,7 +12,7 @@ import Box from "@mui/material/Box";
 // import MyContent from "./MyContent";
 import BasicCard from "./Card";
 // import MyTypography from "./MyTypography";
-// import SimpleAccordion from "./Accordion";
+import SimpleAccordion from "./Accordion";
 // import { ThemeProvider } from "@mui/material/styles";
 // import JsonPlayground from "./JsonPlayground";
 // import experimental_extendTheme from "./CSSVarTheme";
@@ -38,7 +38,7 @@ export default function Content() {
 
       {/* <TestButtons /> */}
       <BasicCard />
-      {/* <SimpleAccordion /> */}
+      <SimpleAccordion />
 
       {/* <MyTypography /> */}
       {/* <MyContent /> */}
