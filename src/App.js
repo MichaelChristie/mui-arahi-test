@@ -39,7 +39,6 @@ function App() {
               <Typography variant="h1" color="primary">
                 Hello
               </Typography>
-              sss
               <Content />
               <Switch
                 checked={darkMode}

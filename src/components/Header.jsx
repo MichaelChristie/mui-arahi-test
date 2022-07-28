@@ -6,7 +6,7 @@ import MainMenu from "../components/MainMenu";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Logo from "../images/aa-insurance-logo-desktop-svg.svg";
-import Bokeh from "./Bokeh";
+import BokehHeader from "./BokehHeader";
 
 // const theme = experimental_extendTheme({});
 
@@ -17,7 +17,7 @@ export default function Header() {
       color="secondary"
       sx={{ bgcolor: "inherit", backdropFilter: "blur(10px)" }}
     >
-      <Bokeh />
+      <BokehHeader />
       <Grid item container>
         <Grid item xs={false} lg={1} />
         <Grid item xs={12} lg={10}>

@@ -38,6 +38,13 @@ export default function Content() {
 
       {/* <TestButtons /> */}
       <BasicCard />
+      <Box
+        sx={{
+          // p: 2,
+          mb: 2,
+        }}
+      />
+
       <SimpleAccordion />
 
       {/* <MyTypography /> */}

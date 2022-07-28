@@ -14,7 +14,7 @@ export default function Content() {
     <Box
       sx={{
         display: "flex",
-        background: "rgba(255,255,0,0.1)",
+        // background: "rgba(255,255,0,0.1)",
         width: "100%",
       }}
     >
@@ -22,12 +22,13 @@ export default function Content() {
         component="div"
         sx={{
           flexGrow: 1,
-          background: "rgba(255,0,0,0.1)",
+          ml: 2,
+          //   background: "rgba(255,0,0,0.1)",
         }}
       >
         <Button
           endIcon={<ExpandMoreIcon />}
-          color="info"
+          color="primary"
           size="large"
           sx={{
             fontFamily: "FSLola",
@@ -75,36 +76,57 @@ export default function Content() {
         </Button>
       </Box>
       <Box
-        component="div"
-        sx={{ flexGrow: 0, background: "rgba(5,50,100,0.1)" }}
+        sx={{
+          display: "flex",
+          //   background: "rgba(255,255,0,0.5)",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
       >
-        <Button color="primary" sx={{ mr: 3, textTransform: "none" }}>
-          Help &amp; Contact
-        </Button>
-        <IconButton size="medium" edge="start" aria-label="menu" sx={{ mr: 2 }}>
-          <FontAwesomeIcon icon={faCircleUser} />
-        </IconButton>
-        <IconButton
-          size="medium"
-          edge="start"
-          aria-label="My AA Insurance account"
-          sx={{ mr: 2 }}
+        <Box
+          component="div"
+          //   sx={{ flexGrow: 0, background: "rgba(5,50,100,0.5)" }}
         >
-          <FontAwesomeIcon icon={faPhone} />
-        </IconButton>
-        <IconButton
-          size="medium"
-          edge="start"
-          aria-label="phone"
-          sx={{ mr: 2 }}
-        >
-          <FontAwesomeIcon
-            icon={faBars}
+          <Button
+            color="primary"
             sx={{
-              color: "#FFD400",
+              mr: 3,
+              textTransform: "none",
+              display: { xs: "none", sm: "inline-flex" },
             }}
-          />
-        </IconButton>
+          >
+            Help &amp; Contact
+          </Button>
+          <IconButton
+            size="medium"
+            edge="start"
+            aria-label="menu"
+            sx={{ mr: 2 }}
+          >
+            <FontAwesomeIcon icon={faCircleUser} />
+          </IconButton>
+          <IconButton
+            size="medium"
+            edge="start"
+            aria-label="My AA Insurance account"
+            sx={{ mr: 2 }}
+          >
+            <FontAwesomeIcon icon={faPhone} />
+          </IconButton>
+          <IconButton
+            size="medium"
+            edge="start"
+            aria-label="phone"
+            sx={{ mr: 2 }}
+          >
+            <FontAwesomeIcon
+              icon={faBars}
+              sx={{
+                color: "#FFD400",
+              }}
+            />
+          </IconButton>
+        </Box>
       </Box>
     </Box>
   );

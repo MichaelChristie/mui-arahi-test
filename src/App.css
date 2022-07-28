@@ -18,7 +18,15 @@ code {
   background-color: var(--light-success-light);
 }
 
-/* h1 {
-  color: var(--light-blue-dark);
+h1 {
+  color: var(--light-blue-dark) !important;
   font-family: var(--font-family-primary-heading) !important;
-} */
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(
+    -45deg,
+    #2489cb 10%,
+    #0068ab 25%,
+    #00446f 65%
+  );
+  -webkit-background-clip: text;
+}
