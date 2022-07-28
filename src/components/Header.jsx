@@ -4,13 +4,17 @@ import {
   useColorScheme,
   experimental_extendTheme,
 } from "@mui/material/styles";
-import Button from "@mui/material/Button";
-import Box from "@mui/material/Box";
-import theme from "../components/ThemeArahi";
-import CSSVarTheme from "./CSSVarTheme";
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
-import LightAndDarkMode from "../components/LightAndDarkMode-controls1.jsx";
+import {
+  Grid,
+  Paper,
+  Card,
+  Box,
+  Switch,
+  Typography,
+  Button,
+} from "@mui/material/";
+// import theme from "../components/ThemeArahi";
+
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
@@ -30,168 +34,176 @@ export default function Header() {
   return (
     <div id="css-vars-custom-theme">
       <CssVarsProvider>
-        {/* <CssVarsProvider theme={theme}> */}
-        <Box sx={{ flexGrow: 1 }}>
-          <AppBar
-            position="fixed"
-            color="secondary"
-            sx={{ bgcolor: "inherit", backdropFilter: "blur(10px)" }}
-          >
-            <Grid item container>
-              <Grid item xs={false} lg={1} />
-              <Grid item xs={12} lg={10}>
-                <Toolbar>
-                  <Box
-                    component="div"
-                    sx={{
-                      height: 0,
-                      width: 0,
-                      // background: "lime",
-                    }}
-                  >
+        <Paper>
+          {/* <CssVarsProvider theme={theme}> */}
+          <Box sx={{ flexGrow: 1 }}>
+            <AppBar
+              position="fixed"
+              color="secondary"
+              sx={{ bgcolor: "inherit", backdropFilter: "blur(10px)" }}
+            >
+              <Grid item container>
+                <Grid item xs={false} lg={1} />
+                <Grid item xs={12} lg={10}>
+                  <Toolbar>
                     <Box
+                      component="div"
                       sx={{
-                        height: 96,
-                        width: 2400,
-                        position: "absolute",
-                        // border: "1px solid #f1f1f1",
-                        top: 0,
-                        left: -400,
-                        zIndex: -10000,
-                        maxHeight: { xs: 64, md: 96 },
-                        // maxWidth: { xs: 200, md: 800 },
-                        opacity: "1",
-                        backgroundImage: `url(${backgroundImage})`,
-                        backgroundRepeat: "no-repeat",
-                        // backgroundColor: "red",
-                        backgroundSize: "1200px",
-                        backgroundPositionY: -480,
-                        backgroundPositionX: -200,
-                        // backgroundColor: red,
-                      }}
-                    />
-                  </Box>
-
-                  <Box
-                    component="img"
-                    sx={{
-                      height: 64,
-                      width: 180,
-                      maxHeight: { xs: 32, lg: 48, xl: 64 },
-                      maxWidth: { xs: 90, lg: 120, xl: 180 },
-                      my: 2,
-                      transition: "all 0.5s ease",
-                    }}
-                    alt="AA Insurance"
-                    src={Logo}
-                  />
-
-                  <Typography
-                    component="div"
-                    sx={{ flexGrow: 0, ml: 1, mt: 1 }}
-                  >
-                    <Button
-                      endIcon={<ExpandMoreIcon />}
-                      color="info"
-                      size="large"
-                      sx={{
-                        fontFamily: "FSLola",
-                        fontWeight: 600,
-                        letterSpacing: -0.25,
-                        fontSize: 22,
-                        // backgroundImage:
-                        //   "linear-gradient(90deg,#428bca 0,#428bca 50%,#042a49)",
+                        height: 0,
+                        width: 0,
+                        // background: "lime",
                       }}
                     >
-                      Our Insurance
-                    </Button>
-                  </Typography>
-                  <Typography
-                    component="div"
-                    sx={{ flexGrow: 0, ml: 1, mt: 1 }}
-                  >
+                      <Box
+                        sx={{
+                          height: 96,
+                          width: 2400,
+                          position: "absolute",
+                          // border: "1px solid #f1f1f1",
+                          top: 0,
+                          left: -400,
+                          zIndex: -10000,
+                          maxHeight: { xs: 64, md: 96 },
+                          // maxWidth: { xs: 200, md: 800 },
+                          opacity: "1",
+                          backgroundImage: `url(${backgroundImage})`,
+                          backgroundRepeat: "no-repeat",
+                          // backgroundColor: "red",
+                          backgroundSize: "1200px",
+                          backgroundPositionY: -480,
+                          backgroundPositionX: -200,
+                          // backgroundColor: red,
+                        }}
+                      />
+                    </Box>
+
+                    <Box
+                      component="img"
+                      sx={{
+                        height: 64,
+                        width: 180,
+                        maxHeight: { xs: 32, lg: 48, xl: 64 },
+                        maxWidth: { xs: 90, lg: 120, xl: 180 },
+                        my: 2,
+                        transition: "all 0.5s ease",
+                      }}
+                      alt="AA Insurance"
+                      src={Logo}
+                    />
+
+                    <Typography
+                      component="div"
+                      sx={{ flexGrow: 0, ml: 1, mt: 1 }}
+                    >
+                      <Button
+                        endIcon={<ExpandMoreIcon />}
+                        color="info"
+                        size="large"
+                        sx={{
+                          fontFamily: "FSLola",
+                          fontWeight: 600,
+                          letterSpacing: -0.25,
+                          fontSize: 22,
+                          textTransform: "none",
+                          // backgroundImage:
+                          //   "linear-gradient(90deg,#428bca 0,#428bca 50%,#042a49)",
+                        }}
+                      >
+                        Our Insurance
+                      </Button>
+                    </Typography>
+                    <Typography
+                      component="div"
+                      sx={{ flexGrow: 0, ml: 1, mt: 1 }}
+                    >
+                      <Button
+                        endIcon={<ExpandMoreIcon />}
+                        color="primary"
+                        size="large"
+                        sx={{
+                          fontFamily: "FSLola",
+                          fontWeight: 600,
+                          letterSpacing: -0.25,
+                          fontSize: 22,
+                          textTransform: "none",
+                          // backgroundImage:
+                          //   "linear-gradient(90deg,#428bca 0,#428bca 50%,#042a49)",
+                        }}
+                      >
+                        Manage Policy
+                      </Button>
+                    </Typography>
+                    <Typography
+                      component="div"
+                      sx={{ flexGrow: 1, ml: 1, mt: 1 }}
+                    >
+                      <Button
+                        endIcon={<ExpandMoreIcon />}
+                        color="primary"
+                        size="large"
+                        sx={{
+                          fontFamily: "FSLola",
+                          fontWeight: 600,
+                          letterSpacing: -0.25,
+                          fontSize: 22,
+                          textTransform: "none",
+                          // backgroundImage:
+                          //   "linear-gradient(90deg,#428bca 0,#428bca 50%,#042a49)",
+                        }}
+                      >
+                        Claim
+                      </Button>
+                    </Typography>
+
                     <Button
-                      endIcon={<ExpandMoreIcon />}
                       color="primary"
-                      size="large"
-                      sx={{
-                        fontFamily: "FSLola",
-                        fontWeight: 600,
-                        letterSpacing: -0.25,
-                        fontSize: 22,
-                        // backgroundImage:
-                        //   "linear-gradient(90deg,#428bca 0,#428bca 50%,#042a49)",
-                      }}
+                      sx={{ mr: 3, textTransform: "none" }}
                     >
-                      Manage Policy
+                      Help &amp; Contact
                     </Button>
-                  </Typography>
-                  <Typography
-                    component="div"
-                    sx={{ flexGrow: 1, ml: 1, mt: 1 }}
-                  >
-                    <Button
-                      endIcon={<ExpandMoreIcon />}
-                      color="inherit"
-                      size="large"
-                      sx={{
-                        fontFamily: "FSLola",
-                        fontWeight: 600,
-                        letterSpacing: -0.25,
-                        fontSize: 22,
-                        // backgroundImage:
-                        //   "linear-gradient(90deg,#428bca 0,#428bca 50%,#042a49)",
-                      }}
+
+                    <IconButton
+                      size="medium"
+                      edge="start"
+                      color="grey"
+                      aria-label="menu"
+                      sx={{ mr: 2 }}
                     >
-                      Claim
-                    </Button>
-                  </Typography>
+                      <FontAwesomeIcon icon={faCircleUser} />
+                    </IconButton>
+                    <IconButton
+                      size="medium"
+                      edge="start"
+                      color="grey"
+                      aria-label="My AA Insurance account"
+                      sx={{ mr: 2 }}
+                    >
+                      <FontAwesomeIcon icon={faPhone} />
+                    </IconButton>
 
-                  <Button color="inherit" sx={{ mr: 1 }}>
-                    Help &amp; Contact
-                  </Button>
+                    <IconButton
+                      size="medium"
+                      edge="start"
+                      color="grey"
+                      aria-label="phone"
+                      sx={{ mr: 2 }}
+                    >
+                      <FontAwesomeIcon
+                        icon={faBars}
+                        sx={{
+                          color: "#FFD400",
+                        }}
+                      />
+                    </IconButton>
 
-                  <IconButton
-                    size="medium"
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                    sx={{ mr: 2 }}
-                  >
-                    <FontAwesomeIcon icon={faCircleUser} />
-                  </IconButton>
-                  <IconButton
-                    size="medium"
-                    edge="start"
-                    color="inherit"
-                    aria-label="My AA Insurance account"
-                    sx={{ mr: 2 }}
-                  >
-                    <FontAwesomeIcon icon={faPhone} />
-                  </IconButton>
-
-                  <IconButton
-                    size="medium"
-                    edge="start"
-                    color="inherit"
-                    aria-label="phone"
-                    sx={{ mr: 2 }}
-                  >
-                    <FontAwesomeIcon
-                      icon={faBars}
-                      sx={{
-                        color: "#FFD400",
-                      }}
-                    />
-                  </IconButton>
-
-                  <LightAndDarkMode />
-                </Toolbar>
+                    {/* <LightAndDarkMode /> */}
+                  </Toolbar>
+                </Grid>
+                <Grid item xs={false} lg={1} />
               </Grid>
-              <Grid item xs={false} lg={1} />
-            </Grid>
-          </AppBar>
-        </Box>
+            </AppBar>
+          </Box>
+        </Paper>
       </CssVarsProvider>
     </div>
   );
