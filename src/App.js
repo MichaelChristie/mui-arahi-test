@@ -25,7 +25,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Paper style={{ height: "100vh" }}>
+      <Bokeh />
+      <Paper style={{ height: "100vh", background: "transparent" }}>
         <Header />
 
         <Box sx={{ p: 6 }}></Box>
@@ -38,9 +39,8 @@ function App() {
               <Typography variant="h1" color="primary">
                 Hello
               </Typography>
-              <Bokeh />
+              sss
               <Content />
-
               <Switch
                 checked={darkMode}
                 onChange={() => setDarkMode(!darkMode)}
@@ -51,14 +51,12 @@ function App() {
               <Typography variant="h2" color="grey">
                 Secondary h2
               </Typography>
-
               <Button variant="contained" color="primary" sx={{ mr: 2 }}>
                 This is a button
               </Button>
               <Button variant="contained" color="secondary">
                 This is another button
               </Button>
-
               <Card>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
                 temporibus eum iure aperiam quisquam obcaecati nesciunt
@@ -184,7 +182,6 @@ function App() {
                 nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
                 eum molestiae, dolor laborum iure quisquam cum.
               </Card>
-
               {/*  */}
             </Grid>
             <Grid item xs={false} lg={1} />
