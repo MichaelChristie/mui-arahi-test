@@ -12,17 +12,19 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import Header from "./components/Header";
 import Content from "./components/Content";
-
+//@ED NEW COMPONENT WHER ONE COULD PUT THE SWITCH AND DEPENDENT FILES
+// import MyTheme from "./ThemeSwitcher";
 //Import themes
 import darkTheme from "./components/DarkTheme";
 import lightTheme from "./components/LightTheme";
 import Bokeh from "./components/Bokeh";
 function App() {
+  //@ED IDEALLY WE MOVE THIS LOGIC ELSEWHERE!!
   const [darkMode, setDarkMode] = useState(false);
-
   let theme = darkMode ? createTheme(darkTheme) : createTheme(lightTheme);
 
   return (
+    //@ED THIS NEEDS TO STAY HERE. ME THINKS
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Bokeh />
@@ -40,6 +42,7 @@ function App() {
                 Hello
               </Typography>
               <Content />
+              {/* //@ED MOVE TO THEMESWITCHER */}
               <Switch
                 checked={darkMode}
                 onChange={() => setDarkMode(!darkMode)}
@@ -59,121 +62,9 @@ function App() {
               <Card>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
                 temporibus eum iure aperiam quisquam obcaecati nesciunt
-                inventore laudantium, ut, cumque ullam. Dolore itaque eum
+                inventore laudantium, ut, cumque ullam. Dolore itaque eum eum
                 molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor sit
                 amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquipsum dolor sit amet consectetur adipisicing elit. Illo
-                temporibus eum iure aperiam quisquam obcaecati nesciunt
-                inventore laudantium, ut, cumque ullam. Dolore itaque eum
-                molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquipsum dolor sit amet
-                consectetur adipisicing elit. Illo temporibus eum iure aperiam
-                quisquam obcaecati nesciunt inventore laudantium, ut, cumque
-                ullam. Dolore itaque eum molestiae, dolor laborum iure quisquam
-                cum.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Illo temporibus eum iure aperiam quisquam obcaecati nesciunt
-                inventore laudantium, ut, cumque ullam. Dolore itaque eum
-                molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
                 aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
                 cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
                 quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
@@ -181,7 +72,6 @@ function App() {
                 nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
                 eum molestiae, dolor laborum iure quisquam cum.
               </Card>
-              {/*  */}
             </Grid>
             <Grid item xs={false} lg={1} />
           </Grid>
