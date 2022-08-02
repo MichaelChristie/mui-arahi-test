@@ -20,6 +20,7 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 //Import themes
 import darkTheme from "./components/DarkTheme";
 import lightTheme from "./components/LightTheme";
+import MyAppBar from "./components/MyAppBar";
 import Bokeh from "./components/Bokeh";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -30,11 +31,11 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Bokeh />
-      <Paper style={{ height: "100vh", background: "transparent" }}>
+      <Paper style={{ background: "transparent" }} sx={{ p: 2 }}>
         <Header />
 
         <Box sx={{ p: 6 }}></Box>
-
+        <MyAppBar />
         <Grid container direction="column">
           <Grid item></Grid>
           <Grid item container>
