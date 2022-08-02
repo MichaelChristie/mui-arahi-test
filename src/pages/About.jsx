@@ -1,10 +1,10 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 
-export default function Page2() {
+export default function About() {
   return (
-    <Box>
-      <h1>Page 2</h1>
+    <Box sx={{ pt: 5 }}>
+      <h1>About</h1>
     </Box>
   );
 }

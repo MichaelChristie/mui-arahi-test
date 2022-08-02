@@ -16,7 +16,11 @@ import ShowBreakpoint from "./components/ShowBreakpoint";
 import FormGroup from "@mui/material/FormGroup";
 
 import FormControlLabel from "@mui/material/FormControlLabel";
-
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Profile from "./pages/Profile";
+import Error from "./pages/Error";
 //Import themes
 import darkTheme from "./components/DarkTheme";
 import lightTheme from "./components/LightTheme";
@@ -28,186 +32,20 @@ function App() {
   let theme = darkMode ? createTheme(darkTheme) : createTheme(lightTheme);
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Bokeh />
-      <Paper style={{ background: "transparent" }} sx={{ p: 2 }}>
-        <Header />
-
-        <Box sx={{ p: 6 }}></Box>
-        <MyAppBar />
-        <Grid container direction="column">
-          <Grid item></Grid>
-          <Grid item container>
-            <Grid item xs={false} lg={1} />
-            <Grid item xs={12} lg={10}>
-              <Typography variant="h1" color="primary">
-                Primary h1
-              </Typography>
-              {/* <Typography variant="h2" color="grey">
-                Secondary h2
-              </Typography> */}
-
-              <ShowBreakpoint />
-
-              <Content />
-
-              <FormGroup>
-                <FormControlLabel
-                  control={
-                    <Switch
-                      checked={darkMode}
-                      onChange={() => setDarkMode(!darkMode)}
-                    />
-                  }
-                  label="Dark Mode"
-                />
-              </FormGroup>
-
-              {/* <Typography variant="h1" color="primary">
-                Primary h1
-              </Typography> */}
-              {/* <Typography variant="h2" color="grey">
-                Secondary h2
-              </Typography> */}
-              <Button variant="contained" color="primary" sx={{ mr: 2 }}>
-                This is a button
-              </Button>
-              <Button variant="contained" color="secondary">
-                This is another button
-              </Button>
-              <Card>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                temporibus eum iure aperiam quisquam obcaecati nesciunt
-                inventore laudantium, ut, cumque ullam. Dolore itaque eum
-                molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquipsum dolor sit amet consectetur adipisicing elit. Illo
-                temporibus eum iure aperiam quisquam obcaecati nesciunt
-                inventore laudantium, ut, cumque ullam. Dolore itaque eum
-                molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquipsum dolor sit amet
-                consectetur adipisicing elit. Illo temporibus eum iure aperiam
-                quisquam obcaecati nesciunt inventore laudantium, ut, cumque
-                ullam. Dolore itaque eum molestiae, dolor laborum iure quisquam
-                cum.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Illo temporibus eum iure aperiam quisquam obcaecati nesciunt
-                inventore laudantium, ut, cumque ullam. Dolore itaque eum
-                molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Illo temporibus eum iure
-                aperiam quisquam obcaecati nesciunt inventore laudantium, ut,
-                cumque ullam. Dolore itaque eum molestiae, dolor laborum iure
-                quisquam cum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Illo temporibus eum iure aperiam quisquam obcaecati
-                nesciunt inventore laudantium, ut, cumque ullam. Dolore itaque
-                eum molestiae, dolor laborum iure quisquam cum.
-              </Card>
-              {/*  */}
-            </Grid>
-            <Grid item xs={false} lg={1} />
-          </Grid>
-        </Grid>
-      </Paper>
-    </ThemeProvider>
+    <Router>
+      {/* <a href="/home">Go to home page</a> */}
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/profile/pedro">Profile</Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/profile/:username" element={<Profile />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </Router>
   );
 }
 
