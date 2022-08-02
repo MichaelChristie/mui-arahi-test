@@ -24,28 +24,28 @@ export default function BasicCard() {
       <Grid item xs={12} sm={6} md={3}>
         <CardImage
           image="https://i.ibb.co/HXNYNkb/Wear-and-tear-768w.png"
-          title="Lorem ipsum dolor"
+          title="General wear & Tear"
           description="1UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
         />
       </Grid>
       <Grid item xs={12} sm={6} md={3}>
         <CardImage
           image="https://i.ibb.co/qgLBgBh/Get-in-touch-768w.png"
-          title="Lorem ipsum dolor"
+          title="Customer service centre"
           description="Although cards can support multiple actions, Lorem ipsum dolorLorem ipsum dolor UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
         />
       </Grid>
       <Grid item xs={12} sm={6} md={3}>
         <CardImage
           image="https://i.ibb.co/wNvb3LM/aai-policy-documents.jpg"
-          title="Lorem ipsum dolor"
+          title="Understanding your policy documents"
           description="UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
         />
       </Grid>
       <Grid item xs={12} sm={6} md={3}>
         <CardImage
           image="https://i.ibb.co/hmtBRM1/Toolbox-768w.png"
-          title="Lorem ipsum dolor"
+          title="Small Business Insurance"
           description="UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information. "
         />
       </Grid>

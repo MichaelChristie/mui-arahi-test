@@ -10,6 +10,10 @@ import Box from "@mui/material/Box";
 // } from "@mui/material/styles";
 // import MyButtons from "./MyButtons";
 // import MyContent from "./MyContent";
+import Tabs from "./Tabs";
+import Progress from "./Progress";
+import LinearProgress from "./LinearProgress";
+
 import BasicCard from "./Card";
 // import MyTypography from "./MyTypography";
 import SimpleAccordion from "./Accordion";
@@ -26,15 +30,25 @@ export default function Content() {
     <>
       <Box
         sx={{
-          boxShadow: 1,
+          // boxShadow: 1,
           borderRadius: 1,
-          p: 2,
+          p: 6,
           mb: 2,
           class: "MyClass",
         }}
-      >
-        hi
-      </Box>
+      ></Box>
+      <Tabs />
+      <Progress />
+      <LinearProgress />
+      <Box
+        sx={{
+          // boxShadow: 1,
+          borderRadius: 1,
+          p: 6,
+          mb: 2,
+          class: "MyClass",
+        }}
+      ></Box>
 
       {/* <TestButtons /> */}
       <BasicCard />

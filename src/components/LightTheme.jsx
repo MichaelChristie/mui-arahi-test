@@ -8,7 +8,7 @@ const lightTheme = {
       main: MyData.global.color.base.blue.value,
     },
     secondary: {
-      main: MyData.global.color.base.lightgrey.value,
+      main: MyData.global.color.base.yellow.value,
     },
   },
   typography: {

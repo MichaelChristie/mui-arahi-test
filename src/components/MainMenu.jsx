@@ -8,6 +8,7 @@ import {
   faPhone,
 } from "@fortawesome/pro-light-svg-icons";
 import IconButton from "@mui/material/IconButton";
+import styles from "../build/css/_variables.css";
 
 export default function Content() {
   return (
@@ -85,7 +86,8 @@ export default function Content() {
       >
         <Box
           component="div"
-          //   sx={{ flexGrow: 0, background: "rgba(5,50,100,0.5)" }}
+          sx={{ flexGrow: 0, background: "colorBaseDummy" }}
+          className={styles.colorBaseDummy}
         >
           <Button
             color="primary"

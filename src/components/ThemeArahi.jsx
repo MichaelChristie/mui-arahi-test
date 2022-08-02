@@ -16,7 +16,6 @@ const theme = createTheme({
     secondary: {
       light: MyData.global.color.base.lightgrey.value,
       main: MyData.global.color.base.lightgrey.value,
-      // main: --light-error-contrast,
       contrastText: MyData.global.color.base.blue.value,
     },
     success: {

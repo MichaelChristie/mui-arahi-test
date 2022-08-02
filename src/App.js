@@ -12,6 +12,10 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import Header from "./components/Header";
 import Content from "./components/Content";
+import ShowBreakpoint from "./components/ShowBreakpoint";
+import FormGroup from "@mui/material/FormGroup";
+
+import FormControlLabel from "@mui/material/FormControlLabel";
 
 //Import themes
 import darkTheme from "./components/DarkTheme";
@@ -37,19 +41,34 @@ function App() {
             <Grid item xs={false} lg={1} />
             <Grid item xs={12} lg={10}>
               <Typography variant="h1" color="primary">
-                Hello
-              </Typography>
-              <Content />
-              <Switch
-                checked={darkMode}
-                onChange={() => setDarkMode(!darkMode)}
-              />
-              <Typography variant="h1" color="primary">
                 Primary h1
               </Typography>
-              <Typography variant="h2" color="grey">
+              {/* <Typography variant="h2" color="grey">
                 Secondary h2
-              </Typography>
+              </Typography> */}
+
+              <ShowBreakpoint />
+
+              <Content />
+
+              <FormGroup>
+                <FormControlLabel
+                  control={
+                    <Switch
+                      checked={darkMode}
+                      onChange={() => setDarkMode(!darkMode)}
+                    />
+                  }
+                  label="Dark Mode"
+                />
+              </FormGroup>
+
+              {/* <Typography variant="h1" color="primary">
+                Primary h1
+              </Typography> */}
+              {/* <Typography variant="h2" color="grey">
+                Secondary h2
+              </Typography> */}
               <Button variant="contained" color="primary" sx={{ mr: 2 }}>
                 This is a button
               </Button>

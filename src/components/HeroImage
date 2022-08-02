@@ -1,0 +1,17 @@
+import * as React from "react";
+import Box from "@mui/material/Box";
+
+export default function HeroImage() {
+  return (
+    <Box
+      component="div"
+      sx={{
+        position: "relative",
+        height: 0,
+        width: 0,
+        background: "lime",
+        zIndex: -1,
+      }}
+    ></Box>
+  );
+}

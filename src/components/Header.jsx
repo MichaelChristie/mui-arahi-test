@@ -27,9 +27,9 @@ export default function Header() {
               sx={{
                 height: 64,
                 width: 180,
-                maxHeight: { xs: 32, lg: 48, xl: 64 },
-                maxWidth: { xs: 90, lg: 120, xl: 180 },
-                my: 2,
+                maxHeight: { xs: 48, lg: 48, xl: 64 },
+                maxWidth: { xs: 120, lg: 120, xl: 180 },
+                my: 1,
                 transition: "all 0.5s ease",
               }}
               alt="AA Insurance"
