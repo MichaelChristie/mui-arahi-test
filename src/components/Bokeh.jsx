@@ -11,7 +11,7 @@ export default function Bokeh() {
         height: 0,
         width: 0,
         background: "lime",
-        zIndex: -1,
+        zIndex: 0,
       }}
     >
       <Box
@@ -52,9 +52,7 @@ export default function Bokeh() {
 
           transition: "all 0.5s ease",
         }}
-      >
-        hello bokeh
-      </Box>
+      ></Box>
     </Box>
   );
 }
