@@ -58,10 +58,11 @@ function App() {
             }}
           >
             <Header />
+
             <Bokeh />
             <Box
               sx={{
-                height: { xs: 48, lg: 48, xl: 88 },
+                height: { xs: 64, sm: 64, md: 72, lg: 72, xl: 108 },
                 background: "transparent",
               }}
             ></Box>
@@ -100,6 +101,7 @@ function App() {
                 label="Dark Mode"
               />
             </FormGroup>
+            <ShowBreakpoint />
           </Box>
         </Box>
       </ThemeProvider>

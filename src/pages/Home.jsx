@@ -1,17 +1,19 @@
 import * as React from "react";
-import { Grid, Box } from "@mui/material/";
+import { Grid, Box, Button } from "@mui/material/";
+import PageLayout from "../components/PageLayout";
+import Content from "../components/Content";
 
 export default function Home() {
   return (
-    <Grid container direction="column">
-      <Grid item></Grid>
-      <Grid item container>
-        <Grid item xs={false} lg={1} />
-        <Grid item xs={12} lg={10}>
-          <h1>Home </h1>
-        </Grid>
-        <Grid item xs={false} lg={1} />
-      </Grid>
-    </Grid>
+    <PageLayout>
+      <Box>Home</Box>
+      <Button variant="contained" color="primary" sx={{ mr: 2 }}>
+        This is a button
+      </Button>
+      <Button variant="contained" color="secondary">
+        This is another button
+      </Button>
+      <Content />
+    </PageLayout>
   );
 }

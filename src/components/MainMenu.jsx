@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/pro-light-svg-icons";
 import IconButton from "@mui/material/IconButton";
 import styles from "../build/css/_variables.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function Content() {
   return (
@@ -32,6 +32,7 @@ export default function Content() {
           endIcon={<ExpandMoreIcon />}
           color="primary"
           size="large"
+          href="/product/:motorcycle"
           sx={{
             fontFamily: "FSLola",
             fontWeight: 600,
@@ -42,12 +43,13 @@ export default function Content() {
             transition: "all 0.5s ease",
           }}
         >
-          <Link to="/product/:motorcycle">Our Insurance</Link>
+          Our Insurance
         </Button>
         <Button
           endIcon={<ExpandMoreIcon />}
           color="primary"
           size="large"
+          href="/manage-policy/diego"
           sx={{
             fontFamily: "FSLola",
             fontWeight: 600,
@@ -58,12 +60,13 @@ export default function Content() {
             transition: "all 0.5s ease",
           }}
         >
-          <Link to="/manage-policy/diego">Manage Policy</Link>
+          Manage Policy
         </Button>
         <Button
           endIcon={<ExpandMoreIcon />}
           color="primary"
           size="large"
+          href="/claim"
           sx={{
             fontFamily: "FSLola",
             fontWeight: 600,
@@ -74,7 +77,7 @@ export default function Content() {
             transition: "all 0.5s ease",
           }}
         >
-          <Link to="/claim">Claim</Link>
+          Claim
         </Button>
       </Box>
       <Box

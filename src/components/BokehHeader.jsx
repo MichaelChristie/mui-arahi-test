@@ -16,14 +16,13 @@ export default function BokehHeader() {
     >
       <Box
         sx={{
-          height: 96,
           width: 1200,
           position: "fixed",
           // border: "1px solid #f1f1f1",
           top: 0,
           left: -48,
           zIndex: -10000,
-          maxHeight: { xs: 64, sm: 64, md: 64, lg: 64, xl: 80 },
+          height: { xs: 64, sm: 64, md: 72, lg: 72, xl: 108 }, // Match
           // maxWidth: { xs: 200, md: 800 },
           // background: "rgba(255,0,0.5,0.5)",
           backgroundImage: `url(${backgroundImage})`,

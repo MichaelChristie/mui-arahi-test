@@ -16,7 +16,6 @@ import LinearProgress from "./LinearProgress";
 
 import BasicCard from "./Card";
 // import MyTypography from "./MyTypography";
-import SimpleAccordion from "./Accordion";
 // import { ThemeProvider } from "@mui/material/styles";
 // import JsonPlayground from "./JsonPlayground";
 // import experimental_extendTheme from "./CSSVarTheme";
@@ -58,8 +57,6 @@ export default function Content() {
           mb: 2,
         }}
       />
-
-      <SimpleAccordion />
 
       {/* <MyTypography /> */}
       {/* <MyContent /> */}

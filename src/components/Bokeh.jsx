@@ -11,7 +11,7 @@ export default function Bokeh() {
         height: 0,
         width: 0,
         background: "lime",
-        zIndex: 0,
+        zIndex: -1,
       }}
     >
       <Box
