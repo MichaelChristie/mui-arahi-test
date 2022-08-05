@@ -1,19 +1,88 @@
 import * as React from "react";
-import { Grid, Box, Button } from "@mui/material/";
+import { Grid, Box, Button, Typography } from "@mui/material/";
+import HeroImage from "../images/policydocus-couple_DTP-homepage.jpg";
 import PageLayout from "../components/PageLayout";
+import PanelTopLeft from "../components/PanelTopRight";
 import Content from "../components/Content";
+import MostTrustedCard from "../components/MostTrustedCard";
+
+import { useNavigate, useParams } from "react-router-dom";
+import CardMedia from "@mui/material/CardMedia";
+import BokehHero from "../components/BokehHero";
 
 export default function Home() {
   return (
-    <PageLayout>
-      <Box>Home</Box>
-      <Button variant="contained" color="primary" sx={{ mr: 2 }}>
-        This is a button
-      </Button>
-      <Button variant="contained" color="secondary">
-        This is another button
-      </Button>
-      <Content />
-    </PageLayout>
+    <>
+      <Box
+        sx={{
+          position: "relative",
+          width: 0,
+          height: 0,
+          background: "#FF0000",
+          zIndex: 1,
+        }}
+      >
+        <BokehHero />
+      </Box>
+
+      <Grid container direction="column">
+        <Grid item>
+          <Box
+            sx={{
+              height: "600px",
+              maxWidth: "1920px",
+              margin: "0 auto",
+              borderRadius: "4px",
+              // width: "100%",
+              backgroundImage: `url(${HeroImage})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center center",
+            }}
+          >
+            <PanelTopLeft sx={{ zIndex: 11111, position: "absolute" }}>
+              {/* <Typography variant="h2" fontSize={24}>
+                Nau mai, Haere Mai
+              </Typography> */}
+              <Button
+                variant="contained"
+                color="primary"
+                size="large"
+                fullWidth
+              >
+                Get a quote
+              </Button>
+
+              <Box sx={{ marginTop: 2 }}>
+                <Grid container spacing={2} align="center" direction="row">
+                  <Grid item xs={6}>
+                    <Button variant="contained" fullWidth color="grey">
+                      Pay / renew
+                    </Button>
+                  </Grid>
+                  <Grid item xs={6}>
+                    <Button variant="contained" fullWidth color="grey">
+                      Start a claim
+                    </Button>
+                  </Grid>
+                </Grid>
+              </Box>
+
+              <MostTrustedCard />
+            </PanelTopLeft>
+          </Box>
+        </Grid>
+
+        <PageLayout>
+          <Box>Home</Box>
+          <Button variant="contained" color="primary" sx={{ mr: 2 }}>
+            This is a button
+          </Button>
+          <Button variant="contained" color="grey">
+            This is another button
+          </Button>
+          <Content />
+        </PageLayout>
+      </Grid>
+    </>
   );
 }

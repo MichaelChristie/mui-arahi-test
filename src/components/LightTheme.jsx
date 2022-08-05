@@ -10,14 +10,25 @@ const lightTheme = {
     secondary: {
       main: MyData.global.color.base.yellow.value,
     },
+    grey: {
+      main: MyData.global.color.base.grey.value,
+      contrastText: MyData.global.color.base.blue.value,
+    },
+    neutral: {
+      main: "#64748B",
+      contrastText: "#fff",
+    },
   },
+
   typography: {
     button: {
       textTransform: "none",
+      color: MyData.global.color.base.blue.value,
     },
     h1: {
-      fontWeight: 600,
+      fontWeight: 800,
       fontFamily: MyData.global.fontFamily.primaryHeading.value,
+      fontSize: 56,
     },
     h2: {
       fontWeight: 600,
@@ -25,17 +36,29 @@ const lightTheme = {
     },
     h3: {
       fontWeight: 600,
-      color: MyData.global.color.base.blue.value,
       fontFamily: "Arial",
     },
     h4: {
       fontWeight: 600,
-      color: MyData.global.color.base.blue.value,
       fontFamily: "Arial",
     },
     h5: {
       fontWeight: 600,
       fontFamily: "Arial",
+    },
+  },
+  components: {
+    // Name of the component
+    MuiButton: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          fontSize: "1rem",
+          fontWeight: "600",
+          // backgroundColor: "#FF0000",
+        },
+      },
     },
   },
 };

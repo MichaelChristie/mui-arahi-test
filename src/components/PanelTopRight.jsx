@@ -1,8 +1,6 @@
 import * as React from "react";
-import { Grid, Box, Typography } from "@mui/material/";
-import Bokeh from "../components/Bokeh";
-import PageLayout from "../components/PageLayout";
-import PanelLayout from "../components/PanelLayout";
+import { Box } from "@mui/material/";
+import HomeCTAPanelLayout from "./HomeCTAPanelLayout";
 export default function Panel({ children }) {
   return (
     <Box
@@ -17,33 +15,35 @@ export default function Panel({ children }) {
     >
       <Box
         sx={{
-          order: "1",
+          order: "2",
           flex: "1 0 auto",
           alignSelf: "stretch",
           // background: "rgba(50,120,0,0.5)",
         }}
       >
-        Box 1
+        {/* EXPANDS TO ALLOW THE PANEL TO STICK TO THE BOTTOM */}
       </Box>
       <Box
         sx={{
-          order: "2",
+          order: "1",
           flex: "0 0 auto",
           alignSelf: "stretch",
           // background: "rgba(255,120,0,0.25)",
+          zIndex: 1,
         }}
       >
-        <PanelLayout>
+        <HomeCTAPanelLayout>
+          {/* // Change attributes for sm, xs */}
           <Box
             sx={{
-              borderRadius: "32px 32px 0px 0px",
+              borderRadius: "0px 0px 32px 32px",
               p: 3,
               bgcolor: "background.paper",
             }}
           >
             {children}
           </Box>
-        </PanelLayout>
+        </HomeCTAPanelLayout>
       </Box>
     </Box>
   );

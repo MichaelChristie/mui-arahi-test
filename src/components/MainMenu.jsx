@@ -32,7 +32,7 @@ export default function Content() {
           endIcon={<ExpandMoreIcon />}
           color="primary"
           size="large"
-          href="/product/:motorcycle"
+          href="/product/motorcycle"
           sx={{
             fontFamily: "FSLola",
             fontWeight: 600,

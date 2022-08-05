@@ -2,7 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import bokeh from "../images/bokeh-clean_v1.7.svg";
 
-export default function Bokeh() {
+export default function BokehHero() {
   return (
     <Box
       component="div"
@@ -10,7 +10,7 @@ export default function Bokeh() {
         position: "relative",
         height: 0,
         width: 0,
-        background: "lime",
+        // background: "lime",
         zIndex: -1,
       }}
     >
@@ -20,7 +20,7 @@ export default function Bokeh() {
           width: 1200,
           position: "absolute",
           // border: "1px solid #f1f1f1",
-          top: 0,
+          top: { xs: -64, sm: -64, md: -72, lg: -72, xl: -108 }, // Match
           left: -48,
           zIndex: -10000,
           // maxHeight: { xs: 64, md: 960 },
