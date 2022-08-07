@@ -5,12 +5,11 @@ import CardMedia from "@mui/material/CardMedia";
 import BokehHero from "../components/BokehHero";
 import ProductAccordion from "../components/ProductAccordion";
 import MostTrustedCard from "../components/MostTrustedCard";
-
-// import HeroImage from "../images/Wear-and-tear@768w.png";
-// import HeroImage from "../images/comprehensive-car-dtp.jpg";
 import HeroImage from "../images/CONTENTS_DTP_03.jpg";
 import PageLayout from "../components/PageLayout";
 import Panel from "../components/PanelBottomLeft";
+import Quicklinks from "../components/navigation/Quicklinks";
+
 export default function Product() {
   let { producttype } = useParams();
 
@@ -62,9 +61,7 @@ export default function Product() {
                     </Button>
                   </Grid>
                   <Grid item xs={6}>
-                    <Button variant="contained" fullWidth color="grey">
-                      Quicklinks
-                    </Button>
+                    <Quicklinks />
                   </Grid>
                 </Grid>
               </Box>

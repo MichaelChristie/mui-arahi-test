@@ -24,7 +24,7 @@ const darkTheme = {
       textTransform: "none",
     },
     h1: {
-      fontWeight: 600,
+      fontWeight: 800,
       fontFamily: MyData.global.fontFamily.primaryHeading.value,
       fontSize: 48,
     },
@@ -43,6 +43,11 @@ const darkTheme = {
     h5: {
       fontWeight: 600,
       fontFamily: "Arial",
+    },
+    h6: {
+      fontWeight: 600,
+      fontFamily: "Arial",
+      lineHeight: 1.4,
     },
   },
   components: {

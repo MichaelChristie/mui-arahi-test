@@ -9,6 +9,12 @@ import {
 } from "@fortawesome/pro-light-svg-icons";
 import IconButton from "@mui/material/IconButton";
 import styles from "../build/css/_variables.css";
+import ClaimMenu from "./navigation/ClaimMenu";
+import ManagePolicyMenu from "./navigation/ManagePolicyMenu";
+import OurInsuranceMenu from "./navigation/OurInsuranceMenu";
+import AccountMenu from "./navigation/AccountMenu";
+import LoginModal from "./navigation/LoginModal";
+
 // import { Link } from "react-router-dom";
 
 export default function Content() {
@@ -25,60 +31,11 @@ export default function Content() {
         sx={{
           flexGrow: 1,
           ml: 2,
-          //   background: "rgba(255,0,0,0.1)",
         }}
       >
-        <Button
-          endIcon={<ExpandMoreIcon />}
-          color="primary"
-          size="large"
-          href="/product/motorcycle"
-          sx={{
-            fontFamily: "FSLola",
-            fontWeight: 600,
-            letterSpacing: -0.25,
-            fontSize: 22,
-            textTransform: "none",
-            display: { xs: "none", sm: "inline-flex" },
-            transition: "all 0.5s ease",
-          }}
-        >
-          Our Insurance
-        </Button>
-        <Button
-          endIcon={<ExpandMoreIcon />}
-          color="primary"
-          size="large"
-          href="/manage-policy/diego"
-          sx={{
-            fontFamily: "FSLola",
-            fontWeight: 600,
-            letterSpacing: -0.25,
-            fontSize: 22,
-            textTransform: "none",
-            display: { xs: "none", md: "inline-flex" },
-            transition: "all 0.5s ease",
-          }}
-        >
-          Manage Policy
-        </Button>
-        <Button
-          endIcon={<ExpandMoreIcon />}
-          color="primary"
-          size="large"
-          href="/claim"
-          sx={{
-            fontFamily: "FSLola",
-            fontWeight: 600,
-            letterSpacing: -0.25,
-            fontSize: 22,
-            textTransform: "none",
-            display: { xs: "none", lg: "inline-flex" },
-            transition: "all 0.5s ease",
-          }}
-        >
-          Claim
-        </Button>
+        <OurInsuranceMenu />
+        <ManagePolicyMenu />
+        <ClaimMenu />
       </Box>
       <Box
         sx={{
@@ -103,14 +60,8 @@ export default function Content() {
           >
             Help &amp; Contact
           </Button>
-          <IconButton
-            size="medium"
-            edge="start"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            <FontAwesomeIcon icon={faCircleUser} />
-          </IconButton>
+
+          <AccountMenu />
           <IconButton
             size="medium"
             edge="start"
@@ -119,19 +70,7 @@ export default function Content() {
           >
             <FontAwesomeIcon icon={faPhone} />
           </IconButton>
-          <IconButton
-            size="medium"
-            edge="start"
-            aria-label="phone"
-            sx={{ mr: 2 }}
-          >
-            <FontAwesomeIcon
-              icon={faBars}
-              sx={{
-                color: "#FFD400",
-              }}
-            />
-          </IconButton>
+          <LoginModal />
         </Box>
       </Box>
     </Box>

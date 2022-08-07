@@ -46,9 +46,25 @@ const lightTheme = {
       fontWeight: 600,
       fontFamily: "Arial",
     },
+    h6: {
+      fontWeight: 600,
+      fontFamily: "Arial",
+      lineHeight: 1.4,
+    },
   },
   components: {
     // Name of the component
+    MuiBackdrop: {
+      styleOverrides: {
+        // Name of the slot
+
+        root: {
+          // Some CSS
+          // background: "rgba(255, 255, 255, 0.16);",
+          // backdropFilter: "blur(15px)",
+        },
+      },
+    },
     MuiButton: {
       styleOverrides: {
         // Name of the slot

@@ -30,3 +30,12 @@ h1 {
   );
   -webkit-background-clip: text;
 }
+
+.css-1kj3djk-MuiButtonBase-root-MuiButton-root {
+  background: -webkit-linear-gradient(
+    -45deg,
+    #2489cb 10%,
+    #0068ab 25%,
+    #00446f 65%
+  );
+}

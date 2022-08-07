@@ -19,23 +19,19 @@ export default function MostTrustedCard() {
   const theme = useTheme();
 
   return (
-    <Card variant="none" sx={{ display: "flex", mt: 2 }}>
+    <Card variant="none" sx={{ display: "flex", mt: 4 }}>
       <CardMedia
         component="img"
-        sx={{ width: 120, height: 108 }}
+        sx={{ width: 120, height: 108, mt: 2 }}
         image="https://images.ctfassets.net/70piar1ns1oi/cZAcMhVLIidU3K9pJDFGD/7277f21b5ca880a0158a6e70d0848f8d/TBNZ2022_Winner_GeneralInsurance_2011-2022.png"
         alt="We'll never stop working to earn your trust"
       />
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <CardContent sx={{ flex: "1 0 auto" }}>
-          <Typography component="div" variant="h5">
+          <Typography component="div" variant="h6">
             We'll never stop working to earn your trust
           </Typography>
-          <Typography
-            variant="subtitle1"
-            color="text.secondary"
-            component="div"
-          >
+          <Typography variant="body" color="text.secondary" component="div">
             As voted by consumers 2011-2022 in the Reader's Digest Trusted Brand
             survey.
             <Link to="product/:motorcycle">Find out more</Link>
