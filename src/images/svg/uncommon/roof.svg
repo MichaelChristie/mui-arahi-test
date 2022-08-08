@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>aai / uncommon / roof</title>
+    <g id="aai-/-uncommon-/-roof" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-box" x="0" y="0" width="48" height="48"></rect>
+        <polygon class="polygon" id="fill---dark" fill="#005B88" points="46.7853409 26.6332425 24.1900449 4.60381648 1.56609038 26.6330781 5.45253963 30.4165435 7.386 28.534 24.177 12.186 40.9620867 28.534 42.9024339 30.4163441"></polygon>
+        <path d="M24.1765,13.728 L41.2945,30.395 L41.2945,42 L7.1475,42 L7.1475,30.31 L24.1765,13.728 Z M39.9851,10.3659 L39.9851,18.4609 L33.8141,12.4459 L33.8141,10.3659 L39.9851,10.3659 Z" id="fill---light" fill="#0076C2"></path>
+    </g>
+</svg>

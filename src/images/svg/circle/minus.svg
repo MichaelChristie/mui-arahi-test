@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>aai / circle / minus</title>
+    <g id="aai-/-circle-/-minus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M24.5003,38.2104 C16.3893,38.2104 9.7913,31.6114 9.7913,23.5004 C9.7913,15.3894 16.3893,8.7914 24.5003,8.7914 C32.6103,8.7914 39.2103,15.3904 39.2103,23.5004 C39.2103,31.6114 32.6103,38.2104 24.5003,38.2104 M24.5003,6.0004 C14.8513,6.0004 7.0003,13.8504 7.0003,23.5004 C7.0003,33.1494 14.8513,41.0004 24.5003,41.0004 C34.1493,41.0004 42.0003,33.1494 42.0003,23.5004 C42.0003,13.8504 34.1493,6.0004 24.5003,6.0004" id="fill---dark" fill="#005B88"></path>
+        <polygon class="polygon" id="fill---light" fill="#0076C2" points="17.8949 25.2641 31.0829 25.2641 31.0829 21.7611 17.8949 21.7611"></polygon>
+    </g>
+</svg>

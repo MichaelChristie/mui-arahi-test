@@ -12,6 +12,8 @@ import MostTrustedCard from "../components/MostTrustedCard";
 import { useNavigate, useParams } from "react-router-dom";
 import CardMedia from "@mui/material/CardMedia";
 import BokehHero from "../components/BokehHero";
+import ProductGrid from "../components/ProductGrid";
+import BasicCard from "../components/Card";
 
 export default function Home() {
   return (
@@ -83,6 +85,15 @@ export default function Home() {
         </Grid>
 
         <PageLayout>
+          <Box sx={{ mt: 10 }} />
+          <ProductGrid />
+          <Box sx={{ mt: 12 }} />
+          <Box sx={{ p: 3 }}>
+            <BasicCard />
+          </Box>
+
+          <Content />
+
           <Box>Home</Box>
           <Button variant="contained" color="primary" sx={{ mr: 2 }}>
             This is a button
@@ -90,7 +101,6 @@ export default function Home() {
           <Button variant="contained" color="grey">
             This is another button
           </Button>
-          <Content />
         </PageLayout>
       </Grid>
     </>

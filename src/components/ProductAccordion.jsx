@@ -13,7 +13,12 @@ import ProductTable from "./ProductTable";
 export default function ProductAccordion() {
   return (
     <ThemeProvider>
-      <Accordion>
+      <Accordion
+        elevation={0}
+        sx={{
+          border: "none",
+        }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -25,7 +30,7 @@ export default function ProductAccordion() {
           <OverviewPanel />
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion elevation={0}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -37,7 +42,7 @@ export default function ProductAccordion() {
           <ProductTable />
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion elevation={0}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3a-content"

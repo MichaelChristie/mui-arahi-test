@@ -50,6 +50,7 @@ const lightTheme = {
       fontWeight: 600,
       fontFamily: "Arial",
       lineHeight: 1.4,
+      letterSpacing: 0.125,
     },
   },
   components: {
@@ -62,6 +63,15 @@ const lightTheme = {
           // Some CSS
           // background: "rgba(255, 255, 255, 0.16);",
           // backdropFilter: "blur(15px)",
+        },
+      },
+    },
+    MuiPaper: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          // background: "rgba(255, 255, 255, 0.75);",
         },
       },
     },

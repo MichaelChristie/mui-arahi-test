@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>aai / circle / tick</title>
+    <g id="aai-/-circle-/-tick" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M24.5004,38.21 C16.3894,38.21 9.7914,31.611 9.7914,23.501 C9.7914,15.39 16.3894,8.791 24.5004,8.791 C32.6114,8.791 39.2094,15.39 39.2094,23.501 C39.2094,31.611 32.6114,38.21 24.5004,38.21 M24.5004,6 C14.8504,6 7.0004,13.851 7.0004,23.501 C7.0004,33.15 14.8504,41.001 24.5004,41.001 C34.1504,41.001 42.0004,33.15 42.0004,23.501 C42.0004,13.851 34.1504,6 24.5004,6" id="fill---dark" fill="#005B88"></path>
+        <polygon class="polygon" id="fill---light" fill="#0076C2" points="22.2929 24.9678 18.9209 21.4138 16.4229 24.0458 22.2929 30.2318 32.5769 19.4018 30.0729 16.7698"></polygon>
+    </g>
+</svg>

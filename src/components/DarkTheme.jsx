@@ -26,7 +26,7 @@ const darkTheme = {
     h1: {
       fontWeight: 800,
       fontFamily: MyData.global.fontFamily.primaryHeading.value,
-      fontSize: 48,
+      fontSize: 56,
     },
     h2: {
       fontWeight: 600,
@@ -52,6 +52,15 @@ const darkTheme = {
   },
   components: {
     // Name of the component
+    MuiPaper: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          // background: "rgba(0, 0, 0, 0.75);",
+        },
+      },
+    },
     MuiButton: {
       styleOverrides: {
         // Name of the slot

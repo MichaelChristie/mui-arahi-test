@@ -6,6 +6,8 @@ import BokehHero from "../components/BokehHero";
 import ProductAccordion from "../components/ProductAccordion";
 import MostTrustedCard from "../components/MostTrustedCard";
 import HeroImage from "../images/CONTENTS_DTP_03.jpg";
+import HeroImageMobile from "../images/CONTENTS_DTP_03_MOB_03.jpg";
+
 import PageLayout from "../components/PageLayout";
 import Panel from "../components/PanelBottomLeft";
 import Quicklinks from "../components/navigation/Quicklinks";
@@ -31,12 +33,18 @@ export default function Product() {
         <Grid item>
           <Box
             sx={{
-              height: "600px",
+              height: {
+                xs: "100vh",
+                lg: "600px",
+              },
               maxWidth: "1920px",
               margin: "0 auto",
               borderRadius: "4px",
               // width: "100%",
-              backgroundImage: `url(${HeroImage})`,
+              backgroundImage: {
+                xs: `url(${HeroImageMobile})`,
+                lg: `url(${HeroImage})`,
+              },
               backgroundSize: "cover",
               backgroundPosition: "center center",
             }}
@@ -49,12 +57,10 @@ export default function Product() {
               <Typography variant="p">
                 {producttype} Insurance Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Tempora vel, reprehenderit, ducimus laborum
-                laboriosam cumque voluptatem consectetur provident corrupti unde
-                pariatur, incidunt cupiditate ullam aspernatur voluptatibus
-                distinctio similique doloremque debitis.
+                laboriosam cumque voluptatem consectetur provident corrupti.
               </Typography>
               <Box sx={{ marginTop: 2 }}>
-                <Grid container spacing={2} align="center" direction="row">
+                <Grid container spacing={3} align="center" direction="row">
                   <Grid item xs={6}>
                     <Button variant="contained" fullWidth color="primary">
                       Get a quote

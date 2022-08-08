@@ -11,10 +11,13 @@ import Home from "./pages/Home";
 import Product from "./pages/Product";
 import ManagePolicy from "./pages/ManagePolicy";
 import Claim from "./pages/Claim";
+import Documentation from "./pages/Documentation";
 import Error from "./pages/Error";
+import Quote from "./pages/Quote";
 //Import themes
 import darkTheme from "./components/DarkTheme";
 import lightTheme from "./components/LightTheme";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 import Bokeh from "./components/Bokeh";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -61,6 +64,9 @@ function App() {
                   element={<ManagePolicy />}
                 />
                 <Route path="/claim" element={<Claim />} />
+                <Route path="/quote" element={<Quote />} />
+
+                <Route path="/documentation" element={<Documentation />} />
                 <Route path="*" element={<Error />} />
               </Routes>
             </Box>
@@ -71,6 +77,7 @@ function App() {
               flex: "0 1 auto",
             }}
           >
+            <ThemeSwitcher />
             <FormGroup>
               <FormControlLabel
                 control={

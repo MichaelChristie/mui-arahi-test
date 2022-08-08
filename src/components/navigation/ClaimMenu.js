@@ -3,6 +3,9 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Divider } from "@mui/material";
+// import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 export default function ClaimMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -48,6 +51,8 @@ export default function ClaimMenu() {
         <MenuItem onClick={handleClose}>Start a claim</MenuItem>
         <MenuItem onClick={handleClose}>Claim FAQs</MenuItem>
         <MenuItem onClick={handleClose}>Learn more</MenuItem>
+        <Divider />
+        <MenuItem to="/documentation">Documentation</MenuItem>
       </Menu>
     </>
   );

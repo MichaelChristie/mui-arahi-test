@@ -5,11 +5,7 @@ import MenuItem from "@mui/material/MenuItem";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import {
-  faBars,
-  faCircleUser,
-  faPhone,
-} from "@fortawesome/pro-light-svg-icons";
+import { faCircleUser } from "@fortawesome/pro-light-svg-icons";
 import IconButton from "@mui/material/IconButton";
 export default function AccountMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
