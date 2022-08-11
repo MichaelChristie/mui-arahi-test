@@ -66,6 +66,23 @@ const lightTheme = {
         },
       },
     },
+    MuiAccordion: {
+      root: {
+        "&:before": {
+          backgroundColor: "#FF0000 !important",
+          opacity: "0",
+          display: "none !important",
+        },
+      },
+    },
+    MuiExpansionPanel: {
+      root: {
+        "&:before": {
+          display: "none",
+          backgroundColor: "#FF0000",
+        },
+      },
+    },
     MuiPaper: {
       styleOverrides: {
         // Name of the slot

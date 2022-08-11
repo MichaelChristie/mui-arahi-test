@@ -17,6 +17,7 @@ export default function ProductAccordion() {
         elevation={0}
         sx={{
           border: "none",
+          backgroundColor: "white",
         }}
       >
         <AccordionSummary
