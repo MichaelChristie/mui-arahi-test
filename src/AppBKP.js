@@ -1,92 +1,66 @@
 import React, { useState } from "react";
-import {
-  Grid,
-  Paper,
-  Card,
-  Box,
-  Switch,
-  Typography,
-  Button,
-} from "@mui/material/";
+import { Box, Switch } from "@mui/material/";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import Header from "./components/Header";
-import Content from "./components/Content";
 import ShowBreakpoint from "./components/ShowBreakpoint";
 import FormGroup from "@mui/material/FormGroup";
-
 import FormControlLabel from "@mui/material/FormControlLabel";
-
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import Product from "./pages/Product";
+import ManagePolicy from "./pages/ManagePolicy";
+import Claim from "./pages/Claim";
+import Documentation from "./pages/Documentation";
+import Error from "./pages/Error";
+import Quote from "./pages/Quote";
 //Import themes
 import darkTheme from "./components/DarkTheme";
 import lightTheme from "./components/LightTheme";
-import MyAppBar from "./components/MyAppBar";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 import Bokeh from "./components/Bokeh";
+import PageSpacerMatchHeader from "./components/PageSpacerMatchHeader";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   let theme = darkMode ? createTheme(darkTheme) : createTheme(lightTheme);
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Bokeh />
-      <Paper style={{ background: "transparent" }} sx={{ p: 2 }}>
-        <Header />
+    <Router>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Box>
+          <Header />
+          <Bokeh />
+          <PageSpacerMatchHeader />
 
-        <Box sx={{ p: 6 }}></Box>
-        {/* <MyAppBar /> */}
-        <Grid container direction="column">
-          <Grid item></Grid>
-          <Grid item container>
-            <Grid item xs={false} lg={1} />
-            <Grid item xs={12} lg={10}>
-              <Typography variant="h1" color="primary">
-                Primary h1
-              </Typography>
-              {/* <Typography variant="h2" color="grey">
-                Secondary h2
-              </Typography> */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/product/:producttype" element={<Product />} />
+            <Route path="/manage-policy/:username" element={<ManagePolicy />} />
+            <Route path="/claim" element={<Claim />} />
+            <Route path="/quote" element={<Quote />} />
 
-              <ShowBreakpoint />
+            <Route path="/documentation" element={<Documentation />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+        </Box>
 
-              <Content />
-
-              <FormGroup>
-                <FormControlLabel
-                  control={
-                    <Switch
-                      checked={darkMode}
-                      onChange={() => setDarkMode(!darkMode)}
-                    />
-                  }
-                  label="Dark Mode"
-                />
-              </FormGroup>
-
-              {/* <Typography variant="h1" color="primary">
-                Primary h1
-              </Typography> */}
-              {/* <Typography variant="h2" color="grey">
-                Secondary h2
-              </Typography> */}
-              <Button variant="contained" color="primary" sx={{ mr: 2 }}>
-                This is a button
-              </Button>
-              <Button variant="contained" color="secondary">
-                This is another button
-              </Button>
-              <Card>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                temporibus eum iure aperiam quisquam obcaecati nesciunt
-              </Card>
-              {/*  */}
-            </Grid>
-            <Grid item xs={false} lg={1} />
-          </Grid>
-        </Grid>
-      </Paper>
-    </ThemeProvider>
+        <ThemeSwitcher />
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <Switch
+                checked={darkMode}
+                onChange={() => setDarkMode(!darkMode)}
+              />
+            }
+            label="Dark Mode"
+          />
+        </FormGroup>
+        <ShowBreakpoint />
+      </ThemeProvider>
+    </Router>
   );
 }
 
