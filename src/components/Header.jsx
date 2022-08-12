@@ -47,6 +47,11 @@ export default function Header() {
                 src={Logo}
               />
             </Link>
+            <Link to="/courses/search">Search</Link>
+            <Box sx={{ width: "10px" }} />
+            <Link to="/courses/list">List</Link>
+            <Box sx={{ width: "10px" }} />
+            <Link to="/product/motorcycle">Product</Link>
             <MainMenu />
           </Toolbar>
         </PageLayout>

@@ -20,7 +20,7 @@ export default function BokehHero() {
           width: 1200,
           position: "absolute",
           // border: "1px solid #f1f1f1",
-          top: { xs: -64, sm: -64, md: -72, lg: -72, xl: -108 }, // Match
+          // top: { xs: -64, sm: -64, md: -72, lg: -72, xl: -108 }, // Match
           left: -48,
           zIndex: -10000,
           // maxHeight: { xs: 64, md: 960 },

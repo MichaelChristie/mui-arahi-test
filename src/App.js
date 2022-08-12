@@ -25,10 +25,7 @@ function App() {
       <Router>
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          <nav>
-            <Link to="/">HomeHilux</Link>
-            <Link to="courses">Courses</Link>
-          </nav>
+
           <Routes>
             <Route path="/" element={<HomeHilux />} />
             <Route path="/courses" element={<Courses />}>
@@ -36,7 +33,10 @@ function App() {
               <Route path="list" element={<List />} />
             </Route>
           </Routes>
-
+          <nav>
+            <Link to="/">HomeHilux</Link>
+            <Link to="courses">Courses</Link>
+          </nav>
           <FormGroup>
             <FormControlLabel
               control={

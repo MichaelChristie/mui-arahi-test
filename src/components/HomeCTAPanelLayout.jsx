@@ -7,11 +7,15 @@ export default function HomeCTAPanelLayout({ children }) {
       <Grid item></Grid>
       <Grid item container>
         <Grid item xs={false} lg={1}></Grid>
-        <Grid item xs={false} lg={6}>
-          <Typography variant="h1" fontSize={48} sx={{ p: 2 }}>
-            Lorem ipsum dolor sit amed
+        <Grid item xs={false} lg={3}>
+          <Typography variant="h1" fontSize={24} sx={{ px: 2, pt: 2 }}>
+            Reason to Trust #19
+          </Typography>
+          <Typography variant="h1" fontSize={36} sx={{ px: 2 }}>
+            The time a broken oven couldn't spoil Nan's Turkey
           </Typography>
         </Grid>
+        <Grid item xs={false} lg={3}></Grid>
         <Grid item xs={12} lg={4}>
           {children}
         </Grid>
