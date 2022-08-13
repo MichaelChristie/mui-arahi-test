@@ -47,7 +47,10 @@ export default function PanelTopRight({ children }) {
                 lg: "0px 0px 32px 32px",
               },
 
-              p: 6,
+              p: {
+                xs: 2,
+                lg: 6,
+              },
               bgcolor: "background.paper",
             }}
           >

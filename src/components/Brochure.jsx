@@ -6,7 +6,7 @@ import ShowBreakpoint from "../components/ShowBreakpoint";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "../pages/Home";
+import Home from "../pages/HomeHilux";
 import Product from "../pages/Product";
 import ManagePolicy from "../pages/ManagePolicy";
 import Claim from "../pages/Claim";

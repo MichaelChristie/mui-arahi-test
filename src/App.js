@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import HomeHilux from "./pages/HomeHilux";
 import Courses from "./pages/Courses";
+// import Product from "./pages/Product";
+// import Brochure from "./components/Brochure";
 import Search from "./components/Search";
 import List from "./components/List";
 
@@ -29,6 +31,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomeHilux />} />
             <Route path="/courses" element={<Courses />}>
+              {/* <Route path="/product" element={<Product />} /> */}
               <Route path="search" element={<Search />} />
               <Route path="list" element={<List />} />
             </Route>
