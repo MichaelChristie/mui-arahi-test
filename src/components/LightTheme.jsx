@@ -18,6 +18,10 @@ const lightTheme = {
       main: "#64748B",
       contrastText: "#fff",
     },
+    white: {
+      main: "#FFFFFF",
+      contrastText: "#000",
+    },
   },
 
   typography: {

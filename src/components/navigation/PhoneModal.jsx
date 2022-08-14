@@ -6,11 +6,11 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/pro-light-svg-icons";
+import { faPhone } from "@fortawesome/pro-light-svg-icons";
 import IconButton from "@mui/material/IconButton";
 import { Paper } from "@mui/material";
 
-export default function LoginModal() {
+export default function PhoneModal() {
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -23,24 +23,20 @@ export default function LoginModal() {
 
   return (
     <>
-      <Button variant="contained" onClick={handleClickOpen}>
-        Login
-      </Button>
+      {/* <Button variant="outlined" >
+        Open alert dialog
+      </Button> */}
 
-      {/* <IconButton
+      <IconButton
         onClick={handleClickOpen}
         size="medium"
         edge="start"
-        aria-label="menu"
+        aria-label="My AA Insurance account"
         sx={{ mr: 2 }}
       >
-        <FontAwesomeIcon
-          icon={faBars}
-          sx={{
-            color: "#FFD400",
-          }}
-        />
-      </IconButton> */}
+        <FontAwesomeIcon icon={faPhone} />
+      </IconButton>
+
       <Dialog
         open={open}
         onClose={handleClose}

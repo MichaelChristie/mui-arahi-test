@@ -11,23 +11,14 @@ import HeroImageMobile from "../images/CONTENTS_DTP_03_MOB_03.jpg";
 import PageLayout from "../components/PageLayout";
 import Panel from "../components/PanelBottomLeft";
 import Quicklinks from "../components/navigation/Quicklinks";
+import HeaderBrochure from "../components/HeaderBrochure";
 
 export default function Product() {
   let { producttype } = useParams();
 
   return (
     <>
-      <Box
-        sx={{
-          position: "relative",
-          width: 0,
-          height: 0,
-          background: "#FF0000",
-          zIndex: 1,
-        }}
-      >
-        <BokehHero />
-      </Box>
+      <HeaderBrochure />
 
       <Grid container direction="column">
         <Grid item>

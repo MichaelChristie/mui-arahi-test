@@ -10,9 +10,6 @@ import Box from "@mui/material/Box";
 // } from "@mui/material/styles";
 // import MyButtons from "./MyButtons";
 // import MyContent from "./MyContent";
-import Tabs from "./Tabs";
-import Progress from "./Progress";
-import LinearProgress from "./LinearProgress";
 
 import BasicCard from "./Card";
 // import MyTypography from "./MyTypography";
@@ -36,9 +33,7 @@ export default function Content() {
           class: "MyClass",
         }}
       ></Box>
-      <Tabs />
-      <Progress />
-      <LinearProgress />
+
       <Box
         sx={{
           // boxShadow: 1,

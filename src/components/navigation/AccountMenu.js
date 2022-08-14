@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faCircleUser } from "@fortawesome/pro-light-svg-icons";
 import IconButton from "@mui/material/IconButton";
+import LoginModal from "./LoginModal";
 export default function AccountMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -43,9 +44,7 @@ export default function AccountMenu() {
         }}
       >
         <MenuItem onClick={handleClose}>
-          <Button variant="contained" fullWidth color="primary">
-            Log in
-          </Button>
+          <LoginModal />
         </MenuItem>
         <MenuItem onClick={handleClose}>Register</MenuItem>
         <MenuItem onClick={handleClose}>My AA Insurance</MenuItem>

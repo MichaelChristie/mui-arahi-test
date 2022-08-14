@@ -51,6 +51,14 @@ export default function OurInsuranceMenu() {
         Our Insurance
       </Button>
 
+      {/* <Link to="/quote">Quote</Link>
+            <Box sx={{ width: "10px" }} />
+            <Link to="/courses/search">Search</Link>
+            <Box sx={{ width: "10px" }} />
+            <Link to="/courses/list">Courses</Link>
+            <Box sx={{ width: "10px" }} />
+            <Link to="/product">Product</Link> */}
+
       <Menu
         id="basic-menu"
         anchorEl={anchorEl}
@@ -68,7 +76,7 @@ export default function OurInsuranceMenu() {
               </ListItemIcon>
               <ListItemText>
                 Home
-                {/* <Link to="/product/motorcycle">Product</Link> */}
+                {/*Product</Link> */}
               </ListItemText>
             </MenuItem>
           </Link>
@@ -80,19 +88,32 @@ export default function OurInsuranceMenu() {
               <ListItemText>Product</ListItemText>
             </MenuItem>
           </Link>
-          <MenuItem>
-            <ListItemIcon>
-              <FontAwesomeIcon icon={faClipboard} fontSize="large" />
-            </ListItemIcon>
-            <ListItemText>Paste</ListItemText>
-          </MenuItem>
+          <Link to="/courses/list">
+            <MenuItem>
+              <ListItemIcon>
+                <FontAwesomeIcon icon={faClipboard} fontSize="large" />
+              </ListItemIcon>
+              <ListItemText>Courses</ListItemText>
+            </MenuItem>
+          </Link>
+          <Link to="">
+            <MenuItem>
+              <ListItemIcon>
+                <FontAwesomeIcon icon={faClipboard} fontSize="large" />
+              </ListItemIcon>
+              <ListItemText>Course Search</ListItemText>
+            </MenuItem>
+          </Link>
+
           <Divider />
-          <MenuItem>
-            <ListItemIcon>
-              <Cloud fontSize="small" />
-            </ListItemIcon>
-            <ListItemText>Web Clipboard</ListItemText>
-          </MenuItem>
+          <Link to="/products/:motorcycle">
+            <MenuItem>
+              <ListItemIcon>
+                <Cloud fontSize="small" />
+              </ListItemIcon>
+              <ListItemText>motorcycle</ListItemText>
+            </MenuItem>
+          </Link>
         </MenuList>
       </Menu>
     </>

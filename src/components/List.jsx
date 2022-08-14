@@ -1,14 +1,10 @@
 import React from "react";
-import Header from "../components/Header";
-import Bokeh from "../components/Bokeh";
-import PageSpacerMatchHeader from "../components/PageSpacerMatchHeader";
+import HeaderBrochure from "./HeaderBrochure";
 
 const List = () => {
   return (
     <>
-      <Header />
-      <Bokeh />
-      <PageSpacerMatchHeader />
+      <HeaderBrochure />
       <div className="List">
         <h2>You are inside the List Component</h2>
         <h4>URL: localhost:3000/courses/list</h4>

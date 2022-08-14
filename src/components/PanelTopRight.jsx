@@ -19,7 +19,10 @@ export default function PanelTopRight({ children }) {
             xs: 1,
             lg: 2,
           },
-          flex: "1 0 auto",
+          flex: {
+            xs: "1 0 auto",
+            lg: "1 0 auto",
+          },
           alignSelf: "stretch",
           // background: "rgba(50,120,0,0.5)",
         }}
@@ -32,7 +35,11 @@ export default function PanelTopRight({ children }) {
             xs: 2,
             lg: 1,
           },
-          flex: "0 0 auto",
+          flex: {
+            xs: "0 0 auto",
+            lg: "0 0 auto",
+          },
+
           alignSelf: "stretch",
           // background: "rgba(255,120,0,0.25)",
           zIndex: 1,

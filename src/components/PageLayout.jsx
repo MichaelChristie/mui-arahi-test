@@ -8,7 +8,6 @@ export default function PageLayout({ children }) {
       <Grid item container>
         <Grid item xs={false} lg={1} />
         <Grid item xs={12} lg={10}>
-          <Box sx={{ pt: 2 }}></Box>
           {children}
         </Grid>
         <Grid item xs={false} lg={1} />

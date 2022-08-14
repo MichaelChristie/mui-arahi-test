@@ -8,26 +8,20 @@ import HeaderIcons from "./HeaderIcons";
 
 // import { Link } from "react-router-dom";
 
-export default function Content() {
+export default function MainMenuQuote() {
   return (
     <Box
       sx={{
         display: "flex",
-        // background: "rgba(255,255,0,0.1)",
         width: "100%",
       }}
     >
       <Box
-        component="div"
         sx={{
           flexGrow: 1,
           ml: 2,
         }}
-      >
-        <OurInsuranceMenu />
-        <ManagePolicyMenu />
-        <ClaimMenu />
-      </Box>
+      ></Box>
       <Box
         sx={{
           display: "flex",
@@ -36,21 +30,7 @@ export default function Content() {
           justifyContent: "center",
         }}
       >
-        <Box
-          component="div"
-          sx={{ flexGrow: 0, background: "colorBaseDummy" }}
-          className={styles.colorBaseDummy}
-        >
-          <Button
-            color="primary"
-            sx={{
-              mr: 3,
-              textTransform: "none",
-              display: { xs: "none", sm: "inline-flex" },
-            }}
-          >
-            Help &amp; Contact
-          </Button>
+        <Box component="div" sx={{ flexGrow: 0, background: "colorBaseDummy" }}>
           <HeaderIcons />
         </Box>
       </Box>

@@ -7,8 +7,16 @@ import {
   Typography,
   Divider,
   Alert,
+  AppBar,
 } from "@mui/material/";
 import PageLayout from "../components/PageLayout";
+import BokehHeader from "../components/BokehHeader";
+import Logo from "../components/Logo";
+import Toolbar from "@mui/material/Toolbar";
+import { Link } from "react-router-dom";
+import Tabs from "../components/Tabs";
+import Progress from "../components/Progress";
+import LinearProgress from "../components/LinearProgress";
 
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
@@ -18,6 +26,8 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
+import PageSpacerMatchHeader from "../components/PageSpacerMatchHeader";
+import HeaderQuote from "../components/HeaderQuote";
 
 export default function Quote() {
   const [state, setState] = React.useState({
@@ -75,6 +85,11 @@ export default function Quote() {
 
   return (
     <PageLayout>
+      <HeaderQuote />
+
+      {/* <BokehHeader /> */}
+      <PageSpacerMatchHeader />
+
       <Box sx={{ p: 3 }}>
         <Typography variant="h1">Quote</Typography>
         <Typography variant="overline">Typography</Typography>
@@ -96,7 +111,9 @@ export default function Quote() {
         </div>
 
         <Divider />
-
+        <Tabs />
+        <Progress />
+        <LinearProgress />
         <Typography variant="paragraph">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           ornare tortor ultrices, aliquet turpis nec, dignissim sem. Nam

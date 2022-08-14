@@ -22,7 +22,7 @@ export default function BokehHeader() {
           top: 0,
           left: -48,
           zIndex: -10000,
-          height: { xs: 64, sm: 64, md: 72, lg: 72, xl: 108 }, // Match
+          height: { xs: 64, sm: 64, md: 72, lg: 72, xl: 80 }, // Match
           // maxWidth: { xs: 200, md: 800 },
           // background: "rgba(255,0,0.5,0.5)",
           backgroundImage: `url(${backgroundImage})`,

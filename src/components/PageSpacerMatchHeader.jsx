@@ -6,7 +6,7 @@ export default function PageSpacerMatchHeader() {
     <>
       <Box
         sx={{
-          height: { xs: 64, sm: 64, md: 72, lg: 72, xl: 108 }, // Match
+          height: { xs: 64, sm: 64, md: 72, lg: 72, xl: 80 }, // Match
           background: "transparent",
         }}
       ></Box>
