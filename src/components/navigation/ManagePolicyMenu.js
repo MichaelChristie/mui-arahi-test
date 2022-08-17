@@ -3,6 +3,23 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faScissors,
+  faBook,
+  faSearch,
+  faUserCircle,
+  faEdit,
+} from "@fortawesome/pro-light-svg-icons";
+import Divider from "@mui/material/Divider";
+import MenuList from "@mui/material/MenuList";
+// import MenuItem from "@mui/material/MenuItem";
+import ListItemText from "@mui/material/ListItemText";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import Typography from "@mui/material/Typography";
+import Cloud from "@mui/icons-material/Cloud";
+import { Link } from "react-router-dom";
 
 export default function ManagePolicyMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -45,10 +62,43 @@ export default function ManagePolicyMenu() {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem onClick={handleClose}>Log in / register</MenuItem>
-        <MenuItem onClick={handleClose}>Pay / renew policy</MenuItem>
-        <MenuItem onClick={handleClose}>Policy documents</MenuItem>
-        <MenuItem onClick={handleClose}>Change your details</MenuItem>
+        <MenuList>
+          <MenuItem component={Link} to={"/policy-documents"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faBook} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Policy Document</ListItemText>
+          </MenuItem>
+          <MenuItem component={Link} to={"/product"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faScissors} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Products</ListItemText>
+          </MenuItem>
+
+          <MenuItem component={Link} to={"/login"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faUserCircle} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Login</ListItemText>
+          </MenuItem>
+
+          <MenuItem component={Link} to={"/update-details"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faEdit} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Update details</ListItemText>
+          </MenuItem>
+
+          <Divider />
+
+          <MenuItem component={Link} to={"/courses/search"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faSearch} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Search</ListItemText>
+          </MenuItem>
+        </MenuList>
       </Menu>
     </>
   );

@@ -64,7 +64,7 @@ code {
   border: 2px solid #ffd300;
   border-radius: 50%;
   background-size: 60%;
-  background-color: #ffffff;
+  // background-color: #ffffff;
 }
 
 .circle {
@@ -78,6 +78,7 @@ code {
 .inner {
   margin: 0 auto;
   margin-top: 12px;
+  margin-left: 12px; //fix this
   width: 36px;
   height: 36px;
 }

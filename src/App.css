@@ -31,11 +31,33 @@ h1 {
   -webkit-background-clip: text;
 }
 
-.css-1kj3djk-MuiButtonBase-root-MuiButton-root {
+.MuiButton-containedPrimary {
   background: -webkit-linear-gradient(
     -45deg,
     #2489cb 10%,
     #0068ab 25%,
     #00446f 65%
   );
+}
+
+.MuiLinearProgress-barColorPrimary {
+  /* background-color: aqua !important; */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #2489cb 90%,
+    #0068ab 95%,
+    #00446f 100%
+  );
+}
+
+.MuiLinearProgress-root {
+  background: rgba(0, 0, 0, 0.08) !important;
+}
+
+a {
+  color: #0076c2;
+}
+
+a:hover {
+  color: var(--color-base-red);
 }

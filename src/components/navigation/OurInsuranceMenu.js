@@ -7,8 +7,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
   faScissors,
+  faHome,
   faCircleUser,
   faClipboard,
+  faBook,
+  faSearch,
+  faMotorcycle,
 } from "@fortawesome/pro-light-svg-icons";
 import Divider from "@mui/material/Divider";
 import MenuList from "@mui/material/MenuList";
@@ -69,51 +73,41 @@ export default function OurInsuranceMenu() {
         }}
       >
         <MenuList>
-          <Link to="/">
-            <MenuItem>
-              <ListItemIcon>
-                <FontAwesomeIcon icon={faScissors} fontSize="large" />
-              </ListItemIcon>
-              <ListItemText>
-                Home
-                {/*Product</Link> */}
-              </ListItemText>
-            </MenuItem>
-          </Link>
-          <Link to="/product">
-            <MenuItem>
-              <ListItemIcon>
-                <FontAwesomeIcon icon={faCircleUser} fontSize="large" />
-              </ListItemIcon>
-              <ListItemText>Product</ListItemText>
-            </MenuItem>
-          </Link>
-          <Link to="/courses/list">
-            <MenuItem>
-              <ListItemIcon>
-                <FontAwesomeIcon icon={faClipboard} fontSize="large" />
-              </ListItemIcon>
-              <ListItemText>Courses</ListItemText>
-            </MenuItem>
-          </Link>
-          <Link to="">
-            <MenuItem>
-              <ListItemIcon>
-                <FontAwesomeIcon icon={faClipboard} fontSize="large" />
-              </ListItemIcon>
-              <ListItemText>Course Search</ListItemText>
-            </MenuItem>
-          </Link>
+          <MenuItem component={Link} to={"/"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faHome} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Home</ListItemText>
+          </MenuItem>
+          <MenuItem component={Link} to={"/product"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faScissors} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Products</ListItemText>
+          </MenuItem>
+
+          <MenuItem component={Link} to={"/courses/list"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faBook} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Courses</ListItemText>
+          </MenuItem>
+
+          <MenuItem component={Link} to={"/products/:motorcycle"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faMotorcycle} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Motorcycle</ListItemText>
+          </MenuItem>
 
           <Divider />
-          <Link to="/products/:motorcycle">
-            <MenuItem>
-              <ListItemIcon>
-                <Cloud fontSize="small" />
-              </ListItemIcon>
-              <ListItemText>motorcycle</ListItemText>
-            </MenuItem>
-          </Link>
+
+          <MenuItem component={Link} to={"/courses/search"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faSearch} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Search</ListItemText>
+          </MenuItem>
         </MenuList>
       </Menu>
     </>

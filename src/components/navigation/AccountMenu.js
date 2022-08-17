@@ -5,9 +5,19 @@ import MenuItem from "@mui/material/MenuItem";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faCircleUser } from "@fortawesome/pro-light-svg-icons";
+import {
+  faChevronDown,
+  faHome,
+  faFile,
+  faStar,
+} from "@fortawesome/pro-light-svg-icons";
 import IconButton from "@mui/material/IconButton";
 import LoginModal from "./LoginModal";
+
+import ListItemText from "@mui/material/ListItemText";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import { Link } from "react-router-dom";
+
 export default function AccountMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -26,12 +36,12 @@ export default function AccountMenu() {
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
-        size="medium"
+        size="small"
         edge="start"
         aria-label="menu"
         sx={{ mr: 2 }}
       >
-        <FontAwesomeIcon icon={faCircleUser} />
+        <FontAwesomeIcon icon={faChevronDown} />
       </IconButton>
 
       <Menu
@@ -43,11 +53,24 @@ export default function AccountMenu() {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem onClick={handleClose}>
-          <LoginModal />
+        <MenuItem>
+          <ListItemIcon>
+            <LoginModal />
+          </ListItemIcon>
+          <ListItemText>Login</ListItemText>
         </MenuItem>
-        <MenuItem onClick={handleClose}>Register</MenuItem>
-        <MenuItem onClick={handleClose}>My AA Insurance</MenuItem>
+        <MenuItem component={Link} to={"/register"}>
+          <ListItemIcon>
+            <FontAwesomeIcon icon={faStar} fontSize="large" />
+          </ListItemIcon>
+          <ListItemText>Register</ListItemText>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <ListItemIcon>
+            <FontAwesomeIcon icon={faStar} fontSize="large" />
+          </ListItemIcon>
+          <ListItemText>My AA Insurance</ListItemText>
+        </MenuItem>
       </Menu>
     </>
   );

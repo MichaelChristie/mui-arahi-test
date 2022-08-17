@@ -24,6 +24,7 @@ export default function Header() {
           bgcolor: "inherit",
           backdropFilter: "blur(10px)",
           height: { xs: 64, sm: 64, md: 72, lg: 72, xl: 80 },
+          zIndex: (theme) => theme.zIndex.drawer + 1, // Makes the header above the menu
         }}
       >
         <BokehHeader />

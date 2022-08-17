@@ -1,5 +1,5 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
+import { Grid, Container, Paper, Box } from "@mui/material/";
 import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
 import List from "@mui/material/List";
@@ -10,17 +10,21 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/pro-light-svg-icons";
-import IconButton from "@mui/material/IconButton";
 import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import IconButton from "@mui/material/IconButton";
 import {
+  faBars,
   faScissors,
   faCircleUser,
   faClipboard,
 } from "@fortawesome/pro-light-svg-icons";
+import { Toolbar } from "@mui/material";
+import PageLayout from "../PageLayout";
+import ProductGrid from "../ProductGrid";
+import MenuGrid from "./MenuGrid";
 
 export default function HamburgerMenu() {
   const [state, setState] = React.useState({
@@ -43,64 +47,21 @@ export default function HamburgerMenu() {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 250 }}
+      sx={{
+        width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
+        backgroundColor: "rgba(255, 255, 255, 0.90) !important",
+        // backgroundColor: "#FFDD00",
+        backdropFilter: "blur(10px)",
+      }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      {/* <List>
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-      <Divider /> */}
-      {/* <List>
-        {["All mail", "Trash", "Spam"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List> */}
-
-      <ListItemButton>
-        <ListItemIcon>
-          <FontAwesomeIcon icon={faClipboard} fontSize="large" />
-        </ListItemIcon>
-        <ListItemText>
-          <Link to="/">Home</Link>
-        </ListItemText>
-      </ListItemButton>
-      <Divider />
-
-      <ListItemButton>
-        <ListItemIcon>
-          <FontAwesomeIcon icon={faClipboard} fontSize="large" />
-        </ListItemIcon>
-        <ListItemText>
-          <Link to="/product">Product</Link>
-        </ListItemText>
-      </ListItemButton>
-
-      <ListItemButton>
-        <ListItemIcon>
-          <FontAwesomeIcon icon={faClipboard} fontSize="large" />
-        </ListItemIcon>
-        <ListItemText>
-          <Link to="/courses/search">Course Search</Link>
-        </ListItemText>
-      </ListItemButton>
+      <Toolbar />
+      <PageLayout>
+        <MenuGrid />
+        <MenuGrid />
+      </PageLayout>
     </Box>
   );
 

@@ -10,6 +10,16 @@ const lightTheme = {
     secondary: {
       main: MyData.global.color.base.yellow.value,
     },
+    // action: {
+    // active: MyData.global.color.base.blue.value,
+    // activeOpacity: 1,
+    // hover: MyData.global.color.base.blue.value,
+    // hoverOpacity: 0.1,
+    // focus: MyData.global.color.base.blue.value,
+    // focusOpacity: 0.5,
+    // selected: MyData.global.color.base.blue.value,
+    // selectedOpacity: 1,
+    // },
     grey: {
       main: MyData.global.color.base.grey.value,
       contrastText: MyData.global.color.base.blue.value,
@@ -93,6 +103,22 @@ const lightTheme = {
         root: {
           // Some CSS
           // background: "rgba(255, 255, 255, 0.75);",
+        },
+      },
+    },
+    MuiTabPanel: {
+      styleOverrides: {
+        root: {
+          padding: "50px !important",
+          backgroundColor: "#FF0000",
+        },
+      },
+    },
+    MuiBox: {
+      styleOverrides: {
+        root: {
+          padding: "0px !important",
+          backgroundColor: "green !important",
         },
       },
     },

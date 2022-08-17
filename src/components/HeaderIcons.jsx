@@ -17,6 +17,7 @@ export default function HeaderIcons() {
   return (
     <>
       <AccountMenu />
+      <LoginModal />
       <PhoneModal />
       <HamburgerMenu />
       {/* <LoginModal /> */}

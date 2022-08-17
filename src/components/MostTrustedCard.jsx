@@ -9,7 +9,7 @@ import Typography from "@mui/material/Typography";
 import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import SkipNextIcon from "@mui/icons-material/SkipNext";
-import { Link } from "react-router-dom";
+import { Link, useHref } from "react-router-dom";
 
 // import MostTrustedBadge from "../images/TBNZ2022_Winner_GeneralInsurance_2011.png";
 // image = "url(../images/TBNZ2022_Winner_GeneralInsurance_2011-2022.png)";
@@ -34,8 +34,10 @@ export default function MostTrustedCard() {
           <Typography variant="body" color="text.secondary" component="div">
             As voted by consumers 2011-2022 in the Reader's Digest Trusted Brand
             survey.
-            <Link to="product/:motorcycle">Find out more</Link>
           </Typography>
+          <Link to="product/:motorcycle" color="primary">
+            Find out more
+          </Link>
         </CardContent>
       </Box>
     </Card>

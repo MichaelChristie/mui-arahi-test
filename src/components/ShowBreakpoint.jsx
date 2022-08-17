@@ -8,17 +8,18 @@ export default function ShowBreakpoint() {
     <>
       <Box
         sx={{
-          position: "absolute",
-          background: "#FFD400",
-          zIndex: 1,
-          bottom: 8,
-          right: 8,
-          p: 1,
+          // position: "absolute",
+          // background: "#FFD400",
           borderRadius: 2,
+
+          // ml: 1,
         }}
       >
         <Box
           sx={{
+            background: "#00a17c",
+            px: 0.5,
+            borderRadius: 2,
             display: {
               xs: "block",
               sm: "none",
@@ -32,6 +33,9 @@ export default function ShowBreakpoint() {
         </Box>
         <Box
           sx={{
+            background: "#00a17c",
+            px: 0.5,
+            borderRadius: 2,
             display: {
               xs: "none",
               sm: "block",
@@ -45,6 +49,9 @@ export default function ShowBreakpoint() {
         </Box>
         <Box
           sx={{
+            background: "#bfdcf0",
+            px: 0.5,
+            borderRadius: 2,
             display: {
               xs: "none",
               sm: "none",
@@ -58,6 +65,9 @@ export default function ShowBreakpoint() {
         </Box>
         <Box
           sx={{
+            background: "#ee6363",
+            px: 0.5,
+            borderRadius: 2,
             display: {
               xs: "none",
               sm: "none",
@@ -71,6 +81,9 @@ export default function ShowBreakpoint() {
         </Box>
         <Box
           sx={{
+            background: "#dfba00",
+            px: 0.5,
+            borderRadius: 2,
             display: {
               xs: "none",
               sm: "none",

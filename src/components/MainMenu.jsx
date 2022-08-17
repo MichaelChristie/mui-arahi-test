@@ -5,6 +5,7 @@ import ClaimMenu from "./navigation/ClaimMenu";
 import ManagePolicyMenu from "./navigation/ManagePolicyMenu";
 import OurInsuranceMenu from "./navigation/OurInsuranceMenu";
 import HeaderIcons from "./HeaderIcons";
+import LoginModal from "./navigation/LoginModal";
 
 // import { Link } from "react-router-dom";
 
@@ -51,6 +52,7 @@ export default function Content() {
           >
             Help &amp; Contact
           </Button>
+
           <HeaderIcons />
         </Box>
       </Box>

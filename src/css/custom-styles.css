@@ -14,6 +14,16 @@
   color: #042a49;
 }
 
+.fa-primary {
+  color: #00517f;
+  opacity: 1 !important;
+}
+
+.fa-secondary {
+  color: #0076c2;
+  opacity: 1 !important;
+}
+
 code {
   color: #ccc;
   font-family: monospace;
@@ -54,10 +64,16 @@ code {
 }
 
 .circle {
-  border: 4px solid #ffd300;
   border-radius: 50%;
   background-size: 60%;
   background-color: #ffffff;
+  text-align: center;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 36px;
+  height: 36px;
 }
 
 .simple {
@@ -110,374 +126,374 @@ code {
 }
 
 .circle-arrow {
-  background-image: url(./images/svg/Communication/Email-icon.svg);
+  background-image: url(../images/svg/circle/arrow.svg);
 }
 
 .aai-icon-arrow {
-  background-image: url(./images/svg/circle/arrow.svg);
+  background-image: url(../images/svg/circle/arrow.svg);
 }
 
 .aai-icon-bullet {
-  background-image: url(./images/svg/circle/bullet.svg);
+  background-image: url(../images/svg/circle/bullet.svg);
 }
 
 .aai-icon-cross {
-  background-image: url(./images/svg/circle/cross.svg);
+  background-image: url(../images/svg/circle/cross.svg);
 }
 
 .aai-icon-discount {
-  background-image: url(./images/svg/circle/discount.svg);
+  background-image: url(../images/svg/circle/discount.svg);
 }
 
 .aai-icon-minus {
-  background-image: url(./images/svg/circle/minus.svg);
+  background-image: url(../images/svg/circle/minus.svg);
 }
 
 .aai-icon-plus {
-  background-image: url(./images/svg/circle/plus.svg);
+  background-image: url(../images/svg/circle/plus.svg);
 }
 
 .aai-icon-tick {
-  background-image: url(./images/svg/circle/tick.svg);
+  background-image: url(../images/svg/circle/tick.svg);
 }
 
 .aai-icon-email {
-  background-image: url(./images/svg/communication/email.svg);
+  background-image: url(../images/svg/communication/email.svg);
 }
 
 .aai-icon-phone {
-  background-image: url(./images/svg/communication/phone.svg);
+  background-image: url(../images/svg/communication/phone.svg);
 }
 
 .aai-icon-speech {
-  background-image: url(./images/svg/communication/speech.svg);
+  background-image: url(../images/svg/communication/speech.svg);
 }
 
 .aai-icon-cross {
-  background-image: url(./images/svg/compare/cross.svg);
+  background-image: url(../images/svg/compare/cross.svg);
 }
 
 .aai-icon-tick {
-  background-image: url(./images/svg/compare/tick.svg);
+  background-image: url(../images/svg/compare/tick.svg);
 }
 
 .aai-icon-computer {
-  background-image: url(./images/svg/devices/computer.svg);
+  background-image: url(../images/svg/devices/computer.svg);
 }
 
 .aai-icon-mobile {
-  background-image: url(./images/svg/devices/mobile.svg);
+  background-image: url(../images/svg/devices/mobile.svg);
 }
 
 .aai-icon-tablet {
-  background-image: url(./images/svg/devices/tablet.svg);
+  background-image: url(../images/svg/devices/tablet.svg);
 }
 
 .aai-icon-alert {
-  background-image: url(./images/svg/help/alert.svg);
+  background-image: url(../images/svg/help/alert.svg);
 }
 
 .aai-icon-info {
-  background-image: url(./images/svg/help/info.svg);
+  background-image: url(../images/svg/help/info.svg);
 }
 
 .aai-icon-question {
-  background-image: url(./images/svg/help/question.svg);
+  background-image: url(../images/svg/help/question.svg);
 }
 
 .aai-icon-money-cards {
-  background-image: url(./images/svg/money/cards.svg);
+  background-image: url(../images/svg/money/cards.svg);
 }
 
 .aai-icon-money {
-  background-image: url(./images/svg/money/money.svg);
+  background-image: url(../images/svg/money/money.svg);
 }
 
 .aai-icon-pay {
-  background-image: url(./images/svg/money/pay.svg);
+  background-image: url(../images/svg/money/pay.svg);
 }
 
 .aai-icon-boat {
-  background-image: url(./images/svg/products/boat.svg);
+  background-image: url(../images/svg/products/boat.svg);
 }
 
 .aai-icon-small-business {
-  background-image: url(./images/svg/products/small-business.svg);
+  background-image: url(../images/svg/products/small-business.svg);
 }
 
 .aai-icon-car {
-  background-image: url(./images/svg/products/car.svg);
+  background-image: url(../images/svg/products/car.svg);
 }
 
 .aai-icon-caravan {
-  background-image: url(./images/svg/products/caravan.svg);
+  background-image: url(../images/svg/products/caravan.svg);
 }
 
 .aai-icon-classic-vehicle {
-  background-image: url(./images/svg/products/classic-vehicle.svg);
+  background-image: url(../images/svg/products/classic-vehicle.svg);
 }
 
 .aai-icon-contents {
-  background-image: url(./images/svg/products/contents.svg);
+  background-image: url(../images/svg/products/contents.svg);
 }
 
 .aai-icon-health {
-  background-image: url(./images/svg/products/health.svg);
+  background-image: url(../images/svg/products/health.svg);
 }
 
 .aai-icon-home-contents {
-  background-image: url(./images/svg/products/home-contents.svg);
+  background-image: url(../images/svg/products/home-contents.svg);
 }
 
 .aai-icon-home {
-  background-image: url(./images/svg/products/home.svg);
+  background-image: url(../images/svg/products/home.svg);
 }
 
 .aai-icon-landlord {
-  background-image: url(./images/svg/products/landlord.svg);
+  background-image: url(../images/svg/products/landlord.svg);
 }
 
 .aai-icon-life {
-  background-image: url(./images/svg/products/life.svg);
+  background-image: url(../images/svg/products/life.svg);
 }
 
 .aai-icon-motorcycle {
-  background-image: url(./images/svg/products/motorcycle.svg);
+  background-image: url(../images/svg/products/motorcycle.svg);
 }
 
 .aai-icon-motorhome {
-  background-image: url(./images/svg/products/motorhome.svg);
+  background-image: url(../images/svg/products/motorhome.svg);
 }
 
 .aai-icon-pets {
-  background-image: url(./images/svg/products/pets.svg);
+  background-image: url(../images/svg/products/pets.svg);
 }
 
 .aai-icon-renters {
-  background-image: url(./images/svg/products/renters.svg);
+  background-image: url(../images/svg/products/renters.svg);
 }
 
 .aai-icon-trailer {
-  background-image: url(./images/svg/products/trailer.svg);
+  background-image: url(../images/svg/products/trailer.svg);
 }
 
 .aai-icon-travel {
-  background-image: url(./images/svg/products/travel.svg);
+  background-image: url(../images/svg/products/travel.svg);
 }
 
 .aai-icon-building-material {
-  background-image: url(./images/svg/risks/building-material.svg);
+  background-image: url(../images/svg/risks/building-material.svg);
 }
 
 .aai-icon-car-fire {
-  background-image: url(./images/svg/risks/car-fire.svg);
+  background-image: url(../images/svg/risks/car-fire.svg);
 }
 
 .aai-icon-flood {
-  background-image: url(./images/svg/risks/flood.svg);
+  background-image: url(../images/svg/risks/flood.svg);
 }
 
 .aai-icon-injury {
-  background-image: url(./images/svg/risks/injury.svg);
+  background-image: url(../images/svg/risks/injury.svg);
 }
 
 .aai-icon-motorcycle-fire {
-  background-image: url(./images/svg/risks/motorcycle-fire.svg);
+  background-image: url(../images/svg/risks/motorcycle-fire.svg);
 }
 
 .aai-icon-portable {
-  background-image: url(./images/svg/risks/portable.svg);
+  background-image: url(../images/svg/risks/portable.svg);
 }
 
 .aai-icon-slope-large {
-  background-image: url(./images/svg/risks/slope-large.svg);
+  background-image: url(../images/svg/risks/slope-large.svg);
 }
 
 .aai-icon-slope-medium {
-  background-image: url(./images/svg/risks/slope-medium.svg);
+  background-image: url(../images/svg/risks/slope-medium.svg);
 }
 
 .aai-icon-slope-none {
-  background-image: url(./images/svg/risks/slope-none.svg);
+  background-image: url(../images/svg/risks/slope-none.svg);
 }
 
 .aai-icon-slope-small {
-  background-image: url(./images/svg/risks/slope-small.svg);
+  background-image: url(../images/svg/risks/slope-small.svg);
 }
 
 .aai-icon-spec-items-bicycle {
-  background-image: url(./images/svg/specified-items/bicycle.svg);
+  background-image: url(../images/svg/specified-items/bicycle.svg);
 }
 
 .aai-icon-spec-items-camera {
-  background-image: url(./images/svg/specified-items/camera.svg);
+  background-image: url(../images/svg/specified-items/camera.svg);
 }
 
 .aai-icon-spec-items-cards {
-  background-image: url(./images/svg/specified-items/cards.svg);
+  background-image: url(../images/svg/specified-items/cards.svg);
 }
 
 .aai-icon-spec-items-coins {
-  background-image: url(./images/svg/specified-items/coins.svg);
+  background-image: url(../images/svg/specified-items/coins.svg);
 }
 
 .aai-icon-spec-items-collections {
-  background-image: url(./images/svg/specified-items/collections.svg);
+  background-image: url(../images/svg/specified-items/collections.svg);
 }
 
 .aai-icon-spec-items-high-value {
-  background-image: url(./images/svg/specified-items/high-value.svg);
+  background-image: url(../images/svg/specified-items/high-value.svg);
 }
 
 .aai-icon-spec-items-medals {
-  background-image: url(./images/svg/specified-items/medals.svg);
+  background-image: url(../images/svg/specified-items/medals.svg);
 }
 
 .aai-icon-spec-items-stamps {
-  background-image: url(./images/svg/specified-items/stamps.svg);
+  background-image: url(../images/svg/specified-items/stamps.svg);
 }
 
 .aai-icon-spec-items-tools {
-  background-image: url(./images/svg/specified-items/tools.svg);
+  background-image: url(../images/svg/specified-items/tools.svg);
 }
 
 .aai-icon-works-of-art {
-  background-image: url(./images/svg/specified-items/works-of-art.svg);
+  background-image: url(../images/svg/specified-items/works-of-art.svg);
 }
 
 .aai-icon-24hours {
-  background-image: url(./images/svg/time/24-hours.svg);
+  background-image: url(../images/svg/time/24-hours.svg);
 }
 
 .aai-icon-time {
-  background-image: url(./images/svg/time/time.svg);
+  background-image: url(../images/svg/time/time.svg);
 }
 
 .aai-icon-apartment {
-  background-image: url(./images/svg/uncommon/apartment.svg);
+  background-image: url(../images/svg/uncommon/apartment.svg);
 }
 
 .aai-icon-building-type {
-  background-image: url(./images/svg/uncommon/building-type.svg);
+  background-image: url(../images/svg/uncommon/building-type.svg);
 }
 
 .aai-icon-ctp {
-  background-image: url(./images/svg/uncommon/ctp.svg);
+  background-image: url(../images/svg/uncommon/ctp.svg);
 }
 
 .aai-icon-end-consent {
-  background-image: url(./images/svg/uncommon/end-consent.svg);
+  background-image: url(../images/svg/uncommon/end-consent.svg);
 }
 
 .aai-icon-external-link {
-  background-image: url(./images/svg/uncommon/external-link.svg);
+  background-image: url(../images/svg/uncommon/external-link.svg);
 }
 
 .aai-icon-file {
-  background-image: url(./images/svg/uncommon/file.svg);
+  background-image: url(../images/svg/uncommon/file.svg);
 }
 
 .aai-icon-income-protect {
-  background-image: url(./images/svg/uncommon/income-protect.svg);
+  background-image: url(../images/svg/uncommon/income-protect.svg);
 }
 
 .aai-icon-lock {
-  background-image: url(./images/svg/uncommon/lock.svg);
+  background-image: url(../images/svg/uncommon/lock.svg);
 }
 
 .aai-icon-login {
-  background-image: url(./images/svg/uncommon/login.svg);
+  background-image: url(../images/svg/uncommon/login.svg);
 }
 
 .aai-icon-mail {
-  background-image: url(./images/svg/uncommon/mail.svg);
+  background-image: url(../images/svg/uncommon/mail.svg);
 }
 
 .aai-icon-multi-unit-10 {
-  background-image: url(./images/svg/uncommon/multi-unit-10.svg);
+  background-image: url(../images/svg/uncommon/multi-unit-10.svg);
 }
 
 .aai-icon-multi-unit-11 {
-  background-image: url(./images/svg/uncommon/multi-unit-11.svg);
+  background-image: url(../images/svg/uncommon/multi-unit-11.svg);
 }
 
 .aai-icon-policy {
-  background-image: url(./images/svg/uncommon/policy.svg);
+  background-image: url(../images/svg/uncommon/policy.svg);
 }
 
 .aai-icon-oadside-assistance {
-  background-image: url(./images/svg/uncommon/roadside-assistance.svg);
+  background-image: url(../images/svg/uncommon/roadside-assistance.svg);
 }
 
 .aai-icon-roof {
-  background-image: url(./images/svg/uncommon/roof.svg);
+  background-image: url(../images/svg/uncommon/roof.svg);
 }
 
 .aai-icon-wall {
-  background-image: url(./images/svg/uncommon/wall.svg);
+  background-image: url(../images/svg/uncommon/wall.svg);
 }
 
 .aai-icon-audible {
-  background-image: url(./images/svg/uncommon/alarm/audible.svg);
+  background-image: url(../images/svg/uncommon/alarm/audible.svg);
 }
 
 .aai-icon-monitored {
-  background-image: url(./images/svg/uncommon/alarm/monitored.svg);
+  background-image: url(../images/svg/uncommon/alarm/monitored.svg);
 }
 
 .aai-icon-none {
-  background-image: url(./images/svg/uncommon/alarm/none.svg);
+  background-image: url(../images/svg/uncommon/alarm/none.svg);
 }
 
 .aai-icon-people {
-  background-image: url(./images/svg/user/people.svg);
+  background-image: url(../images/svg/user/people.svg);
 }
 
 .aai-icon-person {
-  background-image: url(./images/svg/user/person.svg);
+  background-image: url(../images/svg/user/person.svg);
 }
 
 .aai-icon-arrow {
-  background-image: url(./images/svg/utilities/arrow.svg);
+  background-image: url(../images/svg/utilities/arrow.svg);
 }
 
 .aai-icon-award {
-  background-image: url(./images/svg/utilities/award.svg);
+  background-image: url(../images/svg/utilities/award.svg);
 }
 
 .aai-icon-calculator {
-  background-image: url(./images/svg/utilities/calculator.svg);
+  background-image: url(../images/svg/utilities/calculator.svg);
 }
 
 .aai-icon-calendar {
-  background-image: url(./images/svg/utilities/calendar.svg);
+  background-image: url(../images/svg/utilities/calendar.svg);
 }
 
 .aai-icon-checklist {
-  background-image: url(./images/svg/utilities/checklist.svg);
+  background-image: url(../images/svg/utilities/checklist.svg);
 }
 
 .aai-icon-driver {
-  background-image: url(./images/svg/utilities/driver.svg);
+  background-image: url(../images/svg/utilities/driver.svg);
 }
 
 .aai-icon-edit {
-  background-image: url(./images/svg/utilities/edit.svg);
+  background-image: url(../images/svg/utilities/edit.svg);
 }
 
 .aai-icon-gears {
-  background-image: url(./images/svg/utilities/gears.svg);
+  background-image: url(../images/svg/utilities/gears.svg);
 }
 
 .aai-icon-location {
-  background-image: url(./images/svg/utilities/location.svg);
+  background-image: url(../images/svg/utilities/location.svg);
 }
 
 .aai-icon-print {
-  background-image: url(./images/svg/utilities/print.svg);
+  background-image: url(../images/svg/utilities/print.svg);
 }
 
 .aai-icon-search {
-  background-image: url(./images/svg/utilities/search.svg);
+  background-image: url(../images/svg/utilities/search.svg);
 }
 /*# sourceMappingURL=custom-styles.css.map */
