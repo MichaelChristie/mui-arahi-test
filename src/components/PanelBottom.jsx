@@ -4,6 +4,7 @@ import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
 import CTAZoneHomepage from "./CTAZoneHomepage";
 import PanelCurvedTop from "./PanelCurvedTop;";
+import { Typography } from "@mui/joy";
 export default function PanelBottom({ children }) {
   return (
     <Box
@@ -27,9 +28,10 @@ export default function PanelBottom({ children }) {
             lg: "1 0 auto",
           },
           alignSelf: "stretch",
-          background: "rgba(50,120,250,0.5)",
+          background: "#FFDD00",
         }}
       >
+        <></>
         {/* EXPANDS TO ALLOW THE PANEL TO STICK TO THE BOTTOM */}
       </Box>
       <Box
