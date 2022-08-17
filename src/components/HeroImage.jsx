@@ -22,6 +22,7 @@ import HeroImageMobile from "./images/nanas-turkey_MOB.jpg";
 export default function HeroImage({ children }) {
   return (
     <>
+      {/* //DELETE THIS FILE */}
       <Grid item>
         <Box
           sx={{

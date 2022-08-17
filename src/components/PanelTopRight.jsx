@@ -24,7 +24,7 @@ export default function PanelTopRight({ children }) {
             lg: "1 0 auto",
           },
           alignSelf: "stretch",
-          background: "rgba(50,120,0,0.5)",
+          // background: "rgba(50,120,0,0.5)",
         }}
       >
         {/* EXPANDS TO ALLOW THE PANEL TO STICK TO THE BOTTOM */}
