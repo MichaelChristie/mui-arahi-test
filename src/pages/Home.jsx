@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Grid, Box, Button, Typography } from "@mui/material/";
 import PageLayout from "../components/PageLayout";
-import PanelTopRight from "../components/PanelTopRight";
+import PanelTopRight from "../components/PanelTop";
 import Content from "../components/Content";
 import MostTrustedCard from "../components/MostTrustedCard";
 import ProductGrid from "../components/ProductGrid";

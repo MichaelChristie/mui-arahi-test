@@ -19,7 +19,7 @@ import HeroImageMobile from "../images/dummyimage880x580.png";
 // import HeroImageMobile from "../images/ring_MOB.jpg";
 
 import PageLayout from "../components/PageLayout";
-import PanelTopRight from "../components/PanelTopRight";
+import PanelTopRight from "./PanelTop";
 import Content from "../components/Content";
 import MostTrustedCard from "../components/MostTrustedCard";
 import ProductGrid from "../components/ProductGrid";

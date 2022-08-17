@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Box } from "@mui/material/";
-import HomeCTAPanelLayout from "./HomeCTAPanelLayout";
-export default function PanelTopRight({ children }) {
+import HomeLayoutPanelLeft from "./PanelLeft";
+export default function PanelTop({ children }) {
   return (
     <Box
       sx={{
@@ -24,7 +24,7 @@ export default function PanelTopRight({ children }) {
             lg: "1 0 auto",
           },
           alignSelf: "stretch",
-          // background: "rgba(50,120,0,0.5)",
+          background: "rgba(50,120,0,0.5)",
         }}
       >
         {/* EXPANDS TO ALLOW THE PANEL TO STICK TO THE BOTTOM */}
@@ -45,25 +45,7 @@ export default function PanelTopRight({ children }) {
           zIndex: 1,
         }}
       >
-        <HomeCTAPanelLayout>
-          {/* // Change attributes for sm, xs */}
-          <Box
-            sx={{
-              borderRadius: {
-                xs: "32px 32px 0px 0px",
-                lg: "0px 0px 32px 32px",
-              },
-
-              p: {
-                xs: 2,
-                lg: 6,
-              },
-              bgcolor: "background.paper",
-            }}
-          >
-            {children}
-          </Box>
-        </HomeCTAPanelLayout>
+        {children}
       </Box>
     </Box>
   );

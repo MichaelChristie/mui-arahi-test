@@ -1,13 +1,20 @@
 import * as React from "react";
-import PanelTopRight from "../components/PanelTopRight";
+import PanelTop from "./PanelTop";
+import PanelBottom from "./PanelBottom";
 import CTAZoneHomepage from "./CTAZoneHomepage";
-
+import PanelLeft from "./PanelLeft";
+import PanelRight from "./PanelRight";
+import PanelCurvedTop from "./PanelCurvedTop;";
+import PanelCurvedBottom from "./PanelCurvedBottom";
 export default function HeroInnerContents() {
   return (
     <>
-      <PanelTopRight sx={{ zIndex: 1, position: "absolute" }}>
-        <CTAZoneHomepage />
-      </PanelTopRight>
+      <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
+        <PanelLeft>
+          {/* <PanelCurvedTop /> */}
+          <PanelCurvedBottom />
+        </PanelLeft>
+      </PanelTop>
     </>
   );
 }
