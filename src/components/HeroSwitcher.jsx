@@ -54,6 +54,7 @@ export default function HeroSwitcher() {
           <>
             <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
               <PanelLeft>
+                {/* Top Left */}
                 <PanelCurvedBottom />
               </PanelLeft>
             </PanelTop>
@@ -63,6 +64,7 @@ export default function HeroSwitcher() {
           <>
             <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
               <PanelRight>
+                {/* Top Right */}
                 <PanelCurvedBottom />
               </PanelRight>
             </PanelTop>
@@ -70,16 +72,18 @@ export default function HeroSwitcher() {
         </TabPanel>
         <TabPanel value={value} index={2}>
           <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
-            <PanelLeft>
+            <PanelRight>
+              {/* Bottom Right */}
               <PanelCurvedTop />
-            </PanelLeft>
+            </PanelRight>
           </PanelBottom>
         </TabPanel>
         <TabPanel value={value} index={3}>
           <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
-            <PanelRight>
+            <PanelLeft>
+              {/* Bottom Left */}
               <PanelCurvedTop />
-            </PanelRight>
+            </PanelLeft>
           </PanelBottom>
         </TabPanel>
         <Box
@@ -95,10 +99,10 @@ export default function HeroSwitcher() {
         onChange={handleChange}
         aria-label="basic tabs example"
       >
-        <Tab label="Item One" {...a11yProps(0)} />
-        <Tab label="Item Two" {...a11yProps(1)} />
-        <Tab label="Item Three" {...a11yProps(2)} />
-        <Tab label="Item Four" {...a11yProps(3)} />
+        <Tab label="Top Left" {...a11yProps(0)} />
+        <Tab label="Top Right" {...a11yProps(1)} />
+        <Tab label="Bottom Right" {...a11yProps(2)} />
+        <Tab label="Bottom Left" {...a11yProps(3)} />
       </Tabs>
     </>
   );

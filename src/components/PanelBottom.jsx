@@ -1,22 +1,13 @@
 import * as React from "react";
 import { Box } from "@mui/material/";
-import PanelLeft from "./PanelLeft";
-import PanelRight from "./PanelRight";
-import CTAZoneHomepage from "./CTAZoneHomepage";
-import PanelCurvedTop from "./PanelCurvedTop;";
-import { Typography } from "@mui/joy";
+import HeroFlexContainer from "./HeroFlexContainer";
+import HeroFlexPanelBox from "./HeroFlexPanelBox";
+import HeroMarketingMessage from "./HeroMarketingMessage";
+
 export default function PanelBottom({ children }) {
   return (
-    <Box
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        height: "100%",
-        justifyContent: "flex-start",
-        alignContent: "stretch",
-        alignItems: "flex-start",
-      }}
-    >
+    <HeroFlexContainer>
+      {/* EXPANDS TO ALLOW THE PANEL TO STICK TO THE BOTTOM */}
       <Box
         sx={{
           order: {
@@ -28,30 +19,15 @@ export default function PanelBottom({ children }) {
             lg: "1 0 auto",
           },
           alignSelf: "stretch",
-          background: "#FFDD00",
-        }}
-      >
-        <></>
-        {/* EXPANDS TO ALLOW THE PANEL TO STICK TO THE BOTTOM */}
-      </Box>
-      <Box
-        sx={{
-          order: {
-            xs: 1,
-            lg: 2,
-          },
-          flex: {
-            xs: "0 0 auto",
-            lg: "0 0 auto",
-          },
-
-          alignSelf: "stretch",
-          background: "rgba(150,255,130,0.25)",
+          background: "rgba(50,120,0,0.125)",
           zIndex: 1,
         }}
       >
-        {children}
+        <>
+          <HeroMarketingMessage />
+        </>
       </Box>
-    </Box>
+      <HeroFlexPanelBox>{children}</HeroFlexPanelBox>
+    </HeroFlexContainer>
   );
 }
