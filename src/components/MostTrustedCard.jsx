@@ -34,10 +34,10 @@ export default function MostTrustedCard() {
           <Typography variant="body" color="text.secondary" component="div">
             As voted by consumers 2011-2022 in the Reader's Digest Trusted Brand
             survey.
+            <Link to="product/:motorcycle" color="primary">
+              Find out more
+            </Link>
           </Typography>
-          <Link to="product/:motorcycle" color="primary">
-            Find out more
-          </Link>
         </CardContent>
       </Box>
     </Card>

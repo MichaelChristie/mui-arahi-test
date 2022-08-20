@@ -89,7 +89,7 @@ export default function HeroSwitcher() {
         <Box
           sx={{
             borderBottom: 1,
-            borderColor: "divider",
+            borderColor: "transparent",
           }}
         ></Box>
       </Box>

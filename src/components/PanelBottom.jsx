@@ -3,6 +3,8 @@ import { Box } from "@mui/material/";
 import HeroFlexContainer from "./HeroFlexContainer";
 import HeroFlexPanelBox from "./HeroFlexPanelBox";
 import HeroMarketingMessage from "./HeroMarketingMessage";
+import PanelLeft from "./PanelLeft";
+import PanelRight from "./PanelRight";
 
 export default function PanelBottom({ children }) {
   return (
@@ -19,12 +21,14 @@ export default function PanelBottom({ children }) {
             lg: "1 0 auto",
           },
           alignSelf: "stretch",
-          background: "rgba(50,120,0,0.125)",
+          // background: "rgba(50,120,0,0.125)",
           zIndex: 1,
         }}
       >
         <>
-          <HeroMarketingMessage />
+          <PanelLeft>
+            <HeroMarketingMessage />
+          </PanelLeft>
         </>
       </Box>
       <HeroFlexPanelBox>{children}</HeroFlexPanelBox>
