@@ -8,7 +8,7 @@ export default function PanelRight({ children }) {
     <PageLayout>
       <Grid item container>
         <Grid item xs={12} lg={6}>
-          <HeroMarketingMessage />
+          {/* <HeroMarketingMessage /> */}
         </Grid>
         <Grid item xs={12} lg={6}>
           {children}
