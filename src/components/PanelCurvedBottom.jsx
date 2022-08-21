@@ -15,7 +15,7 @@ export default function PanelCurvedBottom({ children }) {
             xs: 2,
             lg: 6,
           },
-          mx: {
+          mr: {
             xs: 0,
             lg: 8,
           },

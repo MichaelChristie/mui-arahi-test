@@ -9,8 +9,8 @@ import { Grid, Box, Button, Typography } from "@mui/material/";
 // import HeroImage from "../images/dentures_DTP.jpg";
 // import HeroImageMobile from "../images/dentures_MOB.jpg";
 //NANAS TURKEY
-import HeroImage from "../images/nanas-turkey_DTP.jpg";
-import HeroImageMobile from "../images/nanas-turkey_MOB.jpg";
+import HeroImage from "../images/home-contents-illustration.png";
+import HeroImageMobile from "../images/home-contents-illustration.png";
 //JAMIES CAR
 // import HeroImage from "../images/jamies-car_DTP.jpg";
 // import HeroImageMobile from "../images/jamies-car_MOB.jpg";
@@ -29,13 +29,47 @@ import { Link } from "react-router-dom";
 import CTAZoneHomepage from "./CTAZoneHomepage";
 import HeroInnerContents from "./HeroInnerContents";
 import HeroSwitcher from "./HeroSwitcher";
-import HeroImagePhoto from "./HeroImagePhotoNana";
-export default function HeroHomepage() {
+
+export default function HeroImageIllustration({ children }) {
   return (
     <>
-      {/* <HeroImagePhoto>
+      {/* <Box sx={{ background: "transparent", zIndex: 1 }}>
         <HeroSwitcher />
-      </HeroImagePhoto> */}
+      </Box> */}
+
+      <Grid container direction="column">
+        <Grid item>
+          <Box
+            sx={{
+              height: {
+                xs: "100vh",
+                lg: "600px",
+              },
+              maxWidth: "1920px",
+              margin: "0 auto",
+              borderRadius: "4px",
+              backgroundImage: {
+                xs: `url(${HeroImageMobile})`,
+                lg: `url(${HeroImage})`,
+              },
+
+              backgroundSize: {
+                xs: "contain",
+                lg: "cover",
+              },
+              backgroundRepeat: "no-repeat",
+
+              backgroundPosition: {
+                xs: "top center",
+                lg: "bottom center",
+              },
+              backgroundColor: "#ebf4fb",
+            }}
+          >
+            {children}
+          </Box>
+        </Grid>
+      </Grid>
     </>
   );
 }

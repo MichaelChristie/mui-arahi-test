@@ -22,7 +22,7 @@ export default function PanelTop({ children }) {
             lg: "0 0 auto",
           },
           alignSelf: "stretch",
-          background: "rgba(50,120,0,0.25)",
+          // background: "rgba(50,120,0,0.25)",
           zIndex: 1,
         }}
       ></Box>

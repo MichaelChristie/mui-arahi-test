@@ -9,12 +9,13 @@ import BasicCard from "../components/Card";
 import HeaderBrochure from "../components/HeaderBrochure";
 import { Link } from "react-router-dom";
 import HeroHomepage from "../components/HeroHomepage";
+import HeroSwitcher from "../components/HeroSwitcher";
 
 export default function Home() {
   return (
     <>
       <HeaderBrochure />
-      <HeroHomepage />
+      <HeroSwitcher />
 
       <PageLayout>
         <Box sx={{ mt: 10 }} />

@@ -10,6 +10,10 @@ import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
 import PanelCurvedTop from "./PanelCurvedTop;";
 import PanelCurvedBottom from "./PanelCurvedBottom";
+import HeroImagePhotoNana from "./HeroImagePhotoNana";
+
+import HeroImagePhotoDentures from "./HeroImagePhotoDentures";
+import HeroImageIllustration from "./HeroImageIllustration";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -52,39 +56,48 @@ export default function HeroSwitcher() {
       <Box sx={{ height: { lg: 600 } }}>
         <TabPanel value={value} index={0}>
           <>
-            <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
-              <PanelLeft>
-                {/* Top Left */}
-                <PanelCurvedBottom />
-              </PanelLeft>
-            </PanelTop>
+            <HeroImageIllustration>
+              <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
+                <PanelLeft>
+                  {/* Top Left */}
+                  <PanelCurvedBottom />
+                </PanelLeft>
+              </PanelTop>
+            </HeroImageIllustration>
           </>
         </TabPanel>
         <TabPanel value={value} index={1}>
           <>
-            <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
-              <PanelRight>
-                {/* Top Right */}
-                <PanelCurvedBottom />
-              </PanelRight>
-            </PanelTop>
+            <HeroImagePhotoDentures>
+              <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
+                <PanelRight>
+                  {/* Top Right */}
+                  <PanelCurvedBottom />
+                </PanelRight>
+              </PanelTop>
+            </HeroImagePhotoDentures>
           </>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
-            <PanelRight>
-              {/* Bottom Right */}
-              <PanelCurvedTop />
-            </PanelRight>
-          </PanelBottom>
+          <HeroImagePhotoDentures>
+            <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
+              <PanelRight>
+                {/* Bottom Right */}
+                <PanelCurvedTop />
+              </PanelRight>
+            </PanelBottom>
+          </HeroImagePhotoDentures>
         </TabPanel>
+
         <TabPanel value={value} index={3}>
-          <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
-            <PanelLeft>
-              {/* Bottom Left */}
-              <PanelCurvedTop />
-            </PanelLeft>
-          </PanelBottom>
+          <HeroImagePhotoNana>
+            <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
+              <PanelLeft>
+                {/* Bottom Left */}
+                <PanelCurvedTop />
+              </PanelLeft>
+            </PanelBottom>
+          </HeroImagePhotoNana>
         </TabPanel>
         <Box
           sx={{
