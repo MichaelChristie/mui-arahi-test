@@ -30,7 +30,7 @@ export default function PanelTop({ children }) {
       <HeroFlexPanelBox>
         {children}
 
-        <HeroMarketingMessage />
+        {/* <HeroMarketingMessage /> */}
       </HeroFlexPanelBox>
     </HeroFlexContainer>
   );

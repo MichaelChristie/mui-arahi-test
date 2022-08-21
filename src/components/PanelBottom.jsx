@@ -25,9 +25,7 @@ export default function PanelBottom({ children }) {
           zIndex: 1,
         }}
       >
-        <>
-          <HeroMarketingMessage />
-        </>
+        <>{/* <HeroMarketingMessage /> */}</>
       </Box>
       <HeroFlexPanelBox>{children}</HeroFlexPanelBox>
     </HeroFlexContainer>

@@ -11,7 +11,7 @@ import PanelRight from "./PanelRight";
 import PanelCurvedTop from "./PanelCurvedTop;";
 import PanelCurvedBottom from "./PanelCurvedBottom";
 import HeroImagePhotoNana from "./HeroImagePhotoNana";
-
+import HeroMarketingMessage from "./HeroMarketingMessage";
 import HeroImagePhotoDentures from "./HeroImagePhotoDentures";
 import HeroImageIllustration from "./HeroImageIllustration";
 
@@ -54,23 +54,36 @@ export default function HeroSwitcher() {
   return (
     <>
       <Box sx={{ height: { lg: 600 } }}>
-        <TabPanel value={value} index={0}>
+        {/* <TabPanel value={value} index={0}>
           <>
             <HeroImageIllustration>
               <PanelLeft>
-                <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
-                  {/* Top Left */}
+                <PanelTop>
                   <PanelCurvedBottom />
                 </PanelTop>
               </PanelLeft>
             </HeroImageIllustration>
           </>
+        </TabPanel> */}
+
+        <TabPanel value={value} index={0}>
+          <>
+            <HeroImagePhotoNana>
+              <PanelLeft>
+                <PanelTop>
+                  {/* Bottom Left */}
+                  <PanelCurvedBottom />
+                </PanelTop>
+              </PanelLeft>
+            </HeroImagePhotoNana>
+          </>
         </TabPanel>
+
         <TabPanel value={value} index={1}>
           <>
             <HeroImagePhotoNana>
               <PanelLeft>
-                <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
+                <PanelBottom>
                   {/* Bottom Left */}
                   <PanelCurvedTop />
                 </PanelBottom>
@@ -81,7 +94,7 @@ export default function HeroSwitcher() {
         <TabPanel value={value} index={2}>
           <HeroImagePhotoDentures>
             <PanelRight>
-              <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
+              <PanelBottom>
                 {/* Bottom Right */}
                 <PanelCurvedTop />
               </PanelBottom>
@@ -92,19 +105,27 @@ export default function HeroSwitcher() {
         <TabPanel value={value} index={3}>
           <HeroImagePhotoDentures>
             <PanelRight>
-              <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
+              <PanelTop>
                 {/* Top Right */}
                 <PanelCurvedBottom />
               </PanelTop>
             </PanelRight>
           </HeroImagePhotoDentures>
         </TabPanel>
-        <Box
-          sx={{
-            borderBottom: 1,
-            borderColor: "transparent",
-          }}
-        ></Box>
+
+        <TabPanel value={value} index={4}>
+          <>
+            <HeroImageIllustration>
+              <PanelLeft rightCol={<HeroMarketingMessage />}>
+                <PanelTop>
+                  {/* rightCol={<HeroMarketingMessage />} */}
+                  {/* endIcon={<ExpandMoreIcon />} */}
+                  <PanelCurvedBottom />
+                </PanelTop>
+              </PanelLeft>
+            </HeroImageIllustration>
+          </>
+        </TabPanel>
       </Box>
 
       <Tabs
@@ -112,10 +133,11 @@ export default function HeroSwitcher() {
         onChange={handleChange}
         aria-label="basic tabs example"
       >
-        <Tab label="Top Left" {...a11yProps(0)} />
-        <Tab label="Bottom Left" {...a11yProps(1)} />
-        <Tab label="Bottom Right" {...a11yProps(2)} />
-        <Tab label="Top Right" {...a11yProps(3)} />
+        <Tab label="TL" {...a11yProps(0)} />
+        <Tab label="BL" {...a11yProps(1)} />
+        <Tab label="BR" {...a11yProps(2)} />
+        <Tab label="TR" {...a11yProps(3)} />
+        <Tab label="Illy TL" {...a11yProps(4)} />
       </Tabs>
     </>
   );

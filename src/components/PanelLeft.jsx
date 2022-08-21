@@ -3,7 +3,7 @@ import { Grid, Box, Typography } from "@mui/material/";
 import HeroMarketingMessage from "./HeroMarketingMessage";
 import PageLayout from "./PageLayout";
 
-export default function PanelLeft({ children }) {
+export default function PanelLeft({ children, rightCol }) {
   return (
     <PageLayout>
       <Grid item container>
@@ -11,7 +11,8 @@ export default function PanelLeft({ children }) {
           {children}
         </Grid>
         <Grid item xs={12} lg={6}>
-          <HeroMarketingMessage />
+          {/* <HeroMarketingMessage /> */}
+          {rightCol}
         </Grid>
       </Grid>
     </PageLayout>
