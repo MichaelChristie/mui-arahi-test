@@ -57,47 +57,47 @@ export default function HeroSwitcher() {
         <TabPanel value={value} index={0}>
           <>
             <HeroImageIllustration>
-              <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
-                <PanelLeft>
+              <PanelLeft>
+                <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
                   {/* Top Left */}
                   <PanelCurvedBottom />
-                </PanelLeft>
-              </PanelTop>
+                </PanelTop>
+              </PanelLeft>
             </HeroImageIllustration>
           </>
         </TabPanel>
         <TabPanel value={value} index={1}>
           <>
-            <HeroImagePhotoDentures>
-              <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
-                <PanelRight>
-                  {/* Top Right */}
-                  <PanelCurvedBottom />
-                </PanelRight>
-              </PanelTop>
-            </HeroImagePhotoDentures>
+            <HeroImagePhotoNana>
+              <PanelLeft>
+                <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
+                  {/* Bottom Left */}
+                  <PanelCurvedTop />
+                </PanelBottom>
+              </PanelLeft>
+            </HeroImagePhotoNana>
           </>
         </TabPanel>
         <TabPanel value={value} index={2}>
           <HeroImagePhotoDentures>
-            <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
-              <PanelRight>
+            <PanelRight>
+              <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
                 {/* Bottom Right */}
                 <PanelCurvedTop />
-              </PanelRight>
-            </PanelBottom>
+              </PanelBottom>
+            </PanelRight>
           </HeroImagePhotoDentures>
         </TabPanel>
 
         <TabPanel value={value} index={3}>
-          <HeroImagePhotoNana>
-            <PanelBottom sx={{ zIndex: 1, position: "absolute" }}>
-              <PanelLeft>
-                {/* Bottom Left */}
-                <PanelCurvedTop />
-              </PanelLeft>
-            </PanelBottom>
-          </HeroImagePhotoNana>
+          <HeroImagePhotoDentures>
+            <PanelRight>
+              <PanelTop sx={{ zIndex: 1, position: "absolute" }}>
+                {/* Top Right */}
+                <PanelCurvedBottom />
+              </PanelTop>
+            </PanelRight>
+          </HeroImagePhotoDentures>
         </TabPanel>
         <Box
           sx={{
@@ -113,9 +113,9 @@ export default function HeroSwitcher() {
         aria-label="basic tabs example"
       >
         <Tab label="Top Left" {...a11yProps(0)} />
-        <Tab label="Top Right" {...a11yProps(1)} />
+        <Tab label="Bottom Left" {...a11yProps(1)} />
         <Tab label="Bottom Right" {...a11yProps(2)} />
-        <Tab label="Bottom Left" {...a11yProps(3)} />
+        <Tab label="Top Right" {...a11yProps(3)} />
       </Tabs>
     </>
   );

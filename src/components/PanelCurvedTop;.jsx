@@ -18,9 +18,9 @@ export default function PanelCurvedTop({ children }) {
             xs: 2,
             lg: 6,
           },
-          mr: {
+          mx: {
             xs: 0,
-            lg: 8,
+            lg: 12,
           },
           bgcolor: "background.paper",
         }}

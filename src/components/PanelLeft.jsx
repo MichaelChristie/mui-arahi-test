@@ -11,7 +11,7 @@ export default function PanelLeft({ children }) {
           {children}
         </Grid>
         <Grid item xs={12} lg={6}>
-          {/* <HeroMarketingMessage /> */}
+          <HeroMarketingMessage />
         </Grid>
       </Grid>
     </PageLayout>

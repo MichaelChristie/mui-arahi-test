@@ -21,14 +21,12 @@ export default function PanelBottom({ children }) {
             lg: "1 0 auto",
           },
           alignSelf: "stretch",
-          // background: "rgba(50,120,0,0.125)",
+          background: "rgba(50,120,150,0.125)",
           zIndex: 1,
         }}
       >
         <>
-          <PanelLeft>
-            <HeroMarketingMessage />
-          </PanelLeft>
+          <HeroMarketingMessage />
         </>
       </Box>
       <HeroFlexPanelBox>{children}</HeroFlexPanelBox>
