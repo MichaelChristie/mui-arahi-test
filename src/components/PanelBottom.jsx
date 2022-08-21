@@ -6,7 +6,7 @@ import HeroMarketingMessage from "./HeroMarketingMessage";
 import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
 
-export default function PanelBottom({ children }) {
+export default function PanelBottom({ children, bokehMessage }) {
   return (
     <HeroFlexContainer>
       {/* EXPANDS TO ALLOW THE PANEL TO STICK TO THE BOTTOM */}
@@ -21,11 +21,11 @@ export default function PanelBottom({ children }) {
             lg: "1 0 auto",
           },
           alignSelf: "stretch",
-          background: "rgba(50,120,150,0.125)",
+          // background: "rgba(50,120,150,0.125)",
           zIndex: 1,
         }}
       >
-        <>{/* <HeroMarketingMessage /> */}</>
+        <>{bokehMessage}</>
       </Box>
       <HeroFlexPanelBox>{children}</HeroFlexPanelBox>
     </HeroFlexContainer>

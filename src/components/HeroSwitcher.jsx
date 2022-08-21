@@ -83,7 +83,7 @@ export default function HeroSwitcher() {
           <>
             <HeroImagePhotoNana>
               <PanelLeft>
-                <PanelBottom>
+                <PanelBottom bokehMessage={<HeroMarketingMessage />}>
                   {/* Bottom Left */}
                   <PanelCurvedTop />
                 </PanelBottom>
@@ -118,8 +118,6 @@ export default function HeroSwitcher() {
             <HeroImageIllustration>
               <PanelLeft rightCol={<HeroMarketingMessage />}>
                 <PanelTop>
-                  {/* rightCol={<HeroMarketingMessage />} */}
-                  {/* endIcon={<ExpandMoreIcon />} */}
                   <PanelCurvedBottom />
                 </PanelTop>
               </PanelLeft>
