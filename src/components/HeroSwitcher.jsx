@@ -11,9 +11,12 @@ import PanelRight from "./PanelRight";
 import PanelCurvedTop from "./PanelCurvedTop;";
 import PanelCurvedBottom from "./PanelCurvedBottom";
 import HeroImagePhotoNana from "./HeroImagePhotoNana";
-import HeroMarketingMessage from "./HeroMarketingMessage";
+import HeroMarketingMessage19 from "./HeroMarketingMessage19";
+import HeroMarketingMessage20 from "./HeroMarketingMessage20";
 import HeroImagePhotoDentures from "./HeroImagePhotoDentures";
 import HeroImageIllustration from "./HeroImageIllustration";
+import HeroImageBlank from "./HeroImageBlank";
+import HeroMarketingMessageAnimated from "./HeroMarketingMessageAnimated";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -70,10 +73,10 @@ export default function HeroSwitcher() {
           <>
             <HeroImagePhotoNana>
               <PanelLeft>
-                <PanelTop>
+                <PanelBottom bokehMessage={<HeroMarketingMessage19 />}>
                   {/* Bottom Left */}
-                  <PanelCurvedBottom />
-                </PanelTop>
+                  <PanelCurvedTop />
+                </PanelBottom>
               </PanelLeft>
             </HeroImagePhotoNana>
           </>
@@ -83,17 +86,17 @@ export default function HeroSwitcher() {
           <>
             <HeroImagePhotoNana>
               <PanelLeft>
-                <PanelBottom bokehMessage={<HeroMarketingMessage />}>
+                <PanelTop>
                   {/* Bottom Left */}
-                  <PanelCurvedTop />
-                </PanelBottom>
+                  <PanelCurvedBottom />
+                </PanelTop>
               </PanelLeft>
             </HeroImagePhotoNana>
           </>
         </TabPanel>
         <TabPanel value={value} index={2}>
           <HeroImagePhotoDentures>
-            <PanelRight>
+            <PanelRight leftCol={<HeroMarketingMessage19 />}>
               <PanelBottom>
                 {/* Bottom Right */}
                 <PanelCurvedTop />
@@ -104,7 +107,7 @@ export default function HeroSwitcher() {
 
         <TabPanel value={value} index={3}>
           <HeroImagePhotoDentures>
-            <PanelRight>
+            <PanelRight leftCol={<HeroMarketingMessage19 />}>
               <PanelTop>
                 {/* Top Right */}
                 <PanelCurvedBottom />
@@ -116,12 +119,23 @@ export default function HeroSwitcher() {
         <TabPanel value={value} index={4}>
           <>
             <HeroImageIllustration>
-              <PanelLeft rightCol={<HeroMarketingMessage />}>
+              <PanelLeft rightCol={<HeroMarketingMessage20 />}>
                 <PanelTop>
                   <PanelCurvedBottom />
                 </PanelTop>
               </PanelLeft>
             </HeroImageIllustration>
+          </>
+        </TabPanel>
+        <TabPanel value={value} index={5}>
+          <>
+            <HeroImageBlank>
+              <PanelRight leftCol={<HeroMarketingMessageAnimated />}>
+                <PanelTop>
+                  <PanelCurvedBottom />
+                </PanelTop>
+              </PanelRight>
+            </HeroImageBlank>
           </>
         </TabPanel>
       </Box>
@@ -131,11 +145,12 @@ export default function HeroSwitcher() {
         onChange={handleChange}
         aria-label="basic tabs example"
       >
-        <Tab label="TL" {...a11yProps(0)} />
-        <Tab label="BL" {...a11yProps(1)} />
+        <Tab label="BL" {...a11yProps(0)} />
+        <Tab label="TL" {...a11yProps(1)} />
         <Tab label="BR" {...a11yProps(2)} />
         <Tab label="TR" {...a11yProps(3)} />
         <Tab label="Illy TL" {...a11yProps(4)} />
+        <Tab label="Blank" {...a11yProps(4)} />
       </Tabs>
     </>
   );

@@ -3,7 +3,7 @@ import { Box } from "@mui/material/";
 import HomeLayoutPanelLeft from "./PanelLeft";
 import HeroFlexContainer from "./HeroFlexContainer";
 import HeroFlexPanelBox from "./HeroFlexPanelBox";
-import HeroMarketingMessage from "./HeroMarketingMessage";
+import HeroMarketingMessage from "./HeroMarketingMessage19";
 import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
 

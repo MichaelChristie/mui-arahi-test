@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Grid, Box, Typography } from "@mui/material/";
-import HeroMarketingMessage from "./HeroMarketingMessage";
+import HeroMarketingMessage from "./HeroMarketingMessage19";
 import PageLayout from "./PageLayout";
 
 export default function PanelLeft({ children, rightCol }) {
@@ -11,7 +11,6 @@ export default function PanelLeft({ children, rightCol }) {
           {children}
         </Grid>
         <Grid item xs={12} lg={6}>
-          {/* <HeroMarketingMessage /> */}
           {rightCol}
         </Grid>
       </Grid>

@@ -2,7 +2,7 @@ import * as React from "react";
 import { Box } from "@mui/material/";
 import HeroFlexContainer from "./HeroFlexContainer";
 import HeroFlexPanelBox from "./HeroFlexPanelBox";
-import HeroMarketingMessage from "./HeroMarketingMessage";
+import HeroMarketingMessage from "./HeroMarketingMessage19";
 import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
 
