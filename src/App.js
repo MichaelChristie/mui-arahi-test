@@ -20,7 +20,8 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 //Import themes`
 import darkTheme from "./components/DarkTheme";
 import lightTheme from "./components/LightTheme";
-import Quote from "./pages/Quote";
+import QuotePage1 from "./pages/QuotePage1";
+import QuotePage2 from "./pages/QuotePage2";
 import ResponsiveDrawer from "./components/ResponsiveDrawer";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -57,7 +58,8 @@ function App() {
           {/* <Quote /> */}
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/quote" element={<Quote />} />
+            <Route path="/quote" element={<QuotePage1 />} />
+            <Route path="/quote2" element={<QuotePage2 />} />
             {/* <Route path="/clipped-drawer" element={<ClippedDrawer />} /> */}
             <Route path="/drawer" element={<ResponsiveDrawer />} />
             {/* <Route path="/product" element={<Product />} /> */}

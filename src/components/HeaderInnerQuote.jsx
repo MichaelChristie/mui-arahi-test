@@ -6,7 +6,6 @@ import MainMenu from "./MainMenu";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import BokehHeader from "./BokehHeader";
-import { Link } from "react-router-dom";
 import PageLayout from "./PageLayout";
 import Logo from "./Logo";
 import HeaderIcons from "./HeaderIcons";

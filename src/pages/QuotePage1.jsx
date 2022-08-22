@@ -4,8 +4,9 @@ import Typography from "@mui/material/Typography";
 import { Button, Box, Grid } from "@mui/material";
 import QuestionContainer from "../components/QuestionContainer";
 import VertCentre from "../components/VertCentre";
+import { Link } from "react-router-dom";
 
-function Quote1({ children, ...props }) {
+function QuotePage1() {
   const [flag, setFlag] = React.useState(true);
 
   const handleClick = () => {
@@ -35,6 +36,7 @@ function Quote1({ children, ...props }) {
                       onClick={handleClick}
                       variant="contained"
                       fullWidth
+                      size="large"
                       color={flag ? "grey" : "secondary"}
                     >
                       Yes
@@ -45,6 +47,7 @@ function Quote1({ children, ...props }) {
                       onClick={handleClick}
                       variant="contained"
                       fullWidth
+                      size="large"
                       color={flag ? "grey" : "secondary"}
                     >
                       No
@@ -53,14 +56,15 @@ function Quote1({ children, ...props }) {
                 </Grid>
               </Box>
 
-              {/* <Box sx={{ display: "flex", marginTop: 2 }}>
+              <Box sx={{ display: "flex", marginTop: 12 }}>
                 <Box sx={{ flexGrow: 1 }}></Box>
                 <Box>
-                  <Button variant="contained" color="primary">
+                  <Button variant="contained" color="primary" size="large">
                     Continue
                   </Button>
+                  <Link to="/quote2">Page 2</Link>
                 </Box>
-              </Box> */}
+              </Box>
             </QuestionContainer>
           </VertCentre>
         </Box>
@@ -69,4 +73,4 @@ function Quote1({ children, ...props }) {
   );
 }
 
-export default Quote1;
+export default QuotePage1;
