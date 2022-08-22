@@ -11,9 +11,9 @@ import List from "@mui/material/List";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import HeaderQuote from "../components/HeaderQuote";
+import HeaderQuote from "./HeaderQuote";
 import { Chip, Avatar } from "@mui/material";
-import PageLayout from "../components/PageLayout";
+import PageLayout from "./PageLayout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Visibility from "@mui/icons-material/Visibility";
 import { faTimes, faSearch } from "@fortawesome/pro-light-svg-icons";
@@ -24,7 +24,7 @@ import LoginForm from "./LoginForm";
 const drawerWidth = 400;
 
 // function ResponsiveDrawer(props) {
-function QuoteTemplate({ children, ...props }) {
+export default function QuoteWrapper({ progress, children, ...props }) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -66,7 +66,7 @@ function QuoteTemplate({ children, ...props }) {
   return (
     <PageLayout>
       <Box sx={{ display: "flex" }}>
-        <HeaderQuote />
+        <HeaderQuote progress={progress} />
         <CssBaseline />
         <Box
           component="main"
@@ -94,7 +94,7 @@ function QuoteTemplate({ children, ...props }) {
               edge="start"
               color="primary"
               avatar={<Avatar>A</Avatar>}
-              label="Help Centre & Chat"
+              label="Help Centre and Chat"
               onClick={handleDrawerToggle}
             />
           </Box>
@@ -166,5 +166,3 @@ function QuoteTemplate({ children, ...props }) {
     </PageLayout>
   );
 }
-
-export default QuoteTemplate;

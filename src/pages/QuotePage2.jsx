@@ -1,5 +1,5 @@
 import * as React from "react";
-import QuoteTemplate from "../components/QuoteTemplate";
+import QuoteWrapper from "../components/QuoteWrapper";
 import Typography from "@mui/material/Typography";
 import { Button, Box, Grid } from "@mui/material";
 import QuestionContainer from "../components/QuestionContainer";
@@ -14,7 +14,7 @@ function QuotePage2() {
   };
   return (
     <>
-      <QuoteTemplate>
+      <QuoteWrapper progress={50}>
         <Typography variant="h1">Page 2</Typography>
         <Box
           sx={{
@@ -62,12 +62,13 @@ function QuotePage2() {
                   <Button variant="contained" color="primary" size="large">
                     Continue
                   </Button>
+                  <Link to="/quote">Page 1</Link>
                 </Box>
               </Box>
             </QuestionContainer>
           </VertCentre>
         </Box>
-      </QuoteTemplate>
+      </QuoteWrapper>
     </>
   );
 }

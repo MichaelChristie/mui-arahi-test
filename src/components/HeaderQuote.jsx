@@ -4,20 +4,28 @@ import { Grid, Box, Button, Typography } from "@mui/material/";
 import PageSpacerMatchHeader from "./PageSpacerMatchHeader";
 import BokehHero from "./BokehHero";
 import HeaderInnerQuote from "./HeaderInnerQuote";
+import LinearProgress from "@mui/material/LinearProgress";
 
-export default function HeaderQuote() {
+export default function HeaderQuote({ progress }) {
   return (
     <>
-      <Box
+      {/* <Box
         sx={{
           position: "relative",
           width: 0,
-          height: 0,
+          height: 10,
           background: "#FF0000",
           zIndex: 1,
         }}
-      ></Box>
-      <HeaderInnerQuote />
+      > */}
+      <LinearProgress
+        variant="determinate"
+        value={progress}
+        // value={50}
+        sx={{ width: "100%" }}
+      />
+      {/* </Box> */}
+      {/* <HeaderInnerQuote /> */}
     </>
   );
 }

@@ -53,7 +53,7 @@ export default function HeaderInnerQuote() {
               mt: -1,
             }}
           >
-            <QuoteProgress />
+            {/* <QuoteProgress /> */}
           </Box>
         </Box>
 
