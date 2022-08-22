@@ -19,12 +19,7 @@ export default function HeroMarketingMessage({ children }) {
                 Reason to Trust #20
               </Typography>
               <Typography variant="h1" fontSize={36}>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </Typography>
-              <Typography variant="p">
-                Illo quod perferendis distinctio doloribus provident possimus,
-                ad sunt excepturi suscipit unde libero voluptas? Sunt tempore
-                commodi doloribus non eum, numquam exercitationem!
+                The time we got Sam's dentures, and smile, back on holiday
               </Typography>
             </Box>
           </Grid>

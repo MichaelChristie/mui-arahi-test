@@ -1,5 +1,13 @@
 import * as React from "react";
-import { Grid, Box, Button, Typography } from "@mui/material/";
+import {
+  Grid,
+  Box,
+  Button,
+  Typography,
+  FormControlLabel,
+  FormGroup,
+  IconButton,
+} from "@mui/material/";
 // import HeroBottomLeft from "./HeroBottomLeft";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
@@ -13,6 +21,7 @@ import PanelCurvedBottom from "./PanelCurvedBottom";
 import HeroImagePhotoNana from "./HeroImagePhotoNana";
 import HeroMarketingMessage19 from "./HeroMarketingMessage19";
 import HeroMarketingMessage20 from "./HeroMarketingMessage20";
+import HeroMarketingMessage21 from "./HeroMarketingMessage21";
 import HeroImagePhotoDentures from "./HeroImagePhotoDentures";
 import HeroImageIllustration from "./HeroImageIllustration";
 import HeroImageBlank from "./HeroImageBlank";
@@ -96,7 +105,7 @@ export default function HeroSwitcher() {
         </TabPanel>
         <TabPanel value={value} index={2}>
           <HeroImagePhotoDentures>
-            <PanelRight leftCol={<HeroMarketingMessage19 />}>
+            <PanelRight leftCol={<HeroMarketingMessage20 />}>
               <PanelBottom>
                 {/* Bottom Right */}
                 <PanelCurvedTop />
@@ -107,7 +116,7 @@ export default function HeroSwitcher() {
 
         <TabPanel value={value} index={3}>
           <HeroImagePhotoDentures>
-            <PanelRight leftCol={<HeroMarketingMessage19 />}>
+            <PanelRight leftCol={<HeroMarketingMessage20 />}>
               <PanelTop>
                 {/* Top Right */}
                 <PanelCurvedBottom />
@@ -119,7 +128,7 @@ export default function HeroSwitcher() {
         <TabPanel value={value} index={4}>
           <>
             <HeroImageIllustration>
-              <PanelLeft rightCol={<HeroMarketingMessage20 />}>
+              <PanelLeft rightCol={<HeroMarketingMessage21 />}>
                 <PanelTop>
                   <PanelCurvedBottom />
                 </PanelTop>
@@ -138,6 +147,17 @@ export default function HeroSwitcher() {
             </HeroImageBlank>
           </>
         </TabPanel>
+        <TabPanel value={value} index={6}>
+          <>
+            <HeroImageIllustration>
+              <PanelRight leftCol={<HeroMarketingMessageAnimated />}>
+                <PanelTop>
+                  <PanelCurvedBottom />
+                </PanelTop>
+              </PanelRight>
+            </HeroImageIllustration>
+          </>
+        </TabPanel>
       </Box>
 
       <Tabs
@@ -150,7 +170,8 @@ export default function HeroSwitcher() {
         <Tab label="BR" {...a11yProps(2)} />
         <Tab label="TR" {...a11yProps(3)} />
         <Tab label="Illy TL" {...a11yProps(4)} />
-        <Tab label="Blank" {...a11yProps(4)} />
+        <Tab label="Blank" {...a11yProps(5)} />
+        <Tab label="Hybrid" {...a11yProps(6)} />
       </Tabs>
     </>
   );

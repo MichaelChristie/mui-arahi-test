@@ -17,7 +17,13 @@ export default function BokehHero() {
       <Box
         sx={{
           height: 480,
-          width: 1200,
+          width: {
+            xs: 360,
+            sm: 600,
+            md: 960,
+            lg: 1200,
+            xl: 1200,
+          },
           position: "absolute",
           // border: "1px solid #f1f1f1",
           // top: { xs: -64, sm: -64, md: -72, lg: -72, xl: -108 }, // Match

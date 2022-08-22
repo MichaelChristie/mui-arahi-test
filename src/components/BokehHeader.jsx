@@ -16,7 +16,13 @@ export default function BokehHeader() {
     >
       <Box
         sx={{
-          width: 1200,
+          width: {
+            xs: 360,
+            sm: 600,
+            md: 960,
+            lg: 1200,
+            xl: 1200,
+          },
           position: "fixed",
           // border: "1px solid #f1f1f1",
           top: 0,

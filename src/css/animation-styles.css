@@ -1,0 +1,262 @@
+:root {
+  --main-image: url("../images/prezzy-balloon@2x.png");
+}
+
+.Animated_Baloons2 {
+  pointer-events: none;
+  overflow: hidden;
+  width: 808px;
+  height: 600px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  /* background-color: aquamarine; */
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+.PrezzyBalloon1 {
+  animation: 3s ease-out 0.5s 1 normal forwards running PrezzyBalloon1;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  background-image: var(--main-image);
+  background-size: 100%;
+
+  /* background-color: blueviolet; */
+  position: absolute;
+  /* left: 24px; */
+  width: 108px; /* was 144px */
+  height: 216px; /* was 288px */
+  left: 156px; /* was 208 */
+  top: 150px; /* was 200 */
+  /* background-color: lime; */
+}
+@keyframes PrezzyBalloon1 {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(96px) translateX(0px) translateY(-144px); /* transform: translateX(128px) translateX(0px) translateY(-192px); */
+  }
+
+  61% {
+    opacity: 0;
+    transform: translateX(96px) translateX(0px) translateY(-144px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(96px) translateX(0px) translateY(-144px);
+  }
+}
+
+.group-wrapper {
+  animation: 3s ease-in 1s 1 normal forwards running group-wrapper;
+  /* background-color: coral; */
+  opacity: 0;
+}
+
+@keyframes group-wrapper {
+  0% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Sparkle-wrapper {
+  position: absolute;
+  z-index: 2;
+  animation: 1s ease-in 2.25s 1 normal forwards running Sparkle-wrapper;
+  /* opacity: 0; */
+  /* background-image: url("/images/Sparkle1.png"); */
+  width: 296px;
+  height: 296px;
+  left: 232px;
+}
+
+@keyframes Sparkle-wrapper {
+  0% {
+    background-image: url("../images/Sparkle1.png");
+  }
+  25% {
+    background-image: url("../images/Sparkle2.png");
+    opacity: 0.75;
+  }
+  35% {
+    background-image: url("../images/Sparkle3.png");
+    opacity: 0.5;
+  }
+  45% {
+    background-image: none;
+  }
+}
+
+.PrezzyBalloon1a {
+  animation: 6s ease-in-out 0s infinite normal forwards running PrezzyBalloon1a;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  background-image: var(--main-image);
+  background-size: 100%;
+  /* background-color: chartreuse; */
+  position: absolute;
+  width: 108px; /* was 144px */
+  height: 216px; /* was 288px */
+  left: 249px; /* was 332px */
+  top: 6px; /* was 8px */
+  /* background-color: lime; */
+}
+
+@keyframes PrezzyBalloon1a {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  50% {
+    transform: translateX(-8px) translateY(24px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+.PrezzyBalloon2 {
+  animation: 6s ease-in-out 0s infinite normal forwards running PrezzyBalloon2;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  background-image: var(--main-image);
+  background-size: 100%;
+  /* background-color: red; */
+  position: absolute;
+  width: 69px; /* was 92px */
+  height: 138px; /* was 184px */
+  left: 216px; /* was 288px */
+  top: 18px; /* was 24px */
+  /* background-color: lime; */
+}
+@keyframes PrezzyBalloon2 {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  50% {
+    transform: translateX(4px) translateY(-16px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+.PrezzyBalloon3 {
+  animation: 6s ease-in-out 0s infinite normal forwards running PrezzyBalloon3;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  background-image: var(--main-image);
+  background-size: 100%;
+  position: absolute;
+  width: 48px; /* was 64px */
+  height: 96px; /* was 128px */
+  left: 339px; /* was 452px */
+  top: 54px; /* was 72px */
+  /* background-color: lime; */
+}
+@keyframes PrezzyBalloon3 {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  50% {
+    transform: translateX(0px) translateY(8px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .marketingSpiel {
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 3s ease 0s normal forwards 1 fadein;
+    /* background-color: aqua !important; */
+  }
+
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .PrezzyBalloon1 {
+    position: absolute;
+    width: 144px;
+    height: 288px;
+    left: 208px;
+    top: 200px;
+    /* background-color: pink; */
+  }
+
+  @keyframes PrezzyBalloon1-mobile {
+    0% {
+      transform: translateX(0px) translateY(0px);
+    }
+    60% {
+      opacity: 1;
+      transform: translateX(128px) translateX(0px) translateY(-192px);
+    }
+
+    61% {
+      opacity: 0;
+      transform: translateX(128px) translateX(0px) translateY(-192px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(128px) translateX(0px) translateY(-192px);
+    }
+  }
+
+  .PrezzyBalloon1a {
+    animation: 6s ease-in-out 0s infinite normal forwards running
+      PrezzyBalloon1a;
+    width: 144px;
+    height: 288px;
+    left: 332px;
+    top: 8px;
+    /* background-color: pink; */
+  }
+  .PrezzyBalloon2 {
+    animation: 6s ease-in-out 0s infinite normal forwards running PrezzyBalloon2;
+    width: 92px;
+    height: 184px;
+    left: 288px;
+    top: 24px;
+    /* background-color: pink; */
+  }
+
+  .PrezzyBalloon3 {
+    animation: 6s ease-in-out 0s infinite normal forwards running PrezzyBalloon3;
+    width: 64px;
+    height: 128px;
+    left: 452px;
+    top: 72px;
+    /* background-color: pink; */
+  }
+}

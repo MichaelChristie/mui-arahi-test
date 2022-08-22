@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Grid, Box, Typography } from "@mui/material/";
 
-export default function HeroMarketingMessage({ children }) {
+export default function HeroMarketingMessage21({ children }) {
   return (
     <>
       <Box
@@ -15,11 +15,11 @@ export default function HeroMarketingMessage({ children }) {
         <Grid item container>
           <Grid item xs={8} lg={8}>
             <Box sx={{ px: 2, pt: 2 }}>
-              <Typography variant="h1" fontSize={{ xs: 12, lg: 24 }}>
-                Reason to Trust #19
+              <Typography variant="h1" fontSize={24}>
+                Reason to Trust #22
               </Typography>
-              <Typography variant="h1" fontSize={{ xs: 18, lg: 36 }}>
-                The time a broken oven couldn't spoil Nan's Turkey
+              <Typography variant="h1" fontSize={36}>
+                Lorem ipsum dolor, sit amet consectetur.
               </Typography>
             </Box>
           </Grid>

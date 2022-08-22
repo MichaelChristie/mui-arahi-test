@@ -6,11 +6,11 @@ export default function PageLayout({ children }) {
     <Grid container direction="column">
       <Grid item></Grid>
       <Grid item container>
-        <Grid item xs={false} lg={1} />
-        <Grid item xs={12} lg={10}>
+        <Grid item xs={false} xl={1} />
+        <Grid item xs={12} xl={10}>
           {children}
         </Grid>
-        <Grid item xs={false} lg={1} />
+        <Grid item xs={false} xl={1} />
       </Grid>
     </Grid>
   );

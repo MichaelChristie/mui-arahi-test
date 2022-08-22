@@ -7,10 +7,10 @@ export default function PanelLeft({ children, rightCol }) {
   return (
     <PageLayout>
       <Grid item container>
-        <Grid item xs={12} lg={6}>
+        <Grid item xs={12} md={6}>
           {children}
         </Grid>
-        <Grid item xs={12} lg={6}>
+        <Grid item xs={12} md={6}>
           {rightCol}
         </Grid>
       </Grid>

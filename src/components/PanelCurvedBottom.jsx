@@ -11,13 +11,25 @@ export default function PanelCurvedBottom({ children }) {
             lg: "0px 0px 32px 32px",
           },
 
-          p: {
+          pt: {
             xs: 2,
+            md: 4,
             lg: 6,
+          },
+          px: {
+            xs: 2,
+            md: 4,
+            lg: 6,
+          },
+          pb: {
+            xs: 2,
+            md: 4,
+            lg: 2,
           },
           mr: {
             xs: 0,
-            lg: 24,
+            lg: 0,
+            xl: 24,
           },
           bgcolor: "background.paper",
         }}

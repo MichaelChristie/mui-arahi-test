@@ -13,7 +13,9 @@ export default function HeroFlexContainer({ children }) {
         alignItems: "flex-start",
         // background: "aqua",
         minHeight: {
-          xs: "100vh",
+          xs: "90vh",
+          sm: "800px",
+          md: "600px",
           lg: "600px",
         },
       }}

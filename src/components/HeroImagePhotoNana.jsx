@@ -1,8 +1,10 @@
 import * as React from "react";
 import { Grid, Box, Button, Typography } from "@mui/material/";
 
-import HeroImage from "../images/nanas-turkey_DTP.jpg";
-import HeroImageMobile from "../images/nanas-turkey_MOB.jpg";
+import HeroImageXS from "../images/nanas-turkey_XS.jpg";
+import HeroImageSM from "../images/nanas-turkey_SM.jpg";
+import HeroImageMD from "../images/nanas-turkey_MD.jpg";
+import HeroImageLG from "../images/nanas-turkey_LG.jpg";
 
 export default function HeroImagePhotoNana({ children }) {
   return (
@@ -16,20 +18,24 @@ export default function HeroImagePhotoNana({ children }) {
           <Box
             sx={{
               height: {
-                xs: "100vh",
+                xs: "90vh",
+                sm: "800px",
+                md: "600px",
                 lg: "600px",
               },
               maxWidth: "1920px",
               margin: "0 auto",
               borderRadius: "4px",
               backgroundImage: {
-                xs: `url(${HeroImageMobile})`,
-                lg: `url(${HeroImage})`,
+                xs: `url(${HeroImageXS})`,
+                sm: `url(${HeroImageSM})`,
+                md: `url(${HeroImageMD})`,
+                lg: `url(${HeroImageLG})`,
               },
 
               backgroundSize: {
                 xs: "contain",
-                lg: "cover",
+                md: "cover",
               },
               backgroundRepeat: "no-repeat",
 
