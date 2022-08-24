@@ -1,19 +1,16 @@
 import * as React from "react";
 
 import { Grid, Paper, Box, Typography } from "@mui/material/";
-// import theme from "../components/ThemeArahi";
-import MainMenu from "./MainMenu";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import BokehHeader from "./BokehHeader";
 import PageLayout from "./PageLayout";
 import Logo from "./Logo";
-import HeaderIcons from "./HeaderIcons";
 import MainMenuQuote from "./MainMenuQuote";
-import QuoteProgress from "../components/QuoteProgress";
-// const theme = experimental_extendTheme({});
+import LinearProgress from "@mui/material/LinearProgress";
+import QuoteProgress from "./ProgressIndeterminate";
 
-export default function HeaderInnerQuote() {
+export default function HeaderInnerQuote({ progress }) {
   return (
     <Box
     // bgcolor="background.paper"
@@ -48,16 +45,12 @@ export default function HeaderInnerQuote() {
           <Box
             sx={{
               flexShrink: 1,
-              // background: "rgba(150,150,50,0.5)",
-              // height: "28px",
               mt: -1,
             }}
           >
-            {/* <QuoteProgress /> */}
+            <LinearProgress variant="determinate" value={progress} />
           </Box>
         </Box>
-
-        {/* <QuoteProgress /> */}
       </AppBar>
     </Box>
   );

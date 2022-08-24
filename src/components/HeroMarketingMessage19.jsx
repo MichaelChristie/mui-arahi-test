@@ -15,7 +15,7 @@ export default function HeroMarketingMessage({ children }) {
         <Grid item container>
           <Grid item xs={8} lg={8}>
             <Box sx={{ px: 2, pt: 2 }}>
-              <Typography variant="h1" fontSize={{ xs: 12, lg: 24 }}>
+              <Typography variant="h2" fontSize={{ xs: 12, lg: 24 }}>
                 Reason to Trust #19
               </Typography>
               <Typography variant="h1" fontSize={{ xs: 18, lg: 36 }}>

@@ -11,8 +11,8 @@ const darkTheme = {
       main: MyData.global.color.base.yellow.value,
     },
     grey: {
-      main: MyData.global.color.base.black75.value,
-      contrastText: MyData.global.color.base.blue.value,
+      main: "#002a49",
+      contrastText: MyData.global.color.base.blue25.value,
     },
     neutral: {
       main: "#64748B",

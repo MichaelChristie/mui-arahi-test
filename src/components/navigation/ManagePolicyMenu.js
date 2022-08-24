@@ -69,13 +69,18 @@ export default function ManagePolicyMenu() {
             </ListItemIcon>
             <ListItemText>Policy Document</ListItemText>
           </MenuItem>
-          <MenuItem component={Link} to={"/product"}>
+          <MenuItem component={Link} to={"/documentation"}>
             <ListItemIcon>
               <FontAwesomeIcon icon={faScissors} fontSize="large" />
             </ListItemIcon>
-            <ListItemText>Products</ListItemText>
+            <ListItemText>Documentation</ListItemText>
           </MenuItem>
-
+          <MenuItem component={Link} to={"/campaign"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faScissors} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Campaign</ListItemText>
+          </MenuItem>
           <MenuItem component={Link} to={"/login"}>
             <ListItemIcon>
               <FontAwesomeIcon icon={faUserCircle} fontSize="large" />

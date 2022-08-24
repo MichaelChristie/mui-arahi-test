@@ -5,26 +5,27 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-
-export default function MostTrustedCard() {
+import PlaceholderImage from "../images/placeholder128x128@2x.png";
+export default function PlaceholderHorizontalCard() {
   const theme = useTheme();
 
   return (
-    <Card variant="none" sx={{ display: "flex", mt: 2 }}>
+    <Card variant="outlined" sx={{ display: "flex", mt: 4 }}>
       <CardMedia
         component="img"
-        sx={{ width: 120, height: 108, mt: 2 }}
-        image="https://images.ctfassets.net/70piar1ns1oi/cZAcMhVLIidU3K9pJDFGD/7277f21b5ca880a0158a6e70d0848f8d/TBNZ2022_Winner_GeneralInsurance_2011-2022.png"
-        alt="Image"
+        sx={{ width: 128 }}
+        image={PlaceholderImage}
+        alt="Placeholder"
       />
+
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <CardContent sx={{ flex: "1 0 auto" }}>
           <Typography component="div" variant="h6">
-            We'll never stop working to earn your trust
+            Card Headline
           </Typography>
           <Typography variant="body" color="text.secondary" component="div">
-            As voted by consumers 2011-2022 in the Reader's Digest Trusted Brand
-            survey.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam est
+            aspernatur velit ipsum ex.
           </Typography>
         </CardContent>
       </Box>

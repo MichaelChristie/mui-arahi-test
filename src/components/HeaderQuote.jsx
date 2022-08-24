@@ -18,14 +18,9 @@ export default function HeaderQuote({ progress }) {
           zIndex: 1,
         }}
       > */}
-      <LinearProgress
-        variant="determinate"
-        value={progress}
-        // value={50}
-        sx={{ width: "100%" }}
-      />
+
       {/* </Box> */}
-      {/* <HeaderInnerQuote /> */}
+      <HeaderInnerQuote progress={progress} />
     </>
   );
 }

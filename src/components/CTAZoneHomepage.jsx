@@ -3,7 +3,7 @@ import { Grid, Box, Button, Typography } from "@mui/material/";
 import MostTrustedCard from "../components/MostTrustedCard";
 import { Link } from "react-router-dom";
 
-export default function CTAZoneHomepage() {
+export default function CTAZoneHomepage({ belowCTA }) {
   return (
     <>
       <Link to="/quote" style={{ textDecoration: "none" }}>
@@ -26,8 +26,7 @@ export default function CTAZoneHomepage() {
           </Grid>
         </Grid>
       </Box>
-
-      <MostTrustedCard />
+      {belowCTA}
     </>
   );
 }

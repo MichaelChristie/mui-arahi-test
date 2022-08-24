@@ -83,20 +83,20 @@ const lightTheme = {
     MuiAccordion: {
       root: {
         "&:before": {
-          backgroundColor: "#FF0000 !important",
+          // backgroundColor: "#FF0000 !important",
           opacity: "0",
           display: "none !important",
         },
       },
     },
-    MuiExpansionPanel: {
-      root: {
-        "&:before": {
-          display: "none",
-          backgroundColor: "#FF0000",
-        },
-      },
-    },
+    // MuiExpansionPanel: {
+    //   root: {
+    //     "&:before": {
+    //       display: "none",
+    //       backgroundColor: "#FF0000",
+    //     },
+    //   },
+    // },
     MuiPaper: {
       styleOverrides: {
         // Name of the slot
@@ -110,7 +110,7 @@ const lightTheme = {
       styleOverrides: {
         root: {
           padding: "50px !important",
-          backgroundColor: "#FF0000",
+          // backgroundColor: "#FF0000",
         },
       },
     },

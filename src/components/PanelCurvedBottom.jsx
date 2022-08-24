@@ -1,7 +1,9 @@
 import * as React from "react";
 import { Box } from "@mui/material/";
 import CTAZoneHomepage from "./CTAZoneHomepage";
-export default function PanelCurvedBottom({ children }) {
+import MostTrustedCard from "../components/MostTrustedCard";
+
+export default function PanelCurvedBottom({ children, optionalContent }) {
   return (
     <>
       <Box
@@ -14,7 +16,7 @@ export default function PanelCurvedBottom({ children }) {
           pt: {
             xs: 2,
             md: 4,
-            lg: 6,
+            lg: 4,
           },
           px: {
             xs: 2,
@@ -24,7 +26,7 @@ export default function PanelCurvedBottom({ children }) {
           pb: {
             xs: 2,
             md: 4,
-            lg: 2,
+            lg: 6,
           },
           mr: {
             xs: 0,
@@ -35,6 +37,9 @@ export default function PanelCurvedBottom({ children }) {
         }}
       >
         <CTAZoneHomepage />
+
+        {optionalContent}
+        {/* <CTAZoneHomepage belowCTA={<MostTrustedCard />} /> */}
       </Box>
     </>
   );

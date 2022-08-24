@@ -7,7 +7,7 @@ import HeroMarketingMessage from "./HeroMarketingMessage19";
 import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
 
-export default function PanelTop({ children }) {
+export default function PanelTop({ children, leftMessage }) {
   return (
     <HeroFlexContainer>
       {/* EXPANDS TO ALLOW THE PANEL TO STICK TO THE BOTTOM */}
@@ -29,8 +29,7 @@ export default function PanelTop({ children }) {
 
       <HeroFlexPanelBox>
         {children}
-
-        {/* <HeroMarketingMessage /> */}
+        {leftMessage}
       </HeroFlexPanelBox>
     </HeroFlexContainer>
   );

@@ -8,7 +8,7 @@ import ToggleButtons from "../components/ToggleButtons";
 import { Link } from "react-router-dom";
 // import ButtonGroup from "../components/ButtonGroup";
 
-export default function QuotePage1() {
+export default function QuotePage3() {
   const [flag, setFlag] = React.useState(true);
 
   const handleClick = () => {
@@ -16,8 +16,8 @@ export default function QuotePage1() {
   };
   return (
     <>
-      <QuoteWrapper progress={1}>
-        <Typography variant="h1">Find your Car</Typography>
+      <QuoteWrapper progress={75}>
+        <Typography variant="h1">Page 3</Typography>
         <Box
           sx={{
             height: "60vh",
@@ -26,8 +26,6 @@ export default function QuotePage1() {
         >
           <VertCentre>
             <QuestionContainer>
-              {/* <ToggleButtons /> */}
-
               <QuestionLockUp />
               <BackNext />
             </QuestionContainer>
@@ -47,7 +45,7 @@ function QuestionLockUp() {
   return (
     <>
       <Typography variant="h5" align="center" sx={{ pb: 2 }}>
-        Did you buy this car on Finance?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
       </Typography>
 
       <Box sx={{ marginTop: 2 }}>
@@ -56,9 +54,11 @@ function QuestionLockUp() {
             <Button
               // onClick={handleClick}
               variant="contained"
+              // color={flag ? "white" : "secondary"}
+              color="grey"
               fullWidth
               size="large"
-              color={flag ? "grey" : "secondary"}
+              // color={flag ? "white" : "secondary"}
             >
               Yes
             </Button>
@@ -69,7 +69,7 @@ function QuestionLockUp() {
               variant="contained"
               fullWidth
               size="large"
-              color={!flag ? "grey" : "secondary"}
+              color={flag ? "grey" : "secondary"}
             >
               No
             </Button>
@@ -86,12 +86,11 @@ function BackNext() {
       <Box sx={{ display: "flex", marginTop: 12 }}>
         <Grid container spacing={2} direction="row">
           <Grid item xs={12} sm={6} sx={{}}>
-            <Link to="/">Home</Link>
+            <Link to="/quote2">Back</Link>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Link to="/quote2">
+            <Link to="/">
               <Button
-                href="/quote2"
                 variant="contained"
                 fullWidth
                 color="primary"

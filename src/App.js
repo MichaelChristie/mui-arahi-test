@@ -22,6 +22,9 @@ import darkTheme from "./components/DarkTheme";
 import lightTheme from "./components/LightTheme";
 import QuotePage1 from "./pages/QuotePage1";
 import QuotePage2 from "./pages/QuotePage2";
+import QuotePage3 from "./pages/QuotePage3";
+import Documentation from "./pages/Documentation";
+import Campaign from "./pages/Campaign";
 import ResponsiveDrawer from "./components/ResponsiveDrawer";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -56,10 +59,14 @@ function App() {
         <ThemeProvider theme={theme}>
           <CssBaseline />
           {/* <Quote /> */}
+          {/* <Campaign /> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/quote" element={<QuotePage1 />} />
             <Route path="/quote2" element={<QuotePage2 />} />
+            <Route path="/quote3" element={<QuotePage3 />} />
+            <Route path="/documentation" element={<Documentation />} />
+            <Route path="/campaign" element={<Campaign />} />
             {/* <Route path="/clipped-drawer" element={<ClippedDrawer />} /> */}
             <Route path="/drawer" element={<ResponsiveDrawer />} />
             {/* <Route path="/product" element={<Product />} /> */}
@@ -86,12 +93,13 @@ function App() {
               aria-expanded={open ? "true" : undefined}
               onClick={handleClick}
               sx={{
-                position: "absolute",
+                position: "fixed",
                 width: 56,
                 height: 56,
-                // background: "#FF0000",
+                background: "#f1f1f1",
                 right: 0,
                 bottom: 0,
+                zIndex: 1,
               }}
             >
               <FontAwesomeIcon icon={faEllipsis} fontSize="large" />

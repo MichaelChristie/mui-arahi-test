@@ -48,6 +48,10 @@ h1 {
     #0068ab 95%,
     #00446f 100%
   );
+  /* Attempt to add animation to progress bar */
+  animation: auto;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
 }
 
 .MuiLinearProgress-root {
@@ -60,4 +64,9 @@ a {
 
 a:hover {
   color: var(--color-base-red);
+}
+
+.MuiButton-containedSecondary {
+  box-shadow: none !important;
+  /* Removes the shadow on a selected button */
 }

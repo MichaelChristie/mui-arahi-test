@@ -18,6 +18,7 @@ import InputLabel from "@mui/material/InputLabel";
 import FormControl from "@mui/material/FormControl";
 
 import Button from "@mui/material/Button";
+import AddPromoCode from "./AddPromoCode";
 
 export default function HeroMarketingMessageAnimated({ children }) {
   return (
@@ -40,8 +41,11 @@ export default function HeroMarketingMessageAnimated({ children }) {
         <Box
           sx={{
             order: {
-              xs: 2,
-              lg: 1,
+              xs: 1,
+              lg: 2,
+            },
+            height: {
+              xs: "200px",
             },
             flex: {
               xs: "1 0 auto",
@@ -87,38 +91,7 @@ export default function HeroMarketingMessageAnimated({ children }) {
                   <Link to="/">Terms and Conditions</Link>
                 </Typography>
                 <Box sx={{ mb: 2 }}></Box>
-                <Grid item container>
-                  <Grid item xs={3}>
-                    <FormControl sx={{}} variant="filled">
-                      <InputLabel htmlFor="outlined-adornment-password">
-                        Use Promo code:
-                      </InputLabel>
-                      <FilledInput
-                        id="promo code"
-                        type="text"
-                        label="efojerfoijer"
-                        value="TRUST"
-                        color="secondary"
-                        sx={{ bgcolor: "background.paper", mr: 1 }}
-                        endAdornment={
-                          <InputAdornment position="end"></InputAdornment>
-                        }
-                      />
-                    </FormControl>
-                  </Grid>
-                  <Grid item xs={6}>
-                    <Button
-                      aria-label="toggle password visibility"
-                      edge="end"
-                      variant="contained"
-                      color="grey"
-                      size="large"
-                      sx={{ height: "100%" }}
-                    >
-                      Get offer
-                    </Button>
-                  </Grid>
-                </Grid>
+                <AddPromoCode />
               </Box>
             </Grid>
           </Grid>
