@@ -28,10 +28,10 @@ export default function PanelCurvedBottom({ children, optionalContent }) {
             md: 4,
             lg: 6,
           },
-          mr: {
+          mx: {
             xs: 0,
             lg: 0,
-            xl: 24,
+            xl: 12,
           },
           bgcolor: "background.paper",
         }}
