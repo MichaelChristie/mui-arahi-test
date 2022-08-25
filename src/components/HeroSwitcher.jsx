@@ -20,6 +20,7 @@ import PanelRight from "./PanelRight";
 import PanelCurvedTop from "./PanelCurvedTop;";
 import PanelCurvedBottom from "./PanelCurvedBottom";
 import HeroImagePhotoNana from "./HeroImagePhotoNana";
+import HeroImagePhotoRing from "./HeroImagePhotoRing";
 import HeroMarketingMessage19 from "./HeroMarketingMessage19";
 import HeroMarketingMessage20 from "./HeroMarketingMessage20";
 import HeroMarketingMessage21 from "./HeroMarketingMessage21";
@@ -123,28 +124,26 @@ export default function HeroSwitcher() {
         <></>
         {/* TOP LEFT */}
         <TabPanel value={value} index={4}>
-          <HeroImagePlaceholder>
+          <HeroImagePhotoRing>
             <PanelLeft>
               <PanelFlexTop>
                 <PanelCurvedBottom
-                  optionalContent={<PlaceholderHorizontalCard />}
+                  optionalContent={<HeroMarketingMessage21 />}
                 />
               </PanelFlexTop>
             </PanelLeft>
-          </HeroImagePlaceholder>
+          </HeroImagePhotoRing>
         </TabPanel>
         <></>
         {/* BOTTOM LEFT */}
         <TabPanel value={value} index={5}>
-          <HeroImagePlaceholder>
+          <HeroImagePhotoRing>
             <PanelLeft>
               <PanelFlexBottom bokehMessage={<HeroMarketingMessage21 />}>
-                <PanelCurvedTop
-                  optionalContent={<PlaceholderHorizontalCard />}
-                />
+                <PanelCurvedTop optionalContent={<MostTrustedCard />} />
               </PanelFlexBottom>
             </PanelLeft>
-          </HeroImagePlaceholder>
+          </HeroImagePhotoRing>
         </TabPanel>
         <></>
         {/* BOTTOM RIGHT */}

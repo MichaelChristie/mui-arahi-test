@@ -1,12 +1,12 @@
 import * as React from "react";
-import { Grid, Box, Button, Typography } from "@mui/material/";
+import { Grid, Box } from "@mui/material/";
 
-import HeroImageXS from "../images/nanas-turkey_XS@2x.jpg";
-import HeroImageSM from "../images/nanas-turkey_SM@2x.jpg";
-import HeroImageMD from "../images/nanas-turkey_MD@2x.jpg";
-import HeroImageLG from "../images/nanas-turkey_LG@2x.jpg";
+import HeroImageXS from "../images/ring_XS@2x.jpg";
+import HeroImageSM from "../images/ring_SM@2x.jpg";
+import HeroImageMD from "../images/ring_MD@2x.jpg";
+import HeroImageLG from "../images/ring_LG@2x.jpg";
 
-export default function HeroImagePhotoNana({ children }) {
+export default function HeroImagePhotoRing({ children }) {
   return (
     <>
       {/* <Box sx={{ background: "transparent", zIndex: 1 }}>
