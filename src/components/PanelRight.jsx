@@ -7,10 +7,32 @@ export default function PanelRight({ children, leftCol }) {
   return (
     <PageLayout>
       <Grid item container>
-        <Grid item xs={12} lg={6} sx={{ zIndex: 1 }}>
+        <Grid
+          item
+          xs={12}
+          md={6}
+          sx={{
+            order: {
+              xs: 1,
+              lg: 2,
+            },
+            zIndex: 1,
+          }}
+        >
           {leftCol}
         </Grid>
-        <Grid item xs={12} lg={6}>
+        <Grid
+          item
+          xs={12}
+          md={6}
+          sx={{
+            order: {
+              xs: 1,
+              lg: 2,
+            },
+            zIndex: 1,
+          }}
+        >
           {children}
         </Grid>
       </Grid>

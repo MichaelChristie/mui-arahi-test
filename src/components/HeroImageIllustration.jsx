@@ -1,8 +1,13 @@
 import * as React from "react";
 import { Grid, Box, Button, Typography } from "@mui/material/";
 
-import HeroImage from "../images/home-contents-illustration.png";
-import HeroImageMobile from "../images/home-contents-illustration.png";
+// import HeroImage from "../images/home-contents-illustration.png";
+// import HeroImageMobile from "../images/home-contents-illustration.png";
+
+import HeroImageXS from "../images/illustration_XS@2x.png";
+import HeroImageSM from "../images/illustration_SM@2x.png";
+import HeroImageMD from "../images/illustration_MD@2x.png";
+import HeroImageLG from "../images/illustration_LG@2x.png";
 
 // import HeroImage from "../images/car-illustration.png";
 // import HeroImageMobile from "../images/car-illustration.png";
@@ -38,12 +43,16 @@ export default function HeroImageIllustration({ children }) {
               margin: "0 auto",
               borderRadius: "4px",
               backgroundImage: {
-                xs: `url(${HeroImageMobile})`,
-                lg: `url(${HeroImage})`,
+                xs: `url(${HeroImageXS})`,
+                sm: `url(${HeroImageSM})`,
+                md: `url(${HeroImageMD})`,
+                lg: `url(${HeroImageLG})`,
               },
 
               backgroundSize: {
                 xs: "contain",
+                sm: "cover",
+                md: "cover",
                 lg: "cover",
               },
               backgroundRepeat: "no-repeat",

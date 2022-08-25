@@ -1,14 +1,11 @@
 import * as React from "react";
 import { Grid, Box, Button, Typography } from "@mui/material/";
 import PageLayout from "../components/PageLayout";
-import PanelTopRight from "../components/PanelTop";
+// import PanelTopRight from "../components/PanelTop";
 import Content from "../components/Content";
-import MostTrustedCard from "../components/MostTrustedCard";
 import ProductGrid from "../components/ProductGrid";
 import BasicCard from "../components/Card";
 import HeaderBrochure from "../components/HeaderBrochure";
-import { Link } from "react-router-dom";
-import HeroHomepage from "../components/HeroHomepage";
 import HeroSwitcher from "../components/HeroSwitcher";
 
 export default function Home() {

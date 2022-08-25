@@ -86,6 +86,19 @@ function App() {
           {/* // */}
 
           <div>
+            <Box
+              sx={{
+                position: "fixed",
+                // width: 56,
+                // height: 56,
+                // background: "#f1f1f1",
+                right: 72,
+                bottom: 16,
+                zIndex: 1,
+              }}
+            >
+              <ShowBreakpoint />
+            </Box>
             <IconButton
               id="basic-button"
               aria-controls={open ? "basic-menu" : undefined}
@@ -96,7 +109,7 @@ function App() {
                 position: "fixed",
                 width: 56,
                 height: 56,
-                background: "#f1f1f1",
+                // background: "#f1f1f1",
                 right: 0,
                 bottom: 0,
                 zIndex: 1,

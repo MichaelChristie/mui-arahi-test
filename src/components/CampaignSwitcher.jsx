@@ -12,8 +12,8 @@ import {
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import PanelTop from "./PanelTop";
-import PanelBottom from "./PanelBottom";
+import PanelFlexTop from "./PanelFlexTop";
+import PanelFlexBottom from "./PanelFlexBottom";
 import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
 import PanelCurvedTop from "./PanelCurvedTop;";
@@ -73,9 +73,9 @@ export default function CampaignSwitcher() {
           <>
             <HeroImageBlank>
               <PanelLeft rightCol={<HeroAnimatedBalloons />}>
-                <PanelTop>
+                <PanelFlexTop>
                   <HeroMarketingMessage22 />
-                </PanelTop>
+                </PanelFlexTop>
               </PanelLeft>
             </HeroImageBlank>
           </>
@@ -85,7 +85,7 @@ export default function CampaignSwitcher() {
           <>
             <HeroImageIllustration>
               <PanelRight leftCol={<HeroMarketingMessageAnimated />}>
-                <PanelTop></PanelTop>
+                <PanelFlexTop></PanelFlexTop>
               </PanelRight>
             </HeroImageIllustration>
           </>
@@ -93,9 +93,9 @@ export default function CampaignSwitcher() {
         <TabPanel value={value} index={2}>
           <HeroImageBlank>
             <PanelRight leftCol={<HeroMarketingMessageAnimated />}>
-              <PanelTop>
+              <PanelFlexTop>
                 <PanelCurvedBottom />
-              </PanelTop>
+              </PanelFlexTop>
             </PanelRight>
           </HeroImageBlank>
         </TabPanel>
@@ -103,10 +103,10 @@ export default function CampaignSwitcher() {
         <TabPanel value={value} index={3}>
           <HeroImagePhotoNana>
             <PanelLeft>
-              <PanelTop>
+              <PanelFlexTop>
                 {/* Bottom Left */}
                 <PanelCurvedBottom />
-              </PanelTop>
+              </PanelFlexTop>
             </PanelLeft>
           </HeroImagePhotoNana>
         </TabPanel>
@@ -114,10 +114,10 @@ export default function CampaignSwitcher() {
           <>
             <HeroImagePhotoDentures>
               <PanelRight leftCol={<HeroMarketingMessage20 />}>
-                <PanelTop>
+                <PanelFlexTop>
                   {/* Top Right */}
                   <PanelCurvedBottom />
-                </PanelTop>
+                </PanelFlexTop>
               </PanelRight>
             </HeroImagePhotoDentures>
           </>

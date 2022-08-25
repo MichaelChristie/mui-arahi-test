@@ -6,6 +6,8 @@ import QuestionContainer from "../components/QuestionContainer";
 import VertCentre from "../components/VertCentre";
 import ToggleButtons from "../components/ToggleButtons";
 import { Link } from "react-router-dom";
+import RegoFinderTabs from "../components/RegoFinderTabs";
+import RegoField from "../components/RegoField";
 // import ButtonGroup from "../components/ButtonGroup";
 
 export default function QuotePage1() {
@@ -26,10 +28,9 @@ export default function QuotePage1() {
         >
           <VertCentre>
             <QuestionContainer>
-              {/* <ToggleButtons /> */}
-
-              <QuestionLockUp />
-              <BackNext />
+              <RegoFinderTabs tabOne={<RegoField />} tabTwo={<RegoField />} />
+              {/* <QuestionLockUp /> */}
+              {/* <BackNext /> */}
             </QuestionContainer>
           </VertCentre>
         </Box>
@@ -46,33 +47,13 @@ function QuestionLockUp() {
   };
   return (
     <>
-      <Typography variant="h5" align="center" sx={{ pb: 2 }}>
-        Did you buy this car on Finance?
-      </Typography>
-
       <Box sx={{ marginTop: 2 }}>
         <Grid container spacing={2} align="center" direction="row">
           <Grid item xs={12} sm={6}>
-            <Button
-              // onClick={handleClick}
-              variant="contained"
-              fullWidth
-              size="large"
-              color={flag ? "grey" : "secondary"}
-            >
-              Yes
-            </Button>
+            <></>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Button
-              onClick={handleClick}
-              variant="contained"
-              fullWidth
-              size="large"
-              color={!flag ? "grey" : "secondary"}
-            >
-              No
-            </Button>
+            <></>
           </Grid>
         </Grid>
       </Box>
@@ -97,7 +78,7 @@ function BackNext() {
                 color="primary"
                 size="large"
               >
-                Continue
+                Continue1
               </Button>
             </Link>
           </Grid>

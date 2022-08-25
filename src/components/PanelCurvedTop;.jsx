@@ -33,6 +33,7 @@ export default function PanelCurvedTop({ children, optionalContent }) {
             xl: 12,
           },
           bgcolor: "background.paper",
+          // bgcolor: "lime",
         }}
       >
         <CTAZoneHomepage />

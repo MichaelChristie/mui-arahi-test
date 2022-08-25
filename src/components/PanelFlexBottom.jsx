@@ -21,7 +21,7 @@ export default function PanelBottom({ children, bokehMessage }) {
             lg: "1 0 auto",
           },
           alignSelf: "stretch",
-          background: "rgba(150,120,150,0.5)",
+          // background: "rgba(150,120,150,0.5)",
           zIndex: 1,
         }}
       >

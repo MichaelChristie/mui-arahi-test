@@ -66,7 +66,7 @@ export default function HeroMarketingMessageAnimated({ children }) {
             },
             pb: {
               xs: 1,
-              lg: 10,
+              lg: 4,
             },
             flex: {
               xs: "0 0 auto",
@@ -81,16 +81,15 @@ export default function HeroMarketingMessageAnimated({ children }) {
         >
           <Grid item container>
             <Grid item xs={12} lg={10}>
-              <Box sx={{ px: 2, pt: 2 }}>
+              <Box sx={{ px: 2 }}>
                 <Typography variant="h1" fontSize={36}>
                   Grab a $50 Prezzy card from NZ's Most Trusted General Insurer
                 </Typography>
                 <Typography variant="p">
                   Get your with every new Home, Car, Contents or Small Business
-                  policy. Offer ends 11 August 2022.
+                  policy. Offer ends 11 August 2022.{"  "}
                   <Link to="/">Terms and Conditions</Link>
                 </Typography>
-                <Box sx={{ mb: 2 }}></Box>
                 <AddPromoCode />
               </Box>
             </Grid>

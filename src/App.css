@@ -4,6 +4,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: lime !important; */
 }
 
 code {
@@ -69,4 +70,10 @@ a:hover {
 .MuiButton-containedSecondary {
   box-shadow: none !important;
   /* Removes the shadow on a selected button */
+}
+
+@font-face {
+  font-family: "FS Lola";
+  src: url("./fonts/FSLolaWeb-ExtraBold.woff") format("woff2"),
+    url("./fonts/FSLolaWeb-ExtraBold.woff") format("woff");
 }

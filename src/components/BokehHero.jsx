@@ -16,9 +16,15 @@ export default function BokehHero() {
     >
       <Box
         sx={{
-          height: 480,
           width: {
-            xs: 360,
+            xs: 480,
+            sm: 600,
+            md: 960,
+            lg: 1200,
+            xl: 1200,
+          },
+          height: {
+            xs: 480,
             sm: 600,
             md: 960,
             lg: 1200,
@@ -42,7 +48,7 @@ export default function BokehHero() {
             xl: 1200,
           },
           backgroundPositionY: {
-            xs: -180,
+            xs: -160,
             sm: -240,
             md: -480,
             lg: -480,

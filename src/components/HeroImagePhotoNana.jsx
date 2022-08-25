@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Grid, Box, Button, Typography } from "@mui/material/";
 
-import HeroImageXS from "../images/nanas-turkey_XS.jpg";
-import HeroImageSM from "../images/nanas-turkey_SM.jpg";
-import HeroImageMD from "../images/nanas-turkey_MD.jpg";
-import HeroImageLG from "../images/nanas-turkey_LG.jpg";
+import HeroImageXS from "../images/nanas-turkey_XS@2x.jpg";
+import HeroImageSM from "../images/nanas-turkey_SM@2x.jpg";
+import HeroImageMD from "../images/nanas-turkey_MD@2x.jpg";
+import HeroImageLG from "../images/nanas-turkey_LG@2x.png";
 
 export default function HeroImagePhotoNana({ children }) {
   return (

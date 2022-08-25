@@ -14,18 +14,18 @@ export default function PanelCurvedBottom({ children, optionalContent }) {
           },
 
           pt: {
-            xs: 2,
+            xs: 4,
             md: 4,
-            lg: 4,
+            lg: 6,
           },
           px: {
-            xs: 2,
+            xs: 4,
             md: 4,
             lg: 6,
           },
           pb: {
-            xs: 2,
-            md: 4,
+            xs: 4,
+            md: 0,
             lg: 6,
           },
           mx: {
@@ -34,6 +34,7 @@ export default function PanelCurvedBottom({ children, optionalContent }) {
             xl: 12,
           },
           bgcolor: "background.paper",
+          // bgcolor: "lime",
         }}
       >
         <CTAZoneHomepage />

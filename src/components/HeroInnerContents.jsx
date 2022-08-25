@@ -1,6 +1,6 @@
 import * as React from "react";
-import PanelTop from "./PanelTop";
-import PanelBottom from "./PanelBottom";
+import PanelTop from "./PanelFlexTop";
+import PanelBottom from "./PanelFlexBottom";
 import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
 import PanelCurvedTop from "./PanelCurvedTop;";

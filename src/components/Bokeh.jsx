@@ -42,7 +42,7 @@ export default function Bokeh() {
             xl: 1200,
           },
           backgroundPositionY: {
-            xs: -180,
+            xs: -160,
             sm: -240,
             md: -480,
             lg: -480,
