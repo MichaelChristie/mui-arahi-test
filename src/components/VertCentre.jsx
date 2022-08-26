@@ -30,8 +30,12 @@ function VertCentre({ children }) {
           {children}
         </Box>
         <Box
+          // Vert centre only for small devices
           sx={{
-            flex: "0 1 auto",
+            flex: {
+              xs: "0 1 auto",
+              md: "0 0 auto",
+            },
             // background: "rgba(50,0,0,0.25)",
             height: "100%",
           }}

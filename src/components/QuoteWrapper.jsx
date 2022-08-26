@@ -32,6 +32,54 @@ export default function QuoteWrapper({ progress, children, ...props }) {
     setMobileOpen(!mobileOpen);
   };
 
+  const chipToggleHelpCentre = (
+    <>
+      <Box
+        sx={{
+          mr: 2,
+          mb: 8,
+          display: { xs: "block", md: "none" },
+          position: "fixed",
+          right: "0",
+          bottom: "0",
+        }}
+      >
+        <Chip
+          aria-label="open drawer"
+          edge="start"
+          color="primary"
+          avatar={<Avatar>A</Avatar>}
+          label="Help Centre and Chat"
+          onClick={handleDrawerToggle}
+        />
+      </Box>
+    </>
+  );
+
+  const chipToggleLiveChat = (
+    <>
+      <Box
+        sx={{
+          mr: 2,
+          display: { xs: "none", md: "block" },
+          mb: 8,
+          position: "fixed",
+          right: "0",
+          bottom: "0",
+        }}
+      >
+        <Chip
+          aria-label="open drawer"
+          edge="start"
+          color="secondary"
+          avatar={<Avatar>B</Avatar>}
+          label=""
+          onClick={handleDrawerToggle}
+        />
+      </Box>
+    </>
+  );
+
   const drawer = (
     <div>
       <Toolbar sx={{ mt: 4, p: 2 }} />
@@ -65,7 +113,7 @@ export default function QuoteWrapper({ progress, children, ...props }) {
 
   return (
     <PageLayout>
-      <Box sx={{ display: "flex" }}>
+      <Box sx={{ display: "flex", flexDirection: "row" }}>
         <HeaderQuote progress={progress} />
         <CssBaseline />
         <Box
@@ -73,59 +121,25 @@ export default function QuoteWrapper({ progress, children, ...props }) {
           sx={{
             flexGrow: 1,
             p: 3,
-            width: { sm: `calc(100% - ${drawerWidth}px)` },
+            background: "rgba(25,150,50,0.5)",
+            width: {
+              xs: `calc(100% - ${drawerWidth}px)`,
+            },
           }}
         >
           <Toolbar />
           {children}
-          {/* // Page content lives here */}
-          <Box
-            sx={{
-              mr: 2,
-              mb: 8,
-              display: { xs: "block", sm: "none" },
-              position: "fixed",
-              right: "0",
-              bottom: "0",
-            }}
-          >
-            <Chip
-              aria-label="open drawer"
-              edge="start"
-              color="primary"
-              avatar={<Avatar>A</Avatar>}
-              label="Help Centre and Chat"
-              onClick={handleDrawerToggle}
-            />
-          </Box>
-          <></>
-          <Box
-            sx={{
-              mr: 2,
-              display: { xs: "none", sm: "block" },
-              mb: 8,
-              position: "fixed",
-              right: "0",
-              bottom: "0",
-            }}
-          >
-            <Chip
-              aria-label="open drawer"
-              edge="start"
-              color="primary"
-              avatar={<Avatar>B</Avatar>}
-              label="Live Chat"
-              onClick={handleDrawerToggle}
-            />
-          </Box>
         </Box>
         <Box
           component="nav"
-          sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
+          sx={{
+            width: { xs: drawerWidth },
+            flexShrink: { sm: 0 },
+            background: "rgba(25,50,50,0.5)",
+            // display: { xs: "none", lg: "block" },
+          }}
           aria-label="mailbox folders"
         >
-          {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-
           <Drawer
             container={container}
             variant="temporary"
@@ -136,7 +150,7 @@ export default function QuoteWrapper({ progress, children, ...props }) {
               keepMounted: true, // Better open performance on mobile.
             }}
             sx={{
-              display: { xs: "block", sm: "none" },
+              display: { xs: "none", md: "none" },
               "& .MuiDrawer-paper": {
                 boxSizing: "border-box",
                 width: drawerWidth,
@@ -151,7 +165,7 @@ export default function QuoteWrapper({ progress, children, ...props }) {
             variant="permanent"
             // anchor="right"
             sx={{
-              display: { xs: "none", sm: "block" },
+              display: { xs: "none", md: "block" },
               "& .MuiDrawer-paper": {
                 boxSizing: "border-box",
                 width: drawerWidth,
@@ -163,6 +177,8 @@ export default function QuoteWrapper({ progress, children, ...props }) {
           </Box>
         </Box>
       </Box>
+      {chipToggleHelpCentre}
+      {chipToggleLiveChat}
     </PageLayout>
   );
 }

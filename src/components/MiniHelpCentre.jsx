@@ -45,14 +45,15 @@ function MiniHelpCentre() {
 
   return (
     <>
-      <FormControl fullWidth variant="filled">
-        <InputLabel color="neutral" htmlFor="hep-centre-search">
+      <FormControl fullWidth variant="standard">
+        <InputLabel color="neutral" htmlFor="help-centre-search">
           Search Help Centre
         </InputLabel>
-        <FilledInput
-          id="hep-centre-search"
+        <Input
+          // <FilledInput
+          id="help-centre-search"
           type="text"
-          placeholder="e.g: What is business use?"
+          // placeholder="e.g: What is business use?"
           color="secondary"
           onChange={handleChange("password")}
           endAdornment={

@@ -23,16 +23,14 @@ export default function QuotePage1() {
         <Box
           sx={{
             height: "60vh",
-            // background: "#FF0000"
+            // background: "rgba(50,0,0,0.25)",
           }}
         >
-          <VertCentre>
-            <QuestionContainer>
-              <RegoFinderTabs tabOne={<RegoField />} tabTwo={<RegoField />} />
-              {/* <QuestionLockUp /> */}
-              {/* <BackNext /> */}
-            </QuestionContainer>
-          </VertCentre>
+          <QuestionContainer>
+            <RegoFinderTabs tabOne={<RegoField />} tabTwo={<RegoField />} />
+            {/* <QuestionLockUp /> */}
+            <BackNext />
+          </QuestionContainer>
         </Box>
       </QuoteWrapper>
     </>
@@ -64,7 +62,7 @@ function QuestionLockUp() {
 function BackNext() {
   return (
     <>
-      <Box sx={{ display: "flex", marginTop: 12 }}>
+      <Box sx={{ display: "flex", marginTop: 3 }}>
         <Grid container spacing={2} direction="row">
           <Grid item xs={12} sm={6} sx={{}}>
             <Link to="/">Home</Link>

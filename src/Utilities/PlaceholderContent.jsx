@@ -11,7 +11,7 @@ export default function PlaceholderContent({ children }) {
             lg: 1,
           },
           border: "4px dashed #FFF",
-          background: "rgba(114,125,127,0.5)",
+          background: "rgba(0,127,196,0.16)",
           height: "100%",
         }}
       >

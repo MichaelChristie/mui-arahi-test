@@ -20,7 +20,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
+        <Box sx={{ py: 3 }}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -54,7 +54,9 @@ export default function RegoFinderTabs() {
         <Tabs
           value={value}
           onChange={handleChange}
-          aria-label="basic tabs example"
+          aria-label="Rego Finder"
+          textColor="primary"
+          indicatorColor="secondary"
         >
           <Tab label="Rego lookup" {...a11yProps(0)} />
           <Tab label="Model lookup" {...a11yProps(1)} />
@@ -63,14 +65,15 @@ export default function RegoFinderTabs() {
       <TabPanel value={value} index={0}>
         <RegoField />
         <Box sx={{ mb: 2 }} />
-
+        {/* <RegoCarResults /> */}
         <Alert severity="info">
+          <Typography variant="h6">Not your Car?</Typography>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           ornare tortor ultrices, aliquet turpis nec, dignissim sem. Nam
-          venenatis gravida lacus sit amet fermentum. Curabitur ut erat elit.
+          venenatis gravida lacus sit amet fermentum.{" "}
+          <a href="/">Curabitur ut erat</a> elit.
         </Alert>
         <Box sx={{ mb: 2 }} />
-        <RegoCarResults />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <RegoField />

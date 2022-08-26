@@ -30,7 +30,8 @@ export default function PanelCurvedBottom({ children, optionalContent }) {
           },
           mx: {
             xs: 0,
-            lg: 0,
+            md: 3,
+            lg: 6,
             xl: 12,
           },
           bgcolor: "background.paper",

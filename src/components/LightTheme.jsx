@@ -69,6 +69,41 @@ const lightTheme = {
   },
   components: {
     // Name of the component
+
+    MuiInputBase: {
+      styleOverrides: {
+        input: {
+          // color: "lime",
+          borderBottom: "1px solid transparent !important", // use your color
+
+          "&::before": {
+            borderBottom: "1px solid transparent !important", // use your color
+          },
+          "&::after": {
+            borderBottom: "1px solid transparent !important", // use your color
+          },
+        },
+      },
+    },
+
+    MuiFilledInput: {
+      root: {
+        styleOverrides: {
+          input: {
+            // color: "lime",
+            borderBottom: "1px solid transparent !important", // use your color
+
+            "&::before": {
+              borderBottom: "1px solid transparent !important", // use your color
+            },
+            "&::after": {
+              borderBottom: "1px solid transparent !important", // use your color
+            },
+          },
+        },
+      },
+    },
+
     MuiBackdrop: {
       styleOverrides: {
         // Name of the slot
