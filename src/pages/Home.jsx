@@ -8,6 +8,7 @@ import BasicCard from "../components/Card";
 import HeaderBrochure from "../components/HeaderBrochure";
 import HeroSwitcher from "../components/HeroSwitcher";
 import LiveChat from "../components/LiveChat";
+import PageSpacer from "../components/PageSpacer";
 
 export default function Home() {
   return (
@@ -16,23 +17,13 @@ export default function Home() {
       <HeroSwitcher />
       <LiveChat />
       <PageLayout>
-        <Box sx={{ mt: 10 }} />
+        <PageSpacer />
         <ProductGrid />
-        <Box sx={{ mt: 12 }} />
-        <Box sx={{ p: 3 }}>
-          <BasicCard />
-        </Box>
-
-        <Content />
-
-        <Box>Home</Box>
-        <Button variant="contained" color="primary" sx={{ mr: 2 }}>
-          This is a button
-        </Button>
-        <Button variant="contained" color="grey">
-          This is another button
-        </Button>
+        <PageSpacer />
+        <BasicCard />
+        <PageSpacer />
       </PageLayout>
+      <PageSpacer />
     </>
   );
 }

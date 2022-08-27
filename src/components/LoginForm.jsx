@@ -60,6 +60,7 @@ function LoginForm() {
           // onChange={handleChange("name")}
           type="email"
           color="secondary"
+          autoComplete="off"
           margin="normal"
           variant="filled"
           sx={{ mb: 0, borderRadius: "8px" }}
@@ -79,6 +80,7 @@ function LoginForm() {
           id="outlined-adornment-password"
           type={values.showPassword ? "text" : "password"}
           value={values.password}
+          autoComplete="off"
           variant="outlined"
           color="secondary"
           onChange={handleChange("password")}

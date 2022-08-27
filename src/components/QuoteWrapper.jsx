@@ -20,6 +20,9 @@ import { faTimes, faSearch } from "@fortawesome/pro-light-svg-icons";
 import { VisibilityOff } from "@mui/icons-material";
 import MiniHelpCentre from "./MiniHelpCentre";
 import LoginForm from "./LoginForm";
+import StickyFooterPage from "./StickyFooterPage";
+import HeroMarketingMessage from "./HeroMarketingMessage19";
+import MenuGrid from "./navigation/MenuGrid";
 
 const drawerWidth = 400;
 
@@ -64,93 +67,95 @@ export default function QuoteWrapper({ progress, children, ...props }) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <PageLayout>
-      <Box sx={{ display: "flex" }}>
-        <HeaderQuote progress={progress} />
-        <CssBaseline />
-        <Box
-          // MAIN BODY
-          component="main"
-          sx={{
-            flexGrow: 1,
-            p: 3,
-            width: { sm: `calc(100% - ${drawerWidth}px)` },
-            // background: "rgba(150, 150, 0, 0.5)",
-          }}
-        >
-          <Toolbar />
-          {children}
-          {/* // Page content lives here */}
+    <StickyFooterPage footerContent={<HeroMarketingMessage />}>
+      <PageLayout>
+        <Box sx={{ display: "flex" }}>
+          <HeaderQuote progress={progress} />
+          <CssBaseline />
           <Box
+            // MAIN BODY
+            component="main"
             sx={{
-              mr: 2,
-              mb: 8,
-              display: { xs: "block", md: "none" },
-              position: "fixed",
-              right: "0",
-              bottom: "0",
+              flexGrow: 1,
+              p: 3,
+              width: { sm: `calc(100% - ${drawerWidth}px)` },
+              // background: "rgba(150, 150, 0, 0.5)",
             }}
           >
-            <Chip
-              aria-label="open drawer"
-              edge="start"
-              color="primary"
-              avatar={<Avatar>A</Avatar>}
-              label="Help Centre and Chat"
-              onClick={handleDrawerToggle}
-            />
+            <Toolbar />
+            {children}
+            {/* // Page content lives here */}
+            <Box
+              sx={{
+                mr: 2,
+                mb: 8,
+                display: { xs: "block", md: "none" },
+                position: "fixed",
+                right: "0",
+                bottom: "0",
+              }}
+            >
+              <Chip
+                aria-label="open drawer"
+                edge="start"
+                color="primary"
+                avatar={<Avatar>A</Avatar>}
+                label="Help Centre and Chat"
+                onClick={handleDrawerToggle}
+              />
+            </Box>
+            <></>
           </Box>
-          <></>
-        </Box>
-        <Box
-          // HELP CENTRE DRAWER!!!
-          component="nav"
-          sx={{
-            width: { md: drawerWidth },
-            flexShrink: { sm: 0 },
-            // background: "rgba(50, 150, 150, 0.5)",
-          }}
-          aria-label="Help Centre"
-        >
-          {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
+          <Box
+            // HELP CENTRE DRAWER!!!
+            component="nav"
+            sx={{
+              width: { md: drawerWidth },
+              flexShrink: { sm: 0 },
+              // background: "rgba(50, 150, 150, 0.5)",
+            }}
+            aria-label="Help Centre"
+          >
+            {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
 
-          <Drawer
-            container={container}
-            variant="temporary"
-            open={mobileOpen}
-            anchor="right"
-            onClose={handleDrawerToggle}
-            ModalProps={{
-              keepMounted: true, // Better open performance on mobile.
-            }}
-            sx={{
-              display: { xs: "block", md: "none" },
-              "& .MuiDrawer-paper": {
-                boxSizing: "border-box",
-                width: drawerWidth,
-                backdropFilter: "blur(15px)",
-                background: "rgba(255, 255, 255, 0.90);", //Fix for dark theme
-              },
-            }}
-          >
-            {drawer}
-          </Drawer>
-          <Box
-            variant="permanent"
-            // anchor="right"
-            sx={{
-              display: { xs: "none", md: "block" },
-              "& .MuiDrawer-paper": {
-                boxSizing: "border-box",
-                width: drawerWidth,
-              },
-            }}
-            open
-          >
-            {drawer}
+            <Drawer
+              container={container}
+              variant="temporary"
+              open={mobileOpen}
+              anchor="right"
+              onClose={handleDrawerToggle}
+              ModalProps={{
+                keepMounted: true, // Better open performance on mobile.
+              }}
+              sx={{
+                display: { xs: "block", md: "none" },
+                "& .MuiDrawer-paper": {
+                  boxSizing: "border-box",
+                  width: drawerWidth,
+                  backdropFilter: "blur(15px)",
+                  background: "rgba(255, 255, 255, 0.90);", //Fix for dark theme
+                },
+              }}
+            >
+              {drawer}
+            </Drawer>
+            <Box
+              variant="permanent"
+              // anchor="right"
+              sx={{
+                display: { xs: "none", md: "block" },
+                "& .MuiDrawer-paper": {
+                  boxSizing: "border-box",
+                  width: drawerWidth,
+                },
+              }}
+              open
+            >
+              {drawer}
+            </Box>
           </Box>
         </Box>
-      </Box>
-    </PageLayout>
+      </PageLayout>
+    </StickyFooterPage>
   );
 }

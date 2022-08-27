@@ -55,6 +55,7 @@ function MiniHelpCentre() {
           type="text"
           // placeholder="e.g: What is business use?"
           color="secondary"
+          autoComplete="off"
           onChange={handleChange("password")}
           endAdornment={
             <InputAdornment position="end">

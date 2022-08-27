@@ -4,9 +4,9 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import RegoField from "./RegoField";
-import { Alert } from "@mui/material";
-import RegoCarResults from "./RegoCarResults";
+
+import RegoLookup from "./RegoLookup";
+import RegoModelSelector from "./RegoModelSelector";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -63,20 +63,15 @@ export default function RegoFinderTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <RegoField />
+        <RegoLookup />
         <Box sx={{ mb: 2 }} />
-        {/* <RegoCarResults /> */}
-        <Alert severity="info">
-          <Typography variant="h6">Not your Car?</Typography>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          ornare tortor ultrices, aliquet turpis nec, dignissim sem. Nam
-          venenatis gravida lacus sit amet fermentum.{" "}
-          <a href="/">Curabitur ut erat</a> elit.
-        </Alert>
+
         <Box sx={{ mb: 2 }} />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <RegoField />
+        <RegoModelSelector />
+        <Box sx={{ mb: 2 }} />
+        <RegoModelSelector />
       </TabPanel>
     </Box>
   );

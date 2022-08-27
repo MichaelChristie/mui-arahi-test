@@ -11,24 +11,20 @@ import RegoField from "../components/RegoField";
 // import ButtonGroup from "../components/ButtonGroup";
 
 export default function QuotePage1() {
-  const [flag, setFlag] = React.useState(true);
-
-  const handleClick = () => {
-    setFlag(!flag);
-  };
   return (
     <>
       <QuoteWrapper progress={1}>
         <Typography variant="h1">Find your Car</Typography>
         <Box
-          sx={{
-            height: "60vh",
-            // background: "rgba(50,0,0,0.25)",
-          }}
+          sx={
+            {
+              // height: "100vh",
+              // background: "rgba(50,0,0,0.25)",
+            }
+          }
         >
           <QuestionContainer>
             <RegoFinderTabs tabOne={<RegoField />} tabTwo={<RegoField />} />
-            {/* <QuestionLockUp /> */}
             <BackNext />
           </QuestionContainer>
         </Box>
@@ -65,20 +61,20 @@ function BackNext() {
       <Box sx={{ display: "flex", marginTop: 3 }}>
         <Grid container spacing={2} direction="row">
           <Grid item xs={12} sm={6} sx={{}}>
-            <Link to="/">Home</Link>
+            <Button fullWidth variant="text" href="/">
+              Back
+            </Button>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Link to="/quote2">
-              <Button
-                href="/quote2"
-                variant="contained"
-                fullWidth
-                color="primary"
-                size="large"
-              >
-                Continue1
-              </Button>
-            </Link>
+            <Button
+              href="/quote2"
+              variant="contained"
+              fullWidth
+              color="primary"
+              size="large"
+            >
+              Continue
+            </Button>
           </Grid>
         </Grid>
       </Box>

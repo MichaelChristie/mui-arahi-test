@@ -13,7 +13,7 @@ export default function QuotePage2() {
         <Typography variant="h1">Page 2</Typography>
         <Box
           sx={{
-            height: "60vh",
+            height: "100vh",
             // background: "#FF0000"
           }}
         >

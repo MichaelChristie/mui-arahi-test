@@ -101,13 +101,13 @@ a:hover {
 
 .content {
   flex: 1 0 auto;
-  padding: 10px;
+  /* background-color: #0068ab; */
 }
 
 .footer {
   flex-shrink: 0;
-  text-align: center;
   background-color: #ffd400;
+  background-color: var(--color-base-yellow);
 }
 
 .MuiGrid-root {

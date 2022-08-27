@@ -36,6 +36,8 @@ import {
   faTimes,
 } from "@fortawesome/pro-light-svg-icons";
 import LiveChat from "./components/LiveChat";
+import StickyFooterPage from "./components/StickyFooterPage";
+import MenuGrid from "./components/navigation/MenuGrid";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -62,112 +64,113 @@ function App() {
           {/* <Quote /> */}
           {/* <Campaign /> */}
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/quote" element={<QuotePage1 />} />
-            <Route path="/quote2" element={<QuotePage2 />} />
-            <Route path="/quote3" element={<QuotePage3 />} />
-            <Route path="/documentation" element={<Documentation />} />
-            <Route path="/campaign" element={<Campaign />} />
-            {/* <Route path="/clipped-drawer" element={<ClippedDrawer />} /> */}
-            <Route path="/drawer" element={<ResponsiveDrawer />} />
-            {/* <Route path="/product" element={<Product />} /> */}
-            <Route path="/courses" element={<Courses />}>
+          <StickyFooterPage footerContent={<MenuGrid />}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/quote" element={<QuotePage1 />} />
+              <Route path="/quote2" element={<QuotePage2 />} />
+              <Route path="/quote3" element={<QuotePage3 />} />
+              <Route path="/documentation" element={<Documentation />} />
+              <Route path="/campaign" element={<Campaign />} />
+              {/* <Route path="/clipped-drawer" element={<ClippedDrawer />} /> */}
+              <Route path="/drawer" element={<ResponsiveDrawer />} />
               {/* <Route path="/product" element={<Product />} /> */}
-              <Route path="search" element={<Search />} />
-              <Route path="list" element={<List />} />
-            </Route>
+              <Route path="/courses" element={<Courses />}>
+                {/* <Route path="/product" element={<Product />} /> */}
+                <Route path="search" element={<Search />} />
+                <Route path="list" element={<List />} />
+              </Route>
 
-            <Route path="/product" element={<Product />}>
-              {/* <Route path="/product" element={<Product />} /> */}
-              <Route path="search" element={<Search />} />
-              <Route path="list" element={<List />} />
-            </Route>
-          </Routes>
+              <Route path="/product" element={<Product />}>
+                {/* <Route path="/product" element={<Product />} /> */}
+                <Route path="search" element={<Search />} />
+                <Route path="list" element={<List />} />
+              </Route>
+            </Routes>
 
-          {/* // */}
+            {/* // */}
 
-          <div>
-            <Box
-              sx={{
-                position: "fixed",
-                // width: 56,
-                // height: 56,
-                // background: "#f1f1f1",
-                right: 72,
-                bottom: 16,
-                zIndex: 1,
-              }}
-            >
-              <ShowBreakpoint />
-            </Box>
-            <IconButton
-              id="basic-button"
-              aria-controls={open ? "basic-menu" : undefined}
-              aria-haspopup="true"
-              aria-expanded={open ? "true" : undefined}
-              onClick={handleClick}
-              sx={{
-                position: "fixed",
-                width: 56,
-                height: 56,
-                // background: "#f1f1f1",
-                right: 0,
-                bottom: 0,
-                zIndex: 1,
-              }}
-            >
-              <FontAwesomeIcon icon={faEllipsis} fontSize="large" />
-            </IconButton>
+            <div>
+              <Box
+                sx={{
+                  position: "fixed",
+                  // width: 56,
+                  // height: 56,
+                  // background: "#f1f1f1",
+                  right: 72,
+                  bottom: 16,
+                  zIndex: 1,
+                }}
+              >
+                <ShowBreakpoint />
+              </Box>
+              <IconButton
+                id="basic-button"
+                aria-controls={open ? "basic-menu" : undefined}
+                aria-haspopup="true"
+                aria-expanded={open ? "true" : undefined}
+                onClick={handleClick}
+                sx={{
+                  position: "fixed",
+                  width: 56,
+                  height: 56,
+                  // background: "#f1f1f1",
+                  right: 0,
+                  bottom: 0,
+                  zIndex: 1,
+                }}
+              >
+                <FontAwesomeIcon icon={faEllipsis} fontSize="large" />
+              </IconButton>
 
-            <Menu
-              id="basic-menu"
-              anchorEl={anchorEl}
-              open={open}
-              onClose={handleClose}
-              MenuListProps={{
-                "aria-labelledby": "basic-button",
-              }}
-            >
-              <MenuItem onClick={handleClose}>
-                <ListItemIcon>
-                  <FontAwesomeIcon icon={faTimes} fontSize="large" />
-                </ListItemIcon>
-                <ListItemText>Hidden Controls</ListItemText>
-              </MenuItem>
+              <Menu
+                id="basic-menu"
+                anchorEl={anchorEl}
+                open={open}
+                onClose={handleClose}
+                MenuListProps={{
+                  "aria-labelledby": "basic-button",
+                }}
+              >
+                <MenuItem onClick={handleClose}>
+                  <ListItemIcon>
+                    <FontAwesomeIcon icon={faTimes} fontSize="large" />
+                  </ListItemIcon>
+                  <ListItemText>Hidden Controls</ListItemText>
+                </MenuItem>
 
-              <Divider />
+                <Divider />
 
-              <MenuItem component={Link} to={"/"}>
-                <ListItemIcon>
-                  <FontAwesomeIcon icon={faHome} fontSize="large" />
-                </ListItemIcon>
-                <ListItemText>Home</ListItemText>
-              </MenuItem>
+                <MenuItem component={Link} to={"/"}>
+                  <ListItemIcon>
+                    <FontAwesomeIcon icon={faHome} fontSize="large" />
+                  </ListItemIcon>
+                  <ListItemText>Home</ListItemText>
+                </MenuItem>
 
-              <MenuItem component={Link} to={"/"}>
-                <ListItemIcon>
-                  <ShowBreakpoint />
-                </ListItemIcon>
-                <ListItemText>Breakpoint</ListItemText>
-              </MenuItem>
+                <MenuItem component={Link} to={"/"}>
+                  <ListItemIcon>
+                    <ShowBreakpoint />
+                  </ListItemIcon>
+                  <ListItemText>Breakpoint</ListItemText>
+                </MenuItem>
 
-              <MenuItem>
-                <FormGroup>
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={darkMode}
-                        onChange={() => setDarkMode(!darkMode)}
-                      />
-                    }
-                    label="Dark Mode"
-                  />
-                </FormGroup>
-              </MenuItem>
-            </Menu>
-          </div>
-          {/* // */}
+                <MenuItem>
+                  <FormGroup>
+                    <FormControlLabel
+                      control={
+                        <Switch
+                          checked={darkMode}
+                          onChange={() => setDarkMode(!darkMode)}
+                        />
+                      }
+                      label="Dark Mode"
+                    />
+                  </FormGroup>
+                </MenuItem>
+              </Menu>
+            </div>
+          </StickyFooterPage>
         </ThemeProvider>
       </Router>
     </div>
