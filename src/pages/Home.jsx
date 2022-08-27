@@ -7,13 +7,14 @@ import ProductGrid from "../components/ProductGrid";
 import BasicCard from "../components/Card";
 import HeaderBrochure from "../components/HeaderBrochure";
 import HeroSwitcher from "../components/HeroSwitcher";
+import LiveChat from "../components/LiveChat";
 
 export default function Home() {
   return (
     <>
       <HeaderBrochure />
       <HeroSwitcher />
-
+      <LiveChat />
       <PageLayout>
         <Box sx={{ mt: 10 }} />
         <ProductGrid />

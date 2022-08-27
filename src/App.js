@@ -35,6 +35,7 @@ import {
   faHome,
   faTimes,
 } from "@fortawesome/pro-light-svg-icons";
+import LiveChat from "./components/LiveChat";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -60,6 +61,7 @@ function App() {
           <CssBaseline />
           {/* <Quote /> */}
           {/* <Campaign /> */}
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/quote" element={<QuotePage1 />} />
@@ -165,7 +167,6 @@ function App() {
               </MenuItem>
             </Menu>
           </div>
-
           {/* // */}
         </ThemeProvider>
       </Router>

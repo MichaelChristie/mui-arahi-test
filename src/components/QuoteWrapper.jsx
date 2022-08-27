@@ -56,30 +56,6 @@ export default function QuoteWrapper({ progress, children, ...props }) {
     </>
   );
 
-  const chipToggleLiveChat = (
-    <>
-      <Box
-        sx={{
-          mr: 2,
-          display: { xs: "none", md: "block" },
-          mb: 8,
-          position: "fixed",
-          right: "0",
-          bottom: "0",
-        }}
-      >
-        <Chip
-          aria-label="open drawer"
-          edge="start"
-          color="secondary"
-          avatar={<Avatar>B</Avatar>}
-          label=""
-          onClick={handleDrawerToggle}
-        />
-      </Box>
-    </>
-  );
-
   const drawer = (
     <div>
       <Toolbar sx={{ mt: 4, p: 2 }} />
@@ -121,7 +97,7 @@ export default function QuoteWrapper({ progress, children, ...props }) {
           sx={{
             flexGrow: 1,
             p: 3,
-            background: "rgba(25,150,50,0.5)",
+            // background: "rgba(25,150,50,0.5)",
             width: {
               xs: `calc(100% - ${drawerWidth}px)`,
             },
@@ -134,9 +110,9 @@ export default function QuoteWrapper({ progress, children, ...props }) {
           component="nav"
           sx={{
             width: { xs: drawerWidth },
-            flexShrink: { sm: 0 },
-            background: "rgba(25,50,50,0.5)",
-            // display: { xs: "none", lg: "block" },
+            flexShrink: { xs: 0 },
+            // background: "rgba(25,50,50,0.5)",
+            display: { xs: "none", lg: "block" },
           }}
           aria-label="mailbox folders"
         >
@@ -178,7 +154,6 @@ export default function QuoteWrapper({ progress, children, ...props }) {
         </Box>
       </Box>
       {chipToggleHelpCentre}
-      {chipToggleLiveChat}
     </PageLayout>
   );
 }
