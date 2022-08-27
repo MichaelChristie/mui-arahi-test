@@ -32,30 +32,6 @@ export default function QuoteWrapper({ progress, children, ...props }) {
     setMobileOpen(!mobileOpen);
   };
 
-  const chipToggleHelpCentre = (
-    <>
-      <Box
-        sx={{
-          mr: 2,
-          mb: 8,
-          display: { xs: "block", md: "none" },
-          position: "fixed",
-          right: "0",
-          bottom: "0",
-        }}
-      >
-        <Chip
-          aria-label="open drawer"
-          edge="start"
-          color="primary"
-          avatar={<Avatar>A</Avatar>}
-          label="Help Centre and Chat"
-          onClick={handleDrawerToggle}
-        />
-      </Box>
-    </>
-  );
-
   const drawer = (
     <div>
       <Toolbar sx={{ mt: 4, p: 2 }} />
@@ -89,33 +65,55 @@ export default function QuoteWrapper({ progress, children, ...props }) {
 
   return (
     <PageLayout>
-      <Box sx={{ display: "flex", flexDirection: "row" }}>
+      <Box sx={{ display: "flex" }}>
         <HeaderQuote progress={progress} />
         <CssBaseline />
         <Box
+          // MAIN BODY
           component="main"
           sx={{
             flexGrow: 1,
             p: 3,
-            // background: "rgba(25,150,50,0.5)",
-            width: {
-              xs: `calc(100% - ${drawerWidth}px)`,
-            },
+            width: { sm: `calc(100% - ${drawerWidth}px)` },
+            // background: "rgba(150, 150, 0, 0.5)",
           }}
         >
           <Toolbar />
           {children}
+          {/* // Page content lives here */}
+          <Box
+            sx={{
+              mr: 2,
+              mb: 8,
+              display: { xs: "block", md: "none" },
+              position: "fixed",
+              right: "0",
+              bottom: "0",
+            }}
+          >
+            <Chip
+              aria-label="open drawer"
+              edge="start"
+              color="primary"
+              avatar={<Avatar>A</Avatar>}
+              label="Help Centre and Chat"
+              onClick={handleDrawerToggle}
+            />
+          </Box>
+          <></>
         </Box>
         <Box
+          // HELP CENTRE DRAWER!!!
           component="nav"
           sx={{
-            width: { xs: drawerWidth },
-            flexShrink: { xs: 0 },
-            // background: "rgba(25,50,50,0.5)",
-            display: { xs: "none", lg: "block" },
+            width: { md: drawerWidth },
+            flexShrink: { sm: 0 },
+            // background: "rgba(50, 150, 150, 0.5)",
           }}
-          aria-label="mailbox folders"
+          aria-label="Help Centre"
         >
+          {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
+
           <Drawer
             container={container}
             variant="temporary"
@@ -126,7 +124,7 @@ export default function QuoteWrapper({ progress, children, ...props }) {
               keepMounted: true, // Better open performance on mobile.
             }}
             sx={{
-              display: { xs: "none", md: "none" },
+              display: { xs: "block", md: "none" },
               "& .MuiDrawer-paper": {
                 boxSizing: "border-box",
                 width: drawerWidth,
@@ -153,7 +151,6 @@ export default function QuoteWrapper({ progress, children, ...props }) {
           </Box>
         </Box>
       </Box>
-      {chipToggleHelpCentre}
     </PageLayout>
   );
 }
