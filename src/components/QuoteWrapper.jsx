@@ -23,6 +23,7 @@ import LoginForm from "./LoginForm";
 import StickyFooterPage from "./StickyFooterPage";
 import HeroMarketingMessage from "./HeroMarketingMessage19";
 import MenuGrid from "./navigation/MenuGrid";
+import BackNext from "./backNext";
 
 const drawerWidth = 400;
 
@@ -67,7 +68,8 @@ export default function QuoteWrapper({ progress, children, ...props }) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <StickyFooterPage footerContent={<HeroMarketingMessage />}>
+    <StickyFooterPage footerContent={<></>}>
+      {/* ADD <BACKNEXT /> TO FOOTER CONTENT WHEN EVENTS CAN BE PASSED BETWEEN COMPONENTS */}
       <PageLayout>
         <Box sx={{ display: "flex" }}>
           <HeaderQuote progress={progress} />

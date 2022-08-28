@@ -7,6 +7,10 @@ const darkTheme = {
     primary: {
       main: MyData.global.color.base.blue.value,
     },
+    black: {
+      main: MyData.global.color.base.black75.value,
+      contrastText: MyData.global.color.base.white.value,
+    },
     secondary: {
       main: MyData.global.color.base.yellow.value,
     },

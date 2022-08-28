@@ -50,12 +50,12 @@ export default function RegoFinderTabs() {
 
   return (
     <Box sx={{ width: "100%" }}>
-      <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+      <Box sx={{ borderBottom: 0, borderColor: "divider" }}>
         <Tabs
           value={value}
           onChange={handleChange}
           aria-label="Rego Finder"
-          textColor="primary"
+          textColor="secondary"
           indicatorColor="secondary"
         >
           <Tab label="Rego lookup" {...a11yProps(0)} />

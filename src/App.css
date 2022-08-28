@@ -113,3 +113,21 @@ a:hover {
 .MuiGrid-root {
   transition: all 0.5s ease;
 }
+
+.MuiTab-root {
+  font-weight: 600 !important;
+}
+
+/* //MAKE THE TABS THE CORRECT COLOR */
+.MuiTab-textColorSecondary {
+  color: var(--color-base-black50) !important;
+}
+.Mui-selected {
+  color: var(--color-base-black75) !important;
+}
+
+/* TABLE ROW SELECTION COLOR */
+
+.MuiTableRow-root.Mui-selected {
+  background-color: #ffd400 !important;
+}

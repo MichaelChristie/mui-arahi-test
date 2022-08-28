@@ -271,12 +271,13 @@ export default function RegoCarResults() {
                       role="checkbox"
                       aria-checked={isItemSelected}
                       tabIndex={-1}
+                      color="secondary"
                       key={row.name}
                       selected={isItemSelected}
                     >
                       <TableCell padding="checkbox">
                         <Radio
-                          color="primary"
+                          color="black"
                           checked={isItemSelected}
                           inputProps={{
                             "aria-labelledby": labelId,
@@ -286,14 +287,21 @@ export default function RegoCarResults() {
                       <TableCell
                         component="th"
                         id={labelId}
+                        color="secondary"
                         scope="row"
                         padding="none"
                       >
                         {row.name}
                       </TableCell>
-                      <TableCell align="right">{row.calories}</TableCell>
-                      <TableCell align="right">{row.fat}</TableCell>
-                      <TableCell align="right">{row.carbs}</TableCell>
+                      <TableCell color="secondary" align="right">
+                        {row.calories}
+                      </TableCell>
+                      <TableCell color="secondary" align="right">
+                        {row.fat}
+                      </TableCell>
+                      <TableCell color="secondary" align="right">
+                        {row.carbs}
+                      </TableCell>
                     </TableRow>
                   );
                 })}

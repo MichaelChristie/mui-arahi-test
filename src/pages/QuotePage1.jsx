@@ -8,12 +8,13 @@ import ToggleButtons from "../components/ToggleButtons";
 import { Link } from "react-router-dom";
 import RegoFinderTabs from "../components/RegoFinderTabs";
 import RegoField from "../components/RegoField";
+import BackNext from "../components/backNext";
 // import ButtonGroup from "../components/ButtonGroup";
 
 export default function QuotePage1() {
   return (
     <>
-      <QuoteWrapper progress={1}>
+      <QuoteWrapper progress={1} footerContent={<></>}>
         <Typography variant="h1">Find your Car</Typography>
         <Box
           sx={
@@ -25,59 +26,9 @@ export default function QuotePage1() {
         >
           <QuestionContainer>
             <RegoFinderTabs tabOne={<RegoField />} tabTwo={<RegoField />} />
-            <BackNext />
           </QuestionContainer>
         </Box>
       </QuoteWrapper>
-    </>
-  );
-}
-
-function QuestionLockUp() {
-  const [flag, setFlag] = React.useState(true);
-
-  const handleClick = () => {
-    setFlag(!flag);
-  };
-  return (
-    <>
-      <Box sx={{ marginTop: 2 }}>
-        <Grid container spacing={2} align="center" direction="row">
-          <Grid item xs={12} sm={6}>
-            <></>
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <></>
-          </Grid>
-        </Grid>
-      </Box>
-    </>
-  );
-}
-
-function BackNext() {
-  return (
-    <>
-      <Box sx={{ display: "flex", marginTop: 3 }}>
-        <Grid container spacing={2} direction="row">
-          <Grid item xs={12} sm={6} sx={{}}>
-            <Button fullWidth variant="text" href="/">
-              Back
-            </Button>
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <Button
-              href="/quote2"
-              variant="contained"
-              fullWidth
-              color="primary"
-              size="large"
-            >
-              Continue
-            </Button>
-          </Grid>
-        </Grid>
-      </Box>
     </>
   );
 }

@@ -65,7 +65,7 @@ export default function DelayingAppearance() {
         )}
       </Box>
       <Button onClick={handleClickQuery} sx={{ m: 2 }}>
-        Find car
+        Find
       </Button>
     </Box>
   );

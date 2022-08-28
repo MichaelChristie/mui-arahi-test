@@ -24,6 +24,10 @@ const lightTheme = {
       main: MyData.global.color.base.grey.value,
       contrastText: MyData.global.color.base.blue.value,
     },
+    black: {
+      main: MyData.global.color.base.black75.value,
+      contrastText: MyData.global.color.base.white.value,
+    },
     neutral: {
       main: "#64748B",
       contrastText: "#fff",
