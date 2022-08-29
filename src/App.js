@@ -24,10 +24,11 @@ import QuotePage1 from "./pages/QuotePage1";
 import QuotePage2 from "./pages/QuotePage2";
 import QuotePage3 from "./pages/QuotePage3";
 import Documentation from "./pages/Documentation";
+import Styles from "./components/Styles";
 import Campaign from "./pages/Campaign";
 import ResponsiveDrawer from "./components/ResponsiveDrawer";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ShowGridCSS from "./components/ShowGridCSS";
 
 import {
   faEye,
@@ -38,6 +39,7 @@ import {
 import LiveChat from "./components/LiveChat";
 import StickyFooterPage from "./components/StickyFooterPage";
 import MenuGrid from "./components/navigation/MenuGrid";
+// import ThemeNesting from "./Utilities/GridThemeSwitcher";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -60,7 +62,10 @@ function App() {
     <div className="App">
       <Router>
         <ThemeProvider theme={theme}>
+          {/* <ThemeProvider theme={innerTheme}> */}
           <CssBaseline />
+
+          {/* <ShowGridCSS /> */}
           {/* <Quote /> */}
           {/* <Campaign /> */}
 
@@ -70,7 +75,9 @@ function App() {
               <Route path="/quote" element={<QuotePage1 />} />
               <Route path="/quote2" element={<QuotePage2 />} />
               <Route path="/quote3" element={<QuotePage3 />} />
+              {/* <Route path="/playground" element={<ThemeNesting />} /> */}
               <Route path="/documentation" element={<Documentation />} />
+              <Route path="/styles" element={<Styles />} />
               <Route path="/campaign" element={<Campaign />} />
               {/* <Route path="/clipped-drawer" element={<ClippedDrawer />} /> */}
               <Route path="/drawer" element={<ResponsiveDrawer />} />
@@ -172,6 +179,7 @@ function App() {
             </div>
           </StickyFooterPage>
         </ThemeProvider>
+        {/* </ThemeProvider> */}
       </Router>
     </div>
   );

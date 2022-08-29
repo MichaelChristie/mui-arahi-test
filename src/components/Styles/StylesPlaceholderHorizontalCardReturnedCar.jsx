@@ -5,9 +5,10 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import PlaceholderImage from "../images/placeholder_SQ@2x.png";
+import PlaceholderImage from "../../images/placeholder_SQ@2x.png";
 import { Divider } from "@mui/material";
-export default function PlaceholderHorizontalCardReturnedCar() {
+
+export default function StylesPlaceholderHorizontalCardReturnedCar() {
   const theme = useTheme();
 
   return (

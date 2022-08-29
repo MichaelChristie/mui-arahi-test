@@ -45,12 +45,13 @@ export default function PhoneModal() {
       >
         <Paper sx={{ p: 2 }}>
           <DialogTitle typography="h5" id="alert-dialog-title">
-            {"Use Google's location service?"}
+            {"Doloribus ratione tempora?"}
           </DialogTitle>
           <DialogContent>
             <DialogContentText id="alert-dialog-description">
-              Let Google help apps determine location. This means sending
-              anonymous location data to Google, even when no apps are running.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Doloribus ratione tempora laboriosam autem reprehenderit fugiat,
+              eius itaque aspernatur.
             </DialogContentText>
           </DialogContent>
           <DialogActions>

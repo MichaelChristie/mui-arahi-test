@@ -26,6 +26,7 @@ export default function HiddenMenu({ children }) {
       <>
         <IconButton
           id="basic-button1"
+          aria-label="open menu"
           aria-controls={open ? "basic-menu1" : undefined}
           aria-haspopup="true"
           aria-expanded={open ? "true" : undefined}

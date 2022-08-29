@@ -69,6 +69,7 @@ export default function RegoLookup() {
             <Button
               variant="contained"
               color="primary"
+              aria-label="Find My Rego"
               //   onClick={handleChange}
               onClick={handleClickQuery}
               fullWidth

@@ -1,0 +1,44 @@
+[
+  {
+    //XS
+    "columns": 4,
+    "from": 0,
+    "gutters": 16,
+    "margins": 16,
+    "to": 599
+  },
+  {
+    //SM
+    "columns": 8,
+    "from": 600,
+    "gutters": 16,
+    "margins": 16,
+    "to": 899
+  },
+  {
+    //MD
+    "columns": 8,
+    "from": 900,
+    "gutters": 24,
+    "margins": 24,
+    "to": 1199
+  },
+  {
+    //LG
+    "columns": 12,
+    "from": 1200,
+    "gutters": 24,
+    "margins": 0,
+    "maxWidth": 1152,
+    "to": 1599
+  }
+  {
+    //XL
+    "columns": 12,
+    "from": 1600,
+    "gutters": 24,
+    "margins": 0,
+    "maxWidth": 2400,
+    "to": 7680
+  }
+]

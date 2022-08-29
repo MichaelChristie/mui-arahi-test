@@ -20,8 +20,8 @@ export default function MenuGrid() {
           <Grid item container>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faUmbrella} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faUmbrella} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
@@ -32,8 +32,8 @@ export default function MenuGrid() {
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faCoffee} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faCoffee} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
@@ -43,8 +43,8 @@ export default function MenuGrid() {
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faBatteryLow} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faBatteryLow} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
@@ -54,8 +54,8 @@ export default function MenuGrid() {
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faBatteryLow} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faBatteryLow} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
@@ -65,8 +65,8 @@ export default function MenuGrid() {
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faBatteryLow} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faBatteryLow} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
@@ -76,8 +76,8 @@ export default function MenuGrid() {
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faBatteryLow} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faBatteryLow} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
@@ -87,8 +87,8 @@ export default function MenuGrid() {
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faBatteryLow} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faBatteryLow} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
@@ -98,19 +98,19 @@ export default function MenuGrid() {
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faBatteryLow} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faBatteryLow} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
-                Classic Car
+                ClassNameic Car
               </Typography>
               <NavPolicy />
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faBatteryLow} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faBatteryLow} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
@@ -120,8 +120,8 @@ export default function MenuGrid() {
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faBatteryLow} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faBatteryLow} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
@@ -131,8 +131,8 @@ export default function MenuGrid() {
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faBatteryLow} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faBatteryLow} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>
@@ -142,8 +142,8 @@ export default function MenuGrid() {
             </Grid>
             <Grid item xs={6} md={3} lg={2} align="left" sx={{ mt: 4 }}>
               <Box sx={{ px: 2 }}>
-                <Box class="circle-sm size-64">
-                  <FontAwesomeIcon icon={faBatteryLow} class="inner" />
+                <Box className="circle-sm size-64">
+                  <FontAwesomeIcon icon={faBatteryLow} className="inner" />
                 </Box>
               </Box>
               <Typography variant="h6" sx={{ p: 2 }}>

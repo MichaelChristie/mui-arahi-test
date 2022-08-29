@@ -13,7 +13,7 @@ export default function OverviewBlock({ children, className }) {
     <>
       <Grid item container>
         <Grid item xs={3}>
-          <div class="circle circle-sm size-64 fa-2x">
+          <div className="circle circle-sm size-64 fa-2x">
             <FontAwesomeIcon icon={faPhone} className="inner" />
           </div>
         </Grid>

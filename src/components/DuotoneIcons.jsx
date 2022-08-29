@@ -8,38 +8,41 @@ import ListItemText from "@mui/material/ListItemText";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import IconButton from "@mui/material/IconButton";
-import {
-  faBars,
-  faScissors,
-  faCircleUser,
-  faClipboard,
-} from "@fortawesome/pro-light-svg-icons";
 
-import { faCoffee } from "@fortawesome/pro-duotone-svg-icons";
+import {
+  faCoffee,
+  faChargingStation,
+  faBellSlash,
+  faCloudShowersHeavy,
+  faHouseFire,
+} from "@fortawesome/pro-duotone-svg-icons";
 import HeaderQuote from "./HeaderQuote";
 import PageLayout from "./PageLayout";
+import SpacerSection from "./SpacerSection";
 
 export default function DuotoneIcons() {
   return (
     <>
-      <HeaderQuote />
-      <Toolbar sx={{ mt: 4 }} />
-      <PageLayout>
-        <Typography variant="h1">Duotone Icons</Typography>
-        <FontAwesomeIcon
-          icon={faBars}
-          sx={{
-            color: "#FFD400",
-          }}
-        />
-        <Box sx={{ mb: 24 }} />
-        <></>
-        <Box class="circle-sm size-64">
-          <FontAwesomeIcon icon={faCoffee} class="inner" />
-        </Box>
-        <></>
-        <Box sx={{ mb: 24 }} />
-      </PageLayout>
+      <></>
+      <SpacerSection />
+      <Grid item container>
+        <Grid item xs={6} md={3} lg={2}>
+          <Box className="circle-sm size-64">
+            <FontAwesomeIcon icon={faBellSlash} className="inner" />
+          </Box>
+        </Grid>
+
+        <Grid item xs={6} md={3} lg={2}>
+          <Box className="circle-sm size-64">
+            <FontAwesomeIcon icon={faChargingStation} className="inner" />
+          </Box>
+        </Grid>
+        <Grid item xs={6} md={3} lg={2}>
+          <Box className="circle-sm size-64">
+            <FontAwesomeIcon icon={faHouseFire} className="inner" />
+          </Box>
+        </Grid>
+      </Grid>
     </>
   );
 }

@@ -1,8 +1,7 @@
 import * as React from "react";
 import { Grid, Box } from "@mui/material/";
-import PageLayout from "./PageLayout";
 
-export default function PageSpacer({ children, footerContent }) {
+export default function SpacerPage() {
   return (
     <>
       <Box

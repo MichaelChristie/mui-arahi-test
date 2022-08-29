@@ -8,7 +8,7 @@ import BasicCard from "../components/Card";
 import HeaderBrochure from "../components/HeaderBrochure";
 import HeroSwitcher from "../components/HeroSwitcher";
 import LiveChat from "../components/LiveChat";
-import PageSpacer from "../components/PageSpacer";
+import PageSpacer from "../components/SpacerPage";
 
 export default function Home() {
   return (

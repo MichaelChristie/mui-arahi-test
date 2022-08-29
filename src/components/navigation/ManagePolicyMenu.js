@@ -8,9 +8,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faScissors,
   faBook,
+  faPaintbrushPencil,
   faSearch,
   faUserCircle,
   faEdit,
+  faStars,
 } from "@fortawesome/pro-light-svg-icons";
 import Divider from "@mui/material/Divider";
 import MenuList from "@mui/material/MenuList";
@@ -63,23 +65,35 @@ export default function ManagePolicyMenu() {
         }}
       >
         <MenuList>
-          <MenuItem component={Link} to={"/policy-documents"}>
+          {/* <MenuItem component={Link} to={"/documentation"}>
             <ListItemIcon>
               <FontAwesomeIcon icon={faBook} fontSize="large" />
             </ListItemIcon>
             <ListItemText>Policy Document</ListItemText>
-          </MenuItem>
+          </MenuItem> */}
           <MenuItem component={Link} to={"/documentation"}>
             <ListItemIcon>
-              <FontAwesomeIcon icon={faScissors} fontSize="large" />
+              <FontAwesomeIcon icon={faBook} fontSize="large" />
             </ListItemIcon>
             <ListItemText>Documentation</ListItemText>
           </MenuItem>
+          <MenuItem component={Link} to={"/styles"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faPaintbrushPencil} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Styles</ListItemText>
+          </MenuItem>
           <MenuItem component={Link} to={"/campaign"}>
             <ListItemIcon>
-              <FontAwesomeIcon icon={faScissors} fontSize="large" />
+              <FontAwesomeIcon icon={faStars} fontSize="large" />
             </ListItemIcon>
             <ListItemText>Campaign</ListItemText>
+          </MenuItem>
+          <MenuItem component={Link} to={"/playground"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faStars} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Playground</ListItemText>
           </MenuItem>
           <MenuItem component={Link} to={"/login"}>
             <ListItemIcon>

@@ -22,6 +22,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import Typography from "@mui/material/Typography";
 import Cloud from "@mui/icons-material/Cloud";
 import { Link } from "react-router-dom";
+import NavMegaMenu from "./NavMegaMenu";
 
 export default function OurInsuranceMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -72,7 +73,8 @@ export default function OurInsuranceMenu() {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuList>
+        <NavMegaMenu />
+        {/* <MenuList>
           <MenuItem component={Link} to={"/"}>
             <ListItemIcon>
               <FontAwesomeIcon icon={faHome} fontSize="large" />
@@ -108,7 +110,7 @@ export default function OurInsuranceMenu() {
             </ListItemIcon>
             <ListItemText>Search</ListItemText>
           </MenuItem>
-        </MenuList>
+        </MenuList> */}
       </Menu>
     </>
   );

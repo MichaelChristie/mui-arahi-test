@@ -21,7 +21,7 @@ export default function RegoField({ buttonAction }) {
           backgroundPositionX: "right",
           backgroundRepeat: "no-repeat",
           verticalAlign: "middle",
-          backgroundColor: "bacground.paper",
+          backgroundColor: "#FFFFFF",
           borderRadius: 2,
           width: "100%",
           // border: "4px solid rgba(0,0,0,0.75)",
@@ -44,13 +44,14 @@ export default function RegoField({ buttonAction }) {
             fullWidth
             onClick={console.log("clicked")}
             placeholder="MYREGO"
+            value="LYC100"
             variant="standard"
             autoFocus={true}
             color="secondary"
             autoComplete="off"
             inputProps={{
               style: {
-                fontSize: 72,
+                fontSize: 64,
                 textAlign: "center",
                 fontWeight: 100,
                 fontFamily: "FS Lola, Arial Black",

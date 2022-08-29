@@ -76,13 +76,15 @@ export default function HeroSwitcher() {
       <Box sx={{ height: { lg: 600 } }}>
         <TabPanel value={value} index={0}>
           <>
-            <HeroImageIllustration>
-              <PanelRight leftCol={<HeroMarketingMessageAnimated />}>
+            <HeroImagePlaceholder>
+              <PanelRight leftCol={<PlaceholderContent />}>
                 <PanelFlexTop>
-                  <PanelCurvedBottom />
+                  <PanelCurvedBottom
+                    optionalContent={<PlaceholderHorizontalCard />}
+                  />
                 </PanelFlexTop>
               </PanelRight>
-            </HeroImageIllustration>
+            </HeroImagePlaceholder>
           </>
         </TabPanel>
 
@@ -214,15 +216,13 @@ export default function HeroSwitcher() {
         </TabPanel>
         {/* TOP RIGHT */}
         <TabPanel value={value} index={11}>
-          <HeroImagePlaceholder>
-            <PanelRight leftCol={<PlaceholderContent />}>
+          <HeroImageIllustration>
+            <PanelRight leftCol={<HeroMarketingMessageAnimated />}>
               <PanelFlexTop>
-                <PanelCurvedBottom
-                  optionalContent={<PlaceholderHorizontalCard />}
-                />
+                <PanelCurvedBottom />
               </PanelFlexTop>
             </PanelRight>
-          </HeroImagePlaceholder>
+          </HeroImageIllustration>
         </TabPanel>
       </Box>
       <Box
@@ -244,7 +244,7 @@ export default function HeroSwitcher() {
             onChange={handleChange}
             aria-label="basic tabs example"
           >
-            <Tab label="Hybrid" {...a11yProps(0)} />
+            <Tab label="TR - Custom" {...a11yProps(0)} />
             <Tab label="Photo" {...a11yProps(1)} />
             <Tab label="Minimalist" {...a11yProps(2)} />
             <Tab label="Simple" {...a11yProps(3)} />
@@ -255,7 +255,7 @@ export default function HeroSwitcher() {
             <Tab label="TL - Custom" {...a11yProps(8)} />
             <Tab label="BL - Custom" {...a11yProps(9)} />
             <Tab label="BR - Custom" {...a11yProps(10)} />
-            <Tab label="TR - Custom" {...a11yProps(11)} />
+            <Tab label="Hybrid" {...a11yProps(11)} />
           </Tabs>
         </HiddenMenu>
       </Box>
