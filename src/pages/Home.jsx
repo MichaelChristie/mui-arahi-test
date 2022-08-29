@@ -9,12 +9,14 @@ import HeaderBrochure from "../components/HeaderBrochure";
 import HeroSwitcher from "../components/HeroSwitcher";
 import LiveChat from "../components/LiveChat";
 import PageSpacer from "../components/SpacerPage";
+// import Playground from "./components/Playground";
 
 export default function Home() {
   return (
     <>
       <HeaderBrochure />
       <HeroSwitcher />
+      {/* <Playground /> */}
       <LiveChat />
       <PageLayout>
         <PageSpacer />

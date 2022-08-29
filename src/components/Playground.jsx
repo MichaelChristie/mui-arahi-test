@@ -1,66 +1,39 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
-import Slider from "@mui/material/Slider";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Switch from "@mui/material/Switch";
+import { jssPreset, StylesProvider, makeStyles } from "@mui/styles";
+import { create } from "jss";
+import jssTemplate from "jss-plugin-template";
 
-const CustomSlider = styled(Slider)({
-  width: 300,
-  color: "var(--color)",
-  "& .MuiSlider-thumb": {
-    [`&:hover, &.Mui-focusVisible`]: {
-      boxShadow: "0px 0px 0px 8px var(--box-shadow)",
-    },
-    [`&.Mui-active`]: {
-      boxShadow: "0px 0px 0px 14px var(--box-shadow)",
-    },
-  },
+const jss = create({
+  plugins: [jssTemplate(), ...jssPreset().plugins],
 });
 
-const successVars = {
-  "--color": "#FF0000",
-  color: "red",
-  "--box-shadow": "rgb(76, 175, 80, .16)",
-  "& :root": {
-    backgroundColor: "#FF0000 !important",
-    "--grid-vertical-lines": "lime !important",
-    "--grid-vertical-color": "tomato !important",
-    "--grid-horizontal-lines": "lime !important",
-    "--grid-horizontal-color": "tomato !important",
-  },
-};
+const useStyles = makeStyles({
+  root: `
+    background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+    border-radius: 3px;
+    font-size: 16px;
+    border: 0;
+    color: white;
+    height: 48px;
+    padding: 0 30px;
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3);
+  `,
+});
 
-const defaultVars = {
-  "--color": "#1976d2",
-  "--box-shadow": "rgb(25, 118, 210, .16)",
-};
-
-export default function DynamicCSSVariables() {
-  const [vars, setVars] = React.useState(defaultVars);
-
-  const handleChange = (event) => {
-    setVars(event.target.checked ? successVars : defaultVars);
-  };
-
+function Child() {
+  const classes = useStyles();
   return (
-    // <React.Fragment>
-    <>
-      <FormControlLabel
-        control={
-          <Switch
-            checked={vars === successVars}
-            onChange={handleChange}
-            color="primary"
-            value="dynamic-class-name"
-          />
-        }
-        label="Success"
-      />
-      <CustomSlider style={vars} defaultValue={30} sx={{ mt: 1 }} />
-      <div className="main" style={vars}>
-        hi
-      </div>
-    </>
-    // </React.Fragment>
+    <button type="button" className={classes.root}>
+      String templates
+    </button>
+  );
+}
+
+export default function Playground() {
+  return (
+    <StylesProvider jss={jss}>
+      <Child />
+      sssss
+    </StylesProvider>
   );
 }

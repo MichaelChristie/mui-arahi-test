@@ -39,6 +39,7 @@ import {
 import LiveChat from "./components/LiveChat";
 import StickyFooterPage from "./components/StickyFooterPage";
 import MenuGrid from "./components/navigation/MenuGrid";
+import Playground from "./components/Playground";
 // import ThemeNesting from "./Utilities/GridThemeSwitcher";
 
 function App() {
@@ -69,6 +70,7 @@ function App() {
           {/* <Quote /> */}
           {/* <Campaign /> */}
 
+          <Playground />
           <StickyFooterPage footerContent={<MenuGrid />}>
             <Routes>
               <Route path="/" element={<Home />} />
