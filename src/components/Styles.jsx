@@ -51,47 +51,45 @@ export default function Styles() {
       <HeaderBrochure />
 
       <PageLayout>
-        <Box sx={{ p: { xs: 2, md: 3 } }}>
-          <Grid item container spacing={12}>
-            <Grid item xs={12} md={6} lg={4}>
-              <StylesTypography />
-              <DuotoneIcons />
-            </Grid>
-            <Grid item xs={12} md={6} lg={4}>
-              <StylesRegoFinderTabs />
-              <StylesAlertsInfo />
-              <StylesButtons />
-              <SpacerSection />
-              <StylesIcons />
-            </Grid>
-            <Grid item xs={12} md={6} lg={4}>
-              <StylesCard />
-            </Grid>
-            <Grid item xs={12} md={6} lg={4}>
-              <StylesPlaceholderHorizontalCardReturnedCar />
-              <SpacerSection />
-              <StylesIconButtons />
-              <SpacerSection />
-              <StylesValidationTextFields />
-            </Grid>
-            <Grid item xs={12} md={6} lg={4}>
-              <StylesAlertsWarning />
-              <StylesChips />
-              <SpacerSection />
-              <StylesAccordion />
-            </Grid>
-            <Grid item xs={12} md={6} lg={4}>
-              <RegoModelSelector />
-              <SpacerSection />
-              <StyleRegoCarResults />
-            </Grid>
+        <Grid item container spacing={12}>
+          <Grid item xs={12} md={6} lg={4}>
+            <StylesTypography />
+            <DuotoneIcons />
           </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+            <StylesRegoFinderTabs />
+            <StylesAlertsInfo />
+            <StylesButtons />
+            <SpacerSection />
+            <StylesIcons />
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+            <StylesCard />
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+            <StylesPlaceholderHorizontalCardReturnedCar />
+            <SpacerSection />
+            <StylesIconButtons />
+            <SpacerSection />
+            <StylesValidationTextFields />
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+            <StylesAlertsWarning />
+            <StylesChips />
+            <SpacerSection />
+            <StylesAccordion />
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+            <StyleRegoCarResults />
+            <SpacerSection />
+            <RegoModelSelector />
+          </Grid>
+        </Grid>
 
-          <DynamicCSSVariables />
-          <SpacerPage />
-          <StylesAlertsFull />
-          <SpacerPage />
-        </Box>
+        <DynamicCSSVariables />
+        <SpacerPage />
+        <StylesAlertsFull />
+        <SpacerPage />
       </PageLayout>
     </>
   );

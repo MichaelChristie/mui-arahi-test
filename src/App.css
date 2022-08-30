@@ -94,7 +94,7 @@ a:hover {
 }
 
 .MuiGrid-root {
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 .MuiTab-root {
@@ -113,4 +113,9 @@ a:hover {
 
 .MuiTableRow-root.Mui-selected {
   background-color: #ffd400 !important;
+}
+
+.showMe {
+  /* border: 1px #ff0000 dashed !important; */
+  /* background: rgba(110, 50, 70, 0.25) !important; */
 }

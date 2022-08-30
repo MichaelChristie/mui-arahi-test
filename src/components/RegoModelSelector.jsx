@@ -30,10 +30,10 @@ export default function RegoModelSelector() {
           />
         ))
       }
-      style={{ width: 500 }}
+      // style={{ width: 500 }}
       renderInput={(params) => (
         <TextField
-          variant="filled"
+          variant="standard"
           color="secondary"
           sx={{ width: "100%" }}
           {...params}
@@ -53,7 +53,7 @@ const top100Films = [
   { title: "The Dark Knight", year: 2008 },
   { title: "12 Angry Men", year: 1957 },
   { title: "Schindler's List", year: 1993 },
-  { title: "Pulp Fiction", year: 1994 },
+  { title: "BMW", year: 1994 },
   {
     title: "The Lord of the Rings: The Return of the King",
     year: 2003,
@@ -69,7 +69,7 @@ const top100Films = [
     year: 1980,
   },
   { title: "Forrest Gump", year: 1994 },
-  { title: "Inception", year: 2010 },
+  { title: "Nissan", year: 2010 },
   {
     title: "The Lord of the Rings: The Two Towers",
     year: 2002,

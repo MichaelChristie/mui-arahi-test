@@ -97,6 +97,11 @@
 * Using pseudos on <html> but could also use <body> or a <div id="app"> type thing.
 */
 
+.showPadding {
+  background-color: rgba(150, 25, 56, 0.5);
+  padding: 3px;
+}
+
 .show-grid {
   position: absolute;
   min-width: 100vw;
@@ -141,6 +146,9 @@
   z-index: var(--grid-z_index);
 }
 
+.showMe {
+  border: "1px #FF0000 dashed";
+}
 /* html {
   position: relative;
   min-width: 100vw;

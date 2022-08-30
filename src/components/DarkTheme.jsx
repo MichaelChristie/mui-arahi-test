@@ -30,28 +30,55 @@ const darkTheme = {
     h1: {
       fontWeight: 800,
       fontFamily: MyData.global.fontFamily.primaryHeading.value,
-      fontSize: 56,
+      fontSize: "2rem",
+      "@media (min-width:600px)": {
+        fontSize: "3rem",
+      },
+      // [theme.breakpoints.up("md")]: {
+      //   fontSize: "4rem",
+      // },
     },
     h2: {
       fontWeight: 600,
       fontFamily: MyData.global.fontFamily.primaryHeading.value,
+      fontSize: "1.8rem",
+      "@media (min-width:600px)": {
+        fontSize: "2.4rem",
+      },
     },
     h3: {
       fontWeight: 600,
       fontFamily: "Arial",
+      fontSize: "1.6rem",
+      "@media (min-width:600px)": {
+        fontSize: "1.8rem",
+      },
     },
     h4: {
       fontWeight: 600,
       fontFamily: "Arial",
+      fontSize: "1.4rem",
+      "@media (min-width:600px)": {
+        fontSize: "1.6rem",
+      },
     },
     h5: {
       fontWeight: 600,
       fontFamily: "Arial",
+      fontSize: "1.2rem",
+      "@media (min-width:600px)": {
+        fontSize: "1.4rem",
+      },
     },
     h6: {
       fontWeight: 600,
       fontFamily: "Arial",
       lineHeight: 1.4,
+      letterSpacing: 0.125,
+      fontSize: "1.1rem",
+      "@media (min-width:600px)": {
+        fontSize: "1rem",
+      },
     },
   },
   components: {

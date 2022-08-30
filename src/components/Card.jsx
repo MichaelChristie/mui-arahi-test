@@ -10,7 +10,17 @@ import { Box } from "@mui/material";
 export default function BasicCard() {
   return (
     // <ThemeProvider>
-    <Box sx={{ px: 3 }}>
+    <Box
+      sx={{
+        px: {
+          xs: 3,
+          sm: 3,
+          md: 3,
+          lg: 3,
+          xl: 3,
+        },
+      }}
+    >
       <Grid
         container
         // rowSpacing={2}
