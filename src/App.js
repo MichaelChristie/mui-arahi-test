@@ -8,7 +8,14 @@ import Search from "./components/Search";
 import List from "./components/List";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import { Box, Switch, Button, Divider, IconButton } from "@mui/material/";
+import {
+  Box,
+  Switch,
+  Button,
+  Divider,
+  IconButton,
+  GlobalStyles,
+} from "@mui/material/";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import ShowBreakpoint from "./components/ShowBreakpoint";
@@ -20,6 +27,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 //Import themes`
 import darkTheme from "./components/DarkTheme";
 import lightTheme from "./components/LightTheme";
+import ThemeGrid from "./components/ThemeGrid";
 import QuotePage1 from "./pages/QuotePage1";
 import QuotePage2 from "./pages/QuotePage2";
 import QuotePage3 from "./pages/QuotePage3";
@@ -28,8 +36,8 @@ import Styles from "./components/Styles";
 import Campaign from "./pages/Campaign";
 import ResponsiveDrawer from "./components/ResponsiveDrawer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ShowGridCSS from "./components/ShowGridCSS";
-
+// import ShowGridCSS from "./components/ShowGridCSS";
+import "./css/MyGrid.css";
 import {
   faEye,
   faEllipsis,
@@ -43,6 +51,11 @@ import Playground from "./components/Playground";
 // import ThemeNesting from "./Utilities/GridThemeSwitcher";
 
 function App() {
+  const [isShowGrid, setShowGrid] = useState("false");
+  const handleChange = () => {
+    setShowGrid(!isShowGrid);
+  };
+
   const [darkMode, setDarkMode] = useState(false);
 
   // USED FOR HIDING THE page controls in a menu
@@ -56,132 +69,149 @@ function App() {
     setAnchorEl(null);
   };
 
-  //
+  const theme2 = {
+    background: "#FF0000 !important",
+    body: {
+      margin: "0",
+      background: "red !important",
+    },
+  };
 
   let theme = darkMode ? createTheme(darkTheme) : createTheme(lightTheme);
   return (
     <div className="App">
       <Router>
         <ThemeProvider theme={theme}>
-          {/* <ThemeProvider theme={innerTheme}> */}
-          <CssBaseline />
+          <ThemeProvider theme={theme2}>
+            <CssBaseline />
+            <div className={isShowGrid ? "App show-grid" : "App"}>
+              {/* <ShowGridCSS /> */}
+              {/* <Quote /> */}
+              {/* <Campaign /> */}
+              <StickyFooterPage footerContent={<MenuGrid />}>
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/quote" element={<QuotePage1 />} />
+                  <Route path="/quote2" element={<QuotePage2 />} />
+                  <Route path="/quote3" element={<QuotePage3 />} />
+                  {/* <Route path="/playground" element={<ThemeNesting />} /> */}
+                  <Route path="/documentation" element={<Documentation />} />
+                  <Route path="/styles" element={<Styles />} />
+                  <Route path="/campaign" element={<Campaign />} />
+                  {/* <Route path="/clipped-drawer" element={<ClippedDrawer />} /> */}
+                  <Route path="/drawer" element={<ResponsiveDrawer />} />
+                  {/* <Route path="/product" element={<Product />} /> */}
+                  <Route path="/courses" element={<Courses />}>
+                    {/* <Route path="/product" element={<Product />} /> */}
+                    <Route path="search" element={<Search />} />
+                    <Route path="list" element={<List />} />
+                  </Route>
 
-          {/* <ShowGridCSS /> */}
-          {/* <Quote /> */}
-          {/* <Campaign /> */}
-
-          <Playground />
-          <StickyFooterPage footerContent={<MenuGrid />}>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/quote" element={<QuotePage1 />} />
-              <Route path="/quote2" element={<QuotePage2 />} />
-              <Route path="/quote3" element={<QuotePage3 />} />
-              {/* <Route path="/playground" element={<ThemeNesting />} /> */}
-              <Route path="/documentation" element={<Documentation />} />
-              <Route path="/styles" element={<Styles />} />
-              <Route path="/campaign" element={<Campaign />} />
-              {/* <Route path="/clipped-drawer" element={<ClippedDrawer />} /> */}
-              <Route path="/drawer" element={<ResponsiveDrawer />} />
-              {/* <Route path="/product" element={<Product />} /> */}
-              <Route path="/courses" element={<Courses />}>
-                {/* <Route path="/product" element={<Product />} /> */}
-                <Route path="search" element={<Search />} />
-                <Route path="list" element={<List />} />
-              </Route>
-
-              <Route path="/product" element={<Product />}>
-                {/* <Route path="/product" element={<Product />} /> */}
-                <Route path="search" element={<Search />} />
-                <Route path="list" element={<List />} />
-              </Route>
-            </Routes>
-
-            {/* // */}
-
-            <div>
-              <Box
-                sx={{
-                  position: "fixed",
-                  // width: 56,
-                  // height: 56,
-                  // background: "#f1f1f1",
-                  right: 72,
-                  bottom: 16,
-                  zIndex: 1,
-                }}
-              >
-                <ShowBreakpoint />
-              </Box>
-              <IconButton
-                id="basic-button"
-                aria-controls={open ? "basic-menu" : undefined}
-                aria-haspopup="true"
-                aria-expanded={open ? "true" : undefined}
-                onClick={handleClick}
-                sx={{
-                  position: "fixed",
-                  width: 56,
-                  height: 56,
-                  // background: "#f1f1f1",
-                  right: 0,
-                  bottom: 0,
-                  zIndex: 1,
-                }}
-              >
-                <FontAwesomeIcon icon={faEllipsis} fontSize="large" />
-              </IconButton>
-
-              <Menu
-                id="basic-menu"
-                anchorEl={anchorEl}
-                open={open}
-                onClose={handleClose}
-                MenuListProps={{
-                  "aria-labelledby": "basic-button",
-                }}
-              >
-                <MenuItem onClick={handleClose}>
-                  <ListItemIcon>
-                    <FontAwesomeIcon icon={faTimes} fontSize="large" />
-                  </ListItemIcon>
-                  <ListItemText>Hidden Controls</ListItemText>
-                </MenuItem>
-
-                <Divider />
-
-                <MenuItem component={Link} to={"/"}>
-                  <ListItemIcon>
-                    <FontAwesomeIcon icon={faHome} fontSize="large" />
-                  </ListItemIcon>
-                  <ListItemText>Home</ListItemText>
-                </MenuItem>
-
-                <MenuItem component={Link} to={"/"}>
-                  <ListItemIcon>
+                  <Route path="/product" element={<Product />}>
+                    {/* <Route path="/product" element={<Product />} /> */}
+                    <Route path="search" element={<Search />} />
+                    <Route path="list" element={<List />} />
+                  </Route>
+                </Routes>
+                <>
+                  <GlobalStyles styles={{ h2: { color: "grey" } }} />
+                  <h2>Grey h2 element</h2>
+                </>
+                <div>
+                  <Box
+                    sx={{
+                      position: "fixed",
+                      // width: 56,
+                      // height: 56,
+                      // background: "#f1f1f1",
+                      right: 72,
+                      bottom: 16,
+                      zIndex: 1,
+                    }}
+                  >
                     <ShowBreakpoint />
-                  </ListItemIcon>
-                  <ListItemText>Breakpoint</ListItemText>
-                </MenuItem>
+                  </Box>
+                  <IconButton
+                    id="basic-button"
+                    aria-controls={open ? "basic-menu" : undefined}
+                    aria-haspopup="true"
+                    aria-expanded={open ? "true" : undefined}
+                    onClick={handleClick}
+                    sx={{
+                      position: "fixed",
+                      width: 56,
+                      height: 56,
+                      // background: "#f1f1f1",
+                      right: 0,
+                      bottom: 0,
+                      zIndex: 1,
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faEllipsis} fontSize="large" />
+                  </IconButton>
 
-                <MenuItem>
-                  <FormGroup>
-                    <FormControlLabel
-                      control={
-                        <Switch
-                          checked={darkMode}
-                          onChange={() => setDarkMode(!darkMode)}
+                  <Menu
+                    id="basic-menu"
+                    anchorEl={anchorEl}
+                    open={open}
+                    onClose={handleClose}
+                    MenuListProps={{
+                      "aria-labelledby": "basic-button",
+                    }}
+                  >
+                    <MenuItem onClick={handleClose}>
+                      <ListItemIcon>
+                        <FontAwesomeIcon icon={faTimes} fontSize="large" />
+                      </ListItemIcon>
+                      <ListItemText>Hidden Controls</ListItemText>
+                    </MenuItem>
+
+                    <Divider />
+
+                    <MenuItem component={Link} to={"/"}>
+                      <ListItemIcon>
+                        <FontAwesomeIcon icon={faHome} fontSize="large" />
+                      </ListItemIcon>
+                      <ListItemText>Home</ListItemText>
+                    </MenuItem>
+
+                    <MenuItem component={Link} to={"/"}>
+                      <ListItemIcon>
+                        <ShowBreakpoint />
+                      </ListItemIcon>
+                      <ListItemText>Breakpoint</ListItemText>
+                    </MenuItem>
+
+                    <MenuItem>
+                      <FormGroup>
+                        <FormControlLabel
+                          control={
+                            <Switch
+                              checked={darkMode}
+                              onChange={() => setDarkMode(!darkMode)}
+                            />
+                          }
+                          label="Dark Mode"
                         />
-                      }
-                      label="Dark Mode"
-                    />
-                  </FormGroup>
-                </MenuItem>
-              </Menu>
+                      </FormGroup>
+                    </MenuItem>
+
+                    <MenuItem>
+                      <FormGroup>
+                        <FormControlLabel
+                          control={<Switch defaultChecked />}
+                          label="Show Grid"
+                          onChange={handleChange}
+                        />
+                      </FormGroup>
+                    </MenuItem>
+                  </Menu>
+                </div>
+                <Playground />
+              </StickyFooterPage>
             </div>
-          </StickyFooterPage>
+          </ThemeProvider>
         </ThemeProvider>
-        {/* </ThemeProvider> */}
       </Router>
     </div>
   );

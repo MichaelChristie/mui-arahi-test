@@ -96,7 +96,52 @@
 * Styling
 * Using pseudos on <html> but could also use <body> or a <div id="app"> type thing.
 */
-html {
+
+.show-grid {
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.show-grid::before,
+.show-grid::after {
+  display: var(--grid-display);
+  z-index: var(--grid-z_index);
+}
+
+.show-grid::before {
+  content: var(--media-query, "Unknown Media Query");
+  position: fixed;
+  top: 0.25rem;
+  left: 0.25rem;
+  color: var(--grid-vertical-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.show-grid::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 2 * var(--grid-offset));
+  max-width: var(--grid-max_width, none);
+  margin-right: auto;
+  margin-left: auto;
+  background-image: var(--grid-vertical-lines), var(--grid-horizontal-lines);
+  background-size: calc((100% + var(--grid-gutter)) / var(--grid-columns))
+    var(--grid-baseline);
+  pointer-events: none;
+  z-index: var(--grid-z_index);
+}
+
+/* html {
   position: relative;
   min-width: 100vw;
   min-height: 100vh;
@@ -136,4 +181,4 @@ html::after {
     var(--grid-baseline);
   pointer-events: none;
   z-index: var(--grid-z_index);
-}
+} */
