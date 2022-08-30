@@ -14,46 +14,11 @@ export default function ProductGrid() {
   }));
   return (
     <>
-      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-        <Grid item xs={6} md={3} lg={2}>
-          <Item>iconHere</Item>
-        </Grid>
-      </Grid>
-
-      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+      <Grid
+        container
+        rowSpacing={{ xs: 1, sm: 2, md: 2 }}
+        columnSpacing={{ xs: 1, sm: 2, md: 2 }}
+      >
         <Grid
           item
           xs={6}

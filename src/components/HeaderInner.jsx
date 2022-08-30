@@ -8,6 +8,7 @@ import Toolbar from "@mui/material/Toolbar";
 import BokehHeader from "./BokehHeader";
 import { Link } from "react-router-dom";
 import PageLayout from "./PageLayout";
+import PageMargin from "./pageMargin";
 import Logo from "./Logo";
 // const theme = experimental_extendTheme({});
 

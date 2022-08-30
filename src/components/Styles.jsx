@@ -51,7 +51,17 @@ export default function Styles() {
       <HeaderBrochure />
 
       <PageLayout>
-        <Grid item container spacing={12}>
+        <Grid
+          item
+          container
+          spacing={{
+            xs: 0,
+            sm: 2,
+            md: 2,
+            lg: 2,
+            xl: 2,
+          }}
+        >
           <Grid item xs={12} md={6} lg={4}>
             <StylesTypography />
             <DuotoneIcons />

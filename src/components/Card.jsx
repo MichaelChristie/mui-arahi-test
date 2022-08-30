@@ -13,11 +13,11 @@ export default function BasicCard() {
     <Box
       sx={{
         px: {
-          xs: 3,
-          sm: 3,
-          md: 3,
-          lg: 3,
-          xl: 3,
+          // xs: 3,
+          // sm: 3,
+          // md: 3,
+          // lg: 3,
+          // xl: 3,
         },
       }}
     >

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Grid, Box, Button, Typography } from "@mui/material/";
+import { Grid, Box, Button, Typography, Toolbar } from "@mui/material/";
 
 import Header from "./HeaderInner";
 import Bokeh from "./Bokeh";
@@ -14,7 +14,6 @@ export default function HeaderBrochure() {
           position: "relative",
           width: 0,
           height: 0,
-          background: "#FF0000",
           zIndex: 1,
         }}
       >
