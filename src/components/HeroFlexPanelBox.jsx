@@ -15,7 +15,7 @@ export default function HeroFlexPanelBox({ children }) {
         },
 
         alignSelf: "stretch",
-        // background: "rgba(255,50,200,0.0150)",
+        background: "rgba(255,50,200,0.50)",
         zIndex: 1,
       }}
     >

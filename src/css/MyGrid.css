@@ -6,7 +6,7 @@
 :root {
   /* Global settings */
   --grid-display: block; /* Toggle grid visibility with "block" or "none" */
-  --grid-z_index: 1000; /* The z-index should be bigger than any used on the site */
+  --grid-z_index: 10000; /* The z-index should be bigger than any used on the site */
   /* XS */
   /* Grid settings */
   --media-query: "Base";

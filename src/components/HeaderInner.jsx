@@ -30,7 +30,8 @@ export default function Header() {
       >
         <BokehHeader />
         <PageLayout>
-          <Toolbar>
+          {/* add margins={off} */}
+          <Toolbar disableGutters>
             <Logo />
             <MainMenu />
           </Toolbar>

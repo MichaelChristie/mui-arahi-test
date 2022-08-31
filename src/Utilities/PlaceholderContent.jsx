@@ -10,7 +10,7 @@ export default function PlaceholderContent({ children }) {
             xs: 0,
             lg: 1,
           },
-          border: "4px dashed #FFF",
+          border: "2px dashed rgba(122,128,138,0.95)",
           background: "rgba(122,128,138,0.50)",
           height: "100%",
         }}

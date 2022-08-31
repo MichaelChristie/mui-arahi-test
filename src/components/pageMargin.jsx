@@ -17,11 +17,11 @@ export default function PageMargin({ children }) {
       <Box
         sx={{
           px: {
-            xs: 0,
-            sm: 0,
+            xs: 2, // how panels can ignore this margin
+            sm: 2, // how panels can ignore this margin
             md: 3,
             lg: 3,
-            xl: 3,
+            xl: 0,
           },
         }}
       >
