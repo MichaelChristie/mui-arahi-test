@@ -36,7 +36,9 @@ export default function HeroImageIllustration({ children }) {
           <Box
             sx={{
               height: {
-                xs: "90vh",
+                xs: "100vh",
+                sm: "900px",
+                md: "600px",
                 lg: "600px",
               },
               maxWidth: "1920px",
@@ -51,20 +53,20 @@ export default function HeroImageIllustration({ children }) {
 
               backgroundSize: {
                 xs: "contain",
-                sm: "cover",
+                sm: "contain",
                 md: "cover",
                 lg: "cover",
               },
               backgroundRepeat: "no-repeat",
 
               backgroundPosition: {
-                xs: "bottom center",
-                lg: "bottom center",
+                xs: "top center",
+                lg: "top center",
               },
-              backgroundColor: {
-                xs: "#ebf4fb",
-                lg: "transparent",
-              },
+              // backgroundColor: {
+              //   xs: "#ebf4fb",
+              //   lg: "transparent",
+              // },
             }}
           >
             {children}

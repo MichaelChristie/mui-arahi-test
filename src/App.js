@@ -41,6 +41,7 @@ import LiveChat from "./components/LiveChat";
 import StickyFooterPage from "./components/StickyFooterPage";
 import MenuGrid from "./components/navigation/MenuGrid";
 import Playground from "./components/Playground";
+import BokehHero from "./components/BokehHero";
 // import ThemeNesting from "./Utilities/GridThemeSwitcher";
 
 function App() {
@@ -77,6 +78,7 @@ function App() {
             {/* <ShowGridCSS /> */}
             {/* <Quote /> */}
             {/* <Campaign /> */}
+
             <StickyFooterPage footerContent={<MenuGrid />}>
               <Routes>
                 <Route path="/" element={<Home />} />
@@ -118,7 +120,7 @@ function App() {
                   <ShowBreakpoint />
                 </Box>
                 <IconButton
-                  id="basic-button"
+                  id="See-more"
                   aria-controls={open ? "basic-menu" : undefined}
                   aria-haspopup="true"
                   aria-expanded={open ? "true" : undefined}

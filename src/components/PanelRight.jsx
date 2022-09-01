@@ -6,11 +6,20 @@ import PageLayout from "./PageLayout";
 export default function PanelRight({ children, leftCol }) {
   return (
     <PageLayout>
-      <Grid item container>
+      <Grid
+        item
+        container
+        spacing={{
+          xs: 0,
+          md: 2,
+          lg: 4,
+        }}
+      >
         <Grid
           item
           xs={12}
           md={6}
+          // pr={2}
           sx={{
             order: {
               xs: 1,

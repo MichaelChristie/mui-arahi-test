@@ -29,6 +29,8 @@ export default function HeroImageBlank({ children }) {
             sx={{
               height: {
                 xs: "100vh",
+                sm: "90vh",
+                md: "600px",
                 lg: "600px",
               },
               maxWidth: "1920px",

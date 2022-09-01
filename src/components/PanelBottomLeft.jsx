@@ -18,7 +18,7 @@ export default function Panel({ children }) {
           order: "1",
           flex: "1 0 auto",
           alignSelf: "stretch",
-          // background: "rgba(50,120,0,0.5)",
+          background: "rgba(50,120,0,0.5)",
         }}
       >
         {/* EXPANDS TO ALLOW THE PANEL TO STICK TO THE BOTTOM */}
@@ -28,7 +28,7 @@ export default function Panel({ children }) {
           order: "2",
           flex: "0 0 auto",
           alignSelf: "stretch",
-          // background: "rgba(255,120,0,0.25)",
+          background: "rgba(255,120,0,0.25)",
           zIndex: 1,
         }}
       >

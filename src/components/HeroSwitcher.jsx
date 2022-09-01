@@ -34,6 +34,9 @@ import PlaceholderContent from "../Utilities/PlaceholderContent";
 
 import MostTrustedCard from "../components/MostTrustedCard";
 import PlaceholderHorizontalCard from "../components/PlaceholderHorizontalCard";
+import PanelHorizonatalCentered from "./PanelHorizonatalCentered";
+import PanelFlexVertCentre from "./PanelFlexVertCentre";
+import PanelCenteredCTA from "./PanelCenteredCTA";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -88,54 +91,58 @@ export default function HeroSwitcher() {
           </>
         </TabPanel>
 
-        <TabPanel value={value} index={1}>
-          <>
-            <HeroImagePhotoNana>
-              <PanelLeft>
-                <PanelFlexBottom bokehMessage={<HeroMarketingMessage19 />}>
-                  {/* Bottom Left */}
-                  <PanelCurvedTop optionalContent={<MostTrustedCard />} />
-                </PanelFlexBottom>
-              </PanelLeft>
-            </HeroImagePhotoNana>
-          </>
-        </TabPanel>
-        <TabPanel value={value} index={2}>
-          <>
-            <HeroImageBlank>
-              <PanelRight leftCol={<HeroMarketingMessageAnimated />}>
-                <PanelFlexTop>
-                  <PanelCurvedBottom />
-                </PanelFlexTop>
-              </PanelRight>
-            </HeroImageBlank>
-          </>
-        </TabPanel>
-
-        <TabPanel value={value} index={3}>
-          <>
-            <HeroImageIllustration>
-              <PanelLeft rightCol={<HeroMarketingMessage21 />}>
-                <PanelFlexTop>
-                  <PanelCurvedBottom optionalContent={<MostTrustedCard />} />
-                </PanelFlexTop>
-              </PanelLeft>
-            </HeroImageIllustration>
-          </>
-        </TabPanel>
         <></>
         {/* TOP LEFT */}
-        <TabPanel value={value} index={4}>
-          <HeroImagePhotoRing>
-            <PanelLeft>
+        <TabPanel value={value} index={1}>
+          <HeroImagePlaceholder>
+            <PanelLeft rightCol={<PlaceholderContent />}>
               <PanelFlexTop>
                 <PanelCurvedBottom
-                  optionalContent={<HeroMarketingMessage21 />}
+                  optionalContent={<PlaceholderHorizontalCard />}
                 />
               </PanelFlexTop>
             </PanelLeft>
-          </HeroImagePhotoRing>
+          </HeroImagePlaceholder>
         </TabPanel>
+        <></>
+        {/* BOTTOM LEFT */}
+        <TabPanel value={value} index={2}>
+          <HeroImagePlaceholder>
+            <PanelLeft rightCol={<PlaceholderContent />}>
+              <PanelFlexBottom>
+                <PanelCurvedTop
+                  optionalContent={<PlaceholderHorizontalCard />}
+                />
+              </PanelFlexBottom>
+            </PanelLeft>
+          </HeroImagePlaceholder>
+        </TabPanel>
+        <></>
+        {/* BOTTOM RIGHT */}
+        <TabPanel value={value} index={3}>
+          <HeroImagePlaceholder>
+            <PanelRight leftCol={<PlaceholderContent />}>
+              <PanelFlexBottom>
+                <PanelCurvedTop
+                  optionalContent={<PlaceholderHorizontalCard />}
+                />
+              </PanelFlexBottom>
+            </PanelRight>
+          </HeroImagePlaceholder>
+        </TabPanel>
+
+        <></>
+        {/* TOP LEFT */}
+        <TabPanel value={value} index={4}>
+          <HeroImagePlaceholder>
+            <PanelHorizonatalCentered>
+              <PanelFlexVertCentre>
+                <PanelCenteredCTA />
+              </PanelFlexVertCentre>
+            </PanelHorizonatalCentered>
+          </HeroImagePlaceholder>
+        </TabPanel>
+
         <></>
         {/* BOTTOM LEFT */}
         <TabPanel value={value} index={5}>
@@ -175,45 +182,42 @@ export default function HeroSwitcher() {
 
         {/* ********* */}
 
-        <></>
-        {/* TOP LEFT */}
         <TabPanel value={value} index={8}>
-          <HeroImagePlaceholder>
-            <PanelLeft rightCol={<PlaceholderContent />}>
-              <PanelFlexTop>
-                <PanelCurvedBottom
-                  optionalContent={<PlaceholderHorizontalCard />}
-                />
-              </PanelFlexTop>
-            </PanelLeft>
-          </HeroImagePlaceholder>
+          <>
+            <HeroImagePhotoNana>
+              <PanelLeft>
+                <PanelFlexBottom bokehMessage={<HeroMarketingMessage19 />}>
+                  {/* Bottom Left */}
+                  <PanelCurvedTop optionalContent={<MostTrustedCard />} />
+                </PanelFlexBottom>
+              </PanelLeft>
+            </HeroImagePhotoNana>
+          </>
         </TabPanel>
-        <></>
-        {/* BOTTOM LEFT */}
         <TabPanel value={value} index={9}>
-          <HeroImagePlaceholder>
-            <PanelLeft rightCol={<PlaceholderContent />}>
-              <PanelFlexBottom>
-                <PanelCurvedTop
-                  optionalContent={<PlaceholderHorizontalCard />}
-                />
-              </PanelFlexBottom>
-            </PanelLeft>
-          </HeroImagePlaceholder>
+          <>
+            <HeroImageBlank>
+              <PanelRight leftCol={<HeroMarketingMessageAnimated />}>
+                <PanelFlexTop>
+                  <PanelCurvedBottom />
+                </PanelFlexTop>
+              </PanelRight>
+            </HeroImageBlank>
+          </>
         </TabPanel>
-        <></>
-        {/* BOTTOM RIGHT */}
+
         <TabPanel value={value} index={10}>
-          <HeroImagePlaceholder>
-            <PanelRight leftCol={<PlaceholderContent />}>
-              <PanelFlexBottom>
-                <PanelCurvedTop
-                  optionalContent={<PlaceholderHorizontalCard />}
-                />
-              </PanelFlexBottom>
-            </PanelRight>
-          </HeroImagePlaceholder>
+          <>
+            <HeroImageIllustration>
+              <PanelLeft rightCol={<HeroMarketingMessage21 />}>
+                <PanelFlexTop>
+                  <PanelCurvedBottom optionalContent={<MostTrustedCard />} />
+                </PanelFlexTop>
+              </PanelLeft>
+            </HeroImageIllustration>
+          </>
         </TabPanel>
+
         {/* TOP RIGHT */}
         <TabPanel value={value} index={11}>
           <HeroImageIllustration>
@@ -223,6 +227,30 @@ export default function HeroSwitcher() {
               </PanelFlexTop>
             </PanelRight>
           </HeroImageIllustration>
+        </TabPanel>
+
+        {/* CENTERED  */}
+        <TabPanel value={value} index={12}>
+          <HeroImagePhotoDentures>
+            <PanelHorizonatalCentered>
+              <PanelFlexVertCentre>
+                <PanelCenteredCTA />
+              </PanelFlexVertCentre>
+            </PanelHorizonatalCentered>
+          </HeroImagePhotoDentures>
+        </TabPanel>
+
+        {/* CENTERED  */}
+        <TabPanel value={value} index={13}>
+          <HeroImagePhotoRing>
+            <PanelLeft>
+              <PanelFlexTop>
+                <PanelCurvedBottom
+                  optionalContent={<HeroMarketingMessage21 />}
+                />
+              </PanelFlexTop>
+            </PanelLeft>
+          </HeroImagePhotoRing>
         </TabPanel>
       </Box>
       <Box
@@ -245,17 +273,19 @@ export default function HeroSwitcher() {
             aria-label="basic tabs example"
           >
             <Tab label="TR - Custom" {...a11yProps(0)} />
-            <Tab label="Photo" {...a11yProps(1)} />
-            <Tab label="Minimalist" {...a11yProps(2)} />
-            <Tab label="Simple" {...a11yProps(3)} />
-            <Tab label="Top Left" {...a11yProps(4)} />
+            <Tab label="TL - Custom" {...a11yProps(1)} />
+            <Tab label="BL - Custom" {...a11yProps(2)} />
+            <Tab label="BR - Custom" {...a11yProps(3)} />
+            <Tab label="Centered" {...a11yProps(4)} />
             <Tab label="Bottom Left" {...a11yProps(5)} />
             <Tab label="Bottom Right" {...a11yProps(6)} />
             <Tab label="Top Right" {...a11yProps(7)} />
-            <Tab label="TL - Custom" {...a11yProps(8)} />
-            <Tab label="BL - Custom" {...a11yProps(9)} />
-            <Tab label="BR - Custom" {...a11yProps(10)} />
+            <Tab label="Photo" {...a11yProps(8)} />
+            <Tab label="Minimalist" {...a11yProps(9)} />
+            <Tab label="Simple" {...a11yProps(10)} />
             <Tab label="Hybrid" {...a11yProps(11)} />
+            <Tab label="Centered Photo" {...a11yProps(12)} />
+            <Tab label="Top Left" {...a11yProps(13)} />
           </Tabs>
         </HiddenMenu>
       </Box>

@@ -7,8 +7,8 @@ export default function SpacerPage() {
       <Box
         sx={{
           mb: {
-            xs: 2,
-            sm: 4,
+            xs: 6,
+            sm: 6,
             md: 4,
             lg: 8,
             xl: 8,

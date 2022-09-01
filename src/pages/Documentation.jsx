@@ -22,8 +22,13 @@ import {
   faHome,
   faTimes,
   faExclamationCircle,
+  faChevronDown,
+  faArrowDownToLine,
 } from "@fortawesome/pro-light-svg-icons";
 import PageSpacer from "../components/SpacerPage";
+import PageDocumentationLayout from "../components/PageDocumentationLayout";
+import SpacerSection from "../components/SpacerSection";
+import Breadcrumbs from "../components/Breadcrumbs";
 
 export default function Documentation() {
   return (
@@ -31,45 +36,124 @@ export default function Documentation() {
       <HeaderBrochure />
 
       <PageLayout>
-        <Box sx={{ p: 3 }}>
-          <Typography variant="h1">Documentation</Typography>
-          <Typography variant="overline">Typography</Typography>
-          <Divider />
-          <PageSpacer />
-          <Typography variant="p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            rem reprehenderit rerum nostrum quo ut ex, placeat natus repellendus
-            commodi sequi magnam expedita, iste similique soluta explicabo.
-            Architecto, eligendi sapiente! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Delectus rem reprehenderit rerum
-            nostrum quo ut ex, placeat natus repellendus commodi sequi magnam
-            expedita, iste similique soluta explicabo. Architecto, eligendi
-            sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Delectus rem reprehenderit rerum nostrum quo ut ex, placeat natus
-            repellendus commodi sequi magnam expedita, iste similique soluta
-            explicabo. Architecto, eligendi sapiente! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Delectus rem reprehenderit rerum
-            nostrum quo ut ex, placeat natus repellendus commodi sequi magnam
-            expedita, iste similique soluta explicabo. Architecto, eligendi
-            sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Delectus rem reprehenderit rerum nostrum quo ut ex, placeat natus
-            repellendus commodi sequi magnam expedita, iste similique soluta
-            explicabo. Architecto, eligendi sapiente!
+        <Box sx={{ pt: 2 }}>
+          <Breadcrumbs />
+          <SpacerSection />
+
+          <Typography variant="h1">
+            Lorem ipsum dolor sit amet consectetur
           </Typography>
-          <PageSpacer />
-          <Alert
-            severity="info"
-            icon={
-              <FontAwesomeIcon icon={faExclamationCircle} fontSize="large" />
-            }
-          >
-            <AlertTitle>Not your Car?</AlertTitle>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque ornare tortor ultrices, aliquet turpis nec, dignissim
-            sem. Nam venenatis gravida lacus sit amet fermentum.{" "}
-            <a href="/">Curabitur ut erat</a> elit.
-          </Alert>
-          <PageSpacer />
+          <Typography variant="overline">
+            Architecto, eligendi sapiente
+          </Typography>
+
+          <Divider />
+          <PageDocumentationLayout>
+            <SpacerSection />
+            <Button
+              endIcon={<FontAwesomeIcon icon={faArrowDownToLine} />}
+              variant="text"
+              size="large"
+              color="primary"
+              sx={{ mr: 2 }}
+            >
+              Download as PDF
+            </Button>
+
+            <SpacerSection />
+            <Typography variant="h2">Architecto, eligendi sapiente</Typography>
+            <SpacerSection />
+
+            <Typography variant="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              rem reprehenderit rerum nostrum quo ut ex, placeat natus
+              repellendus commodi sequi magnam expedita, iste similique soluta
+              explicabo. Architecto, eligendi sapiente! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Delectus rem reprehenderit
+              rerum nostrum quo ut ex, placeat natus repellendus commodi sequi
+              magnam expedita, iste similique soluta explicabo. Architecto,
+              eligendi sapiente! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Delectus rem reprehenderit rerum nostrum quo ut
+              ex, placeat natus repellendus commodi sequi magnam expedita, iste
+              similique soluta explicabo. Architecto, eligendi sapiente! Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Delectus rem
+              reprehenderit rerum nostrum quo ut ex, placeat natus repellendus
+              commodi sequi magnam expedita, iste similique soluta explicabo.
+              Architecto, eligendi sapiente! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Delectus rem reprehenderit rerum
+              nostrum quo ut ex, placeat natus repellendus commodi sequi magnam
+              expedita, iste similique soluta explicabo. Architecto, eligendi
+              sapiente!
+            </Typography>
+            <SpacerSection />
+            <Alert
+              severity="info"
+              icon={
+                <FontAwesomeIcon icon={faExclamationCircle} fontSize="large" />
+              }
+            >
+              <AlertTitle>Not your Car?</AlertTitle>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque ornare tortor ultrices, aliquet turpis nec, dignissim
+              sem. Nam venenatis gravida lacus sit amet fermentum.{" "}
+              <a href="/">Curabitur ut erat</a> elit.
+            </Alert>
+            <SpacerSection />
+
+            <Typography variant="h3">
+              Delectus rem reprehenderit rerum
+            </Typography>
+            <SpacerSection />
+            <Typography variant="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              rem reprehenderit rerum nostrum quo ut ex, placeat natus
+              repellendus commodi sequi magnam expedita, iste similique soluta
+              explicabo. Architecto, eligendi sapiente! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Delectus rem reprehenderit
+              rerum nostrum quo ut ex, placeat natus repellendus commodi sequi
+              magnam expedita, iste similique soluta explicabo. Architecto,
+              eligendi sapiente! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Delectus rem reprehenderit rerum nostrum quo ut
+              ex, placeat natus repellendus commodi sequi magnam expedita, iste
+              similique soluta explicabo. Architecto, eligendi sapiente! Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Delectus rem
+              reprehenderit rerum nostrum quo ut ex, placeat natus repellendus
+              commodi sequi magnam expedita, iste similique soluta explicabo.
+              Architecto, eligendi sapiente! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Delectus rem reprehenderit rerum
+              nostrum quo ut ex, placeat natus repellendus commodi sequi magnam
+              expedita, iste similique soluta explicabo. Architecto, eligendi
+              sapiente!
+            </Typography>
+            <PageSpacer />
+
+            <Typography variant="h3">
+              Lorem ipsum consectetur adipisicing
+            </Typography>
+            <SpacerSection />
+            <Typography variant="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              rem reprehenderit rerum nostrum quo ut ex, placeat natus
+              repellendus commodi sequi magnam expedita, iste similique soluta
+              explicabo. Architecto, eligendi sapiente! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Delectus rem reprehenderit
+              rerum nostrum quo ut ex, placeat natus repellendus commodi sequi
+              magnam expedita, iste similique soluta explicabo. Architecto,
+              eligendi sapiente! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Delectus rem reprehenderit rerum nostrum quo ut
+              ex, placeat natus repellendus commodi sequi magnam expedita, iste
+              similique soluta explicabo. Architecto, eligendi sapiente! Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Delectus rem
+              reprehenderit rerum nostrum quo ut ex, placeat natus repellendus
+              commodi sequi magnam expedita, iste similique soluta explicabo.
+              Architecto, eligendi sapiente! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Delectus rem reprehenderit rerum
+              nostrum quo ut ex, placeat natus repellendus commodi sequi magnam
+              expedita, iste similique soluta explicabo. Architecto, eligendi
+              sapiente!
+            </Typography>
+            <PageSpacer />
+          </PageDocumentationLayout>
         </Box>
       </PageLayout>
     </>

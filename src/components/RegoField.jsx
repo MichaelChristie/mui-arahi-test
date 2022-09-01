@@ -44,7 +44,7 @@ export default function RegoField({ buttonAction }) {
             fullWidth
             onClick={console.log("clicked")}
             placeholder="MYREGO"
-            value="LYC100"
+            // value="LYC100"
             variant="standard"
             autoFocus={true}
             color="secondary"

@@ -8,9 +8,7 @@ export default function HeroBottomLeft() {
   return (
     <>
       <HeroImageBlock>
-        <PanelTopRight>
-          <CTAZoneHomepage />
-        </PanelTopRight>
+        <PanelTopRight>{/* <CTAZoneHomepage /> */}</PanelTopRight>
       </HeroImageBlock>
     </>
   );

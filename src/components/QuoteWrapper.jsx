@@ -71,6 +71,14 @@ export default function QuoteWrapper({ progress, children, ...props }) {
     <StickyFooterPage footerContent={<></>}>
       {/* ADD <BACKNEXT /> TO FOOTER CONTENT WHEN EVENTS CAN BE PASSED BETWEEN COMPONENTS */}
       <PageLayout>
+        {/* <Grid container columns={{ xs: 12, xl: 6 }}>
+          <Grid item xs={false} sm={1} lg={2} xl={4}></Grid>
+          <Grid item xs={12} sm={10} lg={8} xl={4}>
+            ssss
+          </Grid>
+          <Grid item xs={false} sm={1} lg={2} xl={4}></Grid>
+        </Grid> */}
+
         <Box sx={{ display: "flex" }}>
           <HeaderQuote progress={progress} />
           <CssBaseline />

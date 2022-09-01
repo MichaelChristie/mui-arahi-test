@@ -2,8 +2,10 @@ import * as React from "react";
 import { Grid, Box, Button, Typography } from "@mui/material/";
 
 //DENTURES
-import HeroImage from "../images/dentures_DTP.jpg";
-import HeroImageMobile from "../images/dentures_MOB.jpg";
+import HeroImageXS from "../images/dentures_XS@2x.jpg";
+import HeroImageSM from "../images/dentures_SM@2x.jpg";
+import HeroImageMD from "../images/dentures_MD@2x.jpg";
+import HeroImageLG from "../images/dentures_LG@2x.jpg";
 
 import PageLayout from "./PageLayout";
 // import PanelTopRight from "./PanelTop";
@@ -11,10 +13,6 @@ import PageLayout from "./PageLayout";
 export default function HeroImagePhotoDentures({ children }) {
   return (
     <>
-      {/* <Box sx={{ background: "transparent", zIndex: 1 }}>
-        <HeroSwitcher />
-      </Box> */}
-
       <Grid container direction="column">
         <Grid item>
           <Box
@@ -27,8 +25,10 @@ export default function HeroImagePhotoDentures({ children }) {
               margin: "0 auto",
               borderRadius: "4px",
               backgroundImage: {
-                xs: `url(${HeroImageMobile})`,
-                lg: `url(${HeroImage})`,
+                xs: `url(${HeroImageXS})`,
+                sm: `url(${HeroImageSM})`,
+                md: `url(${HeroImageMD})`,
+                lg: `url(${HeroImageLG})`,
               },
 
               backgroundSize: {

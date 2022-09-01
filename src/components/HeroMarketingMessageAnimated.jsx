@@ -66,7 +66,7 @@ export default function HeroMarketingMessageAnimated({ children }) {
             },
             pb: {
               xs: 1,
-              lg: 4,
+              lg: 0,
             },
             flex: {
               xs: "0 0 auto",
@@ -80,9 +80,9 @@ export default function HeroMarketingMessageAnimated({ children }) {
           className="marketingSpiel"
         >
           <Grid item container>
-            <Grid item xs={12} lg={10}>
-              <Box sx={{ px: 2 }}>
-                <Typography variant="h1" fontSize={36}>
+            <Grid item xs={12} lg={12}>
+              <Box>
+                <Typography variant="h1">
                   Grab a $50 Prezzy card from NZ's Most Trusted General Insurer
                 </Typography>
                 <Typography variant="p">

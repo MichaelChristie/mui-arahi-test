@@ -24,7 +24,7 @@ export default function HeroImagePlaceholder({ children }) {
             sx={{
               height: {
                 xs: "100vh",
-                sm: "90vh",
+                sm: "900px",
                 md: "600px",
                 lg: "600px",
               },
@@ -39,7 +39,7 @@ export default function HeroImagePlaceholder({ children }) {
               },
 
               backgroundSize: {
-                xs: "contain",
+                xs: "cover",
                 sm: "cover",
                 md: "cover",
                 lg: "cover",

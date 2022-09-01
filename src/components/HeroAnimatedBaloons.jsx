@@ -4,7 +4,7 @@ import { Grid, Box, Typography } from "@mui/material/";
 export default function HeroAnimatedBalloons({ children }) {
   return (
     <>
-      <Box sx={{ position: "relative" }}>
+      <Box sx={{ position: "relative", background: "lime" }}>
         <Box
           className="Animated_Baloons2"
           sx={{ backgroundColor: "transparent" }}

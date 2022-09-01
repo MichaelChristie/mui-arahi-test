@@ -8,16 +8,16 @@ export default function PlaceholderContent({ children }) {
         sx={{
           p: {
             xs: 0,
-            lg: 1,
+            // lg: 1,
           },
-          border: "2px dashed rgba(122,128,138,0.95)",
-          background: "rgba(122,128,138,0.50)",
+          border: "1px dashed rgba(255,255,255,0.95)",
+          background: "rgba(122,128,138,0.1250)",
           height: "100%",
         }}
       >
         <Grid item container>
           <Grid item xs={8} lg={8}>
-            <Box sx={{ px: 2, pt: 2 }}>
+            <Box sx={{ px: 0, pt: 2 }}>
               <Typography variant="h2" fontSize={24}>
                 Custom content
               </Typography>

@@ -49,7 +49,7 @@ export default function HamburgerMenu() {
     <Box
       sx={{
         width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
-        backgroundColor: "rgba(255, 255, 255, 0.90) !important",
+        // backgroundColor: "rgba(255, 255, 255, 0.90) !important",
         // backgroundColor: "#FFDD00",
         backdropFilter: "blur(10px)",
       }}

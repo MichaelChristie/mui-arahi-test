@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Grid, Box } from "@mui/material/";
 import PageLayout from "./PageLayout";
+import BokehHero from "./BokehHero";
+import BokehHeader from "./BokehHeader";
 
 export default function StickyFooterPage({ children, footerContent }) {
   return (
@@ -17,6 +19,7 @@ export default function StickyFooterPage({ children, footerContent }) {
         <Box className="content">{children}</Box>
 
         <footer className="footer">
+          <BokehHeader />
           <PageLayout>{footerContent}</PageLayout>
         </footer>
       </Box>
