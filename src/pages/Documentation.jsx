@@ -43,11 +43,11 @@ export default function Documentation() {
           <Typography variant="h1">
             Lorem ipsum dolor sit amet consectetur
           </Typography>
-          <Typography variant="overline">
+          {/* <Typography variant="overline">
             Architecto, eligendi sapiente
-          </Typography>
-
-          <Divider />
+          </Typography> */}
+          <SpacerSection />
+          <Divider sx={{ height: 4 }} />
           <PageDocumentationLayout>
             <SpacerSection />
             <Button
@@ -59,7 +59,17 @@ export default function Documentation() {
             >
               Download as PDF
             </Button>
-
+            <Button variant="text" size="large" color="primary" sx={{ mr: 2 }}>
+              Certificate of currency
+            </Button>
+            <Button
+              variant="contained"
+              size="large"
+              color="secondary"
+              sx={{ mr: 2 }}
+            >
+              Selected
+            </Button>
             <SpacerSection />
             <Typography variant="h2">Architecto, eligendi sapiente</Typography>
             <SpacerSection />

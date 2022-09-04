@@ -2,6 +2,7 @@ import * as React from "react";
 import { Grid, Box } from "@mui/material/";
 import PageMargin from "./pageMargin";
 import DocumentationTabs from "./DocumentationTabs";
+import SpacerSection from "./SpacerSection";
 
 export default function PageDocumentationLayout({ children }) {
   return (
@@ -19,6 +20,7 @@ export default function PageDocumentationLayout({ children }) {
           order={{ xs: 1, md: 2 }}
           //   sx={{ background: "#FFDD00" }}
         >
+          <SpacerSection />
           <DocumentationTabs />
         </Grid>
       </Grid>

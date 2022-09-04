@@ -25,6 +25,7 @@ import QuotePage1 from "./pages/QuotePage1";
 import QuotePage2 from "./pages/QuotePage2";
 import QuotePage3 from "./pages/QuotePage3";
 import Documentation from "./pages/Documentation";
+import MyGrid from "./pages/MyGrid";
 import Styles from "./components/Styles";
 import Campaign from "./pages/Campaign";
 import ResponsiveDrawer from "./components/ResponsiveDrawer";
@@ -87,6 +88,7 @@ function App() {
                 <Route path="/quote3" element={<QuotePage3 />} />
                 {/* <Route path="/playground" element={<ThemeNesting />} /> */}
                 <Route path="/documentation" element={<Documentation />} />
+                <Route path="/grid" element={<MyGrid />} />
                 <Route path="/styles" element={<Styles />} />
                 <Route path="/campaign" element={<Campaign />} />
                 {/* <Route path="/clipped-drawer" element={<ClippedDrawer />} /> */}
@@ -121,6 +123,7 @@ function App() {
                 </Box>
                 <IconButton
                   id="See-more"
+                  aria-label="See More Options"
                   aria-controls={open ? "basic-menu" : undefined}
                   aria-haspopup="true"
                   aria-expanded={open ? "true" : undefined}

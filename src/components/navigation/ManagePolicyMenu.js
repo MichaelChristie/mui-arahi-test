@@ -13,6 +13,7 @@ import {
   faUserCircle,
   faEdit,
   faStars,
+  faGrid,
 } from "@fortawesome/pro-light-svg-icons";
 import Divider from "@mui/material/Divider";
 import MenuList from "@mui/material/MenuList";
@@ -65,12 +66,12 @@ export default function ManagePolicyMenu() {
         }}
       >
         <MenuList>
-          {/* <MenuItem component={Link} to={"/documentation"}>
+          <MenuItem component={Link} to={"/grid"}>
             <ListItemIcon>
-              <FontAwesomeIcon icon={faBook} fontSize="large" />
+              <FontAwesomeIcon icon={faGrid} fontSize="large" />
             </ListItemIcon>
-            <ListItemText>Policy Document</ListItemText>
-          </MenuItem> */}
+            <ListItemText>Grid</ListItemText>
+          </MenuItem>
           <MenuItem component={Link} to={"/documentation"}>
             <ListItemIcon>
               <FontAwesomeIcon icon={faBook} fontSize="large" />

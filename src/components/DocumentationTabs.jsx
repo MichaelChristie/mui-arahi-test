@@ -58,12 +58,17 @@ export default function DocumentationTabs({}) {
       {/* //MOBILE */}
       <Box sx={{ display: { xs: "block", md: "none" } }}>
         <Tabs
-          // value={value}
-          // onChange={handleChange}
+          value={value}
+          onChange={handleChange}
           //   orientation="vertical"
           variant="scrollable"
           color="secondary"
           scrollButtons="auto"
+          TabIndicatorProps={{
+            style: {
+              backgroundColor: "#FFD400",
+            },
+          }}
           aria-label="scrollable auto tabs example"
         >
           <Tab label="Architecto eligendi" />
