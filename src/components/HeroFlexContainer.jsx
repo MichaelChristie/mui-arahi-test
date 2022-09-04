@@ -11,7 +11,7 @@ export default function HeroFlexContainer({ children }) {
         justifyContent: "flex-start",
         alignContent: "stretch",
         alignItems: "flex-start",
-        // background: "aqua",
+        background: "rgba(0, 255, 255, 0.50)",
         minHeight: {
           xs: "90vh",
           sm: "800px",

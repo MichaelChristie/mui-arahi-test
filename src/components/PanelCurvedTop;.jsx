@@ -10,7 +10,7 @@ export default function PanelCurvedTop({ children, optionalContent }) {
         sx={{
           borderRadius: {
             xs: "32px 32px 0px 0px",
-            lg: "32px 32px 0px 0px ",
+            md: "32px 32px 0px 0px ",
           },
           pt: {
             xs: 4,

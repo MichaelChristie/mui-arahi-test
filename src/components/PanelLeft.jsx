@@ -2,11 +2,12 @@ import * as React from "react";
 import { Grid, Box, Typography } from "@mui/material/";
 import HeroMarketingMessage from "./HeroMarketingMessage19";
 import PageLayout from "./PageLayout";
+import PageLayoutBreakout from "./PageLayoutBreakout";
 
 export default function PanelLeft({ children, rightCol }) {
   return (
-    <PageLayout>
-      <Grid item container>
+    <PageLayoutBreakout>
+      <Grid item container spacing={{ xs: 1, sm: 2, md: 2, lg: 3, xl: 3 }}>
         <Grid
           item
           xs={12}
@@ -20,6 +21,7 @@ export default function PanelLeft({ children, rightCol }) {
             },
             zIndex: 1,
           }}
+          className="showMe"
         >
           {children}
         </Grid>
@@ -40,6 +42,6 @@ export default function PanelLeft({ children, rightCol }) {
           {rightCol}
         </Grid>
       </Grid>
-    </PageLayout>
+    </PageLayoutBreakout>
   );
 }

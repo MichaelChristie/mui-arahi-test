@@ -10,7 +10,7 @@ export default function PanelCurvedBottom({ children, optionalContent }) {
         sx={{
           borderRadius: {
             xs: "32px 32px 0px 0px",
-            lg: "0px 0px 32px 32px",
+            md: "0px 0px 32px 32px",
           },
 
           pt: {
@@ -25,7 +25,7 @@ export default function PanelCurvedBottom({ children, optionalContent }) {
           },
           pb: {
             xs: 4,
-            md: 0,
+            md: 4,
             lg: 6,
           },
           // mx: {

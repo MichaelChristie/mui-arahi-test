@@ -55,7 +55,7 @@ export default function MyGrid() {
 
           {/* <Box sx={{ flexGrow: 1 }}> */}
           <Typography variant="overline">Simple</Typography>
-          <Grid container spacing={{ xs: 1, sm: 3, lg: 3 }}>
+          <Grid container spacing={{ xs: 1, sm: 2, lg: 3 }}>
             <Grid item xs={8}>
               <Item>xs=8</Item>
             </Grid>
@@ -78,7 +78,7 @@ export default function MyGrid() {
       </PageLayout>
       <PageLayoutBreakout>
         {/* <Box sx={{ maxWidth: 1980, margin: "0 auto" }}> */}
-        <Grid container spacing={{ xs: 1, sm: 3, lg: 3 }}>
+        <Grid container spacing={{ xs: 1, sm: 2, lg: 3 }}>
           <Grid item xs={8}>
             <Item>xs=8</Item>
           </Grid>

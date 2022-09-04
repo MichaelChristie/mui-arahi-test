@@ -2,18 +2,16 @@ import * as React from "react";
 import { Grid, Box, Typography } from "@mui/material/";
 import HeroMarketingMessage from "./HeroMarketingMessage19";
 import PageLayout from "./PageLayout";
+import PageLayoutBreakout from "./PageLayoutBreakout";
 
 export default function PanelRight({ children, leftCol }) {
   return (
-    <PageLayout>
+    <PageLayoutBreakout>
       <Grid
         item
         container
-        spacing={{
-          xs: 0,
-          md: 2,
-          lg: 4,
-        }}
+        // className="showMe"
+        spacing={{ xs: 1, sm: 2, md: 2, lg: 3, xl: 3 }}
       >
         <Grid
           item
@@ -34,6 +32,7 @@ export default function PanelRight({ children, leftCol }) {
           item
           xs={12}
           md={6}
+          className="showMe"
           sx={{
             order: {
               xs: 1,
@@ -45,6 +44,6 @@ export default function PanelRight({ children, leftCol }) {
           {children}
         </Grid>
       </Grid>
-    </PageLayout>
+    </PageLayoutBreakout>
   );
 }

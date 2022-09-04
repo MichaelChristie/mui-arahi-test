@@ -19,7 +19,7 @@ export default function PageMargin({ children }) {
           px: {
             xs: 2, // how panels can ignore this margin
             sm: 2, // how panels can ignore this margin
-            md: 3,
+            md: 2,
             lg: 3,
             xl: 0,
           },

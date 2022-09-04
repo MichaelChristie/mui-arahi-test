@@ -13,7 +13,7 @@ export default function PageLayoutBreakout({ children }) {
           sx={{
             position: "relative",
             zIndex: 1,
-            maxWidth: 1824,
+            maxWidth: 1872, // Skinnier than maxWidth: 1920, Is equal to 1 column extra without a margin
             margin: "0 auto;",
           }}
         >

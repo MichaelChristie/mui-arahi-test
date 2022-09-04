@@ -15,7 +15,7 @@ export default function PanelTop({ children, leftMessage }) {
         sx={{
           order: {
             xs: 1,
-            lg: 2,
+            md: 2,
           },
           flex: {
             xs: "1 0 auto",
