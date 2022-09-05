@@ -8,13 +8,13 @@ export default function HeroMarketingMessage21({ children }) {
         sx={{
           p: {
             xs: 0,
-            lg: 1,
+            lg: 0,
           },
         }}
       >
         <Grid item container>
           <Grid item xs={12} lg={8}>
-            <Box sx={{ px: 2, pt: 2 }}>
+            <Box sx={{ px: 0, pt: 2 }}>
               <Typography variant="h2" fontSize={24}>
                 Reason to Trust #21
               </Typography>

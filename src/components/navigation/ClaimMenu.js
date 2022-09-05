@@ -20,7 +20,7 @@ export default function ClaimMenu() {
   return (
     <>
       <Button
-        id="basic-button"
+        id="Claim Menu"
         aria-controls={open ? "basic-menu" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}

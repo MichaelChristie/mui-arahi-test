@@ -22,7 +22,7 @@ export default function CardImage(props) {
         display: "flex",
         bgcolor: "background.paper",
         flexDirection: "column",
-        borderRadius: 2,
+        // borderRadius: 2,
         height: "100%",
       }}
     >

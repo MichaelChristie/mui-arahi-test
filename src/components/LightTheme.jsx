@@ -113,12 +113,10 @@ const lightTheme = {
   },
 
   components: {
-    // Name of the component
-    // MuiTypography: {
-    //   h1: {
-    //     fontSize: "96px",
-    //     [breakpoints.down("xs")]: {
-    //       fontSize: "3rem",
+    // MuiContainer: {
+    //   styleOverrides: {
+    //     root: {
+    //       borderRadius: 80,
     //     },
     //   },
     // },
@@ -205,10 +203,36 @@ const lightTheme = {
       styleOverrides: {
         root: {
           padding: "0px !important",
-          backgroundColor: "green !important",
+          // backgroundColor: "green !important",
         },
       },
     },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          borderRadius: 24,
+        },
+      },
+    },
+    MuiAlert: {
+      styleOverrides: {
+        root: {
+          borderRadius: 24,
+        },
+      },
+    },
+    // MuiTextField: {
+    //   styleOverrides: {
+    //     root: {
+    //       borderRadius: 24,
+    //     },
+    //   },
+    // },
+    // MuiTextField: {
+    //   defaultProps: {
+    //     borderRadius: 24,
+    //   },
+    // },
     MuiButton: {
       styleOverrides: {
         // Name of the slot
@@ -216,6 +240,8 @@ const lightTheme = {
           // Some CSS
           fontSize: "1rem",
           fontWeight: "600",
+          borderRadius: 24,
+
           // backgroundColor: "#FF0000",
         },
       },

@@ -20,7 +20,7 @@ export default function ProductGridDropdownMenu({ children }) {
   return (
     <>
       <Button
-        id="basic-button"
+        id="Product Menu"
         aria-controls={open ? "basic-menu" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
@@ -32,7 +32,7 @@ export default function ProductGridDropdownMenu({ children }) {
       </Button>
 
       <Menu
-        id="basic-menu"
+        id=" Products"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}

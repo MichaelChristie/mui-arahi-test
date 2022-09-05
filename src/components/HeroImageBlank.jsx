@@ -47,7 +47,7 @@ export default function HeroImageBlank({ children }) {
                 xs: "top center",
                 lg: "bottom center",
               },
-              backgroundColor: "#ebf4fb",
+              // backgroundColor: "#ebf4fb",
             }}
           >
             {children}

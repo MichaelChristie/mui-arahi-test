@@ -8,14 +8,14 @@ export default function StylesTypography() {
         <Grid item xs={12}>
           <Typography variant="h1">Heading 1</Typography>
           <Typography variant="overline">Typography</Typography>
-          <Divider />
+          <Divider sx={{ height: 4 }} />
           <Typography variant="paragraph">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
             quae labore, aspernatur in libero quo iure, eos neque adipisci illum
             ipsam consequuntur quisquam laborum tempore quam a sint aperiam
             enim!
           </Typography>
-          <Divider />
+          <Divider sx={{ height: 4 }} />
         </Grid>
         <Grid item xs={12} md={6} lg={6}>
           <Typography variant="h2">Heading 2</Typography>

@@ -62,10 +62,10 @@ export default function RegoLookup() {
 
       <Grid container direction="row">
         <Grid item container>
-          <Grid item xs={9}>
+          <Grid item xs={10}>
             <RegoField />
           </Grid>
-          <Grid item xs={3} sx={{ pl: 2 }}>
+          <Grid item xs={2} sx={{ pl: 1 }}>
             <Button
               variant="contained"
               color="primary"

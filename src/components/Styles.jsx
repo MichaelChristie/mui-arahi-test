@@ -49,6 +49,7 @@ export default function Styles() {
   return (
     <>
       <HeaderBrochure />
+      <SpacerSection />
 
       <PageLayout>
         <Grid
@@ -58,20 +59,20 @@ export default function Styles() {
             xs: 0,
             sm: 2,
             md: 2,
-            lg: 2,
-            xl: 2,
+            lg: 3,
+            xl: 3,
           }}
         >
-          <Grid item xs={12} md={6} lg={4}>
-            <StylesTypography />
-            <DuotoneIcons />
-          </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <StylesRegoFinderTabs />
             <StylesAlertsInfo />
             <StylesButtons />
             <SpacerSection />
             <StylesIcons />
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+            <StylesTypography />
+            <DuotoneIcons />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <StylesCard />

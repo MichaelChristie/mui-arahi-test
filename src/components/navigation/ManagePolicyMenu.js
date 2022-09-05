@@ -37,7 +37,7 @@ export default function ManagePolicyMenu() {
   return (
     <>
       <Button
-        id="basic-button"
+        id="Manage Policy"
         aria-controls={open ? "basic-menu" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}

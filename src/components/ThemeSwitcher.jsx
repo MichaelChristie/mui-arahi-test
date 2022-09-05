@@ -24,7 +24,7 @@ export default function ThemeSwitcher() {
   return (
     <>
       <IconButton
-        id="basic-button"
+        id="My Account"
         aria-controls={open ? "basic-menu" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
@@ -43,7 +43,7 @@ export default function ThemeSwitcher() {
         open={open}
         onClose={handleClose}
         MenuListProps={{
-          "aria-labelledby": "basic-button",
+          "aria-labelledby": "My Account",
         }}
       >
         <MenuItem onClick={handleClose}>
