@@ -28,7 +28,7 @@ import {
 import PageSpacer from "../components/SpacerPage";
 import PageDocumentationLayout from "../components/PageDocumentationLayout";
 import SpacerSection from "../components/SpacerSection";
-import Breadcrumbs from "../components/Breadcrumbs";
+import Breadcrumbs from "../components/BreadcrumbsThreeDeep";
 
 export default function Documentation() {
   return (

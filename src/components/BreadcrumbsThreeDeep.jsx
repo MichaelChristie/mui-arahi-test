@@ -24,12 +24,12 @@ export default function BreadcrumbsThreeDeep() {
         }}
       >
         <Breadcrumbs aria-label="breadcrumb">
-          <Link underline="hover" color="inherit" href="/">
+          <Link underline="hover" color="primary" href="/">
             MUI
           </Link>
           <Link
             underline="hover"
-            color="inherit"
+            color="primary"
             href="/material-ui/getting-started/installation/"
           >
             Core

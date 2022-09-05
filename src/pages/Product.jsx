@@ -13,6 +13,18 @@ import Panel from "../components/PanelBottomLeft";
 import Quicklinks from "../components/navigation/Quicklinks";
 import HeaderBrochure from "../components/HeaderBrochure";
 
+import PanelFlexBottomProduct from "../components/PanelFlexBottomProduct";
+import PanelLeft from "../components/PanelLeft";
+// import PanelRight from "../components/PanelRight";
+import PanelCurvedTop from "../components/PanelCurvedTop;";
+import HeroImagePhotoWizzard from "../components/HeroImagePhotoWizzard";
+import HeroMarketingMessage19 from "../components/HeroMarketingMessage19";
+import ProductPanelCarInsurance from "../components/ProductPanelCarInsurance";
+import PlaceholderContent from "../Utilities/PlaceholderContent";
+import BreadcrumbsProductPage from "../components/BreadcrumbsProductPage";
+import SpacerSection from "../components/SpacerSection";
+import SpacerPage from "../components/SpacerPage";
+
 export default function Product() {
   let { producttype } = useParams();
 
@@ -20,58 +32,21 @@ export default function Product() {
     <>
       <HeaderBrochure />
 
-      <Grid container direction="column">
-        <Grid item>
-          <Box
-            sx={{
-              height: {
-                xs: "100vh",
-                lg: "600px",
-              },
-              maxWidth: "1920px",
-              margin: "0 auto",
-              borderRadius: "4px",
-              // width: "100%",
-              backgroundImage: {
-                xs: `url(${HeroImageMobile})`,
-                lg: `url(${HeroImage})`,
-              },
-              backgroundSize: "cover",
-              backgroundPosition: "center center",
-            }}
-          >
-            <Panel sx={{ zIndex: 11111, position: "absolute" }}>
-              <Typography variant="h2" fontSize={24}>
-                Motukā inihua
-              </Typography>
-              <Typography variant="h1">Car Insurance</Typography>
-              <Typography variant="p">
-                {producttype} Insurance Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Tempora vel, reprehenderit, ducimus laborum
-                laboriosam cumque voluptatem consectetur provident corrupti.
-              </Typography>
-              <Box sx={{ marginTop: 2 }}>
-                <Grid container spacing={3} align="center" direction="row">
-                  <Grid item xs={6}>
-                    <Button variant="contained" fullWidth color="primary">
-                      Get a quote
-                    </Button>
-                  </Grid>
-                  <Grid item xs={6}>
-                    <Quicklinks />
-                  </Grid>
-                </Grid>
-              </Box>
-              <MostTrustedCard />
-            </Panel>
-          </Box>
-        </Grid>
+      <HeroImagePhotoWizzard>
+        {/* <PanelLeft rightCol={<PlaceholderContent />}> */}
+        <PanelLeft>
+          <PanelFlexBottomProduct bokehMessage={<BreadcrumbsProductPage />}>
+            {/* Bottom Left */}
+            <ProductPanelCarInsurance />
+          </PanelFlexBottomProduct>
+        </PanelLeft>
+      </HeroImagePhotoWizzard>
 
-        <PageLayout>
-          <Box></Box>
-          <ProductAccordion />
-        </PageLayout>
-      </Grid>
+      <PageLayout>
+        <SpacerPage />
+        <ProductAccordion />
+      </PageLayout>
+      <SpacerPage />
     </>
   );
 }

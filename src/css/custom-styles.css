@@ -60,18 +60,18 @@ code {
   border: 2px solid #ffd300;
   border-radius: 50%;
   background-size: 60%;
-  background-color: #ffffff;
 }
 
 .circle {
   border-radius: 50%;
   background-size: 60%;
-  background-color: #ffffff;
-  text-align: center;
+  background-color: #ff0000;
 }
 
 .inner {
   margin: 0 auto;
+  margin-top: 12px;
+  margin-left: 12px;
   width: 36px;
   height: 36px;
 }

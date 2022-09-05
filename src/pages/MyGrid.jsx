@@ -29,8 +29,8 @@ import {
 import { styled } from "@mui/material/styles";
 import PageSpacer from "../components/SpacerPage";
 import PageDocumentationLayout from "../components/PageDocumentationLayout";
+import BreadcrumbsThreeDeep from "../components/BreadcrumbsThreeDeep";
 import SpacerSection from "../components/SpacerSection";
-import Breadcrumbs from "../components/Breadcrumbs";
 import SpacerPage from "../components/SpacerPage";
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -48,7 +48,7 @@ export default function MyGrid() {
 
       <PageLayout>
         <Box sx={{ pt: 2 }}>
-          <Breadcrumbs />
+          <BreadcrumbsThreeDeep />
           <SpacerSection />
           <Typography variant="h1">Grid</Typography>
           <SpacerSection />

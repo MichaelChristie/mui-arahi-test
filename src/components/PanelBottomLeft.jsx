@@ -28,7 +28,7 @@ export default function Panel({ children }) {
           order: "2",
           flex: "0 0 auto",
           alignSelf: "stretch",
-          background: "rgba(255,120,0,0.25)",
+          // background: "rgba(255,120,0,0.25)",
           zIndex: 1,
         }}
       >
@@ -36,8 +36,22 @@ export default function Panel({ children }) {
           <Box
             sx={{
               borderRadius: "32px 32px 0px 0px",
-              p: 3,
               bgcolor: "background.paper",
+              pt: {
+                xs: 4,
+                md: 4,
+                lg: 6,
+              },
+              px: {
+                xs: 4,
+                md: 4,
+                lg: 6,
+              },
+              pb: {
+                xs: 4,
+                md: 0,
+                lg: 0,
+              },
             }}
           >
             {children}

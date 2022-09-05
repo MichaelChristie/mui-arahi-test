@@ -9,21 +9,26 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { ThemeProvider } from "@mui/material/styles";
 import OverviewPanel from "./OverviewPanel";
 import ProductTable from "./ProductTable";
+import ProductPolicyDocumentSection from "./ProductPolicyDocumentSection";
+import CardImage from "./CardImage";
+import BasicCard from "../components/Card";
 
 export default function ProductAccordion() {
   return (
     <ThemeProvider>
       <Accordion
         elevation={0}
+        defaultExpanded
+        disableGutters={true}
         sx={{
-          border: "none",
-          backgroundColor: "white",
+          borderTop: "0 !important",
         }}
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
+          defaultExpanded={true}
         >
           <Typography variant="h5">Overview</Typography>
         </AccordionSummary>
@@ -50,6 +55,63 @@ export default function ProductAccordion() {
           id="panel3a-header"
         >
           <Typography variant="h5">Policy Documents</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <ProductPolicyDocumentSection />
+        </AccordionDetails>
+      </Accordion>
+      <Accordion elevation={0}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel4a-content"
+          id="panel4a-header"
+        >
+          <Typography variant="h5">Claiming</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion elevation={0}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel5a-content"
+          id="panel5a-header"
+        >
+          <Typography variant="h5">FAQs</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion elevation={0}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel6a-content"
+          id="panel6a-header"
+        >
+          <Typography variant="h5">Related Articles</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <BasicCard />
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion elevation={0}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel7a-content"
+          id="panel7a-header"
+        >
+          <Typography variant="h5">Customer Testimonial</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
