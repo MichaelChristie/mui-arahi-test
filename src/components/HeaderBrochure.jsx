@@ -5,6 +5,8 @@ import Header from "./HeaderInner";
 import Bokeh from "./Bokeh";
 import PageSpacerMatchHeader from "./PageSpacerMatchHeader";
 import BokehHero from "./BokehHero";
+import PageLayout from "./PageLayout";
+import PageLayoutBreakout from "./PageLayoutBreakout";
 
 export default function HeaderBrochure() {
   return (
@@ -15,12 +17,14 @@ export default function HeaderBrochure() {
           width: 0,
           height: 0,
           zIndex: 1,
+          // background: "#FF0000",
         }}
       >
-        <BokehHero />
+        {/* <BokehHero /> */}
       </Box>
       <Header />
       <Bokeh />
+      {/* NEW */}
       <PageSpacerMatchHeader />
     </>
   );

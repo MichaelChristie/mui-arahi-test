@@ -19,7 +19,7 @@ export default function PageLayout({ children }) {
           <Grid item></Grid>
           <Grid item container>
             <Grid item xs={false} xl={1} className="showMe1" />
-            <Grid item xs={12} xl={10}>
+            <Grid item xs={12} xl={10} sx={{ background: "transparent" }}>
               {children}
             </Grid>
             <Grid item xs={false} xl={1} className="showMe1" />

@@ -53,7 +53,6 @@ export default function MyGrid() {
           <Typography variant="h1">Grid</Typography>
           <SpacerSection />
 
-          {/* <Box sx={{ flexGrow: 1 }}> */}
           <Typography variant="overline">Simple</Typography>
           <Grid container spacing={{ xs: 1, sm: 2, lg: 3 }}>
             <Grid item xs={8}>
@@ -69,7 +68,6 @@ export default function MyGrid() {
               <Item>xs=8</Item>
             </Grid>
           </Grid>
-          {/* </Box> */}
         </Box>
 
         <SpacerPage />
