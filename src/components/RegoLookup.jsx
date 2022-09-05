@@ -26,6 +26,9 @@ import Fade from "@mui/material/Fade";
 import CircularProgress from "@mui/material/CircularProgress";
 import LinearProgress from "@mui/material/LinearProgress";
 import BackNext from "./backNext";
+import PlaceholderHorizontalCardReturnedCar from "./PlaceholderHorizontalCardReturnedCar";
+import SpacerSection from "./SpacerSection";
+
 export default function RegoLookup() {
   const [checked, setChecked] = React.useState(false);
 
@@ -94,6 +97,9 @@ export default function RegoLookup() {
         </Fade>
         {query === "success" ? (
           <Collapse in={checked} collapsedSize={0}>
+            <SpacerSection />
+            <PlaceholderHorizontalCardReturnedCar />
+            <SpacerSection />
             <RegoCarResults />
             <Alert
               severity="info"

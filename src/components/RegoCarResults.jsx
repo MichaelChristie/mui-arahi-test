@@ -23,7 +23,7 @@ import Checkbox from "@mui/material/Checkbox";
 import { visuallyHidden } from "@mui/utils";
 import { Radio } from "@mui/material";
 import PlaceholderHorizontalCardReturnedCar from "./PlaceholderHorizontalCardReturnedCar";
-
+import SpacerSection from "./SpacerSection";
 function createData(name, calories, fat) {
   return {
     name,
@@ -162,7 +162,6 @@ const EnhancedTableToolbar = (props) => {
 
   return (
     <>
-      <PlaceholderHorizontalCardReturnedCar />
       {/* <Typography
         sx={{ flex: "1 1 100%" }}
         variant="h6"

@@ -38,8 +38,8 @@ export default function QuoteWrapper({ progress, children, ...props }) {
 
   const drawer = (
     <div>
-      <Toolbar sx={{ mt: 4, p: 2 }} />
-      <Box sx={{ px: 3 }}>
+      <Toolbar sx={{ mt: 4, p: 0 }} />
+      <Box sx={{ px: 0 }}>
         <Box sx={{ display: "flex" }}>
           <Box sx={{ flexGrow: 1 }}>
             <Typography variant="h6">Help Centre</Typography>
@@ -82,12 +82,13 @@ export default function QuoteWrapper({ progress, children, ...props }) {
         <Box sx={{ display: "flex" }}>
           <HeaderQuote progress={progress} />
           <CssBaseline />
+
           <Box
             // MAIN BODY
             component="main"
             sx={{
               flexGrow: 1,
-              p: 3,
+              mt: 4,
               width: { sm: `calc(100% - ${drawerWidth}px)` },
               // background: "rgba(150, 150, 0, 0.5)",
             }}
