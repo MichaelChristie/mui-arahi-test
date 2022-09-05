@@ -2,6 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import backgroundImage from "../images/bokeh-clean_v1.7.svg";
 import PageLayoutBreakout from "./PageLayoutBreakout";
+
 export default function BokehHeader() {
   return (
     <PageLayoutBreakout>
@@ -28,8 +29,6 @@ export default function BokehHeader() {
             position: "absolute",
             // border: "1px solid #f1f1f1",
             top: 0,
-            // left: -640, // was 48
-
             left: {
               xs: -90,
               sm: -180,
@@ -37,7 +36,6 @@ export default function BokehHeader() {
               lg: -400,
               xl: -400,
             },
-
             zIndex: -10000,
             height: { xs: 64, sm: 64, md: 72, lg: 72, xl: 80 }, // Match
             // maxWidth: { xs: 200, md: 800 },
