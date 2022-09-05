@@ -26,9 +26,11 @@ export default function HeroFlexPanelBox({ children }) {
     >
       <Grid
         container
-        sx={{
-          background: "rgba(255,50,200,0.50)",
-        }}
+        sx={
+          {
+            // background: "rgba(255,50,200,0.50)",
+          }
+        }
         columns={{ xs: 12, xl: 7 }}
         columnSpacing={{ xs: 1, sm: 2, md: 2, lg: 3, xl: 3 }}
       >

@@ -32,7 +32,7 @@ export default function PanelRight({ children, leftCol }) {
           item
           xs={12}
           md={6}
-          className="showMe"
+          // className="showMe"
           sx={{
             order: {
               xs: 1,

@@ -21,7 +21,7 @@ export default function PanelLeft({ children, rightCol }) {
             },
             zIndex: 1,
           }}
-          className="showMe"
+          // className="showMe"
         >
           {children}
         </Grid>

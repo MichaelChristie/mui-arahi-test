@@ -44,14 +44,19 @@ export default function PanelCenteredCTA({ children, optionalContent }) {
 
         <>
           <Box sx={{ marginTop: 2 }}>
-            <Grid container spacing={2} align="center" direction="row">
+            <Grid
+              container
+              spacing={{ xs: 1, sm: 2, md: 2, lg: 3, xl: 3 }}
+              align="center"
+              direction="row"
+            >
               <Grid item xs={false} md={1} lg={2} />
-              <Grid item xs={6} md={4} lg={4}>
+              <Grid item xs={12} md={4} lg={4}>
                 <Button variant="contained" fullWidth color="grey">
                   Find out more
                 </Button>
               </Grid>
-              <Grid item xs={6} md={4} lg={4}>
+              <Grid item xs={12} md={4} lg={4}>
                 <Link to="/quote" style={{ textDecoration: "none" }}>
                   <Button
                     variant="contained"

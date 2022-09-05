@@ -33,7 +33,9 @@ export default function HeroMarketingMessageAnimated({ children }) {
           alignItems: "flex-start",
           // background: "rgba(150,120,0,0.5)",
           minHeight: {
-            xs: "100vh",
+            xs: "600px",
+            sm: "800px",
+            md: "600px",
             lg: "600px",
           },
         }}

@@ -29,17 +29,13 @@ export default function HeroImageBlank({ children }) {
             sx={{
               height: {
                 xs: "100vh",
-                sm: "90vh",
+                sm: "800px",
                 md: "600px",
                 lg: "600px",
               },
               maxWidth: "1920px",
               margin: "0 auto",
               borderRadius: "4px",
-              //   backgroundImage: {
-              //     xs: "`url(${HeroImageMobile})`",
-              //     lg: `url(${HeroImage})`,
-              //   },
 
               backgroundSize: {
                 xs: "contain",
@@ -51,7 +47,7 @@ export default function HeroImageBlank({ children }) {
                 xs: "top center",
                 lg: "bottom center",
               },
-              //   backgroundColor: "#ebf4fb",
+              backgroundColor: "#ebf4fb",
             }}
           >
             {children}

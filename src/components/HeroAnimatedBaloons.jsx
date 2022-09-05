@@ -4,10 +4,10 @@ import { Grid, Box, Typography } from "@mui/material/";
 export default function HeroAnimatedBalloons({ children }) {
   return (
     <>
-      <Box sx={{ position: "relative", background: "lime" }}>
+      <Box sx={{ position: "relative", maxHeight: "240px" }}>
         <Box
           className="Animated_Baloons2"
-          sx={{ backgroundColor: "transparent" }}
+          sx={{ backgroundColor: "transparent", maxHeight: "300px" }}
         >
           <Box className="Sparkle-wrapper">
             <Box className="Sparkle1"></Box>
