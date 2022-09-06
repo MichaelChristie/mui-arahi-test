@@ -28,7 +28,7 @@ import {
 import PageSpacer from "../components/SpacerPage";
 import PageDocumentationLayout from "../components/PageDocumentationLayout";
 import SpacerSection from "../components/SpacerSection";
-import Breadcrumbs from "../components/BreadcrumbsThreeDeep";
+// import Breadcrumbs from "../components/Breadcrumbs";
 
 export default function Documentation() {
   return (
@@ -37,7 +37,7 @@ export default function Documentation() {
 
       <PageLayout>
         <Box sx={{ pt: 2 }}>
-          <Breadcrumbs />
+          {/* <Breadcrumbs /> */}
           <SpacerSection />
 
           <Typography variant="h1">

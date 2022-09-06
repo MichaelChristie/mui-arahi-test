@@ -123,3 +123,8 @@ a:hover {
   /* border: 1px #ff0000 dashed !important; */
   background: rgba(110, 50, 70, 0.25) !important;
 }
+
+.showMeA {
+  border: 1px #ff0000 dashed !important;
+  background: rgba(50, 150, 220, 0.25) !important;
+}

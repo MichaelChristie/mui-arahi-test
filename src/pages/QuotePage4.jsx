@@ -5,11 +5,12 @@ import { Button, Box, Grid, ToggleButton } from "@mui/material";
 import QuestionContainer from "../components/QuestionContainer";
 import VertCentre from "../components/VertCentre";
 import ToggleButtons from "../components/ToggleButtons";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
 import { Link } from "react-router-dom";
-import TitleBar from "../components/TitleBar";
 // import ButtonGroup from "../components/ButtonGroup";
-
-export default function QuotePage3() {
+import TitleBar from "../components/TitleBar";
+export default function QuotePage4() {
   const [flag, setFlag] = React.useState(true);
 
   const handleClick = () => {
@@ -17,19 +18,19 @@ export default function QuotePage3() {
   };
   return (
     <>
-      <QuoteWrapper progress={75}>
-        <TitleBar title={"Lorem Ipsum"} />
+      <QuoteWrapper progress={100}>
+        <TitleBar title={"Your Quote"} />
         <Box
           sx={{
             height: "60vh",
-            // background: "#FF0000"
+            background: "#f1f1f1",
           }}
         >
           <VertCentre>
-            <QuestionContainer>
-              <QuestionLockUp />
-              <BackNext />
-            </QuestionContainer>
+            {/* <QuestionContainer> */}
+            <QuestionLockUp />
+            <BackNext />
+            {/* </QuestionContainer> */}
           </VertCentre>
         </Box>
       </QuoteWrapper>
@@ -45,38 +46,37 @@ function QuestionLockUp() {
   };
   return (
     <>
+      <Box sx={{ display: { background: "#FFFFFF", width: "100%" } }}>
+        {/* //DELETE THESE */}
+        <Tabs
+          // value={value}
+          // onChange={handleChange}
+          //   orientation="vertical"
+          variant="scrollable"
+          color="primary"
+          // scrollButtons="auto"
+          TabIndicatorProps={{
+            style: {
+              backgroundColor: "#FFD400",
+            },
+          }}
+          aria-label="scrollable auto tabs example"
+        >
+          <Tab label="Architecto eligendi" />
+          <Tab label="Delectus rem reprehenderit rerum" />
+          <Tab label="Architecto, eligendi sapiente" />
+          <Tab label="Lorem ipsum consectetur adipisicing" />
+          <Tab label="Delectus rerum nostrum quo ut ex" />
+          <Tab label="Placeat natus" />
+          <Tab label="Electus rem reprehenderit" />
+        </Tabs>
+      </Box>
+      <Typography variant="h1" align="center">
+        $59.65
+      </Typography>
       <Typography variant="h5" align="center" sx={{ pb: 2 }}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
       </Typography>
-
-      <Box sx={{ marginTop: 2 }}>
-        <Grid container spacing={2} align="center" direction="row">
-          <Grid item xs={12} sm={6}>
-            <Button
-              // onClick={handleClick}
-              variant="contained"
-              // color={flag ? "white" : "secondary"}
-              color="grey"
-              fullWidth
-              size="large"
-              // color={flag ? "white" : "secondary"}
-            >
-              Yes
-            </Button>
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <Button
-              onClick={handleClick}
-              variant="contained"
-              fullWidth
-              size="large"
-              color={flag ? "grey" : "secondary"}
-            >
-              No
-            </Button>
-          </Grid>
-        </Grid>
-      </Box>
     </>
   );
 }
@@ -90,7 +90,7 @@ function BackNext() {
             <Link to="/quote2">Back</Link>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Link to="/quote4">
+            <Link to="/">
               <Button
                 variant="contained"
                 fullWidth

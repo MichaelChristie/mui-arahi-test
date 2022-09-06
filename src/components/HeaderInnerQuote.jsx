@@ -46,6 +46,7 @@ export default function HeaderInnerQuote({ progress }) {
             sx={{
               flexShrink: 1,
               mt: -1,
+              zIndex: 1,
             }}
           >
             <LinearProgress variant="determinate" value={progress} />

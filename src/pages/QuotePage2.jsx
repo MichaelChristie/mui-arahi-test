@@ -5,12 +5,13 @@ import { Button, Box, Grid } from "@mui/material";
 import QuestionContainer from "../components/QuestionContainer";
 import VertCentre from "../components/VertCentre";
 import { Link } from "react-router-dom";
+import TitleBar from "../components/TitleBar";
 
 export default function QuotePage2() {
   return (
     <>
       <QuoteWrapper progress={50}>
-        <Typography variant="h1">Page 2</Typography>
+        <TitleBar title={"Vehicle usage"} />
         <Box
           sx={{
             height: "100vh",

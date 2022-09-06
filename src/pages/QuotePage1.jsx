@@ -9,13 +9,15 @@ import { Link } from "react-router-dom";
 import RegoFinderTabs from "../components/RegoFinderTabs";
 import RegoField from "../components/RegoField";
 import BackNext from "../components/backNext";
+import TitleBar from "../components/TitleBar";
 // import ButtonGroup from "../components/ButtonGroup";
 
 export default function QuotePage1() {
   return (
     <>
-      <QuoteWrapper progress={1} footerContent={<></>}>
-        <Typography variant="h1">Find your Car</Typography>
+      <QuoteWrapper progress={10} footerContent={<></>}>
+        <TitleBar title={"Find your car"} />
+        {/* <Typography variant="h1">Find your Car</Typography> */}
         <Box
           sx={
             {

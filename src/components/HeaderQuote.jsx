@@ -5,6 +5,7 @@ import PageSpacerMatchHeader from "./PageSpacerMatchHeader";
 import BokehHero from "./BokehHero";
 import HeaderInnerQuote from "./HeaderInnerQuote";
 import LinearProgress from "@mui/material/LinearProgress";
+import Bokeh from "./Bokeh";
 
 export default function HeaderQuote({ progress }) {
   return (
@@ -21,6 +22,7 @@ export default function HeaderQuote({ progress }) {
 
       {/* </Box> */}
       <HeaderInnerQuote progress={progress} />
+      <Bokeh />
     </>
   );
 }

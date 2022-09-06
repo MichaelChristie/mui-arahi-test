@@ -24,6 +24,7 @@ import ThemeGrid from "./components/ThemeGrid";
 import QuotePage1 from "./pages/QuotePage1";
 import QuotePage2 from "./pages/QuotePage2";
 import QuotePage3 from "./pages/QuotePage3";
+import QuotePage4 from "./pages/QuotePage4";
 import Documentation from "./pages/Documentation";
 import MyGrid from "./pages/MyGrid";
 import Styles from "./components/Styles";
@@ -86,6 +87,7 @@ function App() {
                 <Route path="/quote" element={<QuotePage1 />} />
                 <Route path="/quote2" element={<QuotePage2 />} />
                 <Route path="/quote3" element={<QuotePage3 />} />
+                <Route path="/quote4" element={<QuotePage4 />} />
                 {/* <Route path="/playground" element={<ThemeNesting />} /> */}
                 <Route path="/documentation" element={<Documentation />} />
                 <Route path="/grid" element={<MyGrid />} />

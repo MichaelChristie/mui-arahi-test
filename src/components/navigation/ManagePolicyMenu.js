@@ -14,6 +14,8 @@ import {
   faEdit,
   faStars,
   faGrid,
+  faHome,
+  faCar,
 } from "@fortawesome/pro-light-svg-icons";
 import Divider from "@mui/material/Divider";
 import MenuList from "@mui/material/MenuList";
@@ -66,11 +68,23 @@ export default function ManagePolicyMenu() {
         }}
       >
         <MenuList>
-          <MenuItem component={Link} to={"/grid"}>
+          <MenuItem component={Link} to={"/"}>
             <ListItemIcon>
-              <FontAwesomeIcon icon={faGrid} fontSize="large" />
+              <FontAwesomeIcon icon={faHome} fontSize="large" />
             </ListItemIcon>
-            <ListItemText>Grid</ListItemText>
+            <ListItemText>Home page</ListItemText>
+          </MenuItem>
+          <MenuItem component={Link} to={"/product"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faCar} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Product</ListItemText>
+          </MenuItem>
+          <MenuItem component={Link} to={"/campaign"}>
+            <ListItemIcon>
+              <FontAwesomeIcon icon={faStars} fontSize="large" />
+            </ListItemIcon>
+            <ListItemText>Campaign</ListItemText>
           </MenuItem>
           <MenuItem component={Link} to={"/documentation"}>
             <ListItemIcon>
@@ -78,17 +92,19 @@ export default function ManagePolicyMenu() {
             </ListItemIcon>
             <ListItemText>Documentation</ListItemText>
           </MenuItem>
+
+          <Divider />
           <MenuItem component={Link} to={"/styles"}>
             <ListItemIcon>
               <FontAwesomeIcon icon={faPaintbrushPencil} fontSize="large" />
             </ListItemIcon>
             <ListItemText>Styles</ListItemText>
           </MenuItem>
-          <MenuItem component={Link} to={"/campaign"}>
+          <MenuItem component={Link} to={"/grid"}>
             <ListItemIcon>
-              <FontAwesomeIcon icon={faStars} fontSize="large" />
+              <FontAwesomeIcon icon={faGrid} fontSize="large" />
             </ListItemIcon>
-            <ListItemText>Campaign</ListItemText>
+            <ListItemText>Grid</ListItemText>
           </MenuItem>
           <MenuItem component={Link} to={"/playground"}>
             <ListItemIcon>

@@ -31,7 +31,12 @@ export default function ProductPanelCarInsurance() {
         <Box sx={{ marginTop: 2 }}>
           <Grid container spacing={3} align="center" direction="row">
             <Grid item xs={6}>
-              <Button variant="contained" fullWidth color="primary">
+              <Button
+                variant="contained"
+                fullWidth
+                color="primary"
+                href="/quote"
+              >
                 Get a quote
               </Button>
             </Grid>
