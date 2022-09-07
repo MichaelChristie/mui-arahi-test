@@ -37,6 +37,10 @@ import PlaceholderHorizontalCard from "../components/PlaceholderHorizontalCard";
 import PanelHorizonatalCentered from "./PanelHorizonatalCentered";
 import PanelFlexVertCentre from "./PanelFlexVertCentre";
 import PanelCenteredCTA from "./PanelCenteredCTA";
+import PlaceholderCampaignExample from "./PlaceholderCampaignExample";
+import PanelBottomTransparent from "./PanelBottomTransparent";
+import PanelTopTransparent from "./PanelTopTransparent";
+import { faRugbyBall } from "@fortawesome/pro-light-svg-icons";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -82,9 +86,7 @@ export default function HeroSwitcher() {
             <HeroImagePlaceholder>
               <PanelRight leftCol={<PlaceholderContent />}>
                 <PanelFlexTop>
-                  <PanelCurvedBottom
-                    optionalContent={<PlaceholderHorizontalCard />}
-                  />
+                  <PanelCurvedBottom optionalContent={<MostTrustedCard />} />
                 </PanelFlexTop>
               </PanelRight>
             </HeroImagePlaceholder>
@@ -252,6 +254,17 @@ export default function HeroSwitcher() {
             </PanelLeft>
           </HeroImagePhotoRing>
         </TabPanel>
+
+        {/* Modern  */}
+        <TabPanel value={value} index={14}>
+          <HeroImageBlank>
+            <PanelLeft rightCol={<PlaceholderCampaignExample />}>
+              <PanelFlexTop>
+                <PanelBottomTransparent optionalContent={<MostTrustedCard />} />
+              </PanelFlexTop>
+            </PanelLeft>
+          </HeroImageBlank>
+        </TabPanel>
       </Box>
       <Box
         sx={{
@@ -286,6 +299,7 @@ export default function HeroSwitcher() {
             <Tab label="Hybrid" {...a11yProps(11)} />
             <Tab label="Centered Photo" {...a11yProps(12)} />
             <Tab label="Top Left" {...a11yProps(13)} />
+            <Tab label="Modern" {...a11yProps(14)} />
           </Tabs>
         </HiddenMenu>
       </Box>

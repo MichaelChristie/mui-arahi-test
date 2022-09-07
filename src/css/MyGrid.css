@@ -16,7 +16,7 @@
   --grid-offset: 16px;
   --grid-gutter: 8px;
   --grid-color: 190, 100%, 45%; /* hsl value */
-  --grid-vertical-opacity: 0.25;
+  --grid-vertical-opacity: 0.9;
   --grid-horisontal-opacity: 0.25;
 }
 

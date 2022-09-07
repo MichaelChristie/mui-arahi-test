@@ -10,7 +10,10 @@ export default function MostTrustedCard() {
   const theme = useTheme();
 
   return (
-    <Card variant="none" sx={{ display: "flex", mt: 2 }}>
+    <Card
+      variant="none"
+      sx={{ display: "flex", mt: 2, background: "transparent" }}
+    >
       <CardMedia
         component="img"
         sx={{ width: 120, height: 108, mt: 2 }}
