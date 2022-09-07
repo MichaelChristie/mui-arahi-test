@@ -210,27 +210,27 @@ const lightTheme = {
     MuiCard: {
       styleOverrides: {
         root: {
-          borderRadius: 24,
+          borderRadius: 8,
         },
       },
     },
     MuiAlert: {
       styleOverrides: {
         root: {
-          borderRadius: 24,
+          borderRadius: 8,
         },
       },
     },
     // MuiTextField: {
     //   styleOverrides: {
     //     root: {
-    //       borderRadius: 24,
+    //       borderRadius: 8,
     //     },
     //   },
     // },
     // MuiTextField: {
     //   defaultProps: {
-    //     borderRadius: 24,
+    //     borderRadius: 8,
     //   },
     // },
     MuiButton: {
@@ -240,7 +240,7 @@ const lightTheme = {
           // Some CSS
           fontSize: "1rem",
           fontWeight: "600",
-          borderRadius: 24,
+          borderRadius: 8,
 
           // backgroundColor: "#FF0000",
         },
