@@ -62,14 +62,14 @@ export default function Documentation() {
             <Button variant="text" size="large" color="primary" sx={{ mr: 2 }}>
               Certificate of currency
             </Button>
-            <Button
+            {/* <Button
               variant="contained"
               size="large"
               color="secondary"
               sx={{ mr: 2 }}
             >
               Selected
-            </Button>
+            </Button> */}
             <SpacerSection />
             <Typography variant="h2">Architecto, eligendi sapiente</Typography>
             <SpacerSection />

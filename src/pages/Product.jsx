@@ -24,6 +24,8 @@ import PlaceholderContent from "../Utilities/PlaceholderContent";
 import BreadcrumbsProductPage from "../components/BreadcrumbsProductPage";
 import SpacerSection from "../components/SpacerSection";
 import SpacerPage from "../components/SpacerPage";
+import HeroImagePlaceholder from "../components/HeroImagePlaceholder";
+import HeroMarketingMessageAnimated from "../components/HeroMarketingMessageAnimated";
 
 export default function Product() {
   let { producttype } = useParams();
@@ -32,15 +34,18 @@ export default function Product() {
     <>
       <HeaderBrochure />
 
-      <HeroImagePhotoWizzard>
+      {/* <HeroImagePhotoWizzard> */}
+      <HeroImagePlaceholder>
         {/* <PanelLeft rightCol={<PlaceholderContent />}> */}
+        {/* <PanelLeft rightCol={<HeroMarketingMessageAnimated />}> */}
         <PanelLeft>
           <PanelFlexBottomProduct bokehMessage={<BreadcrumbsProductPage />}>
             {/* Bottom Left */}
             <ProductPanelCarInsurance />
           </PanelFlexBottomProduct>
         </PanelLeft>
-      </HeroImagePhotoWizzard>
+      </HeroImagePlaceholder>
+      {/* </HeroImagePhotoWizzard> */}
 
       <PageLayout>
         <SpacerPage />

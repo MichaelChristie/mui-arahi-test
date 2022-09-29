@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Grid, Box, Typography } from "@mui/material/";
-import HeroImageXS from "../images/ring_XS@2x.jpg";
-import HeroImageSM from "../images/ring_SM@2x.jpg";
-import HeroImageMD from "../images/ring_MD@2x.jpg";
-import HeroImageLG from "../images/ring_SM@2x.jpg";
+import HeroImageXS from "../images/holiday_MD@2x.jpg";
+import HeroImageSM from "../images/holiday_MD@2x.jpg";
+import HeroImageMD from "../images/holiday_MD@2x.jpg";
+import HeroImageLG from "../images/holiday_SM@2x.jpg";
 
 export default function PlaceholderCampaignExample({ children }) {
   return (
@@ -25,8 +25,8 @@ export default function PlaceholderCampaignExample({ children }) {
                 height: {
                   xs: "90vh",
                   sm: "800px",
-                  md: "600px",
-                  lg: "600px",
+                  md: "480px",
+                  lg: "480px",
                 },
                 width: "100%",
                 // width: "780px",

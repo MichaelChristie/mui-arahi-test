@@ -26,6 +26,7 @@ import HeroMarketingMessage20 from "./HeroMarketingMessage20";
 import HeroMarketingMessage21 from "./HeroMarketingMessage21";
 import HeroImagePhotoDentures from "./HeroImagePhotoDentures";
 import HeroImageIllustration from "./HeroImageIllustration";
+import HeroImageIllustration2 from "./HeroImageIllustration2";
 import HeroImagePlaceholder from "./HeroImagePlaceholder";
 import HeroImageBlank from "./HeroImageBlank";
 import HeroMarketingMessageAnimated from "./HeroMarketingMessageAnimated";
@@ -225,7 +226,7 @@ export default function HeroSwitcher() {
           <HeroImageIllustration>
             <PanelRight leftCol={<HeroMarketingMessageAnimated />}>
               <PanelFlexTop>
-                <PanelCurvedBottom />
+                <PanelTopTransparent />
               </PanelFlexTop>
             </PanelRight>
           </HeroImageIllustration>
@@ -265,6 +266,17 @@ export default function HeroSwitcher() {
             </PanelLeft>
           </HeroImageBlank>
         </TabPanel>
+
+        {/* TOP left ALT */}
+        <TabPanel value={value} index={15}>
+          <HeroImageIllustration2>
+            <PanelLeft rightCol={<HeroMarketingMessageAnimated />}>
+              <PanelFlexTop>
+                <PanelTopTransparent />
+              </PanelFlexTop>
+            </PanelLeft>
+          </HeroImageIllustration2>
+        </TabPanel>
       </Box>
       <Box
         sx={{
@@ -300,6 +312,7 @@ export default function HeroSwitcher() {
             <Tab label="Centered Photo" {...a11yProps(12)} />
             <Tab label="Top Left" {...a11yProps(13)} />
             <Tab label="Modern" {...a11yProps(14)} />
+            <Tab label="Hybrid Left" {...a11yProps(15)} />
           </Tabs>
         </HiddenMenu>
       </Box>

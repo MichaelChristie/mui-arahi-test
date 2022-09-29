@@ -194,7 +194,7 @@ export default function CampaignSwitcher() {
             <HeroImageBlank>
               <PanelRight leftCol={<HeroMarketingMessageAnimated />}>
                 <PanelFlexTop>
-                  Custom Content
+                  Put stuff here
                   {/* <PanelCurvedBottom /> */}
                 </PanelFlexTop>
               </PanelRight>

@@ -16,7 +16,7 @@ export default function PlaceholderContent({ children }) {
           <Grid item xs={8} lg={8}>
             <Box sx={{ px: 0 }}>
               <Typography variant="h2" fontSize={24}>
-                Custom content
+                Put stuff here
               </Typography>
               <Typography variant="h1" fontSize={36}>
                 Placeholder

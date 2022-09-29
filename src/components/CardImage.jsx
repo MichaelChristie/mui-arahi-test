@@ -43,8 +43,11 @@ export default function CardImage(props) {
           display: "flex",
           flexGrow: 1,
           flexDirection: "column",
-          backgroundColor: "",
-          p: 3,
+          p: {
+            xs: 1, // 8 (1x spacing)
+            md: 2, // 16 (2x spacing)
+            xl: 3, // 24 (3x spacing)
+          },
         }}
       >
         <Typography
@@ -84,7 +87,7 @@ export default function CardImage(props) {
           color="primary"
           startIcon={<FontAwesomeIcon icon={faArrowRight} />}
         >
-          More info{" "}
+          More info
         </Button>
         {/* <Button size="small" color="neutral">
           Learn More
