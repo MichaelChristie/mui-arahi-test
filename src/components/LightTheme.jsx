@@ -65,9 +65,6 @@ const lightTheme = {
       "@media (min-width:600px)": {
         fontSize: "3rem",
       },
-      // [theme.breakpoints.up("md")]: {
-      //   fontSize: "4rem",
-      // },
     },
     h2: {
       fontWeight: 600,
@@ -114,17 +111,9 @@ const lightTheme = {
   },
 
   components: {
-    // MuiContainer: {
-    //   styleOverrides: {
-    //     root: {
-    //       borderRadius: 80,
-    //     },
-    //   },
-    // },
     MuiInputBase: {
       styleOverrides: {
         input: {
-          // color: "lime",
           borderBottom: "1px solid transparent !important", // use your color
 
           "&::before": {
@@ -158,7 +147,6 @@ const lightTheme = {
     MuiBackdrop: {
       styleOverrides: {
         // Name of the slot
-
         root: {
           // Some CSS
           // background: "rgba(255, 255, 255, 0.16);",
@@ -172,23 +160,6 @@ const lightTheme = {
           // backgroundColor: "#FF0000 !important",
           opacity: "0",
           display: "none !important",
-        },
-      },
-    },
-    // MuiExpansionPanel: {
-    //   root: {
-    //     "&:before": {
-    //       display: "none",
-    //       backgroundColor: "#FF0000",
-    //     },
-    //   },
-    // },
-    MuiPaper: {
-      styleOverrides: {
-        // Name of the slot
-        root: {
-          // Some CSS
-          // background: "rgba(255, 255, 255, 0.75);",
         },
       },
     },
@@ -222,18 +193,6 @@ const lightTheme = {
         },
       },
     },
-    // MuiTextField: {
-    //   styleOverrides: {
-    //     root: {
-    //       borderRadius: 8,
-    //     },
-    //   },
-    // },
-    // MuiTextField: {
-    //   defaultProps: {
-    //     borderRadius: 8,
-    //   },
-    // },
     MuiButton: {
       styleOverrides: {
         // Name of the slot
