@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Box } from "@mui/material/";
 import HomeLayoutPanelLeft from "./PanelLeft";
-export default function HeroFlexContainer({ children }) {
+export default function HeroFlexContainerNoPush({ children }) {
   return (
     <Box
       sx={{
@@ -11,9 +11,9 @@ export default function HeroFlexContainer({ children }) {
         justifyContent: "flex-start",
         alignContent: "stretch",
         alignItems: "flex-start",
-        background: "rgba(0, 255, 255, 0.50)",
+        // background: "rgba(90, 255, 150, 0.750)",
         minHeight: {
-          xs: "90vh",
+          //xs: "90vh", //DON'T ACTIVATE THIS
           sm: "800px",
           md: "600px",
           lg: "600px",

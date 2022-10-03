@@ -15,12 +15,15 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import PanelFlexTop from "./PanelFlexTop";
 import PanelFlexBottom from "./PanelFlexBottom";
+import PanelFlexBottomNoPush from "./PanelFlexBottomNoPush";
+import PanelFlexTopNoPush from "./PanelFlexTopNoPush";
 import PanelLeft from "./PanelLeft";
 import PanelRight from "./PanelRight";
 import PanelCurvedTop from "./PanelCurvedTop;";
 import PanelCurvedBottom from "./PanelCurvedBottom";
 import HeroImagePhotoNana from "./HeroImagePhotoNana";
 import HeroImagePhotoRing from "./HeroImagePhotoRing";
+import HeroImageSVGTest from "./HeroImageSVGTest";
 import HeroMarketingMessage19 from "./HeroMarketingMessage19";
 import HeroMarketingMessage20 from "./HeroMarketingMessage20";
 import HeroMarketingMessage21 from "./HeroMarketingMessage21";
@@ -34,6 +37,7 @@ import HiddenMenu from "../Utilities/HiddenMenu";
 import PlaceholderContent from "../Utilities/PlaceholderContent";
 
 import MostTrustedCard from "../components/MostTrustedCard";
+import HeroSVGTools from "./HeroSVGTools";
 import PlaceholderHorizontalCard from "../components/PlaceholderHorizontalCard";
 import PanelHorizonatalCentered from "./PanelHorizonatalCentered";
 import PanelFlexVertCentre from "./PanelFlexVertCentre";
@@ -137,13 +141,15 @@ export default function HeroSwitcher() {
         <></>
         {/* TOP LEFT */}
         <TabPanel value={value} index={4}>
-          <HeroImagePlaceholder>
-            <PanelHorizonatalCentered>
-              <PanelFlexVertCentre>
-                <PanelCenteredCTA />
-              </PanelFlexVertCentre>
-            </PanelHorizonatalCentered>
-          </HeroImagePlaceholder>
+          <HeroImageSVGTest>
+            <PanelRight leftCol={<PlaceholderContent />}>
+              <PanelFlexBottom>
+                <PanelCurvedTop
+                  optionalContent={<PlaceholderHorizontalCard />}
+                />
+              </PanelFlexBottom>
+            </PanelRight>
+          </HeroImageSVGTest>
         </TabPanel>
 
         <></>
@@ -160,15 +166,15 @@ export default function HeroSwitcher() {
         <></>
         {/* BOTTOM RIGHT */}
         <TabPanel value={value} index={6}>
-          <HeroImagePlaceholder>
-            <PanelRight leftCol={<HeroMarketingMessage21 />}>
-              <PanelFlexBottom>
-                <PanelCurvedTop
-                  optionalContent={<PlaceholderHorizontalCard />}
-                />
-              </PanelFlexBottom>
+          <HeroImageBlank>
+            <PanelRight leftCol={<HeroSVGTools />}>
+              {/* <PanelFlexBottomNoPush> */}
+              <PanelFlexTopNoPush>
+                <PanelCurvedBottom />
+              </PanelFlexTopNoPush>
+              {/* </PanelFlexBottomNoPush> */}
             </PanelRight>
-          </HeroImagePlaceholder>
+          </HeroImageBlank>
         </TabPanel>
         {/* TOP RIGHT */}
         <TabPanel value={value} index={7}>
@@ -301,9 +307,9 @@ export default function HeroSwitcher() {
             <Tab label="TL - Custom" {...a11yProps(1)} />
             <Tab label="BL - Custom" {...a11yProps(2)} />
             <Tab label="BR - Custom" {...a11yProps(3)} />
-            <Tab label="Centered" {...a11yProps(4)} />
-            <Tab label="Bottom Left" {...a11yProps(5)} />
-            <Tab label="Bottom Right" {...a11yProps(6)} />
+            <Tab label="SVG" {...a11yProps(4)} />
+            <Tab label="BL Ring Photo" {...a11yProps(5)} />
+            <Tab label="TR SVG image" {...a11yProps(6)} />
             <Tab label="Top Right" {...a11yProps(7)} />
             <Tab label="Photo" {...a11yProps(8)} />
             <Tab label="Minimalist" {...a11yProps(9)} />

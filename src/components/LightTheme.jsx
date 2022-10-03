@@ -62,7 +62,7 @@ const lightTheme = {
       fontWeight: 800,
       fontFamily: MyData.global.fontFamily.primaryHeading.value,
       fontSize: "2rem",
-      "@media (min-width:600px)": {
+      "@media (min-width:900px)": {
         fontSize: "3rem",
       },
       // [theme.breakpoints.up("md")]: {

@@ -6,15 +6,15 @@ import { Grid, Box, Button, Typography } from "@mui/material/";
 // import HeroImageMD from "../images/nanas-turkey_MD.jpg";
 // import HeroImageLG from "../images/nanas-turkey_LG.jpg";
 
-import HeroImageXS from "../images/placeholder_XS@2x.png";
-import HeroImageSM from "../images/placeholder_SM@2x.png";
-import HeroImageMD from "../images/placeholder_MD@2x.png";
-import HeroImageLG from "../images/placeholder_LG@2x.png";
+import HeroImageXS from "../images/tool-set.svg";
+import HeroImageSM from "../images/tool-set.svg";
+import HeroImageMD from "../images/tool-set.svg";
+import HeroImageLG from "../images/tool-set.svg";
 
-export default function HeroImagePlaceholder({ children }) {
+export default function HeroImageSVGTest({ children }) {
   return (
     <>
-      <Box sx={{ background: "lime", zIndex: 1 }}>
+      <Box sx={{ background: "rgba(50,120,150,0.25)", zIndex: 1 }}>
         <Grid container direction="column">
           <Grid item>
             <Box
