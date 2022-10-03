@@ -1,9 +1,9 @@
 module.exports = {
-  source: ["src/data/tokens.json"],
+  source: ["src/data/token/tokens.json"],
   platforms: {
     cjs: {
       transformGroup: "js",
-      buildPath: "build/cjs/",
+      buildPath: "src/data/token/build/cjs/",
       files: [
         {
           destination: "index.js",
@@ -17,7 +17,7 @@ module.exports = {
     },
     esm: {
       transformGroup: "js",
-      buildPath: "build/esm/",
+      buildPath: "src/data/token/build/esm/",
       files: [
         {
           destination: "index.js",
@@ -31,7 +31,7 @@ module.exports = {
     },
     // ts: {
     //   transformGroup: "js",
-    //   buildPath: "build/js/",
+    //   buildPath: "src/data/token/build/js/",
     //   files: [
     //     {
     //       destination: "index.d.ts",
@@ -42,7 +42,7 @@ module.exports = {
     // },
     scss: {
       transformGroup: "scss",
-      buildPath: "build/scss/",
+      buildPath: "src/data/token/build/scss/",
       files: [
         {
           destination: "index.scss",
@@ -52,7 +52,7 @@ module.exports = {
     },
     css: {
       transformGroup: "css",
-      buildPath: "build/css/",
+      buildPath: "src/data/token/build/css/",
       files: [
         {
           destination: "index.css",
@@ -62,22 +62,22 @@ module.exports = {
     },
     android: {
       transformGroup: "android",
-      buildPath: "build/android/",
+      buildPath: "src/data/token/build/android/",
       files: [],
     },
     ios: {
       transformGroup: "ios",
-      buildPath: "build/ios/",
+      buildPath: "src/data/token/build/ios/",
       files: [],
     },
     "ios-swift": {
       transformGroup: "ios-swift",
-      buildPath: "build/ios-swift/",
+      buildPath: "src/data/token/build/ios-swift/",
       files: [],
     },
     "ios-swift-separate-enums": {
       transformGroup: "ios-swift-separate",
-      buildPath: "build/ios-swift/",
+      buildPath: "src/data/token/build/ios-swift/",
       files: [],
     },
   },
