@@ -37,7 +37,7 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "style-dictionary": "style-dictionary build --config ./sd.config.cjs",
-    "token-transform": "token-transformer src/data/token/tokens.json src/data/token/token-transformed.json --expandComposition --resolveReferences --expandShadow --expandTypography"
+    "token-transform": "token-transformer src/data/token/tokens.json src/data/token/token-transformed.json --throwErrorWhenNotResolved --expandTypography"
   },
   "eslintConfig": {
     "extends": [

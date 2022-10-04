@@ -1,5 +1,5 @@
 module.exports = {
-  source: ["src/data/token/tokens.json"],
+  source: ["src/data/token/token-transformed.json"],
   platforms: {
     cjs: {
       transformGroup: "js",
