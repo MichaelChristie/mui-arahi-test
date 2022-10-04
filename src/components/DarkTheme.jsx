@@ -75,9 +75,9 @@ const darkTheme = {
       fontFamily: "Arial",
       lineHeight: 1.4,
       letterSpacing: 0.125,
-      fontSize: "1.1rem",
+      fontSize: "1.oneRem",
       "@media (min-width:600px)": {
-        fontSize: "1rem",
+        fontSize: "oneRem",
       },
     },
   },
@@ -97,7 +97,7 @@ const darkTheme = {
         // Name of the slot
         root: {
           // Some CSS
-          fontSize: "1rem",
+          fontSize: "oneRem",
           fontWeight: "600",
         },
       },

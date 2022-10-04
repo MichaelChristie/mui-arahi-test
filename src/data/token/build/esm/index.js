@@ -1,34 +1,34 @@
 /**
  * Do not edit directly
- * Generated on Mon, 03 Oct 2022 02:46:03 GMT
+ * Generated on Mon, 03 Oct 2022 21:09:01 GMT
  */
 
 module.exports = {
-  "1rem": {
-    "value": "16",
+  "oneRem": {
+    "value": 16,
     "type": "sizing",
-    "filePath": "src/data/token/tokens.json",
+    "filePath": "src/data/token/token-transformed.json",
     "isSource": true,
     "original": {
-      "value": "16",
+      "value": 16,
       "type": "sizing"
     },
-    "name": "1rem",
+    "name": "OneRem",
     "attributes": {
-      "category": "1rem"
+      "category": "oneRem"
     },
     "path": [
-      "1rem"
+      "oneRem"
     ]
   },
   "lineHeight": {
     "body": {
-      "value": "16 * 1.5",
+      "value": 24,
       "type": "lineHeights",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{1rem} * 1.5",
+        "value": 24,
         "type": "lineHeights"
       },
       "name": "LineHeightBody",
@@ -42,12 +42,12 @@ module.exports = {
       ]
     },
     "subtext": {
-      "value": "16 * 1.25",
+      "value": 20,
       "type": "lineHeights",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{1rem} * 1.25",
+        "value": 20,
         "type": "lineHeights"
       },
       "name": "LineHeightSubtext",
@@ -66,7 +66,7 @@ module.exports = {
       "yellow": {
         "value": "#ffd400",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#FFD400",
@@ -88,7 +88,7 @@ module.exports = {
         "value": "#ffe97f",
         "type": "color",
         "description": "Brand colour, Yellow with 50% opacity on White",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#FFE97F",
@@ -111,7 +111,7 @@ module.exports = {
         "value": "#fff4bf",
         "type": "color",
         "description": "Yellow with 25% opacity on White",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#FFF4BF",
@@ -134,7 +134,7 @@ module.exports = {
         "value": "#000000",
         "type": "color",
         "description": "#000 with 75% opacity",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#000000BF",
@@ -157,7 +157,7 @@ module.exports = {
         "value": "#000000",
         "type": "color",
         "description": "#000 with 50% opacity",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#00000080",
@@ -180,7 +180,7 @@ module.exports = {
         "value": "#000000",
         "type": "color",
         "description": "#000 with 25% opacity",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#00000040",
@@ -203,7 +203,7 @@ module.exports = {
         "value": "#000000",
         "type": "color",
         "description": "#000 with 10% opacity",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#0000001A",
@@ -226,7 +226,7 @@ module.exports = {
         "value": "#002a49",
         "type": "color",
         "description": "Brand colour, Dark Blue",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#002A49",
@@ -249,7 +249,7 @@ module.exports = {
         "value": "#005b88",
         "type": "color",
         "description": "Brand colour, Mid Blue",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#005B88",
@@ -272,7 +272,7 @@ module.exports = {
         "value": "#0076c4",
         "type": "color",
         "description": "Brand colour, Light Blue",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#0076C4",
@@ -295,7 +295,7 @@ module.exports = {
         "value": "#bfdcf0",
         "type": "color",
         "description": "Blue with 25% opacity on White",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#BFDCF0",
@@ -318,7 +318,7 @@ module.exports = {
         "value": "#ebf4fb",
         "type": "color",
         "description": "Blue with 8% opacity on White",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#EBF4FB",
@@ -341,7 +341,7 @@ module.exports = {
         "value": "#b9b8b6",
         "type": "color",
         "description": "Yellow with 1% opacity on #B9B9B9",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#B9B8B6",
@@ -364,7 +364,7 @@ module.exports = {
         "value": "#f1f0ee",
         "type": "color",
         "description": "Yellow with 1% opacity on #F1F1F1",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#F1F0EE",
@@ -387,7 +387,7 @@ module.exports = {
         "value": "#f9f8f6",
         "type": "color",
         "description": "Yellow with 1% opacity on #F9F9F9",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#F9F8F6",
@@ -409,7 +409,7 @@ module.exports = {
       "red": {
         "value": "#ee6363",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#EE6363",
@@ -431,7 +431,7 @@ module.exports = {
         "value": "#f6b0b0",
         "type": "color",
         "description": "Red with 50% opacity on White",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#F6B0B0",
@@ -453,7 +453,7 @@ module.exports = {
       "green": {
         "value": "#39d3ab",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#39D3AB",
@@ -475,7 +475,7 @@ module.exports = {
         "value": "#9be8d4",
         "type": "color",
         "description": "Green with 50% opacity on White",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#9BE8D4",
@@ -498,7 +498,7 @@ module.exports = {
         "value": "#ffffff",
         "type": "color",
         "description": "Brand colour, White",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#FFFFFF",
@@ -519,12 +519,12 @@ module.exports = {
       },
       "gradient": {
         "primary": {
-          "value": "linear-gradient(90deg, #0076c4 0%, #005b88 25%, #002a49 100%)",
+          "value": "#000000",
           "type": "color",
-          "filePath": "src/data/token/tokens.json",
+          "filePath": "src/data/token/token-transformed.json",
           "isSource": true,
           "original": {
-            "value": "linear-gradient(90deg, {color.base.blue} 0%, {color.base.midblue} 25%, {color.base.darkblue} 100%)",
+            "value": "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)",
             "type": "color"
           },
           "name": "ColorBaseGradientPrimary",
@@ -545,7 +545,7 @@ module.exports = {
       "dummy": {
         "value": "#fa00ff",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#FA00FF",
@@ -566,7 +566,7 @@ module.exports = {
       "dummy2": {
         "value": "#0cff00",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#0cff00",
@@ -590,10 +590,10 @@ module.exports = {
         "value": "#ffd400",
         "type": "color",
         "description": "Selected",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.yellow}",
+          "value": "#FFD400",
           "type": "color",
           "description": "Selected"
         },
@@ -613,10 +613,10 @@ module.exports = {
         "value": "#0076c4",
         "type": "color",
         "description": "Link",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.blue}",
+          "value": "#0076C4",
           "type": "color",
           "description": "Link"
         },
@@ -636,10 +636,10 @@ module.exports = {
         "value": "#ee6363",
         "type": "color",
         "description": "Error",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.red}",
+          "value": "#EE6363",
           "type": "color",
           "description": "Error"
         },
@@ -658,10 +658,10 @@ module.exports = {
       "success": {
         "value": "#39d3ab",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.green}",
+          "value": "#39D3AB",
           "type": "color"
         },
         "name": "ColorStateSuccess",
@@ -682,10 +682,10 @@ module.exports = {
         "value": "#000000",
         "type": "color",
         "description": "Text Color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.black75}",
+          "value": "#000000BF",
           "type": "color",
           "description": "Text Color"
         },
@@ -704,10 +704,10 @@ module.exports = {
       "subtext": {
         "value": "#000000",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.black50}",
+          "value": "#00000080",
           "type": "color"
         },
         "name": "ColorTextSubtext",
@@ -725,10 +725,10 @@ module.exports = {
       "disabled": {
         "value": "#000000",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.black25}",
+          "value": "#00000040",
           "type": "color"
         },
         "name": "ColorTextDisabled",
@@ -747,10 +747,10 @@ module.exports = {
         "value": "#ffffff",
         "type": "color",
         "description": "Light Text",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.white}",
+          "value": "#FFFFFF",
           "type": "color",
           "description": "Light Text"
         },
@@ -770,10 +770,10 @@ module.exports = {
         "value": "#0076c4",
         "type": "color",
         "description": "Link color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.blue}",
+          "value": "#0076C4",
           "type": "color",
           "description": "Link color"
         },
@@ -793,10 +793,10 @@ module.exports = {
         "value": "#ee6363",
         "type": "color",
         "description": "Error text",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.red}",
+          "value": "#EE6363",
           "type": "color",
           "description": "Error text"
         },
@@ -815,10 +815,10 @@ module.exports = {
       "success": {
         "value": "#39d3ab",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.green}",
+          "value": "#39D3AB",
           "type": "color"
         },
         "name": "ColorTextSuccess",
@@ -834,12 +834,12 @@ module.exports = {
         ]
       },
       "primaryHeading": {
-        "value": "linear-gradient(90deg, #0076c4 0%, #005b88 25%, #002a49 100%)",
+        "value": "#000000",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.gradient.primary}",
+          "value": "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)",
           "type": "color"
         },
         "name": "ColorTextPrimaryHeading",
@@ -859,10 +859,10 @@ module.exports = {
       "dark": {
         "value": "#005b88",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.midblue}",
+          "value": "#005B88",
           "type": "color"
         },
         "name": "ColorDuotoneDark",
@@ -880,10 +880,10 @@ module.exports = {
       "light": {
         "value": "#0076c4",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.blue}",
+          "value": "#0076C4",
           "type": "color"
         },
         "name": "ColorDuotoneLight",
@@ -903,13 +903,13 @@ module.exports = {
   "Light": {
     "Primary": {
       "Gradient": {
-        "value": "linear-gradient(90deg, #0076c4 0%, #005b88 25%, #002a49 100%)",
+        "value": "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)",
         "type": "color",
         "description": "Brand colour, Primary Gradient, Blue to Mid Blue (25% from left) to Dark Blue",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "linear-gradient(90deg, {color.base.blue} 0%, {color.base.midblue} 25%, {color.base.darkblue} 100%)",
+          "value": "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)",
           "type": "color",
           "description": "Brand colour, Primary Gradient, Blue to Mid Blue (25% from left) to Dark Blue"
         },
@@ -926,13 +926,13 @@ module.exports = {
         ]
       },
       "Main": {
-        "value": "#0076c4",
+        "value": "#0076C4",
         "type": "color",
         "description": "Light/Primary/Main",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.blue}",
+          "value": "#0076C4",
           "type": "color",
           "description": "Light/Primary/Main"
         },
@@ -949,12 +949,12 @@ module.exports = {
         ]
       },
       "Dark": {
-        "value": "#005b88",
+        "value": "#005B88",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.midblue}",
+          "value": "#005B88",
           "type": "color"
         },
         "name": "LightPrimaryDark",
@@ -970,13 +970,13 @@ module.exports = {
         ]
       },
       "Light": {
-        "value": "#bfdcf0",
+        "value": "#BFDCF0",
         "type": "color",
         "description": "Light.Primary.Light",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.blue25}",
+          "value": "#BFDCF0",
           "type": "color",
           "description": "Light.Primary.Light"
         },
@@ -993,12 +993,12 @@ module.exports = {
         ]
       },
       "Contrast": {
-        "value": "#ffffff",
+        "value": "#FFFFFF",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.white}",
+          "value": "#FFFFFF",
           "type": "color"
         },
         "name": "LightPrimaryContrast",
@@ -1016,13 +1016,13 @@ module.exports = {
     },
     "Selected": {
       "Main": {
-        "value": "#ffd400",
+        "value": "#FFD400",
         "type": "color",
         "description": "Light/Selected/Main",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.state.selected}",
+          "value": "#FFD400",
           "type": "color",
           "description": "Light/Selected/Main"
         },
@@ -1039,12 +1039,12 @@ module.exports = {
         ]
       },
       "Contrast": {
-        "value": "#000000",
+        "value": "#000000BF",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.black75}",
+          "value": "#000000BF",
           "type": "color"
         },
         "name": "LightSelectedContrast",
@@ -1062,13 +1062,13 @@ module.exports = {
     },
     "Secondary": {
       "Main": {
-        "value": "#ffd400",
+        "value": "#FFD400",
         "type": "color",
         "description": "Light/Secondary/Main",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.yellow}",
+          "value": "#FFD400",
           "type": "color",
           "description": "Light/Secondary/Main"
         },
@@ -1087,7 +1087,7 @@ module.exports = {
       "Dark": {
         "value": "#DFBA00",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#DFBA00",
@@ -1106,12 +1106,12 @@ module.exports = {
         ]
       },
       "Light": {
-        "value": "#fff4bf",
+        "value": "#FFF4BF",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.yellow25}",
+          "value": "#FFF4BF",
           "type": "color"
         },
         "name": "LightSecondaryLight",
@@ -1129,7 +1129,7 @@ module.exports = {
       "Contrast": {
         "value": "#403500",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#403500",
@@ -1150,12 +1150,12 @@ module.exports = {
     },
     "Success": {
       "Main": {
-        "value": "#39d3ab",
+        "value": "#39D3AB",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.green}",
+          "value": "#39D3AB",
           "type": "color"
         },
         "name": "LightSuccessMain",
@@ -1173,7 +1173,7 @@ module.exports = {
       "Dark": {
         "value": "#00a17c",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#00a17c",
@@ -1195,7 +1195,7 @@ module.exports = {
         "value": "#77ffdd",
         "type": "color",
         "description": "Light.Success.Light",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#77ffdd",
@@ -1217,7 +1217,7 @@ module.exports = {
       "Contrast": {
         "value": "#00382A",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#00382A",
@@ -1238,13 +1238,13 @@ module.exports = {
     },
     "Error": {
       "Main": {
-        "value": "#ee6363",
+        "value": "#EE6363",
         "type": "color",
         "description": "Light.Error.Main",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.red}",
+          "value": "#EE6363",
           "type": "color",
           "description": "Light.Error.Main"
         },
@@ -1264,7 +1264,7 @@ module.exports = {
         "value": "#b63039",
         "type": "color",
         "description": "Light.Error.Dark",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#b63039",
@@ -1286,7 +1286,7 @@ module.exports = {
       "Light": {
         "value": "#FFB3B0",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#FFB3B0",
@@ -1307,7 +1307,7 @@ module.exports = {
       "Contrast": {
         "value": "#FFEDEA",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#FFEDEA",
@@ -1328,12 +1328,12 @@ module.exports = {
     },
     "Duotone": {
       "Dark": {
-        "value": "#005b88",
+        "value": "#005B88",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.midblue}",
+          "value": "#005B88",
           "type": "color"
         },
         "name": "LightDuotoneDark",
@@ -1349,12 +1349,12 @@ module.exports = {
         ]
       },
       "Light": {
-        "value": "#0076c4",
+        "value": "#0076C4",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.blue}",
+          "value": "#0076C4",
           "type": "color"
         },
         "name": "LightDuotoneLight",
@@ -1372,12 +1372,12 @@ module.exports = {
     },
     "Warning": {
       "Main": {
-        "value": "#fff4bf",
+        "value": "#FFF4BF",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.yellow25}",
+          "value": "#FFF4BF",
           "type": "color"
         },
         "name": "LightWarningMain",
@@ -1395,7 +1395,7 @@ module.exports = {
       "Dark": {
         "value": "#DFBA00",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#DFBA00",
@@ -1416,7 +1416,7 @@ module.exports = {
       "Light": {
         "value": "#FFF4BF",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#FFF4BF",
@@ -1437,7 +1437,7 @@ module.exports = {
       "Contrast": {
         "value": "#605000",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "#605000",
@@ -1458,12 +1458,12 @@ module.exports = {
     },
     "Message": {
       "Main": {
-        "value": "#0076c4",
+        "value": "#0076C4",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.blue}",
+          "value": "#0076C4",
           "type": "color"
         },
         "name": "LightMessageMain",
@@ -1479,12 +1479,12 @@ module.exports = {
         ]
       },
       "Dark": {
-        "value": "#002a49",
+        "value": "#002A49",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.darkblue}",
+          "value": "#002A49",
           "type": "color"
         },
         "name": "LightMessageDark",
@@ -1500,12 +1500,12 @@ module.exports = {
         ]
       },
       "Light": {
-        "value": "#bfdcf0",
+        "value": "#BFDCF0",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.blue25}",
+          "value": "#BFDCF0",
           "type": "color"
         },
         "name": "LightMessageLight",
@@ -1521,12 +1521,12 @@ module.exports = {
         ]
       },
       "Contrast": {
-        "value": "#ffffff",
+        "value": "#FFFFFF",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.white}",
+          "value": "#FFFFFF",
           "type": "color"
         },
         "name": "LightMessageContrast",
@@ -1544,12 +1544,12 @@ module.exports = {
     },
     "Info": {
       "Main": {
-        "value": "#bfdcf0",
+        "value": "#BFDCF0",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.blue25}",
+          "value": "#BFDCF0",
           "type": "color"
         },
         "name": "LightInfoMain",
@@ -1565,12 +1565,12 @@ module.exports = {
         ]
       },
       "Dark": {
-        "value": "#005b88",
+        "value": "#005B88",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.midblue}",
+          "value": "#005B88",
           "type": "color"
         },
         "name": "LightInfoDark",
@@ -1586,12 +1586,12 @@ module.exports = {
         ]
       },
       "Light": {
-        "value": "#ebf4fb",
+        "value": "#EBF4FB",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.blue08}",
+          "value": "#EBF4FB",
           "type": "color"
         },
         "name": "LightInfoLight",
@@ -1607,12 +1607,12 @@ module.exports = {
         ]
       },
       "Contrast": {
-        "value": "#002a49",
+        "value": "#002A49",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.base.darkblue}",
+          "value": "#002A49",
           "type": "color"
         },
         "name": "LightInfoContrast",
@@ -1631,720 +1631,3331 @@ module.exports = {
   },
   "Typography": {
     "H1": {
-      "value": {
-        "fontFamily": "FS Lola, Arial, Sans-serif",
-        "fontWeight": "ExtraBold",
-        "lineHeight": "16 * 3.5",
-        "fontSize": "16 * 3",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.primaryHeading}",
-          "fontWeight": "ExtraBold",
-          "lineHeight": "{1rem} * 3.5",
-          "fontSize": "{1rem} * 3",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "FS Lola, Arial, Sans-serif",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "FS Lola, Arial, Sans-serif",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyH1FontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "H1",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "H1",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyH1",
-      "attributes": {
-        "category": "Typography",
-        "type": "H1"
+      "fontWeight": {
+        "value": "ExtraBold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "ExtraBold",
+          "type": "fontWeight"
+        },
+        "name": "TypographyH1FontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H1",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "H1",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "H1"
-      ]
+      "lineHeight": {
+        "value": 56,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 56,
+          "type": "lineHeight"
+        },
+        "name": "TypographyH1LineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H1",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "H1",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 48,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 48,
+          "type": "fontSize"
+        },
+        "name": "TypographyH1FontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "H1",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "H1",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyH1LetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H1",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "H1",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyH1ParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H1",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "H1",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyH1TextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "H1",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "H1",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographyH1TextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "H1",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "H1",
+          "textCase"
+        ]
+      }
     },
     "H2": {
-      "value": {
-        "fontFamily": "FS Lola, Arial, Sans-serif",
-        "fontWeight": "ExtraBold",
-        "lineHeight": "16 * 2.75",
-        "fontSize": "16 * 2.5",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.primaryHeading}",
-          "fontWeight": "ExtraBold",
-          "lineHeight": "{1rem} * 2.75",
-          "fontSize": "{1rem} * 2.5",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "FS Lola, Arial, Sans-serif",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "FS Lola, Arial, Sans-serif",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyH2FontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "H2",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "H2",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyH2",
-      "attributes": {
-        "category": "Typography",
-        "type": "H2"
+      "fontWeight": {
+        "value": "ExtraBold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "ExtraBold",
+          "type": "fontWeight"
+        },
+        "name": "TypographyH2FontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H2",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "H2",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "H2"
-      ]
+      "lineHeight": {
+        "value": 44,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 44,
+          "type": "lineHeight"
+        },
+        "name": "TypographyH2LineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H2",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "H2",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 40,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 40,
+          "type": "fontSize"
+        },
+        "name": "TypographyH2FontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "H2",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "H2",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyH2LetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H2",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "H2",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyH2ParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H2",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "H2",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyH2TextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "H2",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "H2",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographyH2TextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "H2",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "H2",
+          "textCase"
+        ]
+      }
     },
     "H3": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Bold",
-        "lineHeight": "16 * 2.25",
-        "fontSize": "16 * 2",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Bold",
-          "lineHeight": "{1rem} * 2.25",
-          "fontSize": "{1rem} * 2",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyH3FontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "H3",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "H3",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyH3",
-      "attributes": {
-        "category": "Typography",
-        "type": "H3"
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "name": "TypographyH3FontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H3",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "H3",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "H3"
-      ]
+      "lineHeight": {
+        "value": 36,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 36,
+          "type": "lineHeight"
+        },
+        "name": "TypographyH3LineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H3",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "H3",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 32,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 32,
+          "type": "fontSize"
+        },
+        "name": "TypographyH3FontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "H3",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "H3",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyH3LetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H3",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "H3",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyH3ParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H3",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "H3",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyH3TextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "H3",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "H3",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographyH3TextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "H3",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "H3",
+          "textCase"
+        ]
+      }
     },
     "H4": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Bold",
-        "lineHeight": "16 * 1.75",
-        "fontSize": "16 * 1.5",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Bold",
-          "lineHeight": "{1rem} * 1.75",
-          "fontSize": "{1rem} * 1.5",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyH4FontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "H4",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "H4",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyH4",
-      "attributes": {
-        "category": "Typography",
-        "type": "H4"
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "name": "TypographyH4FontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H4",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "H4",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "H4"
-      ]
+      "lineHeight": {
+        "value": 28,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 28,
+          "type": "lineHeight"
+        },
+        "name": "TypographyH4LineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H4",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "H4",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 24,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "fontSize"
+        },
+        "name": "TypographyH4FontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "H4",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "H4",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyH4LetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H4",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "H4",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyH4ParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H4",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "H4",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyH4TextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "H4",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "H4",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographyH4TextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "H4",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "H4",
+          "textCase"
+        ]
+      }
     },
     "H5": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Bold",
-        "lineHeight": "16 * 1.75",
-        "fontSize": "16 * 1.25",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Bold",
-          "lineHeight": "{1rem} * 1.75",
-          "fontSize": "{1rem} * 1.25",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyH5FontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "H5",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "H5",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyH5",
-      "attributes": {
-        "category": "Typography",
-        "type": "H5"
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "name": "TypographyH5FontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H5",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "H5",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "H5"
-      ]
+      "lineHeight": {
+        "value": 28,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 28,
+          "type": "lineHeight"
+        },
+        "name": "TypographyH5LineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H5",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "H5",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 20,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "name": "TypographyH5FontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "H5",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "H5",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyH5LetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H5",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "H5",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyH5ParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H5",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "H5",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyH5TextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "H5",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "H5",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographyH5TextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "H5",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "H5",
+          "textCase"
+        ]
+      }
     },
     "H6": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Bold",
-        "lineHeight": "16 * 1.5",
-        "fontSize": "16 * 1",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Bold",
-          "lineHeight": "{1rem} * 1.5",
-          "fontSize": "{1rem} * 1",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyH6FontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "H6",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "H6",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyH6",
-      "attributes": {
-        "category": "Typography",
-        "type": "H6"
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "name": "TypographyH6FontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H6",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "H6",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "H6"
-      ]
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "TypographyH6LineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "H6",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "H6",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "name": "TypographyH6FontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "H6",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "H6",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyH6LetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H6",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "H6",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyH6ParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "H6",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "H6",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyH6TextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "H6",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "H6",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographyH6TextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "H6",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "H6",
+          "textCase"
+        ]
+      }
     },
     "Body 1": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Regular",
-        "lineHeight": "16 * 1.5",
-        "fontSize": "16",
-        "letterSpacing": "0",
-        "paragraphSpacing": "16",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Regular",
-          "lineHeight": "{lineHeight.body}",
-          "fontSize": "{1rem}",
-          "letterSpacing": "0",
-          "paragraphSpacing": "{1rem}",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyBody1FontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 1",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "Body 1",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyBody1",
-      "attributes": {
-        "category": "Typography",
-        "type": "Body 1"
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "name": "TypographyBody1FontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 1",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "Body 1",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "Body 1"
-      ]
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "TypographyBody1LineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 1",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "Body 1",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "name": "TypographyBody1FontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 1",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "Body 1",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyBody1LetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 1",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "Body 1",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyBody1ParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 1",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "Body 1",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyBody1TextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 1",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "Body 1",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographyBody1TextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 1",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "Body 1",
+          "textCase"
+        ]
+      }
     },
     "Body 2": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Regular",
-        "lineHeight": "16 * 1.25",
-        "fontSize": "16 * 0.875",
-        "letterSpacing": "0",
-        "paragraphSpacing": "16",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Regular",
-          "lineHeight": "{lineHeight.subtext}",
-          "fontSize": "{1rem} * 0.875",
-          "letterSpacing": "0",
-          "paragraphSpacing": "{1rem}",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyBody2FontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 2",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "Body 2",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyBody2",
-      "attributes": {
-        "category": "Typography",
-        "type": "Body 2"
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "name": "TypographyBody2FontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 2",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "Body 2",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "Body 2"
-      ]
+      "lineHeight": {
+        "value": 20,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "lineHeight"
+        },
+        "name": "TypographyBody2LineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 2",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "Body 2",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 14,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "name": "TypographyBody2FontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 2",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "Body 2",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyBody2LetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 2",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "Body 2",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyBody2ParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 2",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "Body 2",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyBody2TextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 2",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "Body 2",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographyBody2TextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "Body 2",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "Body 2",
+          "textCase"
+        ]
+      }
     },
     "Subtitle 1": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Regular",
-        "lineHeight": "16 * 1.5",
-        "fontSize": "16",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Regular",
-          "lineHeight": "{lineHeight.body}",
-          "fontSize": "{1rem}",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographySubtitle1FontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 1",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 1",
+          "fontFamily"
+        ]
       },
-      "name": "TypographySubtitle1",
-      "attributes": {
-        "category": "Typography",
-        "type": "Subtitle 1"
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "name": "TypographySubtitle1FontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 1",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 1",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "Subtitle 1"
-      ]
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "TypographySubtitle1LineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 1",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 1",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "name": "TypographySubtitle1FontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 1",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 1",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographySubtitle1LetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 1",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 1",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographySubtitle1ParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 1",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 1",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographySubtitle1TextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 1",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 1",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographySubtitle1TextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 1",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 1",
+          "textCase"
+        ]
+      }
     },
     "Subtitle 2": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Regular",
-        "lineHeight": "16 * 1.25",
-        "fontSize": "16 * 0.875",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Regular",
-          "lineHeight": "{lineHeight.subtext}",
-          "fontSize": "{1rem} * 0.875",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographySubtitle2FontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 2",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 2",
+          "fontFamily"
+        ]
       },
-      "name": "TypographySubtitle2",
-      "attributes": {
-        "category": "Typography",
-        "type": "Subtitle 2"
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "name": "TypographySubtitle2FontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 2",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 2",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "Subtitle 2"
-      ]
+      "lineHeight": {
+        "value": 20,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "lineHeight"
+        },
+        "name": "TypographySubtitle2LineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 2",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 2",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 14,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "name": "TypographySubtitle2FontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 2",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 2",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographySubtitle2LetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 2",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 2",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographySubtitle2ParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 2",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 2",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographySubtitle2TextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 2",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 2",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographySubtitle2TextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "Subtitle 2",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "Subtitle 2",
+          "textCase"
+        ]
+      }
     },
     "Link": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Bold",
-        "lineHeight": "16 * 1.5",
-        "fontSize": "16",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Bold",
-          "lineHeight": "{lineHeight.body}",
-          "fontSize": "{1rem}",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyLinkFontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "Link",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "Link",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyLink",
-      "attributes": {
-        "category": "Typography",
-        "type": "Link"
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "name": "TypographyLinkFontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Link",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "Link",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "Link"
-      ]
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "TypographyLinkLineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Link",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "Link",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "name": "TypographyLinkFontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "Link",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "Link",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyLinkLetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Link",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "Link",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyLinkParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Link",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "Link",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyLinkTextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "Link",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "Link",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographyLinkTextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "Link",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "Link",
+          "textCase"
+        ]
+      }
     },
     "Caption": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Regular",
-        "lineHeight": "16 * 1.5",
-        "fontSize": "16 * 0.75",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Regular",
-          "lineHeight": "{lineHeight.body}",
-          "fontSize": "{1rem} * 0.75",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyCaptionFontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "Caption",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "Caption",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyCaption",
-      "attributes": {
-        "category": "Typography",
-        "type": "Caption"
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "name": "TypographyCaptionFontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Caption",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "Caption",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "Caption"
-      ]
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "TypographyCaptionLineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Caption",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "Caption",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 12,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "name": "TypographyCaptionFontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "Caption",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "Caption",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyCaptionLetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Caption",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "Caption",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyCaptionParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Caption",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "Caption",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyCaptionTextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "Caption",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "Caption",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "TypographyCaptionTextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "Caption",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "Caption",
+          "textCase"
+        ]
+      }
     },
     "Overline": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Bold",
-        "lineHeight": "16 * 1.5",
-        "fontSize": "16 * 0.75",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "uppercase"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Bold",
-          "lineHeight": "{lineHeight.body}",
-          "fontSize": "{1rem} * 0.75",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "uppercase"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "TypographyOverlineFontFamily",
+        "attributes": {
+          "category": "Typography",
+          "type": "Overline",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Typography",
+          "Overline",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyOverline",
-      "attributes": {
-        "category": "Typography",
-        "type": "Overline"
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "name": "TypographyOverlineFontWeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Overline",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Typography",
+          "Overline",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Typography",
-        "Overline"
-      ]
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "TypographyOverlineLineHeight",
+        "attributes": {
+          "category": "Typography",
+          "type": "Overline",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Typography",
+          "Overline",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 12,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "name": "TypographyOverlineFontSize",
+        "attributes": {
+          "category": "Typography",
+          "type": "Overline",
+          "item": "fontSize"
+        },
+        "path": [
+          "Typography",
+          "Overline",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "TypographyOverlineLetterSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Overline",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Typography",
+          "Overline",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "TypographyOverlineParagraphSpacing",
+        "attributes": {
+          "category": "Typography",
+          "type": "Overline",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Typography",
+          "Overline",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "TypographyOverlineTextDecoration",
+        "attributes": {
+          "category": "Typography",
+          "type": "Overline",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Typography",
+          "Overline",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "uppercase",
+          "type": "textCase"
+        },
+        "name": "TypographyOverlineTextCase",
+        "attributes": {
+          "category": "Typography",
+          "type": "Overline",
+          "item": "textCase"
+        },
+        "path": [
+          "Typography",
+          "Overline",
+          "textCase"
+        ]
+      }
     },
     "Mobile": {
       "H1": {
-        "value": {
-          "fontFamily": "FS Lola, Arial, Sans-serif",
-          "fontWeight": "ExtraBold",
-          "lineHeight": "16 * 2.25",
-          "fontSize": "16 * 2",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{fontFamily.primaryHeading}",
-            "fontWeight": "ExtraBold",
-            "lineHeight": "{1rem} * 2.25",
-            "fontSize": "{1rem} * 2",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "FS Lola, Arial, Sans-serif",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "FS Lola, Arial, Sans-serif",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "TypographyMobileH1FontFamily",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H1",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H1",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyMobileH1",
-        "attributes": {
-          "category": "Typography",
-          "type": "Mobile",
-          "item": "H1"
+        "fontWeight": {
+          "value": "ExtraBold",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "ExtraBold",
+            "type": "fontWeight"
+          },
+          "name": "TypographyMobileH1FontWeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H1",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H1",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Typography",
-          "Mobile",
-          "H1"
-        ]
+        "lineHeight": {
+          "value": 36,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 36,
+            "type": "lineHeight"
+          },
+          "name": "TypographyMobileH1LineHeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H1",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H1",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 32,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 32,
+            "type": "fontSize"
+          },
+          "name": "TypographyMobileH1FontSize",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H1",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H1",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "TypographyMobileH1LetterSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H1",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H1",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "TypographyMobileH1ParagraphSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H1",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H1",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "TypographyMobileH1TextDecoration",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H1",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H1",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "TypographyMobileH1TextCase",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H1",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H1",
+            "textCase"
+          ]
+        }
       },
       "H2": {
-        "value": {
-          "fontFamily": "FS Lola, Arial, Sans-serif",
-          "fontWeight": "ExtraBold",
-          "lineHeight": "16 * 2",
-          "fontSize": "16 * 1.75",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{fontFamily.primaryHeading}",
-            "fontWeight": "ExtraBold",
-            "lineHeight": "{1rem} * 2",
-            "fontSize": "{1rem} * 1.75",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "FS Lola, Arial, Sans-serif",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "FS Lola, Arial, Sans-serif",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "TypographyMobileH2FontFamily",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H2",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H2",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyMobileH2",
-        "attributes": {
-          "category": "Typography",
-          "type": "Mobile",
-          "item": "H2"
+        "fontWeight": {
+          "value": "ExtraBold",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "ExtraBold",
+            "type": "fontWeight"
+          },
+          "name": "TypographyMobileH2FontWeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H2",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H2",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Typography",
-          "Mobile",
-          "H2"
-        ]
+        "lineHeight": {
+          "value": 32,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 32,
+            "type": "lineHeight"
+          },
+          "name": "TypographyMobileH2LineHeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H2",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H2",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 28,
+            "type": "fontSize"
+          },
+          "name": "TypographyMobileH2FontSize",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H2",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H2",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "TypographyMobileH2LetterSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H2",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H2",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "TypographyMobileH2ParagraphSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H2",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H2",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "TypographyMobileH2TextDecoration",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H2",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H2",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "TypographyMobileH2TextCase",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H2",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H2",
+            "textCase"
+          ]
+        }
       },
       "H3": {
-        "value": {
-          "fontFamily": "Arial",
-          "fontWeight": "Bold",
-          "lineHeight": "16 * 1.75",
-          "fontSize": "16 * 1.5",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{fontFamily.default}",
-            "fontWeight": "Bold",
-            "lineHeight": "{1rem} * 1.75",
-            "fontSize": "{1rem} * 1.5",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Arial",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "TypographyMobileH3FontFamily",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H3",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H3",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyMobileH3",
-        "attributes": {
-          "category": "Typography",
-          "type": "Mobile",
-          "item": "H3"
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Bold",
+            "type": "fontWeight"
+          },
+          "name": "TypographyMobileH3FontWeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H3",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H3",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Typography",
-          "Mobile",
-          "H3"
-        ]
+        "lineHeight": {
+          "value": 28,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 28,
+            "type": "lineHeight"
+          },
+          "name": "TypographyMobileH3LineHeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H3",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H3",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 24,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 24,
+            "type": "fontSize"
+          },
+          "name": "TypographyMobileH3FontSize",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H3",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H3",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "TypographyMobileH3LetterSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H3",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H3",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "TypographyMobileH3ParagraphSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H3",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H3",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "TypographyMobileH3TextDecoration",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H3",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H3",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "TypographyMobileH3TextCase",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H3",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H3",
+            "textCase"
+          ]
+        }
       },
       "H4": {
-        "value": {
-          "fontFamily": "Arial",
-          "fontWeight": "Bold",
-          "lineHeight": "16 * 1.75",
-          "fontSize": "16 * 1.25",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{fontFamily.default}",
-            "fontWeight": "Bold",
-            "lineHeight": "{1rem} * 1.75",
-            "fontSize": "{1rem} * 1.25",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Arial",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "TypographyMobileH4FontFamily",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H4",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H4",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyMobileH4",
-        "attributes": {
-          "category": "Typography",
-          "type": "Mobile",
-          "item": "H4"
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Bold",
+            "type": "fontWeight"
+          },
+          "name": "TypographyMobileH4FontWeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H4",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H4",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Typography",
-          "Mobile",
-          "H4"
-        ]
+        "lineHeight": {
+          "value": 28,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 28,
+            "type": "lineHeight"
+          },
+          "name": "TypographyMobileH4LineHeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H4",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H4",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 20,
+            "type": "fontSize"
+          },
+          "name": "TypographyMobileH4FontSize",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H4",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H4",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "TypographyMobileH4LetterSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H4",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H4",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "TypographyMobileH4ParagraphSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H4",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H4",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "TypographyMobileH4TextDecoration",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H4",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H4",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "TypographyMobileH4TextCase",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H4",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H4",
+            "textCase"
+          ]
+        }
       },
       "H5": {
-        "value": {
-          "fontFamily": "Arial",
-          "fontWeight": "Bold",
-          "lineHeight": "16 * 1.5",
-          "fontSize": "16 * 1.125",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{fontFamily.default}",
-            "fontWeight": "Bold",
-            "lineHeight": "{1rem} * 1.5",
-            "fontSize": "{1rem} * 1.125",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Arial",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "TypographyMobileH5FontFamily",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H5",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H5",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyMobileH5",
-        "attributes": {
-          "category": "Typography",
-          "type": "Mobile",
-          "item": "H5"
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Bold",
+            "type": "fontWeight"
+          },
+          "name": "TypographyMobileH5FontWeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H5",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H5",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Typography",
-          "Mobile",
-          "H5"
-        ]
+        "lineHeight": {
+          "value": 24,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 24,
+            "type": "lineHeight"
+          },
+          "name": "TypographyMobileH5LineHeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H5",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H5",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 18,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 18,
+            "type": "fontSize"
+          },
+          "name": "TypographyMobileH5FontSize",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H5",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H5",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "TypographyMobileH5LetterSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H5",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H5",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "TypographyMobileH5ParagraphSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H5",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H5",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "TypographyMobileH5TextDecoration",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H5",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H5",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "TypographyMobileH5TextCase",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H5",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H5",
+            "textCase"
+          ]
+        }
       },
       "H6": {
-        "value": {
-          "fontFamily": "Arial",
-          "fontWeight": "Bold",
-          "lineHeight": "16 * 1.5",
-          "fontSize": "16 * 1",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{fontFamily.default}",
-            "fontWeight": "Bold",
-            "lineHeight": "{1rem} * 1.5",
-            "fontSize": "{1rem} * 1",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Arial",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "TypographyMobileH6FontFamily",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H6",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H6",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyMobileH6",
-        "attributes": {
-          "category": "Typography",
-          "type": "Mobile",
-          "item": "H6"
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Bold",
+            "type": "fontWeight"
+          },
+          "name": "TypographyMobileH6FontWeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H6",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H6",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Typography",
-          "Mobile",
-          "H6"
-        ]
+        "lineHeight": {
+          "value": 24,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 24,
+            "type": "lineHeight"
+          },
+          "name": "TypographyMobileH6LineHeight",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H6",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H6",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 16,
+            "type": "fontSize"
+          },
+          "name": "TypographyMobileH6FontSize",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H6",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H6",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "TypographyMobileH6LetterSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H6",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H6",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "TypographyMobileH6ParagraphSpacing",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H6",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H6",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "TypographyMobileH6TextDecoration",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H6",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H6",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "TypographyMobileH6TextCase",
+          "attributes": {
+            "category": "Typography",
+            "type": "Mobile",
+            "item": "H6",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Typography",
+            "Mobile",
+            "H6",
+            "textCase"
+          ]
+        }
       }
     }
   },
@@ -2352,7 +4963,7 @@ module.exports = {
     "primaryHeading": {
       "value": "FS Lola, Arial, Sans-serif",
       "type": "fontFamilies",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
         "value": "FS Lola, Arial, Sans-serif",
@@ -2371,7 +4982,7 @@ module.exports = {
     "default": {
       "value": "Arial",
       "type": "fontFamilies",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
         "value": "Arial",
@@ -2393,7 +5004,7 @@ module.exports = {
       "default": {
         "value": "Font Awesome 6 Pro",
         "type": "fontFamilies",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "Font Awesome 6 Pro",
@@ -2414,7 +5025,7 @@ module.exports = {
       "duotone": {
         "value": "Font Awesome 6 Duotone",
         "type": "fontFamilies",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
           "value": "Font Awesome 6 Duotone",
@@ -2435,12 +5046,12 @@ module.exports = {
     },
     "fontSize": {
       "small": {
-        "value": "16 * 1",
+        "value": 16,
         "type": "fontSizes",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{1rem} * 1",
+          "value": 16,
           "type": "fontSizes"
         },
         "name": "IconFontSizeSmall",
@@ -2456,12 +5067,12 @@ module.exports = {
         ]
       },
       "medium": {
-        "value": "16 * 1.25",
+        "value": 20,
         "type": "fontSizes",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{1rem} * 1.25",
+          "value": 20,
           "type": "fontSizes"
         },
         "name": "IconFontSizeMedium",
@@ -2477,12 +5088,12 @@ module.exports = {
         ]
       },
       "large": {
-        "value": "16 * 1.75",
+        "value": 28,
         "type": "fontSizes",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{1rem} * 1.75",
+          "value": 28,
           "type": "fontSizes"
         },
         "name": "IconFontSizeLarge",
@@ -2500,12 +5111,12 @@ module.exports = {
     },
     "lineHeight": {
       "small": {
-        "value": "16 * 1.25",
+        "value": 20,
         "type": "lineHeights",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{1rem} * 1.25",
+          "value": 20,
           "type": "lineHeights"
         },
         "name": "IconLineHeightSmall",
@@ -2521,12 +5132,12 @@ module.exports = {
         ]
       },
       "medium": {
-        "value": "16 * 1.5",
+        "value": 24,
         "type": "lineHeights",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{1rem} * 1.5",
+          "value": 24,
           "type": "lineHeights"
         },
         "name": "IconLineHeightMedium",
@@ -2542,12 +5153,12 @@ module.exports = {
         ]
       },
       "large": {
-        "value": "16 * 2.25",
+        "value": 36,
         "type": "lineHeights",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{1rem} * 2.25",
+          "value": 36,
           "type": "lineHeights"
         },
         "name": "IconLineHeightLarge",
@@ -2566,12 +5177,12 @@ module.exports = {
   },
   "fontSize": {
     "body": {
-      "value": "16 * 1",
+      "value": 16,
       "type": "fontSizes",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{1rem} * 1",
+        "value": 16,
         "type": "fontSizes"
       },
       "name": "FontSizeBody",
@@ -2585,12 +5196,12 @@ module.exports = {
       ]
     },
     "subtext": {
-      "value": "16 * 0.875",
+      "value": 14,
       "type": "fontSizes",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{1rem} * 0.875",
+        "value": 14,
         "type": "fontSizes"
       },
       "name": "FontSizeSubtext",
@@ -2606,13 +5217,13 @@ module.exports = {
   },
   "borderRadius": {
     "none": {
-      "value": "0",
+      "value": 0,
       "type": "borderRadius",
       "description": "Square",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "0",
+        "value": 0,
         "type": "borderRadius",
         "description": "Square"
       },
@@ -2627,13 +5238,13 @@ module.exports = {
       ]
     },
     "default": {
-      "value": "8 * 0.5",
+      "value": 4,
       "type": "borderRadius",
       "description": "Default",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{base} * 0.5",
+        "value": 4,
         "type": "borderRadius",
         "description": "Default"
       },
@@ -2648,13 +5259,13 @@ module.exports = {
       ]
     },
     "large": {
-      "value": "8 * 2",
+      "value": 16,
       "type": "borderRadius",
       "description": "Default",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{base} * 2",
+        "value": 16,
         "type": "borderRadius",
         "description": "Default"
       },
@@ -2672,7 +5283,7 @@ module.exports = {
       "value": "100%",
       "type": "borderRadius",
       "description": "Curved sides",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
         "value": "100%",
@@ -2692,13 +5303,13 @@ module.exports = {
   },
   "spacing": {
     "NONE": {
-      "value": "0",
+      "value": 0,
       "type": "spacing",
       "description": "For use with text only",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "0",
+        "value": 0,
         "type": "spacing",
         "description": "For use with text only"
       },
@@ -2713,13 +5324,13 @@ module.exports = {
       ]
     },
     "XXS": {
-      "value": "8 * .125",
+      "value": 1,
       "type": "spacing",
       "description": "For use with text only",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{base} * .125",
+        "value": 1,
         "type": "spacing",
         "description": "For use with text only"
       },
@@ -2734,12 +5345,12 @@ module.exports = {
       ]
     },
     "XS": {
-      "value": "8 * .25",
+      "value": 2,
       "type": "spacing",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{base} * .25",
+        "value": 2,
         "type": "spacing"
       },
       "name": "SpacingXs",
@@ -2753,12 +5364,12 @@ module.exports = {
       ]
     },
     "SM": {
-      "value": "8 * .5",
+      "value": 4,
       "type": "spacing",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{base} * .5",
+        "value": 4,
         "type": "spacing"
       },
       "name": "SpacingSm",
@@ -2772,13 +5383,13 @@ module.exports = {
       ]
     },
     "MD": {
-      "value": "8 * 1",
+      "value": 8,
       "type": "spacing",
       "description": "Default",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{base} * 1",
+        "value": 8,
         "type": "spacing",
         "description": "Default"
       },
@@ -2793,12 +5404,12 @@ module.exports = {
       ]
     },
     "LG": {
-      "value": "8 * 2",
+      "value": 16,
       "type": "spacing",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{base} * 2",
+        "value": 16,
         "type": "spacing"
       },
       "name": "SpacingLg",
@@ -2812,12 +5423,12 @@ module.exports = {
       ]
     },
     "XL": {
-      "value": "8 * 3",
+      "value": 24,
       "type": "spacing",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{base} * 3",
+        "value": 24,
         "type": "spacing"
       },
       "name": "SpacingXl",
@@ -2831,12 +5442,12 @@ module.exports = {
       ]
     },
     "XXL": {
-      "value": "8 * 4",
+      "value": 32,
       "type": "spacing",
-      "filePath": "src/data/token/tokens.json",
+      "filePath": "src/data/token/token-transformed.json",
       "isSource": true,
       "original": {
-        "value": "{base} * 4",
+        "value": 32,
         "type": "spacing"
       },
       "name": "SpacingXxl",
@@ -2853,369 +5464,1692 @@ module.exports = {
   "Icon": {
     "Medium": {
       "Light": {
-        "value": {
-          "fontFamily": "Font Awesome 6 Pro",
-          "fontWeight": "Light",
-          "lineHeight": "16 * 1.5",
-          "fontSize": "16 * 1.25",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{icon.fontFamily.default}",
-            "fontWeight": "Light",
-            "lineHeight": "{icon.lineHeight.medium}",
-            "fontSize": "{icon.fontSize.medium}",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Font Awesome 6 Pro",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Font Awesome 6 Pro",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "IconMediumLightFontFamily",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Light",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Light",
+            "fontFamily"
+          ]
         },
-        "name": "IconMediumLight",
-        "attributes": {
-          "category": "Icon",
-          "type": "Medium",
-          "item": "Light"
+        "fontWeight": {
+          "value": "Light",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Light",
+            "type": "fontWeight"
+          },
+          "name": "IconMediumLightFontWeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Light",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Light",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Icon",
-          "Medium",
-          "Light"
-        ]
+        "lineHeight": {
+          "value": 24,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 24,
+            "type": "lineHeight"
+          },
+          "name": "IconMediumLightLineHeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Light",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Light",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 20,
+            "type": "fontSize"
+          },
+          "name": "IconMediumLightFontSize",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Light",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Light",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "IconMediumLightLetterSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Light",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Light",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "IconMediumLightParagraphSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Light",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Light",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "IconMediumLightTextDecoration",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Light",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Light",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "IconMediumLightTextCase",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Light",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Light",
+            "textCase"
+          ]
+        }
       },
       "Solid": {
-        "value": {
-          "fontFamily": "Font Awesome 6 Pro",
-          "fontWeight": "Solid",
-          "lineHeight": "16 * 1.5",
-          "fontSize": "16 * 1.25",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{icon.fontFamily.default}",
-            "fontWeight": "Solid",
-            "lineHeight": "{icon.lineHeight.medium}",
-            "fontSize": "{icon.fontSize.medium}",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Font Awesome 6 Pro",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Font Awesome 6 Pro",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "IconMediumSolidFontFamily",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Solid",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Solid",
+            "fontFamily"
+          ]
         },
-        "name": "IconMediumSolid",
-        "attributes": {
-          "category": "Icon",
-          "type": "Medium",
-          "item": "Solid"
+        "fontWeight": {
+          "value": "Solid",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Solid",
+            "type": "fontWeight"
+          },
+          "name": "IconMediumSolidFontWeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Solid",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Solid",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Icon",
-          "Medium",
-          "Solid"
-        ]
+        "lineHeight": {
+          "value": 24,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 24,
+            "type": "lineHeight"
+          },
+          "name": "IconMediumSolidLineHeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Solid",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Solid",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 20,
+            "type": "fontSize"
+          },
+          "name": "IconMediumSolidFontSize",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Solid",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Solid",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "IconMediumSolidLetterSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Solid",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Solid",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "IconMediumSolidParagraphSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Solid",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Solid",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "IconMediumSolidTextDecoration",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Solid",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Solid",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "IconMediumSolidTextCase",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Solid",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Solid",
+            "textCase"
+          ]
+        }
       },
       "Duotone": {
-        "value": {
-          "fontFamily": "Font Awesome 6 Duotone",
-          "fontWeight": "Solid",
-          "lineHeight": "16 * 1.5",
-          "fontSize": "16 * 1.25",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{icon.fontFamily.duotone}",
-            "fontWeight": "Solid",
-            "lineHeight": "{icon.lineHeight.medium}",
-            "fontSize": "{icon.fontSize.medium}",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Font Awesome 6 Duotone",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Font Awesome 6 Duotone",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "IconMediumDuotoneFontFamily",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Duotone",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Duotone",
+            "fontFamily"
+          ]
         },
-        "name": "IconMediumDuotone",
-        "attributes": {
-          "category": "Icon",
-          "type": "Medium",
-          "item": "Duotone"
+        "fontWeight": {
+          "value": "Solid",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Solid",
+            "type": "fontWeight"
+          },
+          "name": "IconMediumDuotoneFontWeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Duotone",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Duotone",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Icon",
-          "Medium",
-          "Duotone"
-        ]
+        "lineHeight": {
+          "value": 24,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 24,
+            "type": "lineHeight"
+          },
+          "name": "IconMediumDuotoneLineHeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Duotone",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Duotone",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 20,
+            "type": "fontSize"
+          },
+          "name": "IconMediumDuotoneFontSize",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Duotone",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Duotone",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "IconMediumDuotoneLetterSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Duotone",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Duotone",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "IconMediumDuotoneParagraphSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Duotone",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Duotone",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "IconMediumDuotoneTextDecoration",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Duotone",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Duotone",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "IconMediumDuotoneTextCase",
+          "attributes": {
+            "category": "Icon",
+            "type": "Medium",
+            "item": "Duotone",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Icon",
+            "Medium",
+            "Duotone",
+            "textCase"
+          ]
+        }
       }
     },
     "Large": {
       "Light": {
-        "value": {
-          "fontFamily": "Font Awesome 6 Pro",
-          "fontWeight": "Light",
-          "lineHeight": "16 * 2.25",
-          "fontSize": "16 * 1.75",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{icon.fontFamily.default}",
-            "fontWeight": "Light",
-            "lineHeight": "{icon.lineHeight.large}",
-            "fontSize": "{icon.fontSize.large}",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Font Awesome 6 Pro",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Font Awesome 6 Pro",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "IconLargeLightFontFamily",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Light",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Light",
+            "fontFamily"
+          ]
         },
-        "name": "IconLargeLight",
-        "attributes": {
-          "category": "Icon",
-          "type": "Large",
-          "item": "Light"
+        "fontWeight": {
+          "value": "Light",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Light",
+            "type": "fontWeight"
+          },
+          "name": "IconLargeLightFontWeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Light",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Light",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Icon",
-          "Large",
-          "Light"
-        ]
+        "lineHeight": {
+          "value": 36,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 36,
+            "type": "lineHeight"
+          },
+          "name": "IconLargeLightLineHeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Light",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Light",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 28,
+            "type": "fontSize"
+          },
+          "name": "IconLargeLightFontSize",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Light",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Light",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "IconLargeLightLetterSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Light",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Light",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "IconLargeLightParagraphSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Light",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Light",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "IconLargeLightTextDecoration",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Light",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Light",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "IconLargeLightTextCase",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Light",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Light",
+            "textCase"
+          ]
+        }
       },
       "Solid": {
-        "value": {
-          "fontFamily": "Font Awesome 6 Pro",
-          "fontWeight": "Solid",
-          "lineHeight": "16 * 2.25",
-          "fontSize": "16 * 1.75",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{icon.fontFamily.default}",
-            "fontWeight": "Solid",
-            "lineHeight": "{icon.lineHeight.large}",
-            "fontSize": "{icon.fontSize.large}",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Font Awesome 6 Pro",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Font Awesome 6 Pro",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "IconLargeSolidFontFamily",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Solid",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Solid",
+            "fontFamily"
+          ]
         },
-        "name": "IconLargeSolid",
-        "attributes": {
-          "category": "Icon",
-          "type": "Large",
-          "item": "Solid"
+        "fontWeight": {
+          "value": "Solid",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Solid",
+            "type": "fontWeight"
+          },
+          "name": "IconLargeSolidFontWeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Solid",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Solid",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Icon",
-          "Large",
-          "Solid"
-        ]
+        "lineHeight": {
+          "value": 36,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 36,
+            "type": "lineHeight"
+          },
+          "name": "IconLargeSolidLineHeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Solid",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Solid",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 28,
+            "type": "fontSize"
+          },
+          "name": "IconLargeSolidFontSize",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Solid",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Solid",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "IconLargeSolidLetterSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Solid",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Solid",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "IconLargeSolidParagraphSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Solid",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Solid",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "IconLargeSolidTextDecoration",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Solid",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Solid",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "IconLargeSolidTextCase",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Solid",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Solid",
+            "textCase"
+          ]
+        }
       },
       "Duotone": {
-        "value": {
-          "fontFamily": "Font Awesome 6 Duotone",
-          "fontWeight": "Solid",
-          "lineHeight": "16 * 2.25",
-          "fontSize": "16 * 1.75",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{icon.fontFamily.duotone}",
-            "fontWeight": "Solid",
-            "lineHeight": "{icon.lineHeight.large}",
-            "fontSize": "{icon.fontSize.large}",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Font Awesome 6 Duotone",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Font Awesome 6 Duotone",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "IconLargeDuotoneFontFamily",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Duotone",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Duotone",
+            "fontFamily"
+          ]
         },
-        "name": "IconLargeDuotone",
-        "attributes": {
-          "category": "Icon",
-          "type": "Large",
-          "item": "Duotone"
+        "fontWeight": {
+          "value": "Solid",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Solid",
+            "type": "fontWeight"
+          },
+          "name": "IconLargeDuotoneFontWeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Duotone",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Duotone",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Icon",
-          "Large",
-          "Duotone"
-        ]
+        "lineHeight": {
+          "value": 36,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 36,
+            "type": "lineHeight"
+          },
+          "name": "IconLargeDuotoneLineHeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Duotone",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Duotone",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 28,
+            "type": "fontSize"
+          },
+          "name": "IconLargeDuotoneFontSize",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Duotone",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Duotone",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "IconLargeDuotoneLetterSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Duotone",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Duotone",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "IconLargeDuotoneParagraphSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Duotone",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Duotone",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "IconLargeDuotoneTextDecoration",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Duotone",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Duotone",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "IconLargeDuotoneTextCase",
+          "attributes": {
+            "category": "Icon",
+            "type": "Large",
+            "item": "Duotone",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Icon",
+            "Large",
+            "Duotone",
+            "textCase"
+          ]
+        }
       }
     },
     "Small": {
       "Light": {
-        "value": {
-          "fontFamily": "Font Awesome 6 Pro",
-          "fontWeight": "Light",
-          "lineHeight": "16 * 1.25",
-          "fontSize": "16 * 1",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{icon.fontFamily.default}",
-            "fontWeight": "Light",
-            "lineHeight": "{icon.lineHeight.small}",
-            "fontSize": "{icon.fontSize.small}",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Font Awesome 6 Pro",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Font Awesome 6 Pro",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "IconSmallLightFontFamily",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Light",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Light",
+            "fontFamily"
+          ]
         },
-        "name": "IconSmallLight",
-        "attributes": {
-          "category": "Icon",
-          "type": "Small",
-          "item": "Light"
+        "fontWeight": {
+          "value": "Light",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Light",
+            "type": "fontWeight"
+          },
+          "name": "IconSmallLightFontWeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Light",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Light",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Icon",
-          "Small",
-          "Light"
-        ]
+        "lineHeight": {
+          "value": 20,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 20,
+            "type": "lineHeight"
+          },
+          "name": "IconSmallLightLineHeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Light",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Light",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 16,
+            "type": "fontSize"
+          },
+          "name": "IconSmallLightFontSize",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Light",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Light",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "IconSmallLightLetterSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Light",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Light",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "IconSmallLightParagraphSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Light",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Light",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "IconSmallLightTextDecoration",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Light",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Light",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "IconSmallLightTextCase",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Light",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Light",
+            "textCase"
+          ]
+        }
       },
       "Solid": {
-        "value": {
-          "fontFamily": "Font Awesome 6 Pro",
-          "fontWeight": "Solid",
-          "lineHeight": "16 * 1.25",
-          "fontSize": "16 * 1",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{icon.fontFamily.default}",
-            "fontWeight": "Solid",
-            "lineHeight": "{icon.lineHeight.small}",
-            "fontSize": "{icon.fontSize.small}",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Font Awesome 6 Pro",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Font Awesome 6 Pro",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "IconSmallSolidFontFamily",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Solid",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Solid",
+            "fontFamily"
+          ]
         },
-        "name": "IconSmallSolid",
-        "attributes": {
-          "category": "Icon",
-          "type": "Small",
-          "item": "Solid"
+        "fontWeight": {
+          "value": "Solid",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Solid",
+            "type": "fontWeight"
+          },
+          "name": "IconSmallSolidFontWeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Solid",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Solid",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Icon",
-          "Small",
-          "Solid"
-        ]
+        "lineHeight": {
+          "value": 20,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 20,
+            "type": "lineHeight"
+          },
+          "name": "IconSmallSolidLineHeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Solid",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Solid",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 16,
+            "type": "fontSize"
+          },
+          "name": "IconSmallSolidFontSize",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Solid",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Solid",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "IconSmallSolidLetterSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Solid",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Solid",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "IconSmallSolidParagraphSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Solid",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Solid",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "IconSmallSolidTextDecoration",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Solid",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Solid",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "IconSmallSolidTextCase",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Solid",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Solid",
+            "textCase"
+          ]
+        }
       },
       "Duotone": {
-        "value": {
-          "fontFamily": "Font Awesome 6 Duotone",
-          "fontWeight": "Solid",
-          "lineHeight": "16 * 1.25",
-          "fontSize": "16 * 1",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography",
-        "filePath": "src/data/token/tokens.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{icon.fontFamily.duotone}",
-            "fontWeight": "Solid",
-            "lineHeight": "{icon.lineHeight.small}",
-            "fontSize": "{icon.fontSize.small}",
-            "letterSpacing": "0",
-            "paragraphSpacing": "none",
-            "textDecoration": "none",
-            "textCase": "none"
+        "fontFamily": {
+          "value": "Font Awesome 6 Duotone",
+          "type": "fontFamily",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Font Awesome 6 Duotone",
+            "type": "fontFamily"
           },
-          "type": "typography"
+          "name": "IconSmallDuotoneFontFamily",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Duotone",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Duotone",
+            "fontFamily"
+          ]
         },
-        "name": "IconSmallDuotone",
-        "attributes": {
-          "category": "Icon",
-          "type": "Small",
-          "item": "Duotone"
+        "fontWeight": {
+          "value": "Solid",
+          "type": "fontWeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "Solid",
+            "type": "fontWeight"
+          },
+          "name": "IconSmallDuotoneFontWeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Duotone",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Duotone",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "Icon",
-          "Small",
-          "Duotone"
-        ]
+        "lineHeight": {
+          "value": 20,
+          "type": "lineHeight",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 20,
+            "type": "lineHeight"
+          },
+          "name": "IconSmallDuotoneLineHeight",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Duotone",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Duotone",
+            "lineHeight"
+          ]
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 16,
+            "type": "fontSize"
+          },
+          "name": "IconSmallDuotoneFontSize",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Duotone",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Duotone",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "letterSpacing"
+          },
+          "name": "IconSmallDuotoneLetterSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Duotone",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Duotone",
+            "letterSpacing"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": "none",
+          "type": "paragraphSpacing",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "paragraphSpacing"
+          },
+          "name": "IconSmallDuotoneParagraphSpacing",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Duotone",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Duotone",
+            "paragraphSpacing"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "name": "IconSmallDuotoneTextDecoration",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Duotone",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Duotone",
+            "textDecoration"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase",
+          "filePath": "src/data/token/token-transformed.json",
+          "isSource": true,
+          "original": {
+            "value": "none",
+            "type": "textCase"
+          },
+          "name": "IconSmallDuotoneTextCase",
+          "attributes": {
+            "category": "Icon",
+            "type": "Small",
+            "item": "Duotone",
+            "subitem": "textCase"
+          },
+          "path": [
+            "Icon",
+            "Small",
+            "Duotone",
+            "textCase"
+          ]
+        }
       }
     }
   },
   "base": {
-    "value": "8",
+    "value": 8,
     "type": "sizing",
-    "filePath": "src/data/token/tokens.json",
+    "filePath": "src/data/token/token-transformed.json",
     "isSource": true,
     "original": {
-      "value": "8",
+      "value": 8,
       "type": "sizing"
     },
     "name": "Base",
@@ -3228,164 +7162,696 @@ module.exports = {
   },
   "Components": {
     "Button Medium": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Bold",
-        "lineHeight": "16 * 1.5",
-        "fontSize": "16",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Bold",
-          "lineHeight": "{lineHeight.body}",
-          "fontSize": "{1rem}",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "ComponentsButtonMediumFontFamily",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Medium",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Components",
+          "Button Medium",
+          "fontFamily"
+        ]
       },
-      "name": "ComponentsButtonMedium",
-      "attributes": {
-        "category": "Components",
-        "type": "Button Medium"
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "name": "ComponentsButtonMediumFontWeight",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Medium",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Components",
+          "Button Medium",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Components",
-        "Button Medium"
-      ]
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "ComponentsButtonMediumLineHeight",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Medium",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Components",
+          "Button Medium",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "name": "ComponentsButtonMediumFontSize",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Medium",
+          "item": "fontSize"
+        },
+        "path": [
+          "Components",
+          "Button Medium",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "ComponentsButtonMediumLetterSpacing",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Medium",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Components",
+          "Button Medium",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "ComponentsButtonMediumParagraphSpacing",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Medium",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Components",
+          "Button Medium",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "ComponentsButtonMediumTextDecoration",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Medium",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Components",
+          "Button Medium",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "ComponentsButtonMediumTextCase",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Medium",
+          "item": "textCase"
+        },
+        "path": [
+          "Components",
+          "Button Medium",
+          "textCase"
+        ]
+      }
     },
     "Alert Title": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Bold",
-        "lineHeight": "16 * 1.5",
-        "fontSize": "16",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Bold",
-          "lineHeight": "{lineHeight.body}",
-          "fontSize": "{1rem}",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "ComponentsAlertTitleFontFamily",
+        "attributes": {
+          "category": "Components",
+          "type": "Alert Title",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Components",
+          "Alert Title",
+          "fontFamily"
+        ]
       },
-      "name": "ComponentsAlertTitle",
-      "attributes": {
-        "category": "Components",
-        "type": "Alert Title"
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "name": "ComponentsAlertTitleFontWeight",
+        "attributes": {
+          "category": "Components",
+          "type": "Alert Title",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Components",
+          "Alert Title",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Components",
-        "Alert Title"
-      ]
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "ComponentsAlertTitleLineHeight",
+        "attributes": {
+          "category": "Components",
+          "type": "Alert Title",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Components",
+          "Alert Title",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "name": "ComponentsAlertTitleFontSize",
+        "attributes": {
+          "category": "Components",
+          "type": "Alert Title",
+          "item": "fontSize"
+        },
+        "path": [
+          "Components",
+          "Alert Title",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "ComponentsAlertTitleLetterSpacing",
+        "attributes": {
+          "category": "Components",
+          "type": "Alert Title",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Components",
+          "Alert Title",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "ComponentsAlertTitleParagraphSpacing",
+        "attributes": {
+          "category": "Components",
+          "type": "Alert Title",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Components",
+          "Alert Title",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "ComponentsAlertTitleTextDecoration",
+        "attributes": {
+          "category": "Components",
+          "type": "Alert Title",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Components",
+          "Alert Title",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "ComponentsAlertTitleTextCase",
+        "attributes": {
+          "category": "Components",
+          "type": "Alert Title",
+          "item": "textCase"
+        },
+        "path": [
+          "Components",
+          "Alert Title",
+          "textCase"
+        ]
+      }
     },
     "Button Small": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Bold",
-        "lineHeight": "16 * 1.5",
-        "fontSize": "16 * 0.875",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Bold",
-          "lineHeight": "{lineHeight.body}",
-          "fontSize": "{1rem} * 0.875",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "ComponentsButtonSmallFontFamily",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Small",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Components",
+          "Button Small",
+          "fontFamily"
+        ]
       },
-      "name": "ComponentsButtonSmall",
-      "attributes": {
-        "category": "Components",
-        "type": "Button Small"
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "name": "ComponentsButtonSmallFontWeight",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Small",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Components",
+          "Button Small",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Components",
-        "Button Small"
-      ]
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "ComponentsButtonSmallLineHeight",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Small",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Components",
+          "Button Small",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 14,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "name": "ComponentsButtonSmallFontSize",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Small",
+          "item": "fontSize"
+        },
+        "path": [
+          "Components",
+          "Button Small",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "ComponentsButtonSmallLetterSpacing",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Small",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Components",
+          "Button Small",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "ComponentsButtonSmallParagraphSpacing",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Small",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Components",
+          "Button Small",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "ComponentsButtonSmallTextDecoration",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Small",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Components",
+          "Button Small",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "ComponentsButtonSmallTextCase",
+        "attributes": {
+          "category": "Components",
+          "type": "Button Small",
+          "item": "textCase"
+        },
+        "path": [
+          "Components",
+          "Button Small",
+          "textCase"
+        ]
+      }
     },
     "Button X-Small": {
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": "Bold",
-        "lineHeight": "16 * 1.5",
-        "fontSize": "16 * 0.75",
-        "letterSpacing": "0",
-        "paragraphSpacing": "none",
-        "textDecoration": "none",
-        "textCase": "none"
-      },
-      "type": "typography",
-      "filePath": "src/data/token/tokens.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "{fontFamily.default}",
-          "fontWeight": "Bold",
-          "lineHeight": "{lineHeight.body}",
-          "fontSize": "{1rem} * 0.75",
-          "letterSpacing": "0",
-          "paragraphSpacing": "none",
-          "textDecoration": "none",
-          "textCase": "none"
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Arial",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "name": "ComponentsButtonXSmallFontFamily",
+        "attributes": {
+          "category": "Components",
+          "type": "Button X-Small",
+          "item": "fontFamily"
+        },
+        "path": [
+          "Components",
+          "Button X-Small",
+          "fontFamily"
+        ]
       },
-      "name": "ComponentsButtonXSmall",
-      "attributes": {
-        "category": "Components",
-        "type": "Button X-Small"
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "name": "ComponentsButtonXSmallFontWeight",
+        "attributes": {
+          "category": "Components",
+          "type": "Button X-Small",
+          "item": "fontWeight"
+        },
+        "path": [
+          "Components",
+          "Button X-Small",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "Components",
-        "Button X-Small"
-      ]
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "ComponentsButtonXSmallLineHeight",
+        "attributes": {
+          "category": "Components",
+          "type": "Button X-Small",
+          "item": "lineHeight"
+        },
+        "path": [
+          "Components",
+          "Button X-Small",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 12,
+        "type": "fontSize",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "name": "ComponentsButtonXSmallFontSize",
+        "attributes": {
+          "category": "Components",
+          "type": "Button X-Small",
+          "item": "fontSize"
+        },
+        "path": [
+          "Components",
+          "Button X-Small",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "letterSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "name": "ComponentsButtonXSmallLetterSpacing",
+        "attributes": {
+          "category": "Components",
+          "type": "Button X-Small",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "Components",
+          "Button X-Small",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": "none",
+        "type": "paragraphSpacing",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "paragraphSpacing"
+        },
+        "name": "ComponentsButtonXSmallParagraphSpacing",
+        "attributes": {
+          "category": "Components",
+          "type": "Button X-Small",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "Components",
+          "Button X-Small",
+          "paragraphSpacing"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "ComponentsButtonXSmallTextDecoration",
+        "attributes": {
+          "category": "Components",
+          "type": "Button X-Small",
+          "item": "textDecoration"
+        },
+        "path": [
+          "Components",
+          "Button X-Small",
+          "textDecoration"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "src/data/token/token-transformed.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "ComponentsButtonXSmallTextCase",
+        "attributes": {
+          "category": "Components",
+          "type": "Button X-Small",
+          "item": "textCase"
+        },
+        "path": [
+          "Components",
+          "Button X-Small",
+          "textCase"
+        ]
+      }
     }
   },
   "button": {
     "primary": {
       "fill": {
         "default": {
-          "value": "linear-gradient(90deg, #0076c4 0%, #005b88 25%, #002a49 100%)",
+          "value": "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)",
           "type": "color",
-          "filePath": "src/data/token/tokens.json",
+          "filePath": "src/data/token/token-transformed.json",
           "isSource": true,
           "original": {
-            "value": "{color.base.gradient.primary}",
+            "value": "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)",
             "type": "color"
           },
           "name": "ButtonPrimaryFillDefault",
@@ -3405,12 +7871,12 @@ module.exports = {
       },
       "textAndIconFill": {
         "default": {
-          "value": "#ffffff",
+          "value": "#FFFFFF",
           "type": "color",
-          "filePath": "src/data/token/tokens.json",
+          "filePath": "src/data/token/token-transformed.json",
           "isSource": true,
           "original": {
-            "value": "{color.base.white}",
+            "value": "#FFFFFF",
             "type": "color"
           },
           "name": "ButtonPrimaryTextAndIconFillDefault",
@@ -3432,12 +7898,12 @@ module.exports = {
     "default": {
       "fill": {
         "default": {
-          "value": "#f1f0ee",
+          "value": "#F1F0EE",
           "type": "color",
-          "filePath": "src/data/token/tokens.json",
+          "filePath": "src/data/token/token-transformed.json",
           "isSource": true,
           "original": {
-            "value": "{color.base.grey}",
+            "value": "#F1F0EE",
             "type": "color"
           },
           "name": "ButtonDefaultFillDefault",
@@ -3457,12 +7923,12 @@ module.exports = {
       },
       "textAndIconFill": {
         "default": {
-          "value": "#0076c4",
+          "value": "#0076C4",
           "type": "color",
-          "filePath": "src/data/token/tokens.json",
+          "filePath": "src/data/token/token-transformed.json",
           "isSource": true,
           "original": {
-            "value": "{color.base.blue}",
+            "value": "#0076C4",
             "type": "color"
           },
           "name": "ButtonDefaultTextAndIconFillDefault",
@@ -3484,12 +7950,12 @@ module.exports = {
     "selected": {
       "fill": {
         "default": {
-          "value": "#ffd400",
+          "value": "#FFD400",
           "type": "color",
-          "filePath": "src/data/token/tokens.json",
+          "filePath": "src/data/token/token-transformed.json",
           "isSource": true,
           "original": {
-            "value": "{color.base.yellow}",
+            "value": "#FFD400",
             "type": "color"
           },
           "name": "ButtonSelectedFillDefault",
@@ -3509,12 +7975,12 @@ module.exports = {
       },
       "textAndIconFill": {
         "default": {
-          "value": "#000000",
+          "value": "#000000BF",
           "type": "color",
-          "filePath": "src/data/token/tokens.json",
+          "filePath": "src/data/token/token-transformed.json",
           "isSource": true,
           "original": {
-            "value": "{color.base.black75}",
+            "value": "#000000BF",
             "type": "color"
           },
           "name": "ButtonSelectedTextAndIconFillDefault",
@@ -3537,12 +8003,12 @@ module.exports = {
   "demo": {
     "button": {
       "selected": {
-        "value": "#ffd400",
+        "value": "#FFD400",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.state.selected}",
+          "value": "#FFD400",
           "type": "color"
         },
         "name": "DemoButtonSelected",
@@ -3560,12 +8026,12 @@ module.exports = {
     },
     "checkbox": {
       "selected": {
-        "value": "#ffd400",
+        "value": "#FFD400",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.state.selected}",
+          "value": "#FFD400",
           "type": "color"
         },
         "name": "DemoCheckboxSelected",
@@ -3583,12 +8049,12 @@ module.exports = {
     },
     "tab": {
       "selected": {
-        "value": "#ffd400",
+        "value": "#FFD400",
         "type": "color",
-        "filePath": "src/data/token/tokens.json",
+        "filePath": "src/data/token/token-transformed.json",
         "isSource": true,
         "original": {
-          "value": "{color.state.selected}",
+          "value": "#FFD400",
           "type": "color"
         },
         "name": "DemoTabSelected",

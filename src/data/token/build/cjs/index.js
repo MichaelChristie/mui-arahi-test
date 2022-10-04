@@ -1,11 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Mon, 03 Oct 2022 02:46:03 GMT
+ * Generated on Mon, 03 Oct 2022 21:09:01 GMT
  */
 
-export const OneRem = "16";
-export const LineHeightBody = "16 * 1.5";
-export const LineHeightSubtext = "16 * 1.25";
+export const OneRem = 16;
+export const LineHeightBody = 24;
+export const LineHeightSubtext = 20;
 export const ColorBaseYellow = "#ffd400";
 export const ColorBaseYellow50 = "#ffe97f";
 export const ColorBaseYellow25 = "#fff4bf";
@@ -26,8 +26,7 @@ export const ColorBaseRed50 = "#f6b0b0";
 export const ColorBaseGreen = "#39d3ab";
 export const ColorBaseGreen50 = "#9be8d4";
 export const ColorBaseWhite = "#ffffff";
-export const ColorBaseGradientPrimary =
-  "linear-gradient(90deg, #0076c4 0%, #005b88 25%, #002a49 100%)";
+export const ColorBaseGradientPrimary = "#000000";
 export const ColorBaseDummy = "#fa00ff";
 export const ColorBaseDummy2 = "#0cff00";
 export const ColorStateSelected = "#ffd400";
@@ -41,396 +40,329 @@ export const ColorTextWhite = "#ffffff";
 export const ColorTextLink = "#0076c4";
 export const ColorTextError = "#ee6363";
 export const ColorTextSuccess = "#39d3ab";
-export const ColorTextPrimaryHeading =
-  "linear-gradient(90deg, #0076c4 0%, #005b88 25%, #002a49 100%)";
+export const ColorTextPrimaryHeading = "#000000";
 export const ColorDuotoneDark = "#005b88";
 export const ColorDuotoneLight = "#0076c4";
-export const LightPrimaryGradient =
-  "linear-gradient(90deg, #0076c4 0%, #005b88 25%, #002a49 100%)";
-export const LightPrimaryMain = "#0076c4";
-export const LightPrimaryDark = "#005b88";
-export const LightPrimaryLight = "#bfdcf0";
-export const LightPrimaryContrast = "#ffffff";
-export const LightSelectedMain = "#ffd400";
-export const LightSelectedContrast = "#000000";
-export const LightSecondaryMain = "#ffd400";
+export const LightPrimaryGradient = "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)";
+export const LightPrimaryMain = "#0076C4";
+export const LightPrimaryDark = "#005B88";
+export const LightPrimaryLight = "#BFDCF0";
+export const LightPrimaryContrast = "#FFFFFF";
+export const LightSelectedMain = "#FFD400";
+export const LightSelectedContrast = "#000000BF";
+export const LightSecondaryMain = "#FFD400";
 export const LightSecondaryDark = "#DFBA00";
-export const LightSecondaryLight = "#fff4bf";
+export const LightSecondaryLight = "#FFF4BF";
 export const LightSecondaryContrast = "#403500";
-export const LightSuccessMain = "#39d3ab";
+export const LightSuccessMain = "#39D3AB";
 export const LightSuccessDark = "#00a17c";
 export const LightSuccessLight = "#77ffdd";
 export const LightSuccessContrast = "#00382A";
-export const LightErrorMain = "#ee6363";
+export const LightErrorMain = "#EE6363";
 export const LightErrorDark = "#b63039";
 export const LightErrorLight = "#FFB3B0";
 export const LightErrorContrast = "#FFEDEA";
-export const LightDuotoneDark = "#005b88";
-export const LightDuotoneLight = "#0076c4";
-export const LightWarningMain = "#fff4bf";
+export const LightDuotoneDark = "#005B88";
+export const LightDuotoneLight = "#0076C4";
+export const LightWarningMain = "#FFF4BF";
 export const LightWarningDark = "#DFBA00";
 export const LightWarningLight = "#FFF4BF";
 export const LightWarningContrast = "#605000";
-export const LightMessageMain = "#0076c4";
-export const LightMessageDark = "#002a49";
-export const LightMessageLight = "#bfdcf0";
-export const LightMessageContrast = "#ffffff";
-export const LightInfoMain = "#bfdcf0";
-export const LightInfoDark = "#005b88";
-export const LightInfoLight = "#ebf4fb";
-export const LightInfoContrast = "#002a49";
-export const TypographyH1 = {
-  fontFamily: "FS Lola, Arial, Sans-serif",
-  fontWeight: "ExtraBold",
-  lineHeight: "16 * 3.5",
-  fontSize: "16 * 3",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyH2 = {
-  fontFamily: "FS Lola, Arial, Sans-serif",
-  fontWeight: "ExtraBold",
-  lineHeight: "16 * 2.75",
-  fontSize: "16 * 2.5",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyH3 = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 2.25",
-  fontSize: "16 * 2",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyH4 = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.75",
-  fontSize: "16 * 1.5",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyH5 = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.75",
-  fontSize: "16 * 1.25",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyH6 = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.5",
-  fontSize: "16 * 1",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyBody1 = {
-  fontFamily: "Arial",
-  fontWeight: "Regular",
-  lineHeight: "16 * 1.5",
-  fontSize: "16",
-  letterSpacing: "0",
-  paragraphSpacing: "16",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyBody2 = {
-  fontFamily: "Arial",
-  fontWeight: "Regular",
-  lineHeight: "16 * 1.25",
-  fontSize: "16 * 0.875",
-  letterSpacing: "0",
-  paragraphSpacing: "16",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographySubtitle1 = {
-  fontFamily: "Arial",
-  fontWeight: "Regular",
-  lineHeight: "16 * 1.5",
-  fontSize: "16",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographySubtitle2 = {
-  fontFamily: "Arial",
-  fontWeight: "Regular",
-  lineHeight: "16 * 1.25",
-  fontSize: "16 * 0.875",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyLink = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.5",
-  fontSize: "16",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyCaption = {
-  fontFamily: "Arial",
-  fontWeight: "Regular",
-  lineHeight: "16 * 1.5",
-  fontSize: "16 * 0.75",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyOverline = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.5",
-  fontSize: "16 * 0.75",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "uppercase",
-};
-export const TypographyMobileH1 = {
-  fontFamily: "FS Lola, Arial, Sans-serif",
-  fontWeight: "ExtraBold",
-  lineHeight: "16 * 2.25",
-  fontSize: "16 * 2",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyMobileH2 = {
-  fontFamily: "FS Lola, Arial, Sans-serif",
-  fontWeight: "ExtraBold",
-  lineHeight: "16 * 2",
-  fontSize: "16 * 1.75",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyMobileH3 = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.75",
-  fontSize: "16 * 1.5",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyMobileH4 = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.75",
-  fontSize: "16 * 1.25",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyMobileH5 = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.5",
-  fontSize: "16 * 1.125",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const TypographyMobileH6 = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.5",
-  fontSize: "16 * 1",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
+export const LightMessageMain = "#0076C4";
+export const LightMessageDark = "#002A49";
+export const LightMessageLight = "#BFDCF0";
+export const LightMessageContrast = "#FFFFFF";
+export const LightInfoMain = "#BFDCF0";
+export const LightInfoDark = "#005B88";
+export const LightInfoLight = "#EBF4FB";
+export const LightInfoContrast = "#002A49";
+export const TypographyH1FontFamily = "FS Lola, Arial, Sans-serif";
+export const TypographyH1FontWeight = "ExtraBold";
+export const TypographyH1LineHeight = 56;
+export const TypographyH1FontSize = 48;
+export const TypographyH1LetterSpacing = 0;
+export const TypographyH1ParagraphSpacing = "none";
+export const TypographyH1TextDecoration = "none";
+export const TypographyH1TextCase = "none";
+export const TypographyH2FontFamily = "FS Lola, Arial, Sans-serif";
+export const TypographyH2FontWeight = "ExtraBold";
+export const TypographyH2LineHeight = 44;
+export const TypographyH2FontSize = 40;
+export const TypographyH2LetterSpacing = 0;
+export const TypographyH2ParagraphSpacing = "none";
+export const TypographyH2TextDecoration = "none";
+export const TypographyH2TextCase = "none";
+export const TypographyH3FontFamily = "Arial";
+export const TypographyH3FontWeight = "Bold";
+export const TypographyH3LineHeight = 36;
+export const TypographyH3FontSize = 32;
+export const TypographyH3LetterSpacing = 0;
+export const TypographyH3ParagraphSpacing = "none";
+export const TypographyH3TextDecoration = "none";
+export const TypographyH3TextCase = "none";
+export const TypographyH4FontFamily = "Arial";
+export const TypographyH4FontWeight = "Bold";
+export const TypographyH4LineHeight = 28;
+export const TypographyH4FontSize = 24;
+export const TypographyH4LetterSpacing = 0;
+export const TypographyH4ParagraphSpacing = "none";
+export const TypographyH4TextDecoration = "none";
+export const TypographyH4TextCase = "none";
+export const TypographyH5FontFamily = "Arial";
+export const TypographyH5FontWeight = "Bold";
+export const TypographyH5LineHeight = 28;
+export const TypographyH5FontSize = 20;
+export const TypographyH5LetterSpacing = 0;
+export const TypographyH5ParagraphSpacing = "none";
+export const TypographyH5TextDecoration = "none";
+export const TypographyH5TextCase = "none";
+export const TypographyH6FontFamily = "Arial";
+export const TypographyH6FontWeight = "Bold";
+export const TypographyH6LineHeight = 24;
+export const TypographyH6FontSize = 16;
+export const TypographyH6LetterSpacing = 0;
+export const TypographyH6ParagraphSpacing = "none";
+export const TypographyH6TextDecoration = "none";
+export const TypographyH6TextCase = "none";
+export const TypographyBody1FontFamily = "Arial";
+export const TypographyBody1FontWeight = "Regular";
+export const TypographyBody1LineHeight = 24;
+export const TypographyBody1FontSize = 16;
+export const TypographyBody1LetterSpacing = 0;
+export const TypographyBody1ParagraphSpacing = 16;
+export const TypographyBody1TextDecoration = "none";
+export const TypographyBody1TextCase = "none";
+export const TypographyBody2FontFamily = "Arial";
+export const TypographyBody2FontWeight = "Regular";
+export const TypographyBody2LineHeight = 20;
+export const TypographyBody2FontSize = 14;
+export const TypographyBody2LetterSpacing = 0;
+export const TypographyBody2ParagraphSpacing = 16;
+export const TypographyBody2TextDecoration = "none";
+export const TypographyBody2TextCase = "none";
+export const TypographySubtitle1FontFamily = "Arial";
+export const TypographySubtitle1FontWeight = "Regular";
+export const TypographySubtitle1LineHeight = 24;
+export const TypographySubtitle1FontSize = 16;
+export const TypographySubtitle1LetterSpacing = 0;
+export const TypographySubtitle1ParagraphSpacing = "none";
+export const TypographySubtitle1TextDecoration = "none";
+export const TypographySubtitle1TextCase = "none";
+export const TypographySubtitle2FontFamily = "Arial";
+export const TypographySubtitle2FontWeight = "Regular";
+export const TypographySubtitle2LineHeight = 20;
+export const TypographySubtitle2FontSize = 14;
+export const TypographySubtitle2LetterSpacing = 0;
+export const TypographySubtitle2ParagraphSpacing = "none";
+export const TypographySubtitle2TextDecoration = "none";
+export const TypographySubtitle2TextCase = "none";
+export const TypographyLinkFontFamily = "Arial";
+export const TypographyLinkFontWeight = "Bold";
+export const TypographyLinkLineHeight = 24;
+export const TypographyLinkFontSize = 16;
+export const TypographyLinkLetterSpacing = 0;
+export const TypographyLinkParagraphSpacing = "none";
+export const TypographyLinkTextDecoration = "none";
+export const TypographyLinkTextCase = "none";
+export const TypographyCaptionFontFamily = "Arial";
+export const TypographyCaptionFontWeight = "Regular";
+export const TypographyCaptionLineHeight = 24;
+export const TypographyCaptionFontSize = 12;
+export const TypographyCaptionLetterSpacing = 0;
+export const TypographyCaptionParagraphSpacing = "none";
+export const TypographyCaptionTextDecoration = "none";
+export const TypographyCaptionTextCase = "none";
+export const TypographyOverlineFontFamily = "Arial";
+export const TypographyOverlineFontWeight = "Bold";
+export const TypographyOverlineLineHeight = 24;
+export const TypographyOverlineFontSize = 12;
+export const TypographyOverlineLetterSpacing = 0;
+export const TypographyOverlineParagraphSpacing = "none";
+export const TypographyOverlineTextDecoration = "none";
+export const TypographyOverlineTextCase = "uppercase";
+export const TypographyMobileH1FontFamily = "FS Lola, Arial, Sans-serif";
+export const TypographyMobileH1FontWeight = "ExtraBold";
+export const TypographyMobileH1LineHeight = 36;
+export const TypographyMobileH1FontSize = 32;
+export const TypographyMobileH1LetterSpacing = 0;
+export const TypographyMobileH1ParagraphSpacing = "none";
+export const TypographyMobileH1TextDecoration = "none";
+export const TypographyMobileH1TextCase = "none";
+export const TypographyMobileH2FontFamily = "FS Lola, Arial, Sans-serif";
+export const TypographyMobileH2FontWeight = "ExtraBold";
+export const TypographyMobileH2LineHeight = 32;
+export const TypographyMobileH2FontSize = 28;
+export const TypographyMobileH2LetterSpacing = 0;
+export const TypographyMobileH2ParagraphSpacing = "none";
+export const TypographyMobileH2TextDecoration = "none";
+export const TypographyMobileH2TextCase = "none";
+export const TypographyMobileH3FontFamily = "Arial";
+export const TypographyMobileH3FontWeight = "Bold";
+export const TypographyMobileH3LineHeight = 28;
+export const TypographyMobileH3FontSize = 24;
+export const TypographyMobileH3LetterSpacing = 0;
+export const TypographyMobileH3ParagraphSpacing = "none";
+export const TypographyMobileH3TextDecoration = "none";
+export const TypographyMobileH3TextCase = "none";
+export const TypographyMobileH4FontFamily = "Arial";
+export const TypographyMobileH4FontWeight = "Bold";
+export const TypographyMobileH4LineHeight = 28;
+export const TypographyMobileH4FontSize = 20;
+export const TypographyMobileH4LetterSpacing = 0;
+export const TypographyMobileH4ParagraphSpacing = "none";
+export const TypographyMobileH4TextDecoration = "none";
+export const TypographyMobileH4TextCase = "none";
+export const TypographyMobileH5FontFamily = "Arial";
+export const TypographyMobileH5FontWeight = "Bold";
+export const TypographyMobileH5LineHeight = 24;
+export const TypographyMobileH5FontSize = 18;
+export const TypographyMobileH5LetterSpacing = 0;
+export const TypographyMobileH5ParagraphSpacing = "none";
+export const TypographyMobileH5TextDecoration = "none";
+export const TypographyMobileH5TextCase = "none";
+export const TypographyMobileH6FontFamily = "Arial";
+export const TypographyMobileH6FontWeight = "Bold";
+export const TypographyMobileH6LineHeight = 24;
+export const TypographyMobileH6FontSize = 16;
+export const TypographyMobileH6LetterSpacing = 0;
+export const TypographyMobileH6ParagraphSpacing = "none";
+export const TypographyMobileH6TextDecoration = "none";
+export const TypographyMobileH6TextCase = "none";
 export const FontFamilyPrimaryHeading = "FS Lola, Arial, Sans-serif";
 export const FontFamilyDefault = "Arial";
 export const IconFontFamilyDefault = "Font Awesome 6 Pro";
 export const IconFontFamilyDuotone = "Font Awesome 6 Duotone";
-export const IconFontSizeSmall = "16 * 1";
-export const IconFontSizeMedium = "16 * 1.25";
-export const IconFontSizeLarge = "16 * 1.75";
-export const IconLineHeightSmall = "16 * 1.25";
-export const IconLineHeightMedium = "16 * 1.5";
-export const IconLineHeightLarge = "16 * 2.25";
-export const FontSizeBody = "16 * 1";
-export const FontSizeSubtext = "16 * 0.875";
-export const BorderRadiusNone = "0";
-export const BorderRadiusDefault = "8 * 0.5";
-export const BorderRadiusLarge = "8 * 2";
+export const IconFontSizeSmall = 16;
+export const IconFontSizeMedium = 20;
+export const IconFontSizeLarge = 28;
+export const IconLineHeightSmall = 20;
+export const IconLineHeightMedium = 24;
+export const IconLineHeightLarge = 36;
+export const FontSizeBody = 16;
+export const FontSizeSubtext = 14;
+export const BorderRadiusNone = 0;
+export const BorderRadiusDefault = 4;
+export const BorderRadiusLarge = 16;
 export const BorderRadiusPill = "100%";
-export const SpacingNone = "0";
-export const SpacingXxs = "8 * .125";
-export const SpacingXs = "8 * .25";
-export const SpacingSm = "8 * .5";
-export const SpacingMd = "8 * 1";
-export const SpacingLg = "8 * 2";
-export const SpacingXl = "8 * 3";
-export const SpacingXxl = "8 * 4";
-export const IconMediumLight = {
-  fontFamily: "Font Awesome 6 Pro",
-  fontWeight: "Light",
-  lineHeight: "16 * 1.5",
-  fontSize: "16 * 1.25",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const IconMediumSolid = {
-  fontFamily: "Font Awesome 6 Pro",
-  fontWeight: "Solid",
-  lineHeight: "16 * 1.5",
-  fontSize: "16 * 1.25",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const IconMediumDuotone = {
-  fontFamily: "Font Awesome 6 Duotone",
-  fontWeight: "Solid",
-  lineHeight: "16 * 1.5",
-  fontSize: "16 * 1.25",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const IconLargeLight = {
-  fontFamily: "Font Awesome 6 Pro",
-  fontWeight: "Light",
-  lineHeight: "16 * 2.25",
-  fontSize: "16 * 1.75",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const IconLargeSolid = {
-  fontFamily: "Font Awesome 6 Pro",
-  fontWeight: "Solid",
-  lineHeight: "16 * 2.25",
-  fontSize: "16 * 1.75",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const IconLargeDuotone = {
-  fontFamily: "Font Awesome 6 Duotone",
-  fontWeight: "Solid",
-  lineHeight: "16 * 2.25",
-  fontSize: "16 * 1.75",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const IconSmallLight = {
-  fontFamily: "Font Awesome 6 Pro",
-  fontWeight: "Light",
-  lineHeight: "16 * 1.25",
-  fontSize: "16 * 1",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const IconSmallSolid = {
-  fontFamily: "Font Awesome 6 Pro",
-  fontWeight: "Solid",
-  lineHeight: "16 * 1.25",
-  fontSize: "16 * 1",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const IconSmallDuotone = {
-  fontFamily: "Font Awesome 6 Duotone",
-  fontWeight: "Solid",
-  lineHeight: "16 * 1.25",
-  fontSize: "16 * 1",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const Base = "8";
-export const ComponentsButtonMedium = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.5",
-  fontSize: "16",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const ComponentsAlertTitle = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.5",
-  fontSize: "16",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const ComponentsButtonSmall = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.5",
-  fontSize: "16 * 0.875",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const ComponentsButtonXSmall = {
-  fontFamily: "Arial",
-  fontWeight: "Bold",
-  lineHeight: "16 * 1.5",
-  fontSize: "16 * 0.75",
-  letterSpacing: "0",
-  paragraphSpacing: "none",
-  textDecoration: "none",
-  textCase: "none",
-};
-export const ButtonPrimaryFillDefault =
-  "linear-gradient(90deg, #0076c4 0%, #005b88 25%, #002a49 100%)";
-export const ButtonPrimaryTextAndIconFillDefault = "#ffffff";
-export const ButtonDefaultFillDefault = "#f1f0ee";
-export const ButtonDefaultTextAndIconFillDefault = "#0076c4";
-export const ButtonSelectedFillDefault = "#ffd400";
-export const ButtonSelectedTextAndIconFillDefault = "#000000";
-export const DemoButtonSelected = "#ffd400";
-export const DemoCheckboxSelected = "#ffd400";
-export const DemoTabSelected = "#ffd400";
+export const SpacingNone = 0;
+export const SpacingXxs = 1;
+export const SpacingXs = 2;
+export const SpacingSm = 4;
+export const SpacingMd = 8;
+export const SpacingLg = 16;
+export const SpacingXl = 24;
+export const SpacingXxl = 32;
+export const IconMediumLightFontFamily = "Font Awesome 6 Pro";
+export const IconMediumLightFontWeight = "Light";
+export const IconMediumLightLineHeight = 24;
+export const IconMediumLightFontSize = 20;
+export const IconMediumLightLetterSpacing = 0;
+export const IconMediumLightParagraphSpacing = "none";
+export const IconMediumLightTextDecoration = "none";
+export const IconMediumLightTextCase = "none";
+export const IconMediumSolidFontFamily = "Font Awesome 6 Pro";
+export const IconMediumSolidFontWeight = "Solid";
+export const IconMediumSolidLineHeight = 24;
+export const IconMediumSolidFontSize = 20;
+export const IconMediumSolidLetterSpacing = 0;
+export const IconMediumSolidParagraphSpacing = "none";
+export const IconMediumSolidTextDecoration = "none";
+export const IconMediumSolidTextCase = "none";
+export const IconMediumDuotoneFontFamily = "Font Awesome 6 Duotone";
+export const IconMediumDuotoneFontWeight = "Solid";
+export const IconMediumDuotoneLineHeight = 24;
+export const IconMediumDuotoneFontSize = 20;
+export const IconMediumDuotoneLetterSpacing = 0;
+export const IconMediumDuotoneParagraphSpacing = "none";
+export const IconMediumDuotoneTextDecoration = "none";
+export const IconMediumDuotoneTextCase = "none";
+export const IconLargeLightFontFamily = "Font Awesome 6 Pro";
+export const IconLargeLightFontWeight = "Light";
+export const IconLargeLightLineHeight = 36;
+export const IconLargeLightFontSize = 28;
+export const IconLargeLightLetterSpacing = 0;
+export const IconLargeLightParagraphSpacing = "none";
+export const IconLargeLightTextDecoration = "none";
+export const IconLargeLightTextCase = "none";
+export const IconLargeSolidFontFamily = "Font Awesome 6 Pro";
+export const IconLargeSolidFontWeight = "Solid";
+export const IconLargeSolidLineHeight = 36;
+export const IconLargeSolidFontSize = 28;
+export const IconLargeSolidLetterSpacing = 0;
+export const IconLargeSolidParagraphSpacing = "none";
+export const IconLargeSolidTextDecoration = "none";
+export const IconLargeSolidTextCase = "none";
+export const IconLargeDuotoneFontFamily = "Font Awesome 6 Duotone";
+export const IconLargeDuotoneFontWeight = "Solid";
+export const IconLargeDuotoneLineHeight = 36;
+export const IconLargeDuotoneFontSize = 28;
+export const IconLargeDuotoneLetterSpacing = 0;
+export const IconLargeDuotoneParagraphSpacing = "none";
+export const IconLargeDuotoneTextDecoration = "none";
+export const IconLargeDuotoneTextCase = "none";
+export const IconSmallLightFontFamily = "Font Awesome 6 Pro";
+export const IconSmallLightFontWeight = "Light";
+export const IconSmallLightLineHeight = 20;
+export const IconSmallLightFontSize = 16;
+export const IconSmallLightLetterSpacing = 0;
+export const IconSmallLightParagraphSpacing = "none";
+export const IconSmallLightTextDecoration = "none";
+export const IconSmallLightTextCase = "none";
+export const IconSmallSolidFontFamily = "Font Awesome 6 Pro";
+export const IconSmallSolidFontWeight = "Solid";
+export const IconSmallSolidLineHeight = 20;
+export const IconSmallSolidFontSize = 16;
+export const IconSmallSolidLetterSpacing = 0;
+export const IconSmallSolidParagraphSpacing = "none";
+export const IconSmallSolidTextDecoration = "none";
+export const IconSmallSolidTextCase = "none";
+export const IconSmallDuotoneFontFamily = "Font Awesome 6 Duotone";
+export const IconSmallDuotoneFontWeight = "Solid";
+export const IconSmallDuotoneLineHeight = 20;
+export const IconSmallDuotoneFontSize = 16;
+export const IconSmallDuotoneLetterSpacing = 0;
+export const IconSmallDuotoneParagraphSpacing = "none";
+export const IconSmallDuotoneTextDecoration = "none";
+export const IconSmallDuotoneTextCase = "none";
+export const Base = 8;
+export const ComponentsButtonMediumFontFamily = "Arial";
+export const ComponentsButtonMediumFontWeight = "Bold";
+export const ComponentsButtonMediumLineHeight = 24;
+export const ComponentsButtonMediumFontSize = 16;
+export const ComponentsButtonMediumLetterSpacing = 0;
+export const ComponentsButtonMediumParagraphSpacing = "none";
+export const ComponentsButtonMediumTextDecoration = "none";
+export const ComponentsButtonMediumTextCase = "none";
+export const ComponentsAlertTitleFontFamily = "Arial";
+export const ComponentsAlertTitleFontWeight = "Bold";
+export const ComponentsAlertTitleLineHeight = 24;
+export const ComponentsAlertTitleFontSize = 16;
+export const ComponentsAlertTitleLetterSpacing = 0;
+export const ComponentsAlertTitleParagraphSpacing = "none";
+export const ComponentsAlertTitleTextDecoration = "none";
+export const ComponentsAlertTitleTextCase = "none";
+export const ComponentsButtonSmallFontFamily = "Arial";
+export const ComponentsButtonSmallFontWeight = "Bold";
+export const ComponentsButtonSmallLineHeight = 24;
+export const ComponentsButtonSmallFontSize = 14;
+export const ComponentsButtonSmallLetterSpacing = 0;
+export const ComponentsButtonSmallParagraphSpacing = "none";
+export const ComponentsButtonSmallTextDecoration = "none";
+export const ComponentsButtonSmallTextCase = "none";
+export const ComponentsButtonXSmallFontFamily = "Arial";
+export const ComponentsButtonXSmallFontWeight = "Bold";
+export const ComponentsButtonXSmallLineHeight = 24;
+export const ComponentsButtonXSmallFontSize = 12;
+export const ComponentsButtonXSmallLetterSpacing = 0;
+export const ComponentsButtonXSmallParagraphSpacing = "none";
+export const ComponentsButtonXSmallTextDecoration = "none";
+export const ComponentsButtonXSmallTextCase = "none";
+export const ButtonPrimaryFillDefault = "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)";
+export const ButtonPrimaryTextAndIconFillDefault = "#FFFFFF";
+export const ButtonDefaultFillDefault = "#F1F0EE";
+export const ButtonDefaultTextAndIconFillDefault = "#0076C4";
+export const ButtonSelectedFillDefault = "#FFD400";
+export const ButtonSelectedTextAndIconFillDefault = "#000000BF";
+export const DemoButtonSelected = "#FFD400";
+export const DemoCheckboxSelected = "#FFD400";
+export const DemoTabSelected = "#FFD400";

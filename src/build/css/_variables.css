@@ -45,7 +45,7 @@
   --color-base-yellow25: #fff4bf;
   --color-base-yellow50: #ffe97f;
   --color-base-yellow: #ffd400;
-  --1rem: 16;
+  --oneRem: 16;
   --button-selected-text-and-icon-fill-default: var(--color-base-black75);
   --button-selected-fill-default: var(--color-base-yellow);
   --button-default-text-and-icon-fill-default: var(--color-base-blue);
@@ -73,14 +73,14 @@
   --spacing-xxs: var(--base) * 0.125;
   --border-radius-large: var(--base) * 2;
   --border-radius-default: var(--base) * 0.5;
-  --font-size-subtext: var(--1rem) * 0.875;
-  --font-size-body: var(--1rem) * 1;
-  --icon-line-height-large: var(--1rem) * 2.25;
-  --icon-line-height-medium: var(--1rem) * 1.5;
-  --icon-line-height-small: var(--1rem) * 1.25;
-  --icon-font-size-large: var(--1rem) * 1.75;
-  --icon-font-size-medium: var(--1rem) * 1.25;
-  --icon-font-size-small: var(--1rem) * 1;
+  --font-size-subtext: var(--oneRem) * 0.875;
+  --font-size-body: var(--oneRem) * 1;
+  --icon-line-height-large: var(--oneRem) * 2.25;
+  --icon-line-height-medium: var(--oneRem) * 1.5;
+  --icon-line-height-small: var(--oneRem) * 1.25;
+  --icon-font-size-large: var(--oneRem) * 1.75;
+  --icon-font-size-medium: var(--oneRem) * 1.25;
+  --icon-font-size-small: var(--oneRem) * 1;
   --typography-mobile-h6: [object Object];
   --typography-mobile-h5: [object Object];
   --typography-mobile-h4: [object Object];
@@ -145,8 +145,8 @@
     var(--color-base-midblue) 25%,
     var(--color-base-darkblue) 100%
   );
-  --line-height-subtext: var(--1rem) * 1.25;
-  --line-height-body: var(--1rem) * 1.5;
+  --line-height-subtext: var(--oneRem) * 1.25;
+  --line-height-body: var(--oneRem) * 1.5;
   --demo-tab-selected: var(--color-state-selected);
   --demo-checkbox-selected: var(--color-state-selected);
   --demo-button-selected: var(--color-state-selected);
