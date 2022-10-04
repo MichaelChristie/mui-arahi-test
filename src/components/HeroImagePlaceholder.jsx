@@ -14,7 +14,7 @@ import HeroImageLG from "../images/placeholder_LG@2x.png";
 export default function HeroImagePlaceholder({ children }) {
   return (
     <>
-      <Box sx={{ background: "lime", zIndex: 1 }}>
+      <Box sx={{ background: "transparent", zIndex: 1 }}>
         <Grid container direction="column">
           <Grid item>
             <Box
