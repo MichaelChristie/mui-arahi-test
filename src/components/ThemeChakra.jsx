@@ -34,7 +34,7 @@ const theme = extendTheme({
           fontWeight: 600,
           ...(ownerState.size === "md" && {
             borderRadius: "0.375rem",
-            paddingInline: "1rem",
+            paddingInline: "oneRem",
           }),
         }),
       },
