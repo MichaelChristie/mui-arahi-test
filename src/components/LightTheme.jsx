@@ -1,6 +1,5 @@
 import MyData from "../data/tokens.json";
 import * as newTokens from "../data/token/build/cjs";
-console.log("LightTheme.jsx" + MyData.global.color.base.blue.value);
 
 const lightTheme = {
   spacing: 8,
@@ -22,188 +21,161 @@ const lightTheme = {
       main: newTokens.ColorBaseYellow,
     },
     grey: {
-      main: MyData.global.color.base.grey.value,
-      contrastText: MyData.global.color.base.blue.value,
+      main: newTokens.ColorBaseLightgrey,
+      contrastText: newTokens.ColorBaseBlue,
     },
     black: {
-      main: MyData.global.color.base.black50.value,
-      contrastText: MyData.global.color.base.white.value,
+      main: newTokens.ColorBaseBlack50,
+      contrastText: newTokens.ColorBaseWhite,
     },
     neutral: {
-      main: "#64748B",
-      contrastText: "#fff",
+      main: newTokens.ColorBaseGrey,
+      contrastText: newTokens.ColorBaseWhite,
     },
     white: {
-      main: "#FFFFFF",
-      contrastText: "#000",
+      main: newTokens.ColorBaseWhite,
+      contrastText: newTokens.ColorBaseBlack75,
     },
     error: {
-      main: "#EE6363", //Make linked value
-      contrastText: MyData.global.color.base.white.value,
+      main: newTokens.ColorStateError,
+      contrastText: newTokens.ColorBaseWhite,
     },
     success: {
-      main: "#39D3AB", //Make linked value
-      contrastText: MyData.global.color.base.white.value,
+      main: newTokens.ColorTextSuccess,
+      contrastText: newTokens.ColorBaseWhite,
     },
     warning: {
-      main: "#FFD400",
-      contrastText: MyData.global.color.base.white.value,
+      main: newTokens.ColorBaseYellow,
+      contrastText: newTokens.ColorBaseWhite,
     },
     info: {
-      main: "#0076C4",
-      contrastText: MyData.global.color.base.white.value,
+      main: newTokens.ColorBaseBlue,
+      contrastText: newTokens.ColorBaseWhite,
     },
   },
   typography: {
     button: {
       textTransform: "none",
-      color: MyData.global.color.base.blue.value,
+      color: newTokens.ColorBaseBlue,
     },
     h1: {
-      fontWeight: 800,
-      fontFamily: MyData.global.fontFamily.primaryHeading.value,
-      fontSize: "2rem",
+      fontWeight: newTokens.TypographyH1FontWeight,
+      fontFamily: newTokens.TypographyH1FontFamily,
+      fontSize: newTokens.TypographyH1FontSize,
+      // lineHeight: newTokens.TypographyH1LineHeight,
+      letterSpacing: newTokens.TypographyH1LetterSpacing,
       "@media (min-width:900px)": {
         fontSize: "3rem",
       },
     },
     h2: {
       fontWeight: 600,
-      fontFamily: MyData.global.fontFamily.primaryHeading.value,
-      fontSize: "1.8rem",
+      fontFamily: newTokens.TypographyH2FontFamily,
+      fontSize: newTokens.TypographyH2FontSize,
+      // lineHeight: newTokens.TypographyH2LineHeight,
+      letterSpacing: newTokens.TypographyH2LetterSpacing,
       "@media (min-width:600px)": {
         fontSize: "2.4rem",
       },
     },
     h3: {
       fontWeight: 600,
-      fontFamily: "Arial",
-      fontSize: "1.6rem",
+      fontFamily: newTokens.TypographyH3FontFamily,
+      fontSize: newTokens.TypographyH3FontSize,
+      // lineHeight: newTokens.TypographyH3LineHeight,
+      letterSpacing: newTokens.TypographyH3LetterSpacing,
       "@media (min-width:600px)": {
         fontSize: "1.8rem",
       },
     },
     h4: {
       fontWeight: 600,
-      fontFamily: "Arial",
-      fontSize: "1.4rem",
+      fontFamily: newTokens.TypographyH4FontFamily,
+      fontSize: newTokens.TypographyH4FontSize,
+      // lineHeight: newTokens.TypographyH4LineHeight,
+      letterSpacing: newTokens.TypographyH4LetterSpacing,
       "@media (min-width:600px)": {
         fontSize: "1.6rem",
       },
     },
     h5: {
       fontWeight: 600,
-      fontFamily: "Arial",
-      fontSize: "1.2rem",
+      fontFamily: newTokens.TypographyH5FontFamily,
+      fontSize: newTokens.TypographyH5FontSize,
+      // lineHeight: newTokens.TypographyH5LineHeight,
+      letterSpacing: newTokens.TypographyH5LetterSpacing,
       "@media (min-width:600px)": {
         fontSize: "1.4rem",
       },
     },
     h6: {
       fontWeight: 600,
-      fontFamily: "Arial",
-      lineHeight: 1.4,
-      letterSpacing: 0.125,
-      fontSize: "1.oneRem",
+      fontFamily: newTokens.TypographyH6FontFamily,
+      fontSize: newTokens.TypographyH6FontSize,
+      // lineHeight: newTokens.TypographyH6LineHeight,
+      letterSpacing: newTokens.TypographyH6LetterSpacing,
       "@media (min-width:600px)": {
         fontSize: "oneRem",
       },
     },
   },
-
   components: {
     MuiInputBase: {
       styleOverrides: {
         input: {
-          borderBottom: "1px solid transparent !important", // use your color
-
+          borderBottom: "1px solid transparent !important",
           "&::before": {
-            borderBottom: "1px solid transparent !important", // use your color
+            borderBottom: "1px solid transparent !important",
           },
           "&::after": {
-            borderBottom: "1px solid transparent !important", // use your color
+            borderBottom: "1px solid transparent !important",
           },
         },
       },
     },
-
     MuiFilledInput: {
       root: {
         styleOverrides: {
           input: {
-            // color: "lime",
-            borderBottom: "1px solid transparent !important", // use your color
-
+            borderBottom: "1px solid transparent !important",
             "&::before": {
-              borderBottom: "1px solid transparent !important", // use your color
+              borderBottom: "1px solid transparent !important",
             },
             "&::after": {
-              borderBottom: "1px solid transparent !important", // use your color
+              borderBottom: "1px solid transparent !important",
             },
           },
         },
       },
     },
-
     MuiBackdrop: {
       styleOverrides: {
-        // Name of the slot
         root: {
-          // Some CSS
-          // background: "rgba(255, 255, 255, 0.16);",
-          // backdropFilter: "blur(15px)",
-        },
-      },
-    },
-    MuiAccordion: {
-      root: {
-        "&:before": {
-          // backgroundColor: "#FF0000 !important",
-          opacity: "0",
-          display: "none !important",
-        },
-      },
-    },
-    MuiTabPanel: {
-      styleOverrides: {
-        root: {
-          padding: "50px !important",
-          // backgroundColor: "#FF0000",
-        },
-      },
-    },
-    MuiBox: {
-      styleOverrides: {
-        root: {
-          padding: "0px !important",
-          // backgroundColor: "green !important",
+          background: "rgba(255, 255, 255, 0.16);", //Annoyingly this makes menus activate a blurred backdrop 🙄
+          backdropFilter: "blur(15px)",
         },
       },
     },
     MuiCard: {
       styleOverrides: {
         root: {
-          borderRadius: 8,
+          borderRadius: newTokens.BorderRadiusDefault,
         },
       },
     },
     MuiAlert: {
       styleOverrides: {
         root: {
-          borderRadius: 8,
+          borderRadius: newTokens.BorderRadiusDefault,
         },
       },
     },
     MuiButton: {
       styleOverrides: {
-        // Name of the slot
         root: {
-          // Some CSS
-          fontSize: "oneRem",
-          fontWeight: "600",
+          fontSize: newTokens.ComponentsButtonMediumFontSize,
+          fontWeight: newTokens.ComponentsButtonMediumFontWeight,
           borderRadius: 8,
-
-          // backgroundColor: "#FF0000",
         },
       },
     },

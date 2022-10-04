@@ -13,21 +13,21 @@ export default function HeroSVGTools() {
   return (
     <>
       <HeroAnimatedBalloons />
-      <Box sx={{ background: "rgba(50,120,150,0.00)", zIndex: 1, p: 3 }}>
+      <Box sx={{ background: "rgba(50,120,150,0.00)", zIndex: 1, p: 6 }}>
         <Box
           component="img"
           sx={{
-            height: 340,
+            height: 280,
             width: "100%",
-            maxHeight: { xs: 340, md: 340 },
+            maxHeight: { xs: 280, md: 280 },
             // maxWidth: { xs: 350, md: 250 },
             // background: "tomato",
           }}
-          alt="The house from the offer."
+          alt="Tools"
           src={HeroImageLG}
         />
         <Box>
-          <Typography variant="h3" component="h1">
+          <Typography variant="h2" component="h1">
             Grab a $50 Prezzy card from NZ's Most Trusted General Insurer
           </Typography>
           <Typography variant="p">

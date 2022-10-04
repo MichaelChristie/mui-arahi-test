@@ -43,7 +43,8 @@ export const ColorTextSuccess = "#39d3ab";
 export const ColorTextPrimaryHeading = "#000000";
 export const ColorDuotoneDark = "#005b88";
 export const ColorDuotoneLight = "#0076c4";
-export const LightPrimaryGradient = "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)";
+export const LightPrimaryGradient =
+  "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)";
 export const LightPrimaryMain = "#0076C4";
 export const LightPrimaryDark = "#005B88";
 export const LightPrimaryLight = "#BFDCF0";
@@ -357,7 +358,8 @@ export const ComponentsButtonXSmallLetterSpacing = 0;
 export const ComponentsButtonXSmallParagraphSpacing = "none";
 export const ComponentsButtonXSmallTextDecoration = "none";
 export const ComponentsButtonXSmallTextCase = "none";
-export const ButtonPrimaryFillDefault = "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)";
+export const ButtonPrimaryFillDefault =
+  "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)";
 export const ButtonPrimaryTextAndIconFillDefault = "#FFFFFF";
 export const ButtonDefaultFillDefault = "#F1F0EE";
 export const ButtonDefaultTextAndIconFillDefault = "#0076C4";
