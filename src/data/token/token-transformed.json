@@ -1645,5 +1645,77 @@
         "type": "color"
       }
     }
+  },
+  "breakpoint_xs": {
+    "value": 0,
+    "type": "other"
+  },
+  "breakpoint_sm": {
+    "value": 600,
+    "type": "other"
+  },
+  "breakpoint_md": {
+    "value": 900,
+    "type": "other"
+  },
+  "breakpoint_lg": {
+    "value": 1278,
+    "type": "other"
+  },
+  "breakpoint_xl": {
+    "value": 1600,
+    "type": "other"
+  },
+  "columns_xs": {
+    "value": 4,
+    "type": "other"
+  },
+  "columns_sm": {
+    "value": 12,
+    "type": "other"
+  },
+  "columns_md": {
+    "value": 12,
+    "type": "other"
+  },
+  "columns_lg": {
+    "value": 12,
+    "type": "other"
+  },
+  "columns_xl": {
+    "value": 12,
+    "type": "other"
+  },
+  "gutter_xs": {
+    "value": 16,
+    "type": "other"
+  },
+  "gutter_sm": {
+    "value": 24,
+    "type": "other"
+  },
+  "gutter_md": {
+    "value": 24,
+    "type": "other"
+  },
+  "gutter_lg": {
+    "value": 24,
+    "type": "other"
+  },
+  "gutter_xl": {
+    "value": 24,
+    "type": "other"
+  },
+  "margin_xs": {
+    "value": 16,
+    "type": "other"
+  },
+  "margin_sm": {
+    "value": 24,
+    "type": "other"
+  },
+  "margin_md": {
+    "value": 24,
+    "type": "other"
   }
 }

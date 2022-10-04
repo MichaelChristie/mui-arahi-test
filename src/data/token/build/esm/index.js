@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Oct 2022 00:55:32 GMT
+ * Generated on Tue, 04 Oct 2022 08:16:43 GMT
  */
 
 module.exports = {
@@ -8070,5 +8070,311 @@ module.exports = {
         ]
       }
     }
+  },
+  "breakpoint_xs": {
+    "value": 0,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 0,
+      "type": "other"
+    },
+    "name": "BreakpointXs",
+    "attributes": {
+      "category": "breakpoint_xs"
+    },
+    "path": [
+      "breakpoint_xs"
+    ]
+  },
+  "breakpoint_sm": {
+    "value": 600,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 600,
+      "type": "other"
+    },
+    "name": "BreakpointSm",
+    "attributes": {
+      "category": "breakpoint_sm"
+    },
+    "path": [
+      "breakpoint_sm"
+    ]
+  },
+  "breakpoint_md": {
+    "value": 900,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 900,
+      "type": "other"
+    },
+    "name": "BreakpointMd",
+    "attributes": {
+      "category": "breakpoint_md"
+    },
+    "path": [
+      "breakpoint_md"
+    ]
+  },
+  "breakpoint_lg": {
+    "value": 1278,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 1278,
+      "type": "other"
+    },
+    "name": "BreakpointLg",
+    "attributes": {
+      "category": "breakpoint_lg"
+    },
+    "path": [
+      "breakpoint_lg"
+    ]
+  },
+  "breakpoint_xl": {
+    "value": 1600,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 1600,
+      "type": "other"
+    },
+    "name": "BreakpointXl",
+    "attributes": {
+      "category": "breakpoint_xl"
+    },
+    "path": [
+      "breakpoint_xl"
+    ]
+  },
+  "columns_xs": {
+    "value": 4,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 4,
+      "type": "other"
+    },
+    "name": "ColumnsXs",
+    "attributes": {
+      "category": "columns_xs"
+    },
+    "path": [
+      "columns_xs"
+    ]
+  },
+  "columns_sm": {
+    "value": 12,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 12,
+      "type": "other"
+    },
+    "name": "ColumnsSm",
+    "attributes": {
+      "category": "columns_sm"
+    },
+    "path": [
+      "columns_sm"
+    ]
+  },
+  "columns_md": {
+    "value": 12,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 12,
+      "type": "other"
+    },
+    "name": "ColumnsMd",
+    "attributes": {
+      "category": "columns_md"
+    },
+    "path": [
+      "columns_md"
+    ]
+  },
+  "columns_lg": {
+    "value": 12,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 12,
+      "type": "other"
+    },
+    "name": "ColumnsLg",
+    "attributes": {
+      "category": "columns_lg"
+    },
+    "path": [
+      "columns_lg"
+    ]
+  },
+  "columns_xl": {
+    "value": 12,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 12,
+      "type": "other"
+    },
+    "name": "ColumnsXl",
+    "attributes": {
+      "category": "columns_xl"
+    },
+    "path": [
+      "columns_xl"
+    ]
+  },
+  "gutter_xs": {
+    "value": 16,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 16,
+      "type": "other"
+    },
+    "name": "GutterXs",
+    "attributes": {
+      "category": "gutter_xs"
+    },
+    "path": [
+      "gutter_xs"
+    ]
+  },
+  "gutter_sm": {
+    "value": 24,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 24,
+      "type": "other"
+    },
+    "name": "GutterSm",
+    "attributes": {
+      "category": "gutter_sm"
+    },
+    "path": [
+      "gutter_sm"
+    ]
+  },
+  "gutter_md": {
+    "value": 24,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 24,
+      "type": "other"
+    },
+    "name": "GutterMd",
+    "attributes": {
+      "category": "gutter_md"
+    },
+    "path": [
+      "gutter_md"
+    ]
+  },
+  "gutter_lg": {
+    "value": 24,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 24,
+      "type": "other"
+    },
+    "name": "GutterLg",
+    "attributes": {
+      "category": "gutter_lg"
+    },
+    "path": [
+      "gutter_lg"
+    ]
+  },
+  "gutter_xl": {
+    "value": 24,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 24,
+      "type": "other"
+    },
+    "name": "GutterXl",
+    "attributes": {
+      "category": "gutter_xl"
+    },
+    "path": [
+      "gutter_xl"
+    ]
+  },
+  "margin_xs": {
+    "value": 16,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 16,
+      "type": "other"
+    },
+    "name": "MarginXs",
+    "attributes": {
+      "category": "margin_xs"
+    },
+    "path": [
+      "margin_xs"
+    ]
+  },
+  "margin_sm": {
+    "value": 24,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 24,
+      "type": "other"
+    },
+    "name": "MarginSm",
+    "attributes": {
+      "category": "margin_sm"
+    },
+    "path": [
+      "margin_sm"
+    ]
+  },
+  "margin_md": {
+    "value": 24,
+    "type": "other",
+    "filePath": "src/data/token/token-transformed.json",
+    "isSource": true,
+    "original": {
+      "value": 24,
+      "type": "other"
+    },
+    "name": "MarginMd",
+    "attributes": {
+      "category": "margin_md"
+    },
+    "path": [
+      "margin_md"
+    ]
   }
 };

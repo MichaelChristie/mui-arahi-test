@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Oct 2022 00:55:32 GMT
+ * Generated on Tue, 04 Oct 2022 08:16:43 GMT
  */
 
 export const OneRem : number;
@@ -366,3 +366,21 @@ export const ButtonSelectedTextAndIconFillDefault : string;
 export const DemoButtonSelected : string;
 export const DemoCheckboxSelected : string;
 export const DemoTabSelected : string;
+export const BreakpointXs : number;
+export const BreakpointSm : number;
+export const BreakpointMd : number;
+export const BreakpointLg : number;
+export const BreakpointXl : number;
+export const ColumnsXs : number;
+export const ColumnsSm : number;
+export const ColumnsMd : number;
+export const ColumnsLg : number;
+export const ColumnsXl : number;
+export const GutterXs : number;
+export const GutterSm : number;
+export const GutterMd : number;
+export const GutterLg : number;
+export const GutterXl : number;
+export const MarginXs : number;
+export const MarginSm : number;
+export const MarginMd : number;

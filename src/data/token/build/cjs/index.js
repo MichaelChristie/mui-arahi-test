@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Oct 2022 00:55:31 GMT
+ * Generated on Tue, 04 Oct 2022 08:16:43 GMT
  */
 
 export const OneRem = 16;
@@ -43,8 +43,7 @@ export const ColorTextSuccess = "#39d3ab";
 export const ColorTextPrimaryHeading = "#000000";
 export const ColorDuotoneDark = "#005b88";
 export const ColorDuotoneLight = "#0076c4";
-export const LightPrimaryGradient =
-  "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)";
+export const LightPrimaryGradient = "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)";
 export const LightPrimaryMain = "#0076C4";
 export const LightPrimaryDark = "#005B88";
 export const LightPrimaryLight = "#BFDCF0";
@@ -358,8 +357,7 @@ export const ComponentsButtonXSmallLetterSpacing = 0;
 export const ComponentsButtonXSmallParagraphSpacing = "none";
 export const ComponentsButtonXSmallTextDecoration = "none";
 export const ComponentsButtonXSmallTextCase = "none";
-export const ButtonPrimaryFillDefault =
-  "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)";
+export const ButtonPrimaryFillDefault = "linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%)";
 export const ButtonPrimaryTextAndIconFillDefault = "#FFFFFF";
 export const ButtonDefaultFillDefault = "#F1F0EE";
 export const ButtonDefaultTextAndIconFillDefault = "#0076C4";
@@ -368,3 +366,21 @@ export const ButtonSelectedTextAndIconFillDefault = "#000000BF";
 export const DemoButtonSelected = "#FFD400";
 export const DemoCheckboxSelected = "#FFD400";
 export const DemoTabSelected = "#FFD400";
+export const BreakpointXs = 0;
+export const BreakpointSm = 600;
+export const BreakpointMd = 900;
+export const BreakpointLg = 1278;
+export const BreakpointXl = 1600;
+export const ColumnsXs = 4;
+export const ColumnsSm = 12;
+export const ColumnsMd = 12;
+export const ColumnsLg = 12;
+export const ColumnsXl = 12;
+export const GutterXs = 16;
+export const GutterSm = 24;
+export const GutterMd = 24;
+export const GutterLg = 24;
+export const GutterXl = 24;
+export const MarginXs = 16;
+export const MarginSm = 24;
+export const MarginMd = 24;

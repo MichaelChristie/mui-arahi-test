@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Oct 2022 00:55:32 GMT
+ * Generated on Tue, 04 Oct 2022 08:16:43 GMT
  */
 
 export default tokens;
@@ -540,5 +540,23 @@ declare const tokens: {
     "tab": {
       "selected": DesignToken
     }
-  }
+  },
+  "breakpoint_xs": DesignToken,
+  "breakpoint_sm": DesignToken,
+  "breakpoint_md": DesignToken,
+  "breakpoint_lg": DesignToken,
+  "breakpoint_xl": DesignToken,
+  "columns_xs": DesignToken,
+  "columns_sm": DesignToken,
+  "columns_md": DesignToken,
+  "columns_lg": DesignToken,
+  "columns_xl": DesignToken,
+  "gutter_xs": DesignToken,
+  "gutter_sm": DesignToken,
+  "gutter_md": DesignToken,
+  "gutter_lg": DesignToken,
+  "gutter_xl": DesignToken,
+  "margin_xs": DesignToken,
+  "margin_sm": DesignToken,
+  "margin_md": DesignToken
 }

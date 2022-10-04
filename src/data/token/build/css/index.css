@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Oct 2022 00:55:32 GMT
+ * Generated on Tue, 04 Oct 2022 08:16:43 GMT
  */
 
 :root {
@@ -367,4 +367,22 @@
   --demo-button-selected: #FFD400;
   --demo-checkbox-selected: #FFD400;
   --demo-tab-selected: #FFD400;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 600;
+  --breakpoint-md: 900;
+  --breakpoint-lg: 1278;
+  --breakpoint-xl: 1600;
+  --columns-xs: 4;
+  --columns-sm: 12;
+  --columns-md: 12;
+  --columns-lg: 12;
+  --columns-xl: 12;
+  --gutter-xs: 16;
+  --gutter-sm: 24;
+  --gutter-md: 24;
+  --gutter-lg: 24;
+  --gutter-xl: 24;
+  --margin-xs: 16;
+  --margin-sm: 24;
+  --margin-md: 24;
 }
