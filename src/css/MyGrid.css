@@ -50,7 +50,7 @@
     --grid-offset: 24px;
     --grid-gutter: 24px;
     --grid-color: 10, 100%, 58%;
-    --grid-max_width: 1800px; /* make 1224px */
+    --grid-max_width: 1278px; /* make 1224px */
   }
 }
 /* XL */
@@ -59,7 +59,7 @@
     --media-query: "Large";
     --grid-offset: 164px;
     --grid-color: 190, 100%, 45%;
-    --grid-max_width: 1600px; /* make 1224px */
+    --grid-max_width: 1278px; /* make 1224px */
   }
 }
 
