@@ -1,3 +1,5 @@
+@import url("/src/data/token/build/css/index.css");
+
 /**
 * Pure CSS Responsive Grid Overlay
 * With variables and a mobile first approach
@@ -9,12 +11,15 @@
   --grid-z_index: 10000; /* The z-index should be bigger than any used on the site */
   /* XS */
   /* Grid settings */
-  --media-query: "Base";
-  --grid-columns: 6;
+  --media-query: "XS";
+  /* --grid-columns: 6; */
+  --grid-columns: var(--columns-xs);
   --grid-baseline: 4px; /*was 4px */
   --grid-baseline-top: 3px; /* Must be smaller than grid-baseline */
-  --grid-offset: 16px;
-  --grid-gutter: 8px;
+  /* --grid-offset: 16px; */
+  --grid-offset: var(--margin-xs);
+  /* --grid-gutter: 8px; */
+  --grid-gutter: var(--gutter-xs);
   --grid-color: 190, 100%, 45%; /* hsl value */
   --grid-vertical-opacity: 0.9;
   --grid-horisontal-opacity: 0.25;
@@ -27,39 +32,40 @@
 /* SM */
 @media (min-width: 600px) {
   :root {
-    --media-query: "Small";
-    --grid-offset: 16px;
-    --grid-gutter: 16px;
+    --media-query: "SM";
+    /* --grid-columns: var(--columns-sm); */
+    --grid-offset: var(--margin-sm);
+    --grid-gutter: var(--gutter-sm);
     --grid-color: 10, 100%, 58%;
   }
 }
 /* MD */
 @media (min-width: 900px) {
   :root {
-    --media-query: "Medium";
-    --grid-columns: 12;
-    --grid-offset: 16px;
-    --grid-gutter: 16px;
+    --media-query: "MD";
+    --grid-columns: var(--columns-md);
+    --grid-offset: var(--margin-md);
+    --grid-gutter: var(--gutter-md);
     --grid-color: 190, 100%, 45%;
   }
 }
 /* LG */
 @media (min-width: 1200px) {
   :root {
-    --media-query: "Large";
-    --grid-offset: 24px;
-    --grid-gutter: 24px;
+    --media-query: "LG";
+    --grid-offset: var(--margin-md);
+    --grid-gutter: var(--gutter-lg);
     --grid-color: 10, 100%, 58%;
-    --grid-max_width: 1278px; /* make 1224px */
+    --grid-max_width: var(--breakpoint-lg);
   }
 }
 /* XL */
 @media (min-width: 1600px) {
   :root {
-    --media-query: "Large";
-    --grid-offset: 164px;
+    --media-query: "XL";
+    /* --grid-offset: 164px; */
     --grid-color: 190, 100%, 45%;
-    --grid-max_width: 1278px; /* make 1224px */
+    --grid-max_width: var(--breakpoint-lg);
   }
 }
 

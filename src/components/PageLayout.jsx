@@ -5,8 +5,27 @@ import PageMargin from "./pageMargin";
 export default function PageLayout({ children }) {
   return (
     <>
-      <Box sx={{ display: "flex", flexDirection: "row" }}>
-        {/* <Box className="showMe">Item 1</Box> */}
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "stretch",
+        }}
+      >
+        <Box
+          className="showMe1"
+          sx={{
+            minWidth: {
+              xs: "16px",
+              sm: "24px",
+              md: "24px",
+              lg: "0px",
+              xl: "0px",
+            },
+            backgroundColor: "lime !important",
+            alignSelf: "center",
+          }}
+        />
         <Box
           sx={{
             flexGrow: 1,
@@ -14,11 +33,23 @@ export default function PageLayout({ children }) {
             maxWidth: 1278,
             background: "transparent",
             margin: "0 auto;",
+            alignSelf: "center",
           }}
         >
           {children}
         </Box>
-        {/* <Box className="showMe">Item 3</Box> */}
+        <Box
+          className="showMe"
+          sx={{
+            minWidth: {
+              xs: "16px",
+              sm: "16px",
+              md: "24px",
+              lg: "0px",
+              xl: "0px",
+            },
+          }}
+        />
       </Box>
 
       {/* <PageMargin>

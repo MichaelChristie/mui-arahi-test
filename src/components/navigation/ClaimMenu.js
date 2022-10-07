@@ -6,6 +6,27 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Divider } from "@mui/material";
 // import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import MenuList from "@mui/material/MenuList";
+// import MenuItem from "@mui/material/MenuItem";
+
+import ListItemText from "@mui/material/ListItemText";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faScissors,
+  faBook,
+  faPaintbrushPencil,
+  faSearch,
+  faUserCircle,
+  faEdit,
+  faStars,
+  faGrid,
+  faHome,
+  faCar,
+  faHandHoldingDollar,
+  faLifeRing,
+} from "@fortawesome/pro-light-svg-icons";
 
 export default function ClaimMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -48,11 +69,25 @@ export default function ClaimMenu() {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem onClick={handleClose}>Start a claim</MenuItem>
-        <MenuItem onClick={handleClose}>Claim FAQs</MenuItem>
-        <MenuItem onClick={handleClose}>Learn more</MenuItem>
+        <MenuItem component={Link} to={"/claimcentre"}>
+          <ListItemIcon>
+            <FontAwesomeIcon icon={faHandHoldingDollar} fontSize="large" />
+          </ListItemIcon>
+          <ListItemText>Claim Centre</ListItemText>
+        </MenuItem>
+        <MenuItem>
+          <ListItemIcon>
+            <FontAwesomeIcon icon={faLifeRing} fontSize="large" />
+          </ListItemIcon>
+          <ListItemText>Claim FAQs</ListItemText>
+        </MenuItem>
         <Divider />
-        <MenuItem to="/documentation">Documentation</MenuItem>
+
+        <MenuItem component={Link} to={"/playground"}>
+          <Button variant="contained" color="primary">
+            Start a claim
+          </Button>
+        </MenuItem>
       </Menu>
     </>
   );

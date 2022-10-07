@@ -8,6 +8,8 @@ import {
   Divider,
   Alert,
   AlertTitle,
+  Breadcrumbs,
+  Toolbar,
 } from "@mui/material/";
 
 import PageLayout from "../components/PageLayout";
@@ -28,6 +30,7 @@ import {
 import PageSpacer from "../components/SpacerPage";
 import PageDocumentationLayout from "../components/PageDocumentationLayout";
 import SpacerSection from "../components/SpacerSection";
+import BreadcrumbsThreeDeep from "../components/BreadcrumbsThreeDeep";
 // import Breadcrumbs from "../components/Breadcrumbs";
 
 export default function Documentation() {
@@ -37,9 +40,11 @@ export default function Documentation() {
 
       <PageLayout>
         <Box sx={{ pt: 2 }}>
-          {/* <Breadcrumbs /> */}
+          <BreadcrumbsThreeDeep
+            pageName={"Documentation"}
+            sectionOne={"Policy documents"}
+          />
           <SpacerSection />
-
           <Typography variant="h1">
             Lorem ipsum dolor sit amet consectetur
           </Typography>

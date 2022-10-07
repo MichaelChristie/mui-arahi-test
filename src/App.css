@@ -116,7 +116,8 @@ a:hover {
 /* TABLE ROW SELECTION COLOR */
 
 .MuiTableRow-root.Mui-selected {
-  background-color: #ffd400 !important;
+  background-color: var(--light-info-light) !important;
+  border: 2px solid var(--color-base-blue) !important;
 }
 
 .showMe {

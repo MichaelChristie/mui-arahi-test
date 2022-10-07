@@ -151,7 +151,7 @@ const lightTheme = {
     MuiBackdrop: {
       styleOverrides: {
         root: {
-          background: "rgba(255, 255, 255, 0.16);", //Annoyingly this makes menus activate a blurred backdrop 🙄
+          // background: "rgba(255, 255, 255, 0.16);", //Annoyingly this makes menus activate a blurred backdrop 🙄
           // backdropFilter: "blur(15px)",
         },
       },

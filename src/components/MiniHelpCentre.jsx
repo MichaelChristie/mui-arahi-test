@@ -20,49 +20,26 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/pro-light-svg-icons";
 
 function MiniHelpCentre() {
-  const [values, setValues] = React.useState({
-    amount: "",
-    password: "",
-    weight: "",
-    weightRange: "",
-    showPassword: false,
-  });
-
-  const handleChange = (prop) => (event) => {
-    setValues({ ...values, [prop]: event.target.value });
-  };
-
-  const handleClickShowPassword = () => {
-    setValues({
-      ...values,
-      showPassword: !values.showPassword,
-    });
-  };
-
-  const handleMouseDownPassword = (event) => {
-    event.preventDefault();
-  };
-
   return (
     <>
       <FormControl fullWidth variant="standard">
-        <InputLabel color="neutral" htmlFor="help-centre-search">
+        <InputLabel color="secondary" htmlFor="help-centre-search">
           Search Help Centre
         </InputLabel>
         <Input
           // <FilledInput
           id="help-centre-search"
           type="text"
-          // placeholder="e.g: What is business use?"
+          variant="outlined"
+          placeholder="e.g: What is business use?"
           color="secondary"
           autoComplete="off"
-          onChange={handleChange("password")}
           endAdornment={
             <InputAdornment position="end">
               <FontAwesomeIcon icon={faMagnifyingGlass} fontSize="large" />
             </InputAdornment>
           }
-          label="Search Help Centre"
+          // label="Search Help Centre"
         />
       </FormControl>
     </>

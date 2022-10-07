@@ -23,10 +23,11 @@ export default function Home() {
         <PageSpacer />
         <ProductGrid />
         <PageSpacer />
+        <PageLayout>hello</PageLayout>
         <BasicCard />
         <PageSpacer />
+        <PageSpacer />
       </PageLayout>
-      <PageSpacer />
     </>
   );
 }

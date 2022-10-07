@@ -21,7 +21,7 @@ export default function PageDocumentationLayout({ children }) {
           //   sx={{ background: "#FFDD00" }}
         >
           <SpacerSection />
-          {/* <DocumentationTabs /> */}
+          <DocumentationTabs />
         </Grid>
       </Grid>
     </>

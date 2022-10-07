@@ -44,39 +44,44 @@
   --color-text-primary-heading: #000000;
   --color-duotone-dark: #005b88;
   --color-duotone-light: #0076c4;
-  --light-primary-gradient: linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%);
-  --light-primary-main: #0076C4;
-  --light-primary-dark: #005B88;
-  --light-primary-light: #BFDCF0;
-  --light-primary-contrast: #FFFFFF;
-  --light-selected-main: #FFD400;
-  --light-selected-contrast: #000000BF;
-  --light-secondary-main: #FFD400;
-  --light-secondary-dark: #DFBA00;
-  --light-secondary-light: #FFF4BF;
+  --light-primary-gradient: linear-gradient(
+    90deg,
+    #0076c4 0%,
+    #005b88 25%,
+    #002a49 100%
+  );
+  --light-primary-main: #0076c4;
+  --light-primary-dark: #005b88;
+  --light-primary-light: #bfdcf0;
+  --light-primary-contrast: #ffffff;
+  --light-selected-main: #ffd400;
+  --light-selected-contrast: #000000bf;
+  --light-secondary-main: #ffd400;
+  --light-secondary-dark: #dfba00;
+  --light-secondary-light: #fff4bf;
   --light-secondary-contrast: #403500;
-  --light-success-main: #39D3AB;
+  --light-success-main: #39d3ab;
   --light-success-dark: #00a17c;
   --light-success-light: #77ffdd;
-  --light-success-contrast: #00382A;
-  --light-error-main: #EE6363;
+  --light-success-contrast: #00382a;
+  --light-error-main: #ee6363;
   --light-error-dark: #b63039;
-  --light-error-light: #FFB3B0;
-  --light-error-contrast: #FFEDEA;
-  --light-duotone-dark: #005B88;
-  --light-duotone-light: #0076C4;
-  --light-warning-main: #FFF4BF;
-  --light-warning-dark: #DFBA00;
-  --light-warning-light: #FFF4BF;
+  --light-error-light: #ffb3b0;
+  --light-error-contrast: #ffedea;
+  --light-duotone-dark: #005b88;
+  --light-duotone-light: #0076c4;
+  --light-warning-main: #fff4bf;
+  --light-warning-dark: #dfba00;
+  --light-warning-light: #fff4bf;
   --light-warning-contrast: #605000;
-  --light-message-main: #0076C4;
-  --light-message-dark: #002A49;
-  --light-message-light: #BFDCF0;
-  --light-message-contrast: #FFFFFF;
-  --light-info-main: #BFDCF0;
-  --light-info-dark: #005B88;
-  --light-info-light: #EBF4FB;
-  --light-info-contrast: #002A49;
+  --light-message-main: #0076c4;
+  --light-message-dark: #002a49;
+  --light-message-light: #bfdcf0;
+  --light-message-contrast: #ffffff;
+  --light-info-main: #bfdcf0;
+  --light-info-dark: #005b88;
+  --light-info-light: #ebf4fb;
+  --light-info-contrast: #002a49;
   --typography-h1-font-family: FS Lola, Arial, Sans-serif;
   --typography-h1-font-weight: ExtraBold;
   --typography-h1-line-height: 56;
@@ -358,31 +363,36 @@
   --components-button-x-small-paragraph-spacing: none;
   --components-button-x-small-text-decoration: none;
   --components-button-x-small-text-case: none;
-  --button-primary-fill-default: linear-gradient(90deg, #0076C4 0%, #005B88 25%, #002A49 100%);
-  --button-primary-text-and-icon-fill-default: #FFFFFF;
-  --button-default-fill-default: #F1F0EE;
-  --button-default-text-and-icon-fill-default: #0076C4;
-  --button-selected-fill-default: #FFD400;
-  --button-selected-text-and-icon-fill-default: #000000BF;
-  --demo-button-selected: #FFD400;
-  --demo-checkbox-selected: #FFD400;
-  --demo-tab-selected: #FFD400;
+  --button-primary-fill-default: linear-gradient(
+    90deg,
+    #0076c4 0%,
+    #005b88 25%,
+    #002a49 100%
+  );
+  --button-primary-text-and-icon-fill-default: #ffffff;
+  --button-default-fill-default: #f1f0ee;
+  --button-default-text-and-icon-fill-default: #0076c4;
+  --button-selected-fill-default: #ffd400;
+  --button-selected-text-and-icon-fill-default: #000000bf;
+  --demo-button-selected: #ffd400;
+  --demo-checkbox-selected: #ffd400;
+  --demo-tab-selected: #ffd400;
   --breakpoint-xs: 0;
   --breakpoint-sm: 600;
   --breakpoint-md: 900;
-  --breakpoint-lg: 1278;
+  --breakpoint-lg: 1278px;
   --breakpoint-xl: 1600;
   --columns-xs: 4;
   --columns-sm: 12;
   --columns-md: 12;
   --columns-lg: 12;
   --columns-xl: 12;
-  --gutter-xs: 16;
-  --gutter-sm: 24;
-  --gutter-md: 24;
-  --gutter-lg: 24;
-  --gutter-xl: 24;
-  --margin-xs: 16;
-  --margin-sm: 24;
-  --margin-md: 24;
+  --gutter-xs: 16px;
+  --gutter-sm: 24px;
+  --gutter-md: 24px;
+  --gutter-lg: 24px;
+  --gutter-xl: 24px;
+  --margin-xs: 16px;
+  --margin-sm: 24px;
+  --margin-md: 24px;
 }

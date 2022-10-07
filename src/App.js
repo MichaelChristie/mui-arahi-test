@@ -44,6 +44,7 @@ import StickyFooterPage from "./components/StickyFooterPage";
 import MenuGrid from "./components/navigation/MenuGrid";
 import Playground from "./components/Playground";
 import BokehHero from "./components/BokehHero";
+import ClaimCentre from "./pages/ClaimCentre";
 // import ThemeNesting from "./Utilities/GridThemeSwitcher";
 
 function App() {
@@ -90,6 +91,7 @@ function App() {
                 <Route path="/quote4" element={<QuotePage4 />} />
                 {/* <Route path="/playground" element={<ThemeNesting />} /> */}
                 <Route path="/documentation" element={<Documentation />} />
+                <Route path="/claimcentre" element={<ClaimCentre />} />
                 <Route path="/grid" element={<MyGrid />} />
                 <Route path="/styles" element={<Styles />} />
                 <Route path="/campaign" element={<Campaign />} />

@@ -2,6 +2,31 @@ import * as React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import PhoneIcon from "@mui/icons-material/Phone";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import PersonPinIcon from "@mui/icons-material/PersonPin";
+import PhoneMissedIcon from "@mui/icons-material/PhoneMissed";
+
+import {
+  faScissors,
+  faBook,
+  faPaintbrushPencil,
+  faSearch,
+  faUserCircle,
+  faEdit,
+  faStars,
+  faGrid,
+  faHome,
+  faCar,
+  faHandHoldingDollar,
+  faLifeRing,
+  faMehBlank,
+  faLamp,
+  faHomeAlt,
+  faBorderNone,
+} from "@fortawesome/pro-light-svg-icons";
 
 export default function DocumentationTabs({}) {
   const [value, setValue] = React.useState(0);
@@ -11,7 +36,7 @@ export default function DocumentationTabs({}) {
   };
   return (
     <>
-      <Box sx={{ display: { xs: "none", md: "block" } }}>
+      <Box sx={{ display: { xs: "none", lg: "block" } }}>
         <Tabs
           value={value}
           onChange={handleChange}
@@ -31,32 +56,38 @@ export default function DocumentationTabs({}) {
             },
           }}
         >
-          <Tab sx={{ alignSelf: "flex-start" }} label="Architecto eligendi" />
+          <Tab sx={{ alignSelf: "flex-start" }} label="First things to check" />
+          {/* <Tab sx={{ alignSelf: "flex-start" }} label="Claim types" /> */}
+          {/* <Tab sx={{ alignSelf: "flex-start" }} label="Claim types" /> */}
           <Tab
-            sx={{ alignSelf: "flex-start" }}
-            label="Delectus rem reprehenderit rerum"
+            icon={<FontAwesomeIcon icon={faBorderNone} fontSize="small" />}
+            iconPosition="start"
+            label="Car claim"
+            sx={{ alignSelf: "flex-start", padding: "0 32" }}
           />
           <Tab
-            sx={{ alignSelf: "flex-start" }}
-            label="Architecto, eligendi sapiente"
+            icon={<FontAwesomeIcon icon={faBorderNone} fontSize="small" />}
+            iconPosition="start"
+            label="Contents claim"
+            sx={{ alignSelf: "flex-start", padding: "0 12" }}
           />
           <Tab
-            sx={{ alignSelf: "flex-start" }}
-            label="Lorem ipsum consectetur adipisicing"
+            icon={<FontAwesomeIcon icon={faBorderNone} fontSize="small" />}
+            iconPosition="start"
+            label="Home claim"
+            sx={{ alignSelf: "flex-start", padding: "0 32" }}
           />
+
+          <Tab sx={{ alignSelf: "flex-start" }} label="All about excesses" />
           <Tab
             sx={{ alignSelf: "flex-start" }}
-            label="Delectus rerum nostrum quo ut ex"
+            label="Finding an AA Centre or repairer"
           />
-          <Tab sx={{ alignSelf: "flex-start" }} label="Placeat natus" />
-          <Tab
-            sx={{ alignSelf: "flex-start" }}
-            label="Electus rem reprehenderit"
-          />
+          <Tab sx={{ alignSelf: "flex-start" }} label="Fair insurance code" />
         </Tabs>
       </Box>
       {/* //MOBILE */}
-      <Box sx={{ display: { xs: "block", md: "none" } }}>
+      <Box sx={{ display: { xs: "block", md: "none" }, width: "480px" }}>
         <Tabs
           value={value}
           onChange={handleChange}
@@ -71,7 +102,7 @@ export default function DocumentationTabs({}) {
           }}
           aria-label="scrollable auto tabs example"
         >
-          <Tab label="Architecto eligendi" />
+          <Tab label="First things to check" />
           <Tab label="Delectus rem reprehenderit rerum" />
           <Tab label="Architecto, eligendi sapiente" />
           <Tab label="Lorem ipsum consectetur adipisicing" />

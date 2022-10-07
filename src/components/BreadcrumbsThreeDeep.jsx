@@ -9,7 +9,7 @@ function handleClick1(event) {
   console.info("You clicked a breadcrumb.");
 }
 
-export default function BreadcrumbsThreeDeep() {
+export default function BreadcrumbsThreeDeep({ pageName, sectionOne }) {
   return (
     <div role="presentation" onClick={handleClick1}>
       <Box
@@ -25,16 +25,16 @@ export default function BreadcrumbsThreeDeep() {
       >
         <Breadcrumbs aria-label="breadcrumb">
           <Link underline="hover" color="primary" href="/">
-            MUI
+            Home
           </Link>
           <Link
             underline="hover"
             color="primary"
             href="/material-ui/getting-started/installation/"
           >
-            Core
+            {sectionOne}
           </Link>
-          <Typography color="text.primary">Breadcrumbs</Typography>
+          <Typography color="text.primary">{pageName}</Typography>
         </Breadcrumbs>
       </Box>
     </div>
